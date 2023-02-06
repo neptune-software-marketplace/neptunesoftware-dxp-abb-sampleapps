@@ -1,0 +1,7 @@
+var context = this.getContextByIndex(this.getSelectedIndex());
+
+if (context) {
+    var data = context.getObject();
+}
+
+console.log(data);

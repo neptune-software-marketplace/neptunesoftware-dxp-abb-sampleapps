@@ -1,0 +1,2 @@
+var sValue = oEvent.getParameter("value");
+this.byId("getValue").setText(sValue);

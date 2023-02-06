@@ -1,0 +1,3 @@
+
+// Use MessageToast
+sap.m.MessageToast.show("Selection change event triggered");

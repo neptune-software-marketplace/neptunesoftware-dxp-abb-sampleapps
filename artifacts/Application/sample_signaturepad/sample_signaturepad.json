@@ -1,0 +1,361 @@
+{
+	"id": "93d09428-6742-4536-941d-6cdc6bea5e17",
+	"createdAt": "2022-06-10T12:49:19.360Z",
+	"createdBy": "serviceuser",
+	"objects": [
+		{
+			"fieldNo": "d26eadf9-69d0-4a37-c540-23f15c35cce7",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "7270d16d-b53b-49c5-8497-771160ea6565",
+					"fieldName": "oApp",
+					"fieldParent": "d26eadf9-69d0-4a37-c540-23f15c35cce7",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "009f50d1-ff6f-4eb9-85b8-81ad559c39b2",
+							"fieldName": "oPage",
+							"fieldParent": "7270d16d-b53b-49c5-8497-771160ea6565",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Demo SignaturePad",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "02124862-0fe0-461a-9310-631c81b36706",
+									"fieldName": "oPanel",
+									"fieldParent": "009f50d1-ff6f-4eb9-85b8-81ad559c39b2",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClassPadding",
+											"grouping": "Properties",
+											"value": "sapUiNoContentPadding",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "height",
+											"grouping": "Properties",
+											"value": "300px",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "Sign here",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "bfc1f70f-595a-4adb-bab4-141e4c6f51fa",
+											"fieldName": "oHTMLObject",
+											"fieldParent": "02124862-0fe0-461a-9310-631c81b36706",
+											"fieldType": "sap.ui.core.HTML",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "afterRendering",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.ui.core.HTML/oHTMLObject/afterRendering.script",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "512c6321-aafb-4d4f-b59b-79d9381a255a",
+													"fieldName": "oHTML",
+													"fieldParent": "bfc1f70f-595a-4adb-bab4-141e4c6f51fa",
+													"fieldType": "neptune.Html",
+													"script": "file://script/neptune.Html/oHTML.script",
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "a8e2076d-88eb-4708-b9f6-ef2af594f893",
+									"fieldName": "oPanelImage",
+									"fieldParent": "009f50d1-ff6f-4eb9-85b8-81ad559c39b2",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClassPadding",
+											"grouping": "Properties",
+											"value": "sapUiNoContentPadding",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "height",
+											"grouping": "Properties",
+											"value": "300px",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "Image Data",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "d398b6c4-c55a-4a7e-9454-b397058c6d64",
+											"fieldName": "imgSignature",
+											"fieldParent": "a8e2076d-88eb-4708-b9f6-ef2af594f893",
+											"fieldType": "sap.m.Image",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "width",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "height",
+													"grouping": "Properties",
+													"value": "100%",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "9ac68b0d-d8f0-4339-a56e-c1beca06324c",
+									"fieldName": "oBarFooter",
+									"fieldParent": "009f50d1-ff6f-4eb9-85b8-81ad559c39b2",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "ee487e76-0859-415f-b4be-267654afd30b",
+											"fieldName": "Left",
+											"fieldParent": "9ac68b0d-d8f0-4339-a56e-c1beca06324c",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "ee96b9a6-4f99-4211-e696-1c79296f023e",
+													"fieldName": "oButOpenAD",
+													"fieldParent": "ee487e76-0859-415f-b4be-267654afd30b",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Open In App Designer",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButOpenAD/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "04310e3a-8c50-4e54-939e-a993c6bcbf3e",
+											"fieldName": "Right",
+											"fieldParent": "9ac68b0d-d8f0-4339-a56e-c1beca06324c",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "56881a9d-5700-4fe5-f7c1-e96dd761176c",
+													"fieldName": "oButton",
+													"fieldParent": "04310e3a-8c50-4e54-939e-a993c6bcbf3e",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Save Image",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "b7cdb5c6-1825-4e48-f5fc-3543139a290a",
+					"fieldName": "ScriptforSignaturePadinHeader!",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Text",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": null,
+	"ver": "20.11.25.1646",
+	"application": "sample_signaturepad",
+	"title": "SignaturePad",
+	"description": "SignaturePad",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_belize",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "file:///header.script",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

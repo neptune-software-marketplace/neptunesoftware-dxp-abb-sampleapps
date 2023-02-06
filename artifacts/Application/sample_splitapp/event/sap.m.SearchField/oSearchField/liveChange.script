@@ -1,0 +1,3 @@
+var binding = tabMaster.getBinding("items");
+var filter = new sap.ui.model.Filter("DIMENSION2", "Contains", this.getValue());
+binding.filter([filter]);

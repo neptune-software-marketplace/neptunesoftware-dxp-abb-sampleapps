@@ -1,0 +1,659 @@
+{
+	"id": "0069fc44-60b4-46a8-9c6d-56b6d4f36086",
+	"createdAt": "2022-06-10T12:49:18.830Z",
+	"createdBy": "serviceuser",
+	"objects": [
+		{
+			"fieldNo": "1",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "2",
+					"fieldName": "oApp",
+					"fieldParent": "1",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "4",
+							"fieldName": "oPage",
+							"fieldParent": "2",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Ui_Calendar",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "ab8fc8e2-9785-4e19-f86b-a1cd8dff3b66",
+									"fieldName": "oPanel",
+									"fieldParent": "4",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "Single day selection Calendar",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "expandable",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "cfc5a127-d04f-4a8f-9852-466b20a2167b",
+											"fieldName": "oVBox",
+											"fieldParent": "ab8fc8e2-9785-4e19-f86b-a1cd8dff3b66",
+											"fieldType": "sap.m.VBox",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "f21be0af-be31-4069-f05b-acf8de9b45d2",
+													"fieldName": "oCalendar",
+													"fieldParent": "cfc5a127-d04f-4a8f-9852-466b20a2167b",
+													"fieldType": "sap.ui.unified.Calendar",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "select",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.ui.unified.Calendar/oCalendar/select.script",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "bb67d558-7aeb-4063-bc59-35a11193d774",
+													"fieldName": "oButton",
+													"fieldParent": "cfc5a127-d04f-4a8f-9852-466b20a2167b",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Select today",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "a69cdf10-f1df-48f9-cef6-d9cc886f032b",
+													"fieldName": "oHBox",
+													"fieldParent": "cfc5a127-d04f-4a8f-9852-466b20a2167b",
+													"fieldType": "sap.m.HBox",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "d34ab725-9177-42ef-d81a-63f04f94c200",
+															"fieldName": "oLabel",
+															"fieldParent": "a69cdf10-f1df-48f9-cef6-d9cc886f032b",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Selected Date (yyyy/mm/dd):",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "5bf4b218-53ad-4576-bb3b-a16c05c6cd75",
+															"fieldName": "oText",
+															"fieldParent": "a69cdf10-f1df-48f9-cef6-d9cc886f032b",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "styleClassMargin",
+																	"grouping": "Properties",
+																	"value": "sapUiSmallMarginBegin",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "4e39c9af-eeba-4dde-da2c-d08d181753bf",
+									"fieldName": "oPanel1",
+									"fieldParent": "4",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "Single Interval Selection",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "expandable",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "43181913-d03a-4440-8e9d-463fdef154e2",
+											"fieldName": "oVBox1",
+											"fieldParent": "4e39c9af-eeba-4dde-da2c-d08d181753bf",
+											"fieldType": "sap.m.VBox",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "065a59f7-4cab-4da4-ed0e-79936fec4365",
+													"fieldName": "oCalendar1",
+													"fieldParent": "43181913-d03a-4440-8e9d-463fdef154e2",
+													"fieldType": "sap.ui.unified.Calendar",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "intervalSelection",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "select",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.ui.unified.Calendar/oCalendar1/select.script",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "24544eaf-ac04-4567-aef4-358080a2b35d",
+													"fieldName": "oHBox1",
+													"fieldParent": "43181913-d03a-4440-8e9d-463fdef154e2",
+													"fieldType": "sap.m.HBox",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "4df2d85c-e5f8-41c6-cdfe-4356a1e77a37",
+															"fieldName": "oLabel1",
+															"fieldParent": "24544eaf-ac04-4567-aef4-358080a2b35d",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Selected From (yyyy-mm-dd):",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "e52bf1a8-24ad-471d-b863-d03d6868dd5e",
+															"fieldName": "oText1",
+															"fieldParent": "24544eaf-ac04-4567-aef4-358080a2b35d",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "1e40e8c5-b458-4e1d-c30a-8b240f462f3a",
+													"fieldName": "oHBox2",
+													"fieldParent": "43181913-d03a-4440-8e9d-463fdef154e2",
+													"fieldType": "sap.m.HBox",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "8b9ca9f1-8d89-434f-97bf-4721e766800f",
+															"fieldName": "oLabel2",
+															"fieldParent": "1e40e8c5-b458-4e1d-c30a-8b240f462f3a",
+															"fieldType": "sap.m.Label",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Selected To (yyyy-mm-dd):",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "f4eed381-232e-49e7-907b-8ece6b95ee30",
+															"fieldName": "oText2",
+															"fieldParent": "1e40e8c5-b458-4e1d-c30a-8b240f462f3a",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "efe02bbd-56cc-4f6e-ed9a-b93ca6583866",
+									"fieldName": "oPanel2",
+									"fieldParent": "4",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "Multiple days selected calendar",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "expandable",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "e92da900-3666-4878-b3ea-6c890654189e",
+											"fieldName": "oVBox2",
+											"fieldParent": "efe02bbd-56cc-4f6e-ed9a-b93ca6583866",
+											"fieldType": "sap.m.VBox",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "704f0b3c-be6e-4408-a987-e57d86e8736d",
+													"fieldName": "oCalendar2",
+													"fieldParent": "e92da900-3666-4878-b3ea-6c890654189e",
+													"fieldType": "sap.ui.unified.Calendar",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "singleSelection",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "select",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.ui.unified.Calendar/oCalendar2/select.script",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "0692f7ad-4f7a-4ce9-c92c-3efa4a0dd3c3",
+													"fieldName": "oButton1",
+													"fieldParent": "e92da900-3666-4878-b3ea-6c890654189e",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Remove all selected Dates",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButton1/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "568a827e-de6c-4d68-cace-30da731b0ef7",
+													"fieldName": "oList",
+													"fieldParent": "e92da900-3666-4878-b3ea-6c890654189e",
+													"fieldType": "sap.m.List",
+													"script": "",
+													"bindingValue": "Generic Array",
+													"bindingType": "h",
+													"bindingSource": "P9",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "headerText",
+															"grouping": "Properties",
+															"value": "Multiple selected Date",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "bb117afe-de66-40a9-a12b-a809e8355ec7",
+															"fieldName": "oStandardListItem",
+															"fieldParent": "568a827e-de6c-4d68-cace-30da731b0ef7",
+															"fieldType": "sap.m.StandardListItem",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "title",
+																	"grouping": "Properties",
+																	"value": "{Date}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "5",
+									"fieldName": "oFooter",
+									"fieldParent": "4",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "6",
+											"fieldName": "Left",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "d3a32feb-5afb-4268-ff67-a6b5644a542d",
+													"fieldName": "oButton2",
+													"fieldParent": "6",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Open In App Designer",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButton2/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "7",
+											"fieldName": "Middle",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentMiddle",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "8",
+											"fieldName": "Right",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "c1a5c028-a58d-4ab0-c834-197d61f2956a",
+													"fieldName": "butCompact",
+													"fieldParent": "8",
+													"fieldType": "sap.m.ToggleButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Compact",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": null,
+	"ver": "20.11.25.1635",
+	"application": "sample_ui_calendar",
+	"title": "sap.ui.unified.Calendar",
+	"description": "sap.ui.unified.Calendar",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_belize",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

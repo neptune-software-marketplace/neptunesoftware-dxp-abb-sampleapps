@@ -1,0 +1,979 @@
+{
+	"id": "828a6e2a-753f-492f-9f57-9566dd10709a",
+	"createdAt": "2022-06-10T12:49:21.003Z",
+	"createdBy": "serviceuser",
+	"objects": [
+		{
+			"fieldNo": "1",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "2",
+					"fieldName": "oApp",
+					"fieldParent": "1",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "4",
+							"fieldName": "oPage",
+							"fieldParent": "2",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Grid",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "aead9ab2-ead7-431f-c5c6-9cca90f1beb1",
+									"fieldName": "oMessageStrip",
+									"fieldParent": "4",
+									"fieldType": "sap.m.MessageStrip",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Grid with default span XL3 L3 M6 S12",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMargin",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "showIcon",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "30e14047-c185-4271-aa2e-726038e01c08",
+									"fieldName": "oGrid",
+									"fieldParent": "4",
+									"fieldType": "sap.ui.layout.Grid",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "containerQuery",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "de0c8005-93fe-4016-cf72-f52cdc53e366",
+											"fieldName": "oGridData",
+											"fieldParent": "30e14047-c185-4271-aa2e-726038e01c08",
+											"fieldType": "sap.ui.layout.GridData",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "9682ea0f-9c3a-4bf6-f25a-e2148dcfdd35",
+													"fieldName": "rocinante",
+													"fieldParent": "de0c8005-93fe-4016-cf72-f52cdc53e366",
+													"fieldType": "sap.m.Image",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "70%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "/media/root/SampleApps/rocinante.jpg",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "ac70e715-f026-46bf-8dfd-45acb570a193",
+													"fieldName": "enterprise",
+													"fieldParent": "de0c8005-93fe-4016-cf72-f52cdc53e366",
+													"fieldType": "sap.m.Image",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "70%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "/media/root/SampleApps/enterprise.jpg",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "3ddea593-737a-4406-9782-1fc3bdea282e",
+													"fieldName": "battlecruiser",
+													"fieldParent": "de0c8005-93fe-4016-cf72-f52cdc53e366",
+													"fieldType": "sap.m.Image",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "70%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "/media/root/SampleApps/battlecruiser.jpg",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "478e7fa5-3d35-4c79-a722-b73db628592b",
+									"fieldName": "oMessageStrip1",
+									"fieldParent": "4",
+									"fieldType": "sap.m.MessageStrip",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Grid with default span XL2 L4",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMargin",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "showIcon",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "e13fa308-c63d-4fef-f2e5-3d7db6ec743f",
+									"fieldName": "oGrid1",
+									"fieldParent": "4",
+									"fieldType": "sap.ui.layout.Grid",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "defaultSpan",
+											"grouping": "Properties",
+											"value": "XL2 L4",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "95dfd8a1-93f6-4952-bfb0-6367502b3c30",
+											"fieldName": "oGridData1",
+											"fieldParent": "e13fa308-c63d-4fef-f2e5-3d7db6ec743f",
+											"fieldType": "sap.ui.layout.GridData",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "d6a6b9d6-bda0-43e2-f5d1-bc9c84f7f598",
+													"fieldName": "rocinante1",
+													"fieldParent": "95dfd8a1-93f6-4952-bfb0-6367502b3c30",
+													"fieldType": "sap.m.Image",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "70%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "/media/root/SampleApps/rocinante.jpg",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "f293c53d-b7ce-437c-9b6e-230981eb4b58",
+													"fieldName": "enterprise1",
+													"fieldParent": "95dfd8a1-93f6-4952-bfb0-6367502b3c30",
+													"fieldType": "sap.m.Image",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "70%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "/media/root/SampleApps/enterprise.jpg",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "0f29da80-2aca-4cd3-e0be-46ea310899c3",
+													"fieldName": "battlecruiser1",
+													"fieldParent": "95dfd8a1-93f6-4952-bfb0-6367502b3c30",
+													"fieldType": "sap.m.Image",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "70%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "/media/root/SampleApps/battlecruiser.jpg",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "fb333278-2e1e-46a8-872d-7ba68908774a",
+									"fieldName": "oMessageStrip2",
+									"fieldParent": "4",
+									"fieldType": "sap.m.MessageStrip",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Empty columns before each image using default Indent",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMargin",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "showIcon",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "45584918-5c4e-4385-c754-ea131c2ede4f",
+									"fieldName": "oGrid2",
+									"fieldParent": "4",
+									"fieldType": "sap.ui.layout.Grid",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "defaultSpan",
+											"grouping": "Properties",
+											"value": "L6 M6 S6",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "defaultIndent",
+											"grouping": "Properties",
+											"value": "XL2 L2 M4 S6",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "c0be8c52-86f6-484e-fd91-3328ea6b7d69",
+											"fieldName": "oGridData2",
+											"fieldParent": "45584918-5c4e-4385-c754-ea131c2ede4f",
+											"fieldType": "sap.ui.layout.GridData",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "b8d3d811-5a25-47e6-ab32-38f6169b9e5b",
+													"fieldName": "rocinante2",
+													"fieldParent": "c0be8c52-86f6-484e-fd91-3328ea6b7d69",
+													"fieldType": "sap.m.Image",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "50%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "/media/root/SampleApps/rocinante.jpg",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "e223193e-a468-42ba-993b-c26e40d021bf",
+													"fieldName": "enterprise2",
+													"fieldParent": "c0be8c52-86f6-484e-fd91-3328ea6b7d69",
+													"fieldType": "sap.m.Image",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "50%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "/media/root/SampleApps/enterprise.jpg",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "f7c3c17e-106f-4593-f653-71674edfe89e",
+													"fieldName": "battlecruiser2",
+													"fieldParent": "c0be8c52-86f6-484e-fd91-3328ea6b7d69",
+													"fieldType": "sap.m.Image",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "50%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "/media/root/SampleApps/battlecruiser.jpg",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "f24973a1-7886-49a8-916d-a401e7f23154",
+									"fieldName": "oMessageStrip3",
+									"fieldParent": "4",
+									"fieldType": "sap.m.MessageStrip",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Horizontal Spacing, Container Query : True",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMargin",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "showIcon",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "b90d33b9-e6d1-472f-c4bb-9c8b5dce969c",
+									"fieldName": "oGrid3",
+									"fieldParent": "4",
+									"fieldType": "sap.ui.layout.Grid",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "hSpacing",
+											"grouping": "Properties",
+											"value": "2",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "containerQuery",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "f8dbe1a0-c0b7-49a4-ca30-2a517fceb053",
+											"fieldName": "oGridData3",
+											"fieldParent": "b90d33b9-e6d1-472f-c4bb-9c8b5dce969c",
+											"fieldType": "sap.ui.layout.GridData",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "520c6872-c50f-4183-94f4-6fcfeb374705",
+													"fieldName": "rocinante3",
+													"fieldParent": "f8dbe1a0-c0b7-49a4-ca30-2a517fceb053",
+													"fieldType": "sap.m.Image",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "50%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "/media/root/SampleApps/rocinante.jpg",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "f6e660f6-fbd8-4fdc-95d3-81143bab4113",
+													"fieldName": "enterprise3",
+													"fieldParent": "f8dbe1a0-c0b7-49a4-ca30-2a517fceb053",
+													"fieldType": "sap.m.Image",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "50%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "/media/root/SampleApps/enterprise.jpg",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "140a956b-927c-4d41-bc15-2e5fef195949",
+													"fieldName": "battlecruiser3",
+													"fieldParent": "f8dbe1a0-c0b7-49a4-ca30-2a517fceb053",
+													"fieldType": "sap.m.Image",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "50%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "/media/root/SampleApps/battlecruiser.jpg",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "4bf786e7-fbcb-44b7-9789-4abd27acd34f",
+									"fieldName": "oMessageStrip4",
+									"fieldParent": "4",
+									"fieldType": "sap.m.MessageStrip",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Vertical Spacing, Container Query : True",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMargin",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "showIcon",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "56622644-dbd2-43ac-e05f-2ec7fa3b987f",
+									"fieldName": "oGrid4",
+									"fieldParent": "4",
+									"fieldType": "sap.ui.layout.Grid",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "defaultSpan",
+											"grouping": "Properties",
+											"value": "L12 M12 S12",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "containerQuery",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "280bf6aa-f038-4144-f54b-834be790807f",
+											"fieldName": "oGridData4",
+											"fieldParent": "56622644-dbd2-43ac-e05f-2ec7fa3b987f",
+											"fieldType": "sap.ui.layout.GridData",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "c36a85e0-1c42-4011-9c14-20a2750fc934",
+													"fieldName": "rocinante4",
+													"fieldParent": "280bf6aa-f038-4144-f54b-834be790807f",
+													"fieldType": "sap.m.Image",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "25%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "/media/root/SampleApps/rocinante.jpg",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "c5b23ebe-5874-4985-c1a8-8f2923e32236",
+													"fieldName": "enterprise4",
+													"fieldParent": "280bf6aa-f038-4144-f54b-834be790807f",
+													"fieldType": "sap.m.Image",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "25%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "/media/root/SampleApps/enterprise.jpg",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "0c7a5f23-efe0-4377-e0ed-c74841ae6d2b",
+													"fieldName": "battlecruiser4",
+													"fieldParent": "280bf6aa-f038-4144-f54b-834be790807f",
+													"fieldType": "sap.m.Image",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "25%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "/media/root/SampleApps/battlecruiser.jpg",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "5",
+									"fieldName": "oFooter",
+									"fieldParent": "4",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "6",
+											"fieldName": "Left",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "d2d00536-9b86-468d-c06d-7a88a9a0a34a",
+													"fieldName": "oButton",
+													"fieldParent": "6",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Open In App Designer",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "7",
+											"fieldName": "Middle",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentMiddle",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "8",
+											"fieldName": "Right",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "0428ab33-c3f3-4daf-9396-649f485daddd",
+													"fieldName": "oToggleButton",
+													"fieldParent": "8",
+													"fieldType": "sap.m.ToggleButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Compact",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.ToggleButton/oToggleButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": null,
+	"ver": "20.11.25.1733",
+	"application": "sample_grid",
+	"title": "Sample sap.ui.layout.Grid",
+	"description": "sap.ui.layout.Grid",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_belize",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

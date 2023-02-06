@@ -1,0 +1,665 @@
+{
+	"id": "b8a76455-8d92-4e85-9f25-e381069c6c18",
+	"createdAt": "2022-06-10T12:49:23.680Z",
+	"createdBy": "serviceuser",
+	"objects": [
+		{
+			"fieldNo": "1",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "2",
+					"fieldName": "oApp",
+					"fieldParent": "1",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "4",
+							"fieldName": "oPage",
+							"fieldParent": "2",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Icon",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "f5ee3b8f-27dc-494e-b5ac-e6eae28d4713",
+									"fieldName": "oVBox",
+									"fieldParent": "4",
+									"fieldType": "sap.m.VBox",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMarginTop",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "ad03a081-c43d-48b1-e8ad-b14db1adc790",
+											"fieldName": "oMessageStrip",
+											"fieldParent": "f5ee3b8f-27dc-494e-b5ac-e6eae28d4713",
+											"fieldType": "sap.m.MessageStrip",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Icon with different colors",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiSmallMarginBeginEnd",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "30aff7a1-5155-4d93-ca64-e8a05f0c4979",
+											"fieldName": "oHBox1",
+											"fieldParent": "f5ee3b8f-27dc-494e-b5ac-e6eae28d4713",
+											"fieldType": "sap.m.HBox",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiSmallMarginBegin",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "4c1d491c-5211-48b3-cd09-832d3903abd1",
+													"fieldName": "oIcon",
+													"fieldParent": "30aff7a1-5155-4d93-ca64-e8a05f0c4979",
+													"fieldType": "sap.ui.core.Icon",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiSmallMargin",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "sap-icon://activities",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "color",
+															"grouping": "Properties",
+															"value": "Red",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "7e465cff-5e14-450e-b6c2-c4d2b2c914c7",
+													"fieldName": "oIcon1",
+													"fieldParent": "30aff7a1-5155-4d93-ca64-e8a05f0c4979",
+													"fieldType": "sap.ui.core.Icon",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiSmallMargin",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "sap-icon://activity-assigned-to-goal",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "color",
+															"grouping": "Properties",
+															"value": "Blue",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "2bfe32b1-fb0d-4086-ea2c-f4364549a9d1",
+											"fieldName": "oMessageStrip1",
+											"fieldParent": "f5ee3b8f-27dc-494e-b5ac-e6eae28d4713",
+											"fieldType": "sap.m.MessageStrip",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Icon with different Backgroundcolors",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiSmallMarginBeginEnd",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "22b41586-9d30-4db7-8bd3-c3304f86d21a",
+											"fieldName": "oHBox2",
+											"fieldParent": "f5ee3b8f-27dc-494e-b5ac-e6eae28d4713",
+											"fieldType": "sap.m.HBox",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiSmallMarginBegin",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "4d3c10b6-c794-4d8b-a299-80a6dcea7103",
+													"fieldName": "oIcon2",
+													"fieldParent": "22b41586-9d30-4db7-8bd3-c3304f86d21a",
+													"fieldType": "sap.ui.core.Icon",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiSmallMargin",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "sap-icon://add-contact",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "backgroundColor",
+															"grouping": "Properties",
+															"value": "Red",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "ecbb92e3-e33f-4ee2-c455-7e1b6bccf82b",
+													"fieldName": "oIcon3",
+													"fieldParent": "22b41586-9d30-4db7-8bd3-c3304f86d21a",
+													"fieldType": "sap.ui.core.Icon",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiSmallMargin",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "sap-icon://add-contact",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "backgroundColor",
+															"grouping": "Properties",
+															"value": "Yellow",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "7c735fb8-e688-4d46-a07f-2a705579b045",
+											"fieldName": "oMessageStrip3",
+											"fieldParent": "f5ee3b8f-27dc-494e-b5ac-e6eae28d4713",
+											"fieldType": "sap.m.MessageStrip",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Icon with different size",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiSmallMarginBeginEnd",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "fa50c32c-ba2d-440c-fa47-173b2ac0e8fe",
+											"fieldName": "oHBox3",
+											"fieldParent": "f5ee3b8f-27dc-494e-b5ac-e6eae28d4713",
+											"fieldType": "sap.m.HBox",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiSmallMargin",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "1f8dbe95-2c1b-4e2e-8de3-474cea45fc11",
+													"fieldName": "oIcon4",
+													"fieldParent": "fa50c32c-ba2d-440c-fa47-173b2ac0e8fe",
+													"fieldType": "sap.ui.core.Icon",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiSmallMargin",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "sap-icon://add-employee",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "size",
+															"grouping": "Properties",
+															"value": "1rem",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "c0190ef1-5136-4253-f59f-667ae34120da",
+													"fieldName": "oIcon6",
+													"fieldParent": "fa50c32c-ba2d-440c-fa47-173b2ac0e8fe",
+													"fieldType": "sap.ui.core.Icon",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiSmallMargin",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "sap-icon://activity-items",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "size",
+															"grouping": "Properties",
+															"value": "2rem",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "ac49140d-dbb6-4d1a-ac58-b05da879229f",
+													"fieldName": "oIcon5",
+													"fieldParent": "fa50c32c-ba2d-440c-fa47-173b2ac0e8fe",
+													"fieldType": "sap.ui.core.Icon",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiSmallMargin",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "sap-icon://fa-regular/address-card",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "size",
+															"grouping": "Properties",
+															"value": "3rem",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "52121b50-6784-498f-ce8c-e4d8f8d290a4",
+													"fieldName": "oIcon7",
+													"fieldParent": "fa50c32c-ba2d-440c-fa47-173b2ac0e8fe",
+													"fieldType": "sap.ui.core.Icon",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiSmallMargin",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "sap-icon://add-process",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "size",
+															"grouping": "Properties",
+															"value": "4rem",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "5",
+									"fieldName": "oFooter",
+									"fieldParent": "4",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "6",
+											"fieldName": "Left",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "ef7cd7e0-183b-4e5c-8f3a-e0371f4dfc3d",
+													"fieldName": "oButton",
+													"fieldParent": "6",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Open In App Designer",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "7",
+											"fieldName": "Middle",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentMiddle",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "8",
+											"fieldName": "Right",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "ff882e17-5dc7-4e00-c809-15d9ddbc123f",
+													"fieldName": "butCompact",
+													"fieldParent": "8",
+													"fieldType": "sap.m.ToggleButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Compact",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": null,
+	"ver": "20.11.25.1729",
+	"application": "sample_icon",
+	"title": "Sample sap.ui.core.Icon",
+	"description": "sap.ui.core.Icon",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_belize",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

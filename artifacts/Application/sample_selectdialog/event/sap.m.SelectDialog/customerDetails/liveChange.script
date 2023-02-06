@@ -1,0 +1,5 @@
+// // Set SelectDialog Filter
+// var binding = oEvent.getParameter("itemsBinding");
+// var value = oEvent.getParameter("value");
+// var filter = new sap.ui.model.Filter("NAME1", "Contains", value);
+// binding.filter([filter]);

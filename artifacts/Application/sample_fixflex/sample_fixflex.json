@@ -1,0 +1,604 @@
+{
+	"id": "ee3b5519-04e1-49ee-b782-f2a9e986c26d",
+	"createdAt": "2022-06-10T12:49:24.576Z",
+	"createdBy": "serviceuser",
+	"objects": [
+		{
+			"fieldNo": "1",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "2",
+					"fieldName": "oApp",
+					"fieldParent": "1",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "4",
+							"fieldName": "oHorizontalFixFlex",
+							"fieldParent": "2",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Horizontal FixFlex",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "001b3c85-565d-4dd1-c5c2-f892c51539ce",
+									"fieldName": "oFixFlex",
+									"fieldParent": "4",
+									"fieldType": "sap.ui.layout.FixFlex",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "vertical",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "71599b7a-7442-4173-f023-05fc4fa98811",
+											"fieldName": "oFixFlexContent",
+											"fieldParent": "001b3c85-565d-4dd1-c5c2-f892c51539ce",
+											"fieldType": "neptune.FixFlexContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "addFixContent",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "a36442f8-6e25-4de7-9a48-02cf38dac63b",
+													"fieldName": "oImage",
+													"fieldParent": "71599b7a-7442-4173-f023-05fc4fa98811",
+													"fieldType": "sap.m.Image",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "40%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMargin",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "/media/root/SampleApps/battlecruiser.jpg",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "92aff599-5819-4278-e614-55dfd95c6109",
+											"fieldName": "oFixFlexContent1",
+											"fieldParent": "001b3c85-565d-4dd1-c5c2-f892c51539ce",
+											"fieldType": "neptune.FixFlexContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "addFixContent",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "e7ba8556-81a6-469a-8fe3-72f2c7ede8b0",
+													"fieldName": "oText",
+													"fieldParent": "92aff599-5819-4278-e614-55dfd95c6109",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "50%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Battlecruisers stem as far back as the early days of the Terran Confederacy.[6] While there are many classes of battlecruisers, all are armed with lasers and protected by neosteel armor.[7] These laser weapons consist of multiple twin-cannon laser batteries for aerial defense and surface bombardment, located across the battlecruiser's hull. Its air-to-air guns—not as powerful as its air-to-ground ones—are equipped with advanced optics and sensors to deal with fast moving targets. The vessel’s air-to-ground guns make use of electromagnetic coils to increase the potency of their shots. Air Unit built From Starport Air Targets: Damage: 6, DPS: 37.5, Cooldown: 0.16, Range: 6 Tactical Jump: Cooldown: 71s, Duration: 4s show more.Battlecruisers stem as far back as the early days of the Terran Confederacy.[6] While there are many classes of battlecruisers, all are armed with lasers and protected by neosteel armor.[7] These laser weapons consist of multiple twin-cannon laser batteries for aerial defense and surface bombardment, located across the battlecruiser's hull. Its air-to-air guns—not as powerful as its air-to-ground ones—are equipped with advanced optics and sensors to deal with fast moving targets. The vessel’s air-to-ground guns make use of electromagnetic coils to increase the potency of their shots. Air Unit built From Starport Air Targets: Damage: 6, DPS: 37.5, Cooldown: 0.16, Range: 6 Tactical Jump: Cooldown: 71s, Duration: 4s show more. ",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "5",
+									"fieldName": "oFooterHorizontal",
+									"fieldParent": "4",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "6",
+											"fieldName": "Left",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "7ed9e5e4-7357-4c97-8529-552d36577cc0",
+													"fieldName": "oButton1",
+													"fieldParent": "6",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Open In App Designer",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButton1/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "7",
+											"fieldName": "Middle",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentMiddle",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "8",
+											"fieldName": "Right",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "9eced842-7e54-4e3f-a6aa-33ed12c447c4",
+													"fieldName": "oButton",
+													"fieldParent": "8",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Vertical  FixFlex",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "oApp.to(\"oVerticalFixFlex\");",
+															"script": "oApp.to(\"oVerticalFixFlex\");",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "c3bbc20d-c65f-4c8a-80ea-2d7468b84a7d",
+							"fieldName": "oVerticalFixFlex",
+							"fieldParent": "2",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "VerticalFixFlex",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "90fc62c0-9e64-4491-ec34-7d75f2a79096",
+									"fieldName": "oFixFlex1",
+									"fieldParent": "c3bbc20d-c65f-4c8a-80ea-2d7468b84a7d",
+									"fieldType": "sap.ui.layout.FixFlex",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "93419aff-760f-4d2f-9fbe-c3505e0fd0eb",
+											"fieldName": "oFixFlexContent2",
+											"fieldParent": "90fc62c0-9e64-4491-ec34-7d75f2a79096",
+											"fieldType": "neptune.FixFlexContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "addFixContent",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "ab9c9365-8086-459e-cacf-5da763abd555",
+													"fieldName": "oImage1",
+													"fieldParent": "93419aff-760f-4d2f-9fbe-c3505e0fd0eb",
+													"fieldType": "sap.m.Image",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "50%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMargin",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "/media/root/SampleApps/enterprise.jpg",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "activeSrc",
+															"grouping": "Properties",
+															"value": "/media/root/Explored_SampleApp/enterprise.jpg",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "bb856db0-9341-49d6-fb8d-937b2d1b7e49",
+											"fieldName": "oFixFlexContent3",
+											"fieldParent": "90fc62c0-9e64-4491-ec34-7d75f2a79096",
+											"fieldType": "neptune.FixFlexContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "setFlexContent",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "95f2517e-47bc-482b-d280-21057b202bd0",
+													"fieldName": "oText1",
+													"fieldParent": "bb856db0-9341-49d6-fb8d-937b2d1b7e49",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Enterprise or USS Enterprise (often referred to as the Starship Enterprise) is the name of several fictional spacecraft, some of which are the main craft and setting for various television series and films in the Star Trek science fiction franchise.Enterprise or USS Enterprise (often referred to as the Starship Enterprise) is the name of several fictional spacecraft, some of which are the main craft and setting for various television series and films in the Star Trek science fiction franchise.Enterprise or USS Enterprise (often referred to as the Starship Enterprise) is the name of several fictional spacecraft, some of which are the main craft and setting for various television series and films in the Star Trek science fiction franchise. Enterprise or USS Enterprise (often referred to as the Starship Enterprise) is the name of several fictional spacecraft, some of which are the main craft and setting for various television series and films in the Star Trek science fiction franchise.",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "cb551e12-e0f1-466b-ae66-2a8e0b3ca320",
+									"fieldName": "oFooterVertical",
+									"fieldParent": "c3bbc20d-c65f-4c8a-80ea-2d7468b84a7d",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "bb496536-f66d-4a5b-be30-49d9cc874e59",
+											"fieldName": "Left",
+											"fieldParent": "cb551e12-e0f1-466b-ae66-2a8e0b3ca320",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "fb6f1c6c-4fed-41ab-ab77-7cb4d7ed2439",
+													"fieldName": "oButVertical",
+													"fieldParent": "bb496536-f66d-4a5b-be30-49d9cc874e59",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Horixzontal FixFlex",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "oApp.back();",
+															"script": "oApp.back();",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "97b3049b-3e65-448b-9ddb-7a252d8efd1a",
+											"fieldName": "Middle",
+											"fieldParent": "cb551e12-e0f1-466b-ae66-2a8e0b3ca320",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentMiddle",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "6c94b6df-a1e5-49c2-8b0a-5895ec48e1e2",
+											"fieldName": "Right",
+											"fieldParent": "cb551e12-e0f1-466b-ae66-2a8e0b3ca320",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": null,
+	"ver": "20.11.25.1735",
+	"application": "sample_fixflex",
+	"title": "Sample sap.ui.layout.FixFlex",
+	"description": "sap.ui.layout.FixFlex",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_belize",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

@@ -1,0 +1,15 @@
+var oCalendar = oEvent.getSource();
+var aSelectedDates = oCalendar.getSelectedDates();
+var oDateMy;
+oDateMy = aSelectedDates[0].getStartDate();
+
+
+// Replace yourField and change pattern
+jQuery.sap.require("sap.ui.core.format.DateFormat");
+var oSapFormat = sap.ui.core.format.DateFormat.getDateTimeInstance({
+    pattern: "yyyy/MM/dd"
+});
+
+
+var dateStr = oSapFormat.format(oDateMy);
+oText.setText(dateStr);

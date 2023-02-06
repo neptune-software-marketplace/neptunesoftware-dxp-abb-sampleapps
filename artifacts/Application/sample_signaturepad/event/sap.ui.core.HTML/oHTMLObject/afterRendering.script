@@ -1,0 +1,7 @@
+var signatureCanvas = document.getElementById("oSignaturePad-pad");
+
+setTimeout(function() {
+    signatureCanvas.width = signatureCanvas.parentNode.clientWidth;
+    signatureCanvas.height = signatureCanvas.parentNode.clientHeight;
+    oSignaturePad = new SignaturePad(signatureCanvas);
+}, 50);

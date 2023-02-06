@@ -1,0 +1,6 @@
+var context = oEvent.oSource.getBindingContext("oMultiModel");
+var data = context.getObject();
+data = JSON.parse(JSON.stringify(data));
+modeloSimpleForm.setData(data);
+oSplitApp.to(oPageActivity);
+oSplitApp.hideMaster();

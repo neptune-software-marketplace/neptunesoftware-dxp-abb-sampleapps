@@ -1,0 +1,28 @@
+var Value = oRangeSlider.getValue();
+
+if (Value == "2") {
+
+    oImage.setWidth("40%");
+    oImage1.setWidth("40%");
+    oImage2.setWidth("40%");
+
+} else if (Value == "3") {
+
+    oImage.setWidth("50%");
+    oImage1.setWidth("50%");
+    oImage2.setWidth("50%");
+} else if (Value == "4") {
+
+    oImage.setWidth("60%");
+    oImage1.setWidth("60%");
+    oImage2.setWidth("60%");
+} else if (Value == "5") {
+
+    oImage.setWidth("100%");
+    oImage1.setWidth("100%");
+    oImage2.setWidth("100%");
+} else {
+    oImage.setWidth("30%");
+    oImage1.setWidth("30%");
+    oImage2.setWidth("30%");
+}

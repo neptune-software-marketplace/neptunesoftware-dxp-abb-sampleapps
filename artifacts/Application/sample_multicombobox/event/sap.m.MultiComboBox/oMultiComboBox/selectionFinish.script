@@ -1,0 +1,15 @@
+var selectedItems = oEvent.getParameter("selectedItems");
+var messageText = "";
+
+for (var i = 0; i < selectedItems.length; i++) {
+    messageText += "'" + selectedItems[i].getText() + "'";
+    if (i != selectedItems.length - 1) {
+        messageText += ",";
+    }
+}
+
+
+// Use MessageToast
+if (messageText) {
+    sap.m.MessageToast.show(messageText);
+}

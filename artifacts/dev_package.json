@@ -1,0 +1,730 @@
+{
+	"id": "0435ed28-be61-4041-aac7-1619fe4d3efa",
+	"createdAt": "2022-06-10T12:49:11.793Z",
+	"createdBy": "serviceuser",
+	"git": {
+		"targetServers": [],
+		"testServers": [],
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-sampleapps"
+	},
+	"name": "com.neptune-software.pt.samples.explored",
+	"description": "Explored samples",
+	"ver": "23.2.6.1646",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "fcd48248-305b-43fb-8baf-43f3918f4770",
+			"application": "sample_feedlistitem",
+			"title": "Sample sap.m.FeedListItem",
+			"description": "sap.m.FeedListItem"
+		},
+		{
+			"id": "fb8d4b3f-3269-4bf4-920f-5aff8abd13ea",
+			"application": "sample_bar",
+			"title": "Sample sap.m.Bar",
+			"description": "sap.m.Bar"
+		},
+		{
+			"id": "fb0ee46a-ebbe-4783-b339-41fb89bfad70",
+			"application": "sample_objectheader",
+			"title": "sap.m.ObjectHeader - sap.m.IconTabBar",
+			"description": "sap.m.ObjectHeader - sap.m.IconTabBar"
+		},
+		{
+			"id": "f88545da-900b-4796-93a2-299de4d6c06c",
+			"application": "sample_dynamicheader_splitcontainer_highchart",
+			"title": "Dynamic Header - Split Container - HighChart",
+			"description": "Dynamic Header - Split Container - HighChart"
+		},
+		{
+			"id": "f54424c7-9a85-4fda-ba9b-c1c1117a13aa",
+			"application": "sample_switch",
+			"title": "sap.m.Switch",
+			"description": "sap.m.Switch"
+		},
+		{
+			"id": "eeab3849-6784-42c8-a26e-29569e606059",
+			"application": "sample_dynamic_page",
+			"title": "sap.f.DynamicPage",
+			"description": "sap.f.DynamicPage"
+		},
+		{
+			"id": "ee714060-39c9-4c23-b6c6-0ef349aef194",
+			"application": "sample_menubutton",
+			"title": "Sample sap.m.MenuButton",
+			"description": "sap.m.MenuButton"
+		},
+		{
+			"id": "ee3b5519-04e1-49ee-b782-f2a9e986c26d",
+			"application": "sample_fixflex",
+			"title": "Sample sap.ui.layout.FixFlex",
+			"description": "sap.ui.layout.FixFlex"
+		},
+		{
+			"id": "edd2a42f-994c-458f-bb4f-7807c6a71d15",
+			"application": "sample_groupheaderlistitem",
+			"title": "Sample sap.m.GroupHeaderListItem",
+			"description": "sap.m.GroupHeaderListItem"
+		},
+		{
+			"id": "ed5f87c2-8100-4bdb-b691-6243cf5e404c",
+			"application": "sample_pdf_viewer",
+			"title": "Sample sap.m.PDFViewer",
+			"description": "sap.m.PDFViewer"
+		},
+		{
+			"id": "ecc29628-17ba-4547-8c80-186f14c1735f",
+			"application": "sample_columnmultilabel",
+			"title": "Sample neptune.TableMultiLabel",
+			"description": "neptune.TableMultiLabel"
+		},
+		{
+			"id": "ec78ded9-1f3d-4a9e-9517-dcfc072372d3",
+			"application": "sample_odatamockdata",
+			"title": "sap.ui.model.odata.v2.ODataModel with MockData",
+			"description": "sap.ui.model.odata.v2.ODataModel with MockData"
+		},
+		{
+			"id": "eb527ffe-24da-4845-8d78-275065152e9d",
+			"application": "sample_navcontainer",
+			"title": "Sample sap.m.NavContainer",
+			"description": "sap.m.NavContainer"
+		},
+		{
+			"id": "e9261653-8a76-469b-a7a0-08ba2c222b92",
+			"application": "sample_verticallayout",
+			"title": "sap.ui.layout.VerticalLayout",
+			"description": "sap.ui.layout.VerticalLayout"
+		},
+		{
+			"id": "e8b7bc77-699c-4514-b534-8c36ae0d3adc",
+			"application": "sample_headercontainer",
+			"title": "Sample sap.m.HeaderContainer",
+			"description": "sap.m.HeaderContainer"
+		},
+		{
+			"id": "e16a1b2f-0594-4f8f-9764-9453180f2776",
+			"application": "sample_link",
+			"title": "sap.m.Link - sap.m.Table",
+			"description": "sap.m.Link - sap.m.Table"
+		},
+		{
+			"id": "df995b65-1f77-4269-b215-a2475320bd2c",
+			"application": "sample_selectdialog",
+			"title": "sap.m.SelectDialog - RestAPI - MultiModel",
+			"description": "sap.m.SelectDialog - RestAPI - MultiModel"
+		},
+		{
+			"id": "db3bc8a5-c412-46a8-b313-818f0a290472",
+			"application": "sample_tree",
+			"title": "sap.tnt.ToolPage - sap.m.Tree - sap.tnt.SideNavigation",
+			"description": "sap.tnt.ToolPage - sap.m.Tree - sap.tnt.SideNavigation"
+		},
+		{
+			"id": "d61eae09-aea9-4621-b098-11bbbf933e7e",
+			"application": "sample_layoutform",
+			"title": "Sample sap.ui.layout.form.Form",
+			"description": "sap.ui.layout.form.Form"
+		},
+		{
+			"id": "d5d5ed49-2021-45d8-bf80-8069c472522e",
+			"application": "sample_breadcrumbs",
+			"title": "Sample sap.m.Breadcrumbs",
+			"description": "sap.m.Breadcrumbs"
+		},
+		{
+			"id": "d4fa3fb3-6111-4d62-a01b-78b2b7ff878e",
+			"application": "sample_icontabfilter",
+			"title": "sap.m.IconTabBar - sap.m.IconTabFilter",
+			"description": "sap.m.IconTabBar - sap.m.IconTabFilter "
+		},
+		{
+			"id": "d3671a51-a76a-4338-94c7-aa2818de6a43",
+			"application": "sample_wizard",
+			"title": "sap.m.Wizard",
+			"description": "sap.m.Wizard"
+		},
+		{
+			"id": "d0711a40-6872-424e-920c-26a33f1350a5",
+			"application": "sample_objectstatus",
+			"title": "sap.m.ObjectStatus - sap.m.Table - sap.m.ColumnListItem",
+			"description": "sap.m.ObjectStatus - sap.m.Table - sap.m.ColumnListItem"
+		},
+		{
+			"id": "cfcc4a7b-575c-44c1-93b6-61c2806fa9a3",
+			"application": "sample_highchart_splitter",
+			"title": "Dynamic Header - Split Container - HighChart",
+			"description": "Dynamic Header - Split Container - HighChart"
+		},
+		{
+			"id": "cf6f8c85-b032-4297-af40-3c1e356f59d4",
+			"application": "sample_treetable",
+			"title": "sap.ui.table.TreeTable",
+			"description": "sap.ui.table.TreeTable"
+		},
+		{
+			"id": "cee3a1ac-8c35-4ba0-aaa7-bea0c8e726e9",
+			"application": "sample_select",
+			"title": "sap.m.Select - sap.ui.layout.form.SimpleForm",
+			"description": "sap.m.Select - sap.ui.layout.form.SimpleForm"
+		},
+		{
+			"id": "ce069fea-1295-4e3a-9aa0-b38d157028b6",
+			"application": "sample_avatar",
+			"title": "Sample sap.f.Avatar",
+			"description": "sap.f.Avatar"
+		},
+		{
+			"id": "ca0e1877-d402-4d70-a6db-ebe83751b6da",
+			"application": "sample_consumeodata",
+			"title": "Sample sap.ui.model.odata.v2.ODataModel",
+			"description": "sap.ui.model.odata.v2.ODataModel"
+		},
+		{
+			"id": "c85044e0-c576-4d3e-bda3-faf36ffa0cc7",
+			"application": "sample_datepicker",
+			"title": "Sample sap.m.DatePicker",
+			"description": "sap.m.DatePicker"
+		},
+		{
+			"id": "c7e5b1d1-a9d8-4010-8f42-a02b35f61c0a",
+			"application": "sample_calendarlegend",
+			"title": "Sample sap.ui.unified.CalendarLegend",
+			"description": "sap.ui.unified.CalendarLegend"
+		},
+		{
+			"id": "c63510e9-3044-eb11-9889-0003ff5949fe",
+			"application": "sample_table_drag_drop",
+			"title": "Sample sap.m.Table with Drag and Drop",
+			"description": "Sample sap.m.Table with Drag and Drop"
+		},
+		{
+			"id": "c5ee8f4e-beb6-4d1c-9902-3b2d046753ed",
+			"application": "sample_title",
+			"title": "sap.ui.core.Title",
+			"description": "sap.ui.core.Title"
+		},
+		{
+			"id": "c59b6c1f-ca5b-4cc2-9dc9-c1f042e43ecf",
+			"application": "sample_toolheader",
+			"title": "sap.tnt.ToolHeader - sap.m.MenuButton",
+			"description": "sap.tnt.ToolHeader - sap.m.MenuButton"
+		},
+		{
+			"id": "c4052dd9-d580-46bf-a444-db1aab348ea1",
+			"application": "sample_busydialog",
+			"title": "Sample sap.m.BusyDialog",
+			"description": "sap.m.BusyDialog"
+		},
+		{
+			"id": "c209316e-3c3d-40b5-b4d5-49b2ec5965f2",
+			"application": "sample_objectnumber",
+			"title": "sap.m.ObjectNumber - sap.m.Table - sap.m.ColumnListItem",
+			"description": "sap.m.ObjectNumber - sap.m.Table - sap.m.ColumnListItem"
+		},
+		{
+			"id": "bb7e2cde-4d62-4b41-b89c-84592b47329f",
+			"application": "sample_inputlistitem",
+			"title": "sap.m.InputListItem - sap.m.List",
+			"description": "sap.m.InputListItem - sap.m.List"
+		},
+		{
+			"id": "b8a76455-8d92-4e85-9f25-e381069c6c18",
+			"application": "sample_icon",
+			"title": "Sample sap.ui.core.Icon",
+			"description": "sap.ui.core.Icon"
+		},
+		{
+			"id": "b2e0e3f3-4e07-4940-aa70-3fb10708f714",
+			"application": "sample_overflowtoolbar",
+			"title": "sap.m.OverflowToolbar",
+			"description": "sap.m.OverflowToolbar"
+		},
+		{
+			"id": "b26e3238-0faa-47a6-8251-4a57c5389f41",
+			"application": "sample_standardlistitem",
+			"title": "sap.m.List - sap.m.StandardListItem",
+			"description": "sap.m.List - sap.m.StandardListItem"
+		},
+		{
+			"id": "b012faee-38a6-4764-9a22-013ad6b8042a",
+			"application": "sample_maskinput",
+			"title": "Sample sap.m.MaskInput",
+			"description": "sap.m.MaskInput"
+		},
+		{
+			"id": "af26cecd-8094-47a6-80f4-30a00800cc6c",
+			"application": "sample_ratingindicator",
+			"title": "sap.m.RatingIndicator",
+			"description": "sap.m.RatingIndicator"
+		},
+		{
+			"id": "adb1b82f-3135-4243-b287-e359a3d8ac2b",
+			"application": "sample_simpleforms",
+			"title": "Sample sap.ui.layout.form.SimpleForm",
+			"description": "sap.ui.layout.form.SimpleForm"
+		},
+		{
+			"id": "a8be4a48-715a-4e46-b5b9-e83985cb45a7",
+			"application": "sample_toolbar",
+			"title": "sap.m.Toolbar - sap.m.ToolbarSpacer - sap.m.ToolbarSeparator",
+			"description": "sap.m.Toolbar - sap.m.ToolbarSpacer - sap.m.ToolbarSeparator"
+		},
+		{
+			"id": "a689a21d-6e44-492f-926e-acbd278e1bd8",
+			"application": "sample_fileuploader",
+			"title": "Sample sap.ui.unified.FileUploader",
+			"description": "sap.ui.unified.FileUploader"
+		},
+		{
+			"id": "a4e61a51-8a4b-4ec4-a30d-66d24b3e12b8",
+			"application": "sample_dynamicsidecontent",
+			"title": "Sample sap.ui.layout.DynamicSideContent",
+			"description": "sap.ui.layout.DynamicSideContent"
+		},
+		{
+			"id": "a451c999-d343-4f69-9d1b-42498c37d2b0",
+			"application": "sample_splitapp",
+			"title": "sap.m.SplitApp",
+			"description": "sap.m.SplitApp"
+		},
+		{
+			"id": "a3ac2219-1d5d-4fe0-aa76-3d30de49fec7",
+			"application": "sample_carousel",
+			"title": "Sample sap.m.Carousel",
+			"description": "sap.m.Carousel"
+		},
+		{
+			"id": "a33569eb-ab3b-40f8-9d3e-3d50614be5d9",
+			"application": "sample_progressindicator",
+			"title": "Sample sap.m.ProgressIndicator",
+			"description": "sap.m.ProgressIndicator"
+		},
+		{
+			"id": "a19728e2-9735-4414-92e9-b3498e787a1c",
+			"application": "sample_htmlobject",
+			"title": "Sample sap.ui.core.HTML",
+			"description": "sap.ui.core.HTML"
+		},
+		{
+			"id": "9ce2b3e9-a004-42d1-a497-ef9582ef54d6",
+			"application": "sample_customlistitem",
+			"title": "Sample sap.m.CustomListItem",
+			"description": "sap.m.CustomListItem"
+		},
+		{
+			"id": "998cada4-b959-446c-8c7d-347386e4cf14",
+			"application": "sample_popover",
+			"title": "Sample sap.m.Popover",
+			"description": "sap.m.Popover"
+		},
+		{
+			"id": "9815e7e0-db43-493f-bbd4-f463a062952f",
+			"application": "sample_actionsheet",
+			"title": "Sample sap.m.ActionSheet",
+			"description": "sap.m.ActionSheet"
+		},
+		{
+			"id": "93d09428-6742-4536-941d-6cdc6bea5e17",
+			"application": "sample_signaturepad",
+			"title": "SignaturePad",
+			"description": "SignaturePad"
+		},
+		{
+			"id": "9221ea37-1d06-4eb9-b848-c34494cdb318",
+			"application": "sample_messagepage",
+			"title": "Sample sap.m.MessagePage",
+			"description": "sap.m.MessagePage"
+		},
+		{
+			"id": "878e8391-115c-4baf-9338-b9fc0c9011dc",
+			"application": "sample_messagebox",
+			"title": "Sample sap.m.MessageBox",
+			"description": "sap.m.MessageBox"
+		},
+		{
+			"id": "83f14d34-6387-4c5e-998e-d027ff3f78bf",
+			"application": "sample_quickview",
+			"title": "Sample sap.m.QuickView",
+			"description": "sap.m.QuickView - sap.ui.layout.form.SimpleForm"
+		},
+		{
+			"id": "83093604-2608-49a9-99c4-7babd95c5503",
+			"application": "sample_datetimeinput",
+			"title": "Sample sap.m.DateTimeInput",
+			"description": "sap.m.DateTimeInput"
+		},
+		{
+			"id": "828a6e2a-753f-492f-9f57-9566dd10709a",
+			"application": "sample_grid",
+			"title": "Sample sap.ui.layout.Grid",
+			"description": "sap.ui.layout.Grid"
+		},
+		{
+			"id": "7ce51924-2fb0-472e-995d-84f4798ae359",
+			"application": "sample_tablepersonalization",
+			"title": "sap.m.TablePersoDialog - sap.m.TablePersoDialog - MultiModel",
+			"description": "sap.m.TablePersoDialog - sap.m.TablePersoDialog - MultiModel"
+		},
+		{
+			"id": "7adee5df-6dba-4a9b-984b-8e4558108e7a",
+			"application": "sample_timepicker",
+			"title": "sap.m.TimePicker",
+			"description": "sap.m.TimePicker"
+		},
+		{
+			"id": "793ca422-97ed-4c8b-bda3-b109d7740cba",
+			"application": "sample_icontabseparator",
+			"title": "sap.m.IconTabBar - sap.m.IconTabFilter - sap.m.IconTabSeparator",
+			"description": "sap.m.IconTabBar - sap.m.IconTabFilter - sap.m.IconTabSeparator"
+		},
+		{
+			"id": "773bf6ec-48ee-4598-8200-7a896e845d90",
+			"application": "sample_tableselectdialog",
+			"title": "sap.m.SelectDialog - sap.m.Table - RestAPI - MultiModel",
+			"description": "sap.m.Table - RestAPI - MultiModel - sap.m.SelectDialog"
+		},
+		{
+			"id": "7179d013-3606-44c2-ac43-868d4efa7d35",
+			"application": "sample_table",
+			"title": "sap.m.Table - RestAPI - MultiModel - sap.m.SelectDialog",
+			"description": "sap.m.Table - RestAPI - MultiModel - sap.m.SelectDialog"
+		},
+		{
+			"id": "7116f68b-e461-4421-91f3-f5c84f47509d",
+			"application": "sampe_feedinput",
+			"title": "Sample sap.m.FeedInput",
+			"description": "sap.m.FeedInput"
+		},
+		{
+			"id": "709f170a-2ccf-4e09-a7be-ad9764a7cf3a",
+			"application": "sample_rangeslider",
+			"title": "sap.m.RangeSlider",
+			"description": "sap.m.RangeSlider"
+		},
+		{
+			"id": "6d0efda6-ccfe-4d73-9b4e-d2e23f25ad44",
+			"application": "sample_lightbox",
+			"title": "Sample sap.m.LightBox",
+			"description": "sap.m.LightBox"
+		},
+		{
+			"id": "687ff77c-8b66-43d6-a823-a9c91bffb389",
+			"application": "sample_messagepopover",
+			"title": "sap.m.MessagePopover - sap.m.MessageStrip",
+			"description": "sap.m.MessagePopover - sap.m.MessageStrip"
+		},
+		{
+			"id": "67783aa1-20a2-46d1-9c6f-6a85199ec616",
+			"application": "sample_flexbox",
+			"title": "Flexbox - Generic Tile - MenuButton",
+			"description": "Flexbox - Generic Tile - MenuButton"
+		},
+		{
+			"id": "635c33f7-468c-48aa-b86c-91bce3d4434d",
+			"application": "sample_messagestrip",
+			"title": "Sample sap.m.MessageStrip",
+			"description": "sap.m.MessageStrip"
+		},
+		{
+			"id": "61b77714-748d-4bad-9de9-76c617e185a6",
+			"application": "sample_tiles",
+			"title": "sap.m.GenericTile - sap.m.TileContent - sap.m.CustomTile - sap.m.SlideTile",
+			"description": "sap.m.GenericTile - sap.m.TileContent - sap.m.CustomTile - sap.m.SlideTile"
+		},
+		{
+			"id": "60e0e287-b7f8-4e35-a97b-48fe36984c7d",
+			"application": "sample_odata_mockdata",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "5f18784a-5645-4a47-b256-cb704dbcfed3",
+			"application": "sample_ui_layout_splitter",
+			"title": "sap.ui.layout.Splitter - sap.ui.layout.SplitterLayoutData",
+			"description": "sap.ui.layout.Splitter - sap.ui.layout.SplitterLayoutData"
+		},
+		{
+			"id": "556e4922-b002-4ce8-a401-26027298e5ce",
+			"application": "sample_tablesetting",
+			"title": "sap.m.ViewSettingsDialog - sap.m.Table",
+			"description": "sap.m.ViewSettingsDialog - sap.m.Table"
+		},
+		{
+			"id": "5310e3fd-bbe0-4f11-a93b-02495deedafc",
+			"application": "sample_slider",
+			"title": "sap.m.Slider",
+			"description": "sap.m.Slider"
+		},
+		{
+			"id": "52d014ad-f3a3-4558-86c1-d3457f731b5f",
+			"application": "sample_hboxvsvbox",
+			"title": "Sample sap.m.HBox, sap.m.VBox",
+			"description": "sap.m.HBox - sap.m.VBox"
+		},
+		{
+			"id": "5251a5d1-5b30-48e2-a451-e41eba6f3172",
+			"application": "sample_panel",
+			"title": "Sample sap.m.Panel",
+			"description": "sap.m.Panel"
+		},
+		{
+			"id": "51679532-deef-46f9-a6d2-d92ea0b22c13",
+			"application": "sample_selectlist",
+			"title": "sap.m.SelectList - RestAPI - Multimodel",
+			"description": "sap.m.SelectList - RestAPI - Multimodel"
+		},
+		{
+			"id": "51656514-5028-436a-b707-d8e3d1ddd28d",
+			"application": "sample_textarea",
+			"title": "sap.m.TextArea",
+			"description": "sap.m.TextArea"
+		},
+		{
+			"id": "4d2f33df-7c61-40f7-abea-87ccbe13793f",
+			"application": "sample_stepinput",
+			"title": "sap.m.StepInput",
+			"description": "sap.m.StepInput"
+		},
+		{
+			"id": "4b9bd9e4-9c30-4fdf-86cc-87ec7ebcfb70",
+			"application": "sample_objectattribute",
+			"title": "sap.m.ObjectAttribute - sap.m.Popover",
+			"description": "sap.m.ObjectAttribute - sap.m.Popover"
+		},
+		{
+			"id": "494e4ec5-ec0e-4b62-9fd0-6a000466ec9b",
+			"application": "sample_uxap",
+			"title": "Sample sap.uxap",
+			"description": "sap.uxap Library"
+		},
+		{
+			"id": "4839378f-221e-4195-8eb0-f135e0f4e08c",
+			"application": "sample_searchfield",
+			"title": "sap.m.SearchField - sap.m.Table - neptune.model.MultiModel",
+			"description": "sap.m.SearchField - sap.m.Table - neptune.model.MultiModel"
+		},
+		{
+			"id": "4092f612-54a9-4709-88a5-e54e1c181b78",
+			"application": "sample_formattedtext",
+			"title": "",
+			"description": "sap.m_SimpleControls"
+		},
+		{
+			"id": "40224a4d-37ad-4e5e-a7d3-6475cf2edfa8",
+			"application": "sample_unifiedshell",
+			"title": "sap.ui.unified.Shell - sap.ui.unified.ShellHeadItem - sap.ui.unified.ShellOverlay - sap.m.NavContainer",
+			"description": "sap.ui.unified.Shell - sap.ui.unified.ShellHeadItem - sap.ui.unified.ShellOverlay - sap.m.NavContainer"
+		},
+		{
+			"id": "400b513f-5304-4e88-bb9b-f983bc72cf30",
+			"application": "sample_objectlistitem",
+			"title": "sap.m.List - sap.m.ObjectListItem",
+			"description": "sap.m.List - sap.m.ObjectListItem"
+		},
+		{
+			"id": "3acdb902-422c-4747-bf83-9c22e7e14ef9",
+			"application": "sample_objectmarker",
+			"title": "sap.m.ObjectMarker - sap.m.Table - sap.m.ColumnListItem",
+			"description": "sap.m.ObjectMarker - sap.m.Table - sap.m.ColumnListItem"
+		},
+		{
+			"id": "39f0e829-80e9-498c-ad9d-534db41af467",
+			"application": "sample_flexiblecolumnlayout",
+			"title": "Sample sap.f.FlexibleColumnLayout",
+			"description": "sap.f.FlexibleColumnLayout"
+		},
+		{
+			"id": "38caf781-9b0c-433d-beb3-69b9c41c9a1c",
+			"application": "sample_displaylistitem",
+			"title": "Sample sap.m.DisplayListItem",
+			"description": "sap.m.DisplayListItem"
+		},
+		{
+			"id": "3754147f-1ff8-4bf4-b250-697474236d42",
+			"application": "sample_sidenavigation",
+			"title": "Sample sap.tnt.SideNavigation",
+			"description": "sap.tnt.SideNavigation"
+		},
+		{
+			"id": "362c60a3-e098-4816-abe7-cb31d8e22747",
+			"application": "sample_ui_table",
+			"title": "sap.ui.table.Table - sap.ui.table.Column - MultiModel - RestAPI",
+			"description": "sap.ui.table.Table - sap.ui.table.Column - MultiModel - RestAPI"
+		},
+		{
+			"id": "31adcffd-8f72-4dda-b5f0-cba465c6d868",
+			"application": "sample_busyindicator",
+			"title": "Sample sap.m.BusyIndicator",
+			"description": "sap.m.BusyIndicator"
+		},
+		{
+			"id": "3100d8be-0a3a-4759-a36c-a8c172ec7da3",
+			"application": "sample_notificationlist",
+			"title": "Sample sap.m.NotificationListGroup",
+			"description": "sap.m.NotificationListGroup"
+		},
+		{
+			"id": "2a6b5e30-5ae7-44a1-b3e5-0f11095362b9",
+			"application": "sample_segmentedbutton",
+			"title": "sap.m.SegmentedButton",
+			"description": "sap.m.SegmentedButton"
+		},
+		{
+			"id": "28b6d6c4-3c05-4bb6-af70-46d1c2ea3c03",
+			"application": "sample_radiobutton",
+			"title": "sap.m.RadioButtonGroup - sap.m.RadioButton",
+			"description": "sap.m.RadioButtonGroup - sap.m.RadioButton"
+		},
+		{
+			"id": "270b3448-220b-4a84-98ba-c0fcec54bac6",
+			"application": "sample_blocklayout",
+			"title": "Sample sap.ui.layout.BlockLayout",
+			"description": "sap.ui.layout.BlockLayout"
+		},
+		{
+			"id": "256f040b-65b4-4c84-92ca-ef0e57ad30bd",
+			"application": "sample_daterangeselection",
+			"title": "Sample sap.m.DateRangeSelection",
+			"description": "sap.m.DateRangeSelection"
+		},
+		{
+			"id": "255039e9-b322-48b3-8479-7f3239d4a5a1",
+			"application": "sample_image",
+			"title": "Sample sap.m.Image",
+			"description": "sap.m.Image"
+		},
+		{
+			"id": "21f8bc8f-9c7d-4c9f-b6e6-996bb221df44",
+			"application": "sample_combobox",
+			"title": "Sample sap.m.ComboBox",
+			"description": "sap.m.ComboBox"
+		},
+		{
+			"id": "1d8dc983-5b96-42e8-8e8a-3d7669cc89d9",
+			"application": "sample_scrollcontainer",
+			"title": "sap.m.ScrollContainer - sap.ui.layout.Grid - sap.uxap.ObjectPageLayout",
+			"description": "sap.m.ScrollContainer - sap.ui.layout.Grid - sap.uxap.ObjectPageLayout"
+		},
+		{
+			"id": "1ac4788c-0f75-4df0-a97b-ae0f35963166",
+			"application": "sample_navigationlistitem",
+			"title": "sap.tnt.NavigationList - sap.tnt",
+			"description": "sap.tnt.NavigationList - sap.tnt"
+		},
+		{
+			"id": "19e82b4a-76b1-484a-ab87-8f97ea11d908",
+			"application": "sample_objectidentifier",
+			"title": "sap.m.ObjectIdentifier",
+			"description": "sap.m.ObjectIdentifier"
+		},
+		{
+			"id": "16752745-ef6d-40d7-a6a5-a87bcc4fad3e",
+			"application": "sample_colorpicker",
+			"title": "Sample sap.ui.unified.ColorPicker",
+			"description": "sap.ui.unified.ColorPicker"
+		},
+		{
+			"id": "12781ec5-dbea-4d75-b6eb-0651470e1141",
+			"application": "sample_splitcontainer",
+			"title": "sap.ui.unified.SplitContainer",
+			"description": "sap.ui.unified.SplitContainer"
+		},
+		{
+			"id": "0fc49908-adb6-4ee7-847d-550527512088",
+			"application": "sample_draftindicator",
+			"title": "Sample sap.m.DraftIndicator",
+			"description": "sap.m.DraftIndicator"
+		},
+		{
+			"id": "0fc18787-1833-4c61-b922-427a39df8a20",
+			"application": "sample_icontabbar",
+			"title": "sap.m.IconTabBar - sap.m.IconTabFilter - sap.ui.layout.form.SimpleForm",
+			"description": "sap.m.IconTabBar - sap.m.IconTabFilter - sap.ui.layout.form.SimpleForm"
+		},
+		{
+			"id": "0d1a80e4-394d-474d-b841-15a9c0172a8c",
+			"application": "sample_carousel2",
+			"title": "Sample sap.m.Carousel",
+			"description": "sap.m.Carousel"
+		},
+		{
+			"id": "0ae9754c-0a6e-4dcf-b41d-984872e2d912",
+			"application": "sample_showdialog",
+			"title": "Dialogs - sap.m.Dialog - sap.m.MessageBox",
+			"description": "Dialogs - sap.m.Dialog - sap.m.MessageBox"
+		},
+		{
+			"id": "02df82a4-ef0d-48d2-b37c-065632a70fe4",
+			"application": "sample_checkbox",
+			"title": "Sample sap.m.CheckBox",
+			"description": "sap.m.CheckBox"
+		},
+		{
+			"id": "0156cf27-8ada-4d1f-87c8-51681e48acf7",
+			"application": "sample_tabcontainer",
+			"title": "sap.m.TabContainer - sap.m.TabContainerItem",
+			"description": "sap.m.TabContainer - sap.m.TabContainerItem"
+		},
+		{
+			"id": "00e2527d-5ce5-486d-89e9-da14859bd657",
+			"application": "sample_multicombobox",
+			"title": "Sample sap.m.MultiComboBox",
+			"description": "sap.m.MultiComboBox"
+		},
+		{
+			"id": "0069fc44-60b4-46a8-9c6d-56b6d4f36086",
+			"application": "sample_ui_calendar",
+			"title": "sap.ui.unified.Calendar",
+			"description": "sap.ui.unified.Calendar"
+		}
+	],
+	"api": [
+		{
+			"id": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
+			"name": "SAP Local API (SDK)",
+			"description": "Test SAP API",
+			"apiGroup": null
+		}
+	],
+	"odataSource": [
+		{
+			"id": "37ab79e3-622f-4551-89bd-82fac085afd6",
+			"name": "SAPTravel",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"media_library": [
+		{
+			"id": "DD98B6EF-1B8D-ED11-AC20-0050F2C64626",
+			"updatedAt": "2023-02-06T16:44:18.773Z",
+			"name": "SampleApps",
+			"parent": null,
+			"package": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
+		}
+	]
+}

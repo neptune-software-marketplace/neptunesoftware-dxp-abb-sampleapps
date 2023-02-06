@@ -1,0 +1,743 @@
+{
+	"id": "28b6d6c4-3c05-4bb6-af70-46d1c2ea3c03",
+	"createdAt": "2022-06-10T12:49:18.350Z",
+	"createdBy": "serviceuser",
+	"objects": [
+		{
+			"fieldNo": "1",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "2",
+					"fieldName": "oApp",
+					"fieldParent": "1",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "4",
+							"fieldName": "oPage",
+							"fieldParent": "2",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Radio Button",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "ffd5d5aa-93bd-4ffc-df67-316fa8b435e0",
+									"fieldName": "oVBox",
+									"fieldParent": "4",
+									"fieldType": "sap.m.VBox",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "9b14c1a6-0bba-4c3d-9dca-4ca05058052d",
+											"fieldName": "oLabel",
+											"fieldParent": "ffd5d5aa-93bd-4ffc-df67-316fa8b435e0",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Matrix Layout",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "f0193e98-8d2f-4f88-f8f6-cfe7f4e1832e",
+											"fieldName": "oRadioButtonGroup",
+											"fieldParent": "ffd5d5aa-93bd-4ffc-df67-316fa8b435e0",
+											"fieldType": "sap.m.RadioButtonGroup",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "columns",
+													"grouping": "Properties",
+													"value": "3",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "449e6228-787c-4d46-9692-6ce7a02ec7e1",
+													"fieldName": "oRadioButton",
+													"fieldParent": "f0193e98-8d2f-4f88-f8f6-cfe7f4e1832e",
+													"fieldType": "sap.m.RadioButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Option 1",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "bfa0f168-f676-474b-ad89-475bebadbc53",
+													"fieldName": "oRadioButton1",
+													"fieldParent": "f0193e98-8d2f-4f88-f8f6-cfe7f4e1832e",
+													"fieldType": "sap.m.RadioButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Option 2",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "5bae0b44-baeb-49b4-9e0a-d69608320e05",
+													"fieldName": "oRadioButton2",
+													"fieldParent": "f0193e98-8d2f-4f88-f8f6-cfe7f4e1832e",
+													"fieldType": "sap.m.RadioButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Option 3",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "856d9bf4-3a69-42db-e21f-d82186afd0ce",
+											"fieldName": "oLabel1",
+											"fieldParent": "ffd5d5aa-93bd-4ffc-df67-316fa8b435e0",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "An example with 3 buttons with 2 columns",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "6c3ef1c0-d703-4847-9707-1b14dd981061",
+											"fieldName": "oRadioButtonGroup1",
+											"fieldParent": "ffd5d5aa-93bd-4ffc-df67-316fa8b435e0",
+											"fieldType": "sap.m.RadioButtonGroup",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "columns",
+													"grouping": "Properties",
+													"value": "2",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "763f91a9-276d-4584-e6a6-e9a2c7e7d9ca",
+													"fieldName": "oRadioButton3",
+													"fieldParent": "6c3ef1c0-d703-4847-9707-1b14dd981061",
+													"fieldType": "sap.m.RadioButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Option 1",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "f7b4593e-526b-4209-b354-5bd611226717",
+													"fieldName": "oRadioButton4",
+													"fieldParent": "6c3ef1c0-d703-4847-9707-1b14dd981061",
+													"fieldType": "sap.m.RadioButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Option 2",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "2f0bd71c-633b-42c6-866c-bbd1f021e774",
+													"fieldName": "oRadioButton5",
+													"fieldParent": "6c3ef1c0-d703-4847-9707-1b14dd981061",
+													"fieldType": "sap.m.RadioButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Option 3",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "983e4394-98e7-40af-bc53-e1ec7c202fc9",
+											"fieldName": "oLabel2",
+											"fieldParent": "ffd5d5aa-93bd-4ffc-df67-316fa8b435e0",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Disabled Radio button",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "515c922e-5389-406e-df06-b25e3125061f",
+											"fieldName": "oRadioButtonGroup2",
+											"fieldParent": "ffd5d5aa-93bd-4ffc-df67-316fa8b435e0",
+											"fieldType": "sap.m.RadioButtonGroup",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "enabled",
+													"grouping": "Properties",
+													"value": "false",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "c6a4738a-1479-4ca4-a8ff-c7d8da283b62",
+													"fieldName": "oRadioButton6",
+													"fieldParent": "515c922e-5389-406e-df06-b25e3125061f",
+													"fieldType": "sap.m.RadioButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Option 1",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "b90c522f-7f08-4680-c8ec-8456480c2745",
+													"fieldName": "oRadioButton7",
+													"fieldParent": "515c922e-5389-406e-df06-b25e3125061f",
+													"fieldType": "sap.m.RadioButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Option 2",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "bb0057d1-e00d-410d-aeaf-386cba4bbabb",
+													"fieldName": "oRadioButton8",
+													"fieldParent": "515c922e-5389-406e-df06-b25e3125061f",
+													"fieldType": "sap.m.RadioButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Option 3",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "968053a7-19f5-4bca-ad3e-2a6b3502db59",
+											"fieldName": "oLabel4",
+											"fieldParent": "ffd5d5aa-93bd-4ffc-df67-316fa8b435e0",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Radio group with value state( Error)",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "7d96fadc-6c35-414f-8dd5-0fc49a94940d",
+											"fieldName": "oRadioButtonGroup3",
+											"fieldParent": "ffd5d5aa-93bd-4ffc-df67-316fa8b435e0",
+											"fieldType": "sap.m.RadioButtonGroup",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "valueState",
+													"grouping": "Properties",
+													"value": "Error",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "b6ca2681-5ee5-48b1-9758-6571963571bc",
+													"fieldName": "oRadioButton13",
+													"fieldParent": "7d96fadc-6c35-414f-8dd5-0fc49a94940d",
+													"fieldType": "sap.m.RadioButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Option 1",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "4d2335f1-aa79-465f-d02a-be8d062d67d4",
+													"fieldName": "oRadioButton14",
+													"fieldParent": "7d96fadc-6c35-414f-8dd5-0fc49a94940d",
+													"fieldType": "sap.m.RadioButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Option 2",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "1164874a-2e3f-488e-c0f1-ddc02497c7a8",
+											"fieldName": "oLabel3",
+											"fieldParent": "ffd5d5aa-93bd-4ffc-df67-316fa8b435e0",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Radio button with Value state",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "27572417-0ee0-423d-abf5-8592e1867c39",
+											"fieldName": "oRadioButton9",
+											"fieldParent": "ffd5d5aa-93bd-4ffc-df67-316fa8b435e0",
+											"fieldType": "sap.m.RadioButton",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "valueState",
+													"grouping": "Properties",
+													"value": "Error",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Option 1 (Error)",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "c304119b-02cf-43b3-845e-f10e9127b0b7",
+											"fieldName": "oRadioButton10",
+											"fieldParent": "ffd5d5aa-93bd-4ffc-df67-316fa8b435e0",
+											"fieldType": "sap.m.RadioButton",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "valueState",
+													"grouping": "Properties",
+													"value": "None",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Option 2 (None)",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "5fa08682-e205-4f33-a4ff-11100d108013",
+											"fieldName": "oRadioButton11",
+											"fieldParent": "ffd5d5aa-93bd-4ffc-df67-316fa8b435e0",
+											"fieldType": "sap.m.RadioButton",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "valueState",
+													"grouping": "Properties",
+													"value": "Success",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Option 3 (Success)",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "818e4159-75cc-44e8-e2f3-25bc6169e88c",
+											"fieldName": "oRadioButton12",
+											"fieldParent": "ffd5d5aa-93bd-4ffc-df67-316fa8b435e0",
+											"fieldType": "sap.m.RadioButton",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "valueState",
+													"grouping": "Properties",
+													"value": "Warning",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Option 4 (Warning)",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "5",
+									"fieldName": "oFooter",
+									"fieldParent": "4",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "6",
+											"fieldName": "Left",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "ce6c64e6-1267-4c63-c3a6-985c2f97ec9b",
+													"fieldName": "oButton",
+													"fieldParent": "6",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Open In App Designer",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "7",
+											"fieldName": "Middle",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentMiddle",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "8",
+											"fieldName": "Right",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "f5c7c7d3-1feb-445d-ad0d-64a0923b9750",
+													"fieldName": "butCompact",
+													"fieldParent": "8",
+													"fieldType": "sap.m.ToggleButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Compact",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": null,
+	"ver": "20.11.25.173",
+	"application": "sample_radiobutton",
+	"title": "sap.m.RadioButtonGroup - sap.m.RadioButton",
+	"description": "sap.m.RadioButtonGroup - sap.m.RadioButton",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_belize",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

@@ -1,0 +1,892 @@
+{
+	"id": "d4fa3fb3-6111-4d62-a01b-78b2b7ff878e",
+	"createdAt": "2022-06-10T12:49:19.766Z",
+	"createdBy": "serviceuser",
+	"objects": [
+		{
+			"fieldNo": "8f1f4190-008a-41e0-e2a0-bb7b541945cf",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "002bcc76-7fb4-4653-f795-2dcb16138289",
+					"fieldName": "oApp",
+					"fieldParent": "8f1f4190-008a-41e0-e2a0-bb7b541945cf",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "a545e80e-87b8-489b-d56b-acd1ecd09be6",
+							"fieldName": "oPage",
+							"fieldParent": "002bcc76-7fb4-4653-f795-2dcb16138289",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "IconTabBar",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "356e628a-96fc-4cfc-afde-fc2a2e66b383",
+									"fieldName": "oBarFooter",
+									"fieldParent": "a545e80e-87b8-489b-d56b-acd1ecd09be6",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "3e99e5d0-5495-4c00-8899-f1392072a3c5",
+											"fieldName": "Left",
+											"fieldParent": "356e628a-96fc-4cfc-afde-fc2a2e66b383",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "aab6c521-f6c5-484b-f4d6-249ec5a0861d",
+													"fieldName": "oButton",
+													"fieldParent": "3e99e5d0-5495-4c00-8899-f1392072a3c5",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Open in App Designer",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "a9c861da-6c35-4c7c-ed72-ebe4c02eb51c",
+											"fieldName": "Right",
+											"fieldParent": "356e628a-96fc-4cfc-afde-fc2a2e66b383",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "c9369394-d53c-4f63-c911-f5a2e86c8b0d",
+													"fieldName": "butCompact",
+													"fieldParent": "a9c861da-6c35-4c7c-ed72-ebe4c02eb51c",
+													"fieldType": "sap.m.ToggleButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Compact",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "1813adc9-1513-47ae-8d4b-cc7009933c6d",
+									"fieldName": "oPanel",
+									"fieldParent": "a545e80e-87b8-489b-d56b-acd1ecd09be6",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "IconTabBar - Icons And Count",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "2e5a6fd5-2058-4028-8d88-0d061636f8d4",
+											"fieldName": "oIconTabBarIcons",
+											"fieldParent": "1813adc9-1513-47ae-8d4b-cc7009933c6d",
+											"fieldType": "sap.m.IconTabBar",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "30c77155-6536-48dc-da19-0a0f9e513667",
+													"fieldName": "oIconTabFilter",
+													"fieldParent": "2e5a6fd5-2058-4028-8d88-0d061636f8d4",
+													"fieldType": "sap.m.IconTabFilter",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "sap-icon://hint",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "count",
+															"grouping": "Properties",
+															"value": "12",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "d9d12475-465a-451d-bc2f-2fbb5cb2a26f",
+															"fieldName": "oText",
+															"fieldParent": "30c77155-6536-48dc-da19-0a0f9e513667",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "\"Info content goes here ...\"",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "ee6c5c77-9314-48f7-8bc7-e85b78733c94",
+													"fieldName": "oIconTabFilter1",
+													"fieldParent": "2e5a6fd5-2058-4028-8d88-0d061636f8d4",
+													"fieldType": "sap.m.IconTabFilter",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "sap-icon://action",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "count",
+															"grouping": "Properties",
+															"value": "10",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "2cec168b-5397-4296-ab61-6ec85e2872bf",
+															"fieldName": "oText1",
+															"fieldParent": "ee6c5c77-9314-48f7-8bc7-e85b78733c94",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Export content goes here....",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "cef8c32f-b13e-480c-8311-629b7130e1a6",
+													"fieldName": "oIconTabFilter2",
+													"fieldParent": "2e5a6fd5-2058-4028-8d88-0d061636f8d4",
+													"fieldType": "sap.m.IconTabFilter",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "sap-icon://add-favorite",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "count",
+															"grouping": "Properties",
+															"value": "8",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "40fd7aab-037d-4ddf-d3bd-046815450ac0",
+															"fieldName": "oText2",
+															"fieldParent": "cef8c32f-b13e-480c-8311-629b7130e1a6",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Favorite content goes here....",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "f81207c9-2073-41de-b819-01634bfa3c1a",
+									"fieldName": "oPanel1",
+									"fieldParent": "a545e80e-87b8-489b-d56b-acd1ecd09be6",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "IconTabBar - Text and count",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "8d47425f-a2cb-4596-be3c-7ad624b6f223",
+											"fieldName": "oIconTabBarText",
+											"fieldParent": "f81207c9-2073-41de-b819-01634bfa3c1a",
+											"fieldType": "sap.m.IconTabBar",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "7a240639-31f5-45c8-c579-fb3508186465",
+													"fieldName": "oIconTabFilter4",
+													"fieldParent": "8d47425f-a2cb-4596-be3c-7ad624b6f223",
+													"fieldType": "sap.m.IconTabFilter",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "INFO",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "count",
+															"grouping": "Properties",
+															"value": "12",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "ed05d273-7a18-49f7-964c-ecdea863774e",
+															"fieldName": "oText3",
+															"fieldParent": "7a240639-31f5-45c8-c579-fb3508186465",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Info content goes here...",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "0867e1b8-761a-44f3-8b20-fc709300a716",
+													"fieldName": "oIconTabFilter3",
+													"fieldParent": "8d47425f-a2cb-4596-be3c-7ad624b6f223",
+													"fieldType": "sap.m.IconTabFilter",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "EXPORT",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "count",
+															"grouping": "Properties",
+															"value": "10",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "75ba53d6-61ee-4bc3-a320-47be02b30f99",
+															"fieldName": "oText4",
+															"fieldParent": "0867e1b8-761a-44f3-8b20-fc709300a716",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Export content goes here",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "e98d25fc-48be-4e07-8144-bd6bd1ef14a5",
+													"fieldName": "oIconTabFilter5",
+													"fieldParent": "8d47425f-a2cb-4596-be3c-7ad624b6f223",
+													"fieldType": "sap.m.IconTabFilter",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "FAVORITES",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "count",
+															"grouping": "Properties",
+															"value": "8",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "95b542f3-2641-4bdb-eeef-dce00238024e",
+															"fieldName": "oText5",
+															"fieldParent": "e98d25fc-48be-4e07-8144-bd6bd1ef14a5",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Favorite content goes here",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "ed7d2bdd-8c55-42ae-b175-a546f687eb28",
+									"fieldName": "oPanel2",
+									"fieldParent": "a545e80e-87b8-489b-d56b-acd1ecd09be6",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "IconTabBar - Text and Icon - Icon color",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "1fd375b4-d403-4dac-fa22-352b9eafd688",
+											"fieldName": "oIconTabBar",
+											"fieldParent": "ed7d2bdd-8c55-42ae-b175-a546f687eb28",
+											"fieldType": "sap.m.IconTabBar",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "headerMode",
+													"grouping": "Properties",
+													"value": "Inline",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "12f7e9e0-1034-484a-97e2-e3173c65a011",
+													"fieldName": "oIconTabFilter6",
+													"fieldParent": "1fd375b4-d403-4dac-fa22-352b9eafd688",
+													"fieldType": "sap.m.IconTabFilter",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "INFO",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "iconColor",
+															"grouping": "Properties",
+															"value": "Critical",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "sap-icon://hint",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "count",
+															"grouping": "Properties",
+															"value": "12",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "7112731b-2ede-486c-b202-fe6525d7baba",
+													"fieldName": "oIconTabFilter7",
+													"fieldParent": "1fd375b4-d403-4dac-fa22-352b9eafd688",
+													"fieldType": "sap.m.IconTabFilter",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "EXPORT",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "iconColor",
+															"grouping": "Properties",
+															"value": "Negative",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "sap-icon://action",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "count",
+															"grouping": "Properties",
+															"value": "10",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "d821ba72-cd7d-42fb-9a0d-081aa3fa0f67",
+													"fieldName": "oIconTabFilter8",
+													"fieldParent": "1fd375b4-d403-4dac-fa22-352b9eafd688",
+													"fieldType": "sap.m.IconTabFilter",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Favorite",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "iconColor",
+															"grouping": "Properties",
+															"value": "Positive",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "sap-icon://add-favorite",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "count",
+															"grouping": "Properties",
+															"value": "8",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "1d10d2d7-592b-44ff-c01c-df1b3497fd66",
+									"fieldName": "oPanel3",
+									"fieldParent": "a545e80e-87b8-489b-d56b-acd1ecd09be6",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "IconTabBar - headerMode-Inline ",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "348bfa80-8d57-45c1-b566-5b1c0bf0b724",
+											"fieldName": "oIconTabBar1",
+											"fieldParent": "1d10d2d7-592b-44ff-c01c-df1b3497fd66",
+											"fieldType": "sap.m.IconTabBar",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "headerMode",
+													"grouping": "Properties",
+													"value": "Inline",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "7bd2770a-59c8-47b2-b088-bffc72c71673",
+													"fieldName": "oIconTabFilter9",
+													"fieldParent": "348bfa80-8d57-45c1-b566-5b1c0bf0b724",
+													"fieldType": "sap.m.IconTabFilter",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "INFO",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "count",
+															"grouping": "Properties",
+															"value": "12",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "cab47e6d-cbdd-49b2-f66a-40fc1fa2fe19",
+													"fieldName": "oIconTabFilter10",
+													"fieldParent": "348bfa80-8d57-45c1-b566-5b1c0bf0b724",
+													"fieldType": "sap.m.IconTabFilter",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "EXPORT",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "count",
+															"grouping": "Properties",
+															"value": "10",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "9816a6d5-6460-4c8d-96fe-be3db71cfda1",
+													"fieldName": "oIconTabFilter11",
+													"fieldParent": "348bfa80-8d57-45c1-b566-5b1c0bf0b724",
+													"fieldType": "sap.m.IconTabFilter",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Fovorite",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "count",
+															"grouping": "Properties",
+															"value": "8",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "9709fba3-3d60-4ed1-d397-a961d60ad7cc",
+					"fieldName": "oRestAPI",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"restSource": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
+					"restOperation": "d868597a-6840-4122-f87d-3c21a1fd0eb5",
+					"request": [],
+					"response": [
+						{
+							"status": "200",
+							"dataId": "542e0a50-416e-4111-fff4-789457c22b0c",
+							"modelFieldNo": "7a0a561d-d125-4de6-ca2e-b53293c8e0c8"
+						}
+					],
+					"attributes": [
+						{
+							"attribute": "setInitLoad",
+							"grouping": "Model",
+							"value": "online",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "7a0a561d-d125-4de6-ca2e-b53293c8e0c8",
+					"fieldName": "oMultiModel",
+					"fieldParent": 99999,
+					"fieldType": "neptune.model",
+					"script": "",
+					"bindingValue": "SAP Local API (SDK)>getCustomerListResponse",
+					"bindingType": "h",
+					"bindingSource": "API",
+					"bindingParentID": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
+					"bindingPathID": "542e0a50-416e-4111-fff4-789457c22b0c",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": null,
+	"ver": "20.11.25.1729",
+	"application": "sample_icontabfilter",
+	"title": "sap.m.IconTabBar - sap.m.IconTabFilter",
+	"description": "sap.m.IconTabBar - sap.m.IconTabFilter ",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_belize",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [
+		{
+			"id": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
+			"name": "SAP Local API (SDK)",
+			"ver": "20.11.18.2226"
+		}
+	],
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

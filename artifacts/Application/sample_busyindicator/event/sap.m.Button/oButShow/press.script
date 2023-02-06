@@ -1,0 +1,3 @@
+oBusyIndicator.setVisible(true);
+oBusyIndicator1.setVisible(true);
+oBusyIndicator1.rerender();

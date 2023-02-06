@@ -1,0 +1,4 @@
+var cont = new sap.m.TabContainerItem();
+cont.setName("Purchase Requisition");
+oTabContainer.addItem(cont);
+oTabContainer.setSelectedItem(cont);

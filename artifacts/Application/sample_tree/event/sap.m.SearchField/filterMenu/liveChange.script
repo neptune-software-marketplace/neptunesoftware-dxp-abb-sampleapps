@@ -1,0 +1,3 @@
+var binding = oTreeMenu.getBinding("items");
+var filter = new sap.ui.model.Filter("Name", "Contains", this.getValue());
+binding.filter([filter]);

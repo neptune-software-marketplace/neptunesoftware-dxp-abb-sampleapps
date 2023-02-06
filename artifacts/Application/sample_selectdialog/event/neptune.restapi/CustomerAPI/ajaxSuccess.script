@@ -1,0 +1,4 @@
+var customers = modeloMultiModelCustomer.oData.result.IT_CUSTOMER;
+
+modelcustomerDetails.setData(customers);
+modelcustomersMultiSelect.setData(customers);

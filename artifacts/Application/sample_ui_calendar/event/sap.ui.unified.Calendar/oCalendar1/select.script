@@ -1,0 +1,23 @@
+	var oCalendar = oEvent.getSource();
+	var oSelectedDates = oCalendar.getSelectedDates()[0];
+	var oDate, oSelectedDateFrom, oSelectedDateTo;
+
+	// Replace yourField and change pattern
+	jQuery.sap.require("sap.ui.core.format.DateFormat");
+	var oSapFormat = sap.ui.core.format.DateFormat.getDateTimeInstance({
+	    pattern: "yyyy/MM/dd"
+	});
+
+	if (oSelectedDates) {
+	    oDate = oSelectedDates.getStartDate();
+	    if (oDate) {
+	        oSelectedDateFrom = oSapFormat.format(oDate);
+	    }
+	    oDate = oSelectedDates.getEndDate();
+	    if (oDate) {
+	        oSelectedDateTo = oSapFormat.format(oDate);
+	    }
+	}
+
+	oText1.setText(oSelectedDateFrom);
+	oText2.setText(oSelectedDateTo);

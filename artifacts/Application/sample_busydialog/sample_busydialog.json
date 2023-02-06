@@ -1,0 +1,276 @@
+{
+	"id": "c4052dd9-d580-46bf-a444-db1aab348ea1",
+	"createdAt": "2022-06-10T12:49:23.633Z",
+	"createdBy": "serviceuser",
+	"objects": [
+		{
+			"fieldNo": "d0ee1458-94e4-4b52-e878-3b9f24e26e87",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "bf5a8211-48b1-4ae3-8bc5-ffd62268d3ee",
+					"fieldName": "oApp",
+					"fieldParent": "d0ee1458-94e4-4b52-e878-3b9f24e26e87",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "0785f8bf-7009-43ee-ea51-88c50efeb55a",
+							"fieldName": "oPage",
+							"fieldParent": "bf5a8211-48b1-4ae3-8bc5-ffd62268d3ee",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "BusyDialog",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "aa104f65-96bf-44fb-bfc0-0f3085fd3283",
+									"fieldName": "oText",
+									"fieldParent": "0785f8bf-7009-43ee-ea51-88c50efeb55a",
+									"fieldType": "sap.m.Text",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Click Open Dialog Button",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "9ad13232-db9f-434d-ee35-b35a90f67b0a",
+									"fieldName": "oBusyDialog",
+									"fieldParent": "0785f8bf-7009-43ee-ea51-88c50efeb55a",
+									"fieldType": "sap.m.BusyDialog",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "title",
+											"grouping": "Properties",
+											"value": "Dialog Title",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Busy Dialog Text",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "showCancelButton",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "b1873a08-6b81-4fe1-975b-b4b76bb98951",
+									"fieldName": "oBarFooter",
+									"fieldParent": "0785f8bf-7009-43ee-ea51-88c50efeb55a",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "35dadb54-558e-47f3-c271-f1f34eacb03a",
+											"fieldName": "Left",
+											"fieldParent": "b1873a08-6b81-4fe1-975b-b4b76bb98951",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "cb51b1ca-9cca-40ba-8b08-9236e0446e62",
+													"fieldName": "oButton1",
+													"fieldParent": "35dadb54-558e-47f3-c271-f1f34eacb03a",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Open In App Designer",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButton1/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "5dc40d38-93dd-4371-ace1-0e92dfc7ae0b",
+											"fieldName": "Right",
+											"fieldParent": "b1873a08-6b81-4fe1-975b-b4b76bb98951",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "d8cde57d-4eb7-4882-c333-d654789933ce",
+													"fieldName": "oButton",
+													"fieldParent": "5dc40d38-93dd-4371-ace1-0e92dfc7ae0b",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Open Dialog",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "oBusyDialog.open();",
+															"script": "oBusyDialog.open();",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": null,
+	"ver": "20.11.25.1744",
+	"application": "sample_busydialog",
+	"title": "Sample sap.m.BusyDialog",
+	"description": "sap.m.BusyDialog",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_belize",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

@@ -1,0 +1,1155 @@
+{
+	"id": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
+	"createdAt": "2022-06-10T12:49:13.043Z",
+	"createdBy": "serviceuser",
+	"auth": [
+		{
+			"role": "DEF",
+			"apiAuth": "59A0C115-4624-EB11-B9ED-0003FF5948CD",
+			"authName": "NeptuneTemplateBasic",
+			"authDesc": "",
+			"id": "3c0fea66-2ca6-4c53-b83b-6e987883a618"
+		}
+	],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "d868597a-6840-4122-f87d-3c21a1fd0eb5",
+			"path": "/CustomerList",
+			"description": "Get Customer List",
+			"summary": "Get Customer List",
+			"method": "GET",
+			"example": "",
+			"responses": [
+				{
+					"status": "200",
+					"description": "Status 200",
+					"headers": [],
+					"content": [
+						{
+							"name": "getCustomerListResponse"
+						}
+					]
+				},
+				{
+					"status": "404",
+					"description": "Status 404",
+					"headers": [],
+					"content": [
+						{
+							"name": "errorResponse"
+						}
+					]
+				}
+			],
+			"headers": [],
+			"parameters": [
+				{
+					"name": "SALESORG",
+					"description": "Sales Organization",
+					"inPath": false,
+					"default": "1000",
+					"required": true,
+					"type": "string"
+				},
+				{
+					"name": "FILTER",
+					"description": "Customer Name Filter",
+					"inPath": false,
+					"default": "",
+					"required": false,
+					"type": "string"
+				},
+				{
+					"name": "$select",
+					"description": "Select fieldnames to be returned. Separated by comma",
+					"inPath": false,
+					"required": false,
+					"type": "string"
+				},
+				{
+					"name": "sap-user",
+					"description": "SAP Username",
+					"inPath": false,
+					"required": false,
+					"type": "string"
+				},
+				{
+					"name": "sap-password",
+					"description": "SAP Password",
+					"inPath": false,
+					"required": false,
+					"type": "string"
+				},
+				{
+					"name": "sap-client",
+					"description": "SAP Client",
+					"inPath": false,
+					"default": "800",
+					"required": true,
+					"type": "string"
+				}
+			],
+			"content": [],
+			"tags": "Customer"
+		},
+		{
+			"id": "a04d345f-2b84-44c0-b9b1-59005e79ebf0",
+			"path": "/OrderList",
+			"description": "Get Order List",
+			"summary": "Get Order List",
+			"method": "GET",
+			"example": "",
+			"responses": [
+				{
+					"status": "200",
+					"description": "Status 200",
+					"headers": [],
+					"content": [
+						{
+							"name": "getOrderListResponse"
+						}
+					]
+				},
+				{
+					"status": "404",
+					"description": "Status 404",
+					"headers": [],
+					"content": [
+						{
+							"name": "errorResponse"
+						}
+					]
+				}
+			],
+			"headers": [],
+			"parameters": [
+				{
+					"name": "SALESORG",
+					"description": "Sales Organization",
+					"inPath": false,
+					"default": "1000",
+					"required": true,
+					"type": "string"
+				},
+				{
+					"name": "CUSTOMERID",
+					"description": "Customer Number",
+					"inPath": false,
+					"default": "",
+					"required": true,
+					"type": "string"
+				},
+				{
+					"name": "$select",
+					"description": "Select fieldnames to be returned. Separated by comma",
+					"inPath": false,
+					"required": false,
+					"type": "string"
+				},
+				{
+					"name": "sap-user",
+					"description": "SAP Username",
+					"inPath": false,
+					"required": false,
+					"type": "string"
+				},
+				{
+					"name": "sap-password",
+					"description": "SAP Password",
+					"inPath": false,
+					"required": false,
+					"type": "string"
+				},
+				{
+					"name": "sap-client",
+					"description": "SAP Client",
+					"inPath": false,
+					"default": "800",
+					"required": true,
+					"type": "string"
+				}
+			],
+			"content": [],
+			"tags": "Order"
+		}
+	],
+	"definitions": [
+		{
+			"id": "542e0a50-416e-4111-fff4-789457c22b0c",
+			"name": "getCustomerListResponse",
+			"properties": [
+				{
+					"id": "001f6c96-4c18-4776-fb4c-bf3dff8b7164",
+					"name": "KUNNR",
+					"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+					"description": "Customer",
+					"pattern": "",
+					"example": "",
+					"objectType": "string",
+					"isParent": false,
+					"children": []
+				},
+				{
+					"id": "1d3abd94-29d6-4607-b170-7376988e206a",
+					"name": "NAME1",
+					"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+					"description": "Name 1",
+					"pattern": "",
+					"example": "",
+					"objectType": "string",
+					"isParent": false,
+					"children": []
+				},
+				{
+					"id": "8cf13975-106e-4a28-af72-430960fc95ea",
+					"name": "ORT01",
+					"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+					"description": "City",
+					"pattern": "",
+					"example": "",
+					"objectType": "string",
+					"isParent": false,
+					"children": []
+				},
+				{
+					"id": "6fd51d87-931d-4db2-f003-d9bb1e7d00b9",
+					"name": "LAND1",
+					"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+					"description": "Country Key",
+					"pattern": "",
+					"example": "",
+					"objectType": "string",
+					"isParent": false,
+					"children": []
+				},
+				{
+					"id": "49a7a8f4-8653-4827-b704-35604408c28a",
+					"name": "SELECTED",
+					"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+					"description": "",
+					"pattern": "",
+					"example": "",
+					"objectType": "string",
+					"isParent": false,
+					"children": []
+				},
+				{
+					"id": "273090cb-4b8f-4414-9060-c5e7fd5b6c74",
+					"name": "STRAS",
+					"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+					"description": "House number/street",
+					"pattern": "",
+					"example": "",
+					"objectType": "string",
+					"isParent": false,
+					"children": []
+				},
+				{
+					"id": "a86ce822-d317-49c0-8a69-1cffd95cee0d",
+					"name": "PSTLZ",
+					"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+					"description": "Postal Code",
+					"pattern": "",
+					"example": "",
+					"objectType": "string",
+					"isParent": false,
+					"children": []
+				},
+				{
+					"id": "b734b19f-36b7-41ae-8d96-f8f676288df0",
+					"name": "TELF1",
+					"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+					"description": "Telephone 1",
+					"pattern": "",
+					"example": "",
+					"objectType": "string",
+					"isParent": false,
+					"children": []
+				},
+				{
+					"id": "bb5f2101-7ccc-49af-e350-86c289902427",
+					"name": "IT_CUSTOMER",
+					"parent": "09061009-0a33-48eb-f440-47d915a4fa70",
+					"description": "",
+					"pattern": "",
+					"example": "",
+					"objectType": "object",
+					"isParent": true,
+					"children": [
+						{
+							"id": "001f6c96-4c18-4776-fb4c-bf3dff8b7164",
+							"name": "KUNNR",
+							"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+							"description": "Customer",
+							"pattern": "",
+							"example": "",
+							"objectType": "string",
+							"isParent": false,
+							"children": []
+						},
+						{
+							"id": "1d3abd94-29d6-4607-b170-7376988e206a",
+							"name": "NAME1",
+							"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+							"description": "Name 1",
+							"pattern": "",
+							"example": "",
+							"objectType": "string",
+							"isParent": false,
+							"children": []
+						},
+						{
+							"id": "8cf13975-106e-4a28-af72-430960fc95ea",
+							"name": "ORT01",
+							"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+							"description": "City",
+							"pattern": "",
+							"example": "",
+							"objectType": "string",
+							"isParent": false,
+							"children": []
+						},
+						{
+							"id": "6fd51d87-931d-4db2-f003-d9bb1e7d00b9",
+							"name": "LAND1",
+							"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+							"description": "Country Key",
+							"pattern": "",
+							"example": "",
+							"objectType": "string",
+							"isParent": false,
+							"children": []
+						},
+						{
+							"id": "49a7a8f4-8653-4827-b704-35604408c28a",
+							"name": "SELECTED",
+							"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+							"description": "",
+							"pattern": "",
+							"example": "",
+							"objectType": "string",
+							"isParent": false,
+							"children": []
+						},
+						{
+							"id": "273090cb-4b8f-4414-9060-c5e7fd5b6c74",
+							"name": "STRAS",
+							"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+							"description": "House number/street",
+							"pattern": "",
+							"example": "",
+							"objectType": "string",
+							"isParent": false,
+							"children": []
+						},
+						{
+							"id": "a86ce822-d317-49c0-8a69-1cffd95cee0d",
+							"name": "PSTLZ",
+							"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+							"description": "Postal Code",
+							"pattern": "",
+							"example": "",
+							"objectType": "string",
+							"isParent": false,
+							"children": []
+						},
+						{
+							"id": "b734b19f-36b7-41ae-8d96-f8f676288df0",
+							"name": "TELF1",
+							"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+							"description": "Telephone 1",
+							"pattern": "",
+							"example": "",
+							"objectType": "string",
+							"isParent": false,
+							"children": []
+						}
+					]
+				},
+				{
+					"id": "09061009-0a33-48eb-f440-47d915a4fa70",
+					"name": "result",
+					"parent": "",
+					"description": "",
+					"pattern": "",
+					"example": "",
+					"objectType": "object",
+					"isParent": true,
+					"children": [
+						{
+							"id": "bb5f2101-7ccc-49af-e350-86c289902427",
+							"name": "IT_CUSTOMER",
+							"parent": "09061009-0a33-48eb-f440-47d915a4fa70",
+							"description": "",
+							"pattern": "",
+							"example": "",
+							"objectType": "object",
+							"isParent": true,
+							"children": [
+								{
+									"id": "001f6c96-4c18-4776-fb4c-bf3dff8b7164",
+									"name": "KUNNR",
+									"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+									"description": "Customer",
+									"pattern": "",
+									"example": "",
+									"objectType": "string",
+									"isParent": false,
+									"children": []
+								},
+								{
+									"id": "1d3abd94-29d6-4607-b170-7376988e206a",
+									"name": "NAME1",
+									"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+									"description": "Name 1",
+									"pattern": "",
+									"example": "",
+									"objectType": "string",
+									"isParent": false,
+									"children": []
+								},
+								{
+									"id": "8cf13975-106e-4a28-af72-430960fc95ea",
+									"name": "ORT01",
+									"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+									"description": "City",
+									"pattern": "",
+									"example": "",
+									"objectType": "string",
+									"isParent": false,
+									"children": []
+								},
+								{
+									"id": "6fd51d87-931d-4db2-f003-d9bb1e7d00b9",
+									"name": "LAND1",
+									"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+									"description": "Country Key",
+									"pattern": "",
+									"example": "",
+									"objectType": "string",
+									"isParent": false,
+									"children": []
+								},
+								{
+									"id": "49a7a8f4-8653-4827-b704-35604408c28a",
+									"name": "SELECTED",
+									"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+									"description": "",
+									"pattern": "",
+									"example": "",
+									"objectType": "string",
+									"isParent": false,
+									"children": []
+								},
+								{
+									"id": "273090cb-4b8f-4414-9060-c5e7fd5b6c74",
+									"name": "STRAS",
+									"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+									"description": "House number/street",
+									"pattern": "",
+									"example": "",
+									"objectType": "string",
+									"isParent": false,
+									"children": []
+								},
+								{
+									"id": "a86ce822-d317-49c0-8a69-1cffd95cee0d",
+									"name": "PSTLZ",
+									"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+									"description": "Postal Code",
+									"pattern": "",
+									"example": "",
+									"objectType": "string",
+									"isParent": false,
+									"children": []
+								},
+								{
+									"id": "b734b19f-36b7-41ae-8d96-f8f676288df0",
+									"name": "TELF1",
+									"parent": "bb5f2101-7ccc-49af-e350-86c289902427",
+									"description": "Telephone 1",
+									"pattern": "",
+									"example": "",
+									"objectType": "string",
+									"isParent": false,
+									"children": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "4e584fb6-c741-4896-c23a-0d28ce858195",
+			"name": "getOrderListResponse",
+			"properties": [
+				{
+					"id": "32d5221c-8caf-4696-898f-660a51484a67",
+					"name": "SD_DOC",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Sales Document",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "62a4827c-d4ed-4e4f-9018-f106ba18d769",
+					"name": "ITM_NUMBER",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Item (SD)",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "ab897065-4f2a-41c2-afd7-d80e9b193f15",
+					"name": "MATERIAL",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Material",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "e9e3c3cd-8c33-4bc0-ec76-28d3e5f255c9",
+					"name": "SHORT_TEXT",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Description",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "be47d6b5-2605-48cc-83c8-c362e96484da",
+					"name": "DOC_TYPE",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Sales Document Type",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "19ca381c-3065-4c39-9369-368627e6606f",
+					"name": "DOC_DATE",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Document Date",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "56bdc6e8-d08c-4e42-c5f0-b00cf401ee5c",
+					"name": "REQ_QTY",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Order Quantity",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "dc6118a6-a8ed-4c8e-dffa-7d2c744bcc08",
+					"name": "REQ_DATE",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Requested deliv.date",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "1c032976-8618-4edd-8cf8-068490c6dfd6",
+					"name": "PURCH_NO",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Purchase order no.",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "6c81fa25-df0a-47c2-cac8-62e40f8106ed",
+					"name": "BATCH",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Batch",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "094c90c9-6d4d-4e84-957f-8906b04f37eb",
+					"name": "VALID_FROM",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Valid from",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "35249b23-a89f-4233-a6a3-db66d6524341",
+					"name": "VALID_TO",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Valid to",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "5728af42-c056-4f3e-9df9-8ae210058289",
+					"name": "BILL_BLOCK",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Billing block",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "2b352fb7-28ca-487a-e32d-abb70d38061c",
+					"name": "DLV_BLOCK",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Delivery block",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "0bb491f5-907a-4678-b9ee-9a032188644b",
+					"name": "SOLD_TO",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Sold-to party",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "4f2d8de6-90da-4963-fbfc-d1d28b570ec2",
+					"name": "NAME",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Name",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "c3b8706d-8363-4c90-88f9-4cce6cedd407",
+					"name": "EXCHG_RATE",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Exchange rate",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "954510dd-fd68-46d5-9b44-511ef20045d1",
+					"name": "DLV_QTY",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Delivery quantity",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "e21709b7-f2d0-427d-8ca8-7ba82e9a86ce",
+					"name": "BASE_UOM",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Base Unit of Measure",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "b7a6c3f0-df24-4ff2-9654-22690f7745f3",
+					"name": "NET_PRICE",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Net price",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "d7eafcaa-24e7-4241-a53a-9132ed8ddb98",
+					"name": "COND_P_UNT",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Pricing unit",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "190cafe0-1491-4e60-abd1-294f48d52ba6",
+					"name": "COND_UNIT",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Unit of measure",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "23ad0c8d-4b68-4467-b2bf-70f9349c4a86",
+					"name": "NET_VAL_HD",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Net value",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "939f9258-d1f2-4957-e839-840bd9d7eaf8",
+					"name": "NET_VALUE",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Net Value",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "6fd632b1-01fa-46e1-d208-2dc1ab1b09b4",
+					"name": "DIVISION",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Division",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "28a8e6a4-6b21-4210-8076-4e9decb51654",
+					"name": "DOC_STATUS",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Status",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "ec9426dd-b27c-438c-a5c7-54a82e7a93d8",
+					"name": "SALES_GRP",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Sales Group",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "a6d122fe-ad4f-4e89-d576-29c030ce201d",
+					"name": "SALES_OFF",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Sales Office",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "d05cfdf4-4c27-4373-e1a8-39973e227baa",
+					"name": "SALES_ORG",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Sales Organization",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "9042b51f-945e-455b-a5b4-85e3a6b96d2e",
+					"name": "SALES_UNIT",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Sales unit",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "f6789693-a7b9-4bc1-a3d2-47a5d9ffa654",
+					"name": "SHIP_POINT",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Shipping Point/Receiving Pt",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "552eed01-c5df-45f4-8753-d53a10241152",
+					"name": "DISTR_CHAN",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Distribution Channel",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "9bd75f70-4d47-4f72-d416-ae26ee9a4760",
+					"name": "GI_DATE",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Goods Issue Date",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "0c26f7b9-c932-48ea-a6ef-6d1d8654e22f",
+					"name": "CURRENCY",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Document Currency",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "7232c63b-5f50-4be8-aadb-33e5db4318c4",
+					"name": "PLANT",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Plant",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "4c5f5dd0-6d16-4441-f74c-1c5fd70db687",
+					"name": "STORE_LOC",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Storage Location",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "bf97ee6f-54a3-4a0d-912a-2731054c19ab",
+					"name": "ORD_REASON",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Order reason",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "dffbe3db-5968-44d3-ea85-74df7246925c",
+					"name": "REASON_REJ",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Reason for rejection",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "5cb438a6-bec0-481a-e137-88ab879b819e",
+					"name": "B_UOM_ISO",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Base unit ISO code",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "50e74e63-95d6-4ca4-8eb7-3d8c856621fd",
+					"name": "CD_UNT_ISO",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "ISO condition UoM",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "8c41c948-cddb-4442-cf1e-d6c4cd240575",
+					"name": "S_UNIT_ISO",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Sales unit in ISO",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "20e0db45-beb3-40b4-d74c-ea9317a3bc11",
+					"name": "CURR_ISO",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "ISO code currency",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "50a6414c-57d7-4aba-d1c9-2a3adc025933",
+					"name": "PURCH_NO_C",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "PO number",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "ceee6f4c-7433-4a56-82a7-14fa55044b30",
+					"name": "EXCHG_RATE_V",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Exchange rate",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "9c7b51c0-8f81-4639-8b11-3c1bf967dfbb",
+					"name": "MAT_EXT",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Material Number",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "bdac7f68-dc0c-4bf9-b117-a1f0eec23268",
+					"name": "MAT_GUID",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "GUID (External)",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "54ac3c82-7052-4ab4-ae68-e61c51a4b325",
+					"name": "MAT_VERS",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Version Number",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "2a514b7b-ceaf-4c22-dfa9-1a37bfa4cee2",
+					"name": "CREATION_DATE",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Created on",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "26f79659-c873-45c9-ffa1-553f9b12008f",
+					"name": "CREATION_TIME",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Time",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "268867ee-9f42-4320-e135-e54276840dea",
+					"name": "STATUS_DOC",
+					"parent": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"description": "Status",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "355c5ff2-f11a-4b15-ea07-2dda30d3faa1",
+					"name": "IT_ORDER",
+					"parent": "4bc29ee6-760e-4dda-87db-e4e290c5bcf1",
+					"description": "",
+					"pattern": "",
+					"example": "",
+					"objectType": "object"
+				},
+				{
+					"id": "4bc29ee6-760e-4dda-87db-e4e290c5bcf1",
+					"name": "result",
+					"parent": "",
+					"description": "",
+					"pattern": "",
+					"example": "",
+					"objectType": "object"
+				}
+			]
+		},
+		{
+			"id": "49433801-5fd3-4310-f8c8-3523eb6dbfa9",
+			"name": "dataRequest",
+			"description": "Data sent back to SAP",
+			"properties": [
+				{
+					"id": "e5ce4759-d62b-453b-c5aa-e31bcbab622d",
+					"required": true,
+					"name": "KEY",
+					"parent": "",
+					"description": "Name of dataset",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "bd59062d-0e16-4c0b-c890-ba11fa163bcb",
+					"required": true,
+					"name": "VALUE",
+					"parent": "",
+					"description": "JSON String of dataset",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "6cdf917a-f390-43fd-822a-4d6347a87697",
+			"name": "errorResponse",
+			"description": "Error object returned from SAP",
+			"properties": [
+				{
+					"id": "b1917dbb-5539-4c00-c074-13bc4c605507",
+					"name": "errorCode",
+					"parent": "",
+					"description": "Error Code ",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				},
+				{
+					"id": "98bf7af7-47b4-46ff-a991-97f25aa62880",
+					"name": "errorText",
+					"parent": "",
+					"description": "Description of the error",
+					"pattern": "",
+					"example": "",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "5cc7b593-b9ab-4ba9-abb2-0a7d08abba5b",
+			"name": "getCustomer",
+			"description": "",
+			"isInclude": false,
+			"properties": [
+				{
+					"id": "2c2dcd5f-e333-4727-bbd9-f0c56196826e",
+					"name": "KUNNR",
+					"objectType": "string",
+					"description": "Customer ID",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"children": []
+				},
+				{
+					"id": "3b59f2d0-fc91-466a-b36d-7b5f385efa71",
+					"name": "NAME1",
+					"objectType": "string",
+					"description": "Name",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"children": []
+				},
+				{
+					"id": "978ab9d5-0878-466b-f237-531d9aeecd77",
+					"name": "ORT01",
+					"objectType": "string",
+					"description": "City",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"children": []
+				},
+				{
+					"id": "1ef749e4-6d25-4173-ccdc-561c0a7ed5e1",
+					"name": "LAND1",
+					"objectType": "string",
+					"description": "Country",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"children": []
+				},
+				{
+					"id": "2b55455c-8bd1-4ed9-92a1-9bd597f72f2a",
+					"name": "SELECTED",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"children": []
+				},
+				{
+					"id": "eb246d39-7a2e-4a10-d03f-3c194b41a4cc",
+					"name": "STRAS",
+					"objectType": "string",
+					"description": "Street",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"children": []
+				},
+				{
+					"id": "749ed60e-658b-4751-fa95-5ed20a071e6e",
+					"name": "PSTZL",
+					"objectType": "string",
+					"description": "Postal Code",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"children": []
+				},
+				{
+					"id": "d5acc683-339d-4124-f4a0-540fb3aaaf28",
+					"name": "TELF1",
+					"objectType": "string",
+					"description": "Telephone",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"children": []
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "SAP Local API (SDK)",
+	"endpoint": "https://template.neptune-software.com/neptune/api/sdk/training01",
+	"ver": "20.11.18.2226",
+	"version": "1.0",
+	"description": "Test SAP API",
+	"mediaType": "application/json",
+	"securitySchemes": "",
+	"swaggerURI": "/neptune/api/SDK/training01/swagger.json",
+	"swaggerSystem": "",
+	"apiType": "",
+	"about": "<h1>Summit 2018</h1><h3>Welcome to Rest API Demo</h3><p><br></p><p>This is a training API sending data for Customer and Orders.</p><p><br></p><p><br></p><p><br></p>",
+	"enableProxy": true,
+	"restrictAccess": false,
+	"enableTrace": true,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

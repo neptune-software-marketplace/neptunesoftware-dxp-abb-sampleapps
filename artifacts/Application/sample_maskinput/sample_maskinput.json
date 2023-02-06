@@ -1,0 +1,875 @@
+{
+	"id": "b012faee-38a6-4764-9a22-013ad6b8042a",
+	"createdAt": "2022-06-10T12:49:14.603Z",
+	"createdBy": "serviceuser",
+	"objects": [
+		{
+			"fieldNo": "1",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "2",
+					"fieldName": "oApp",
+					"fieldParent": "1",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "4",
+							"fieldName": "oPage",
+							"fieldParent": "2",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "MaskInput",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "23a28d19-d1af-492a-f0b9-509fe63eea9a",
+									"fieldName": "oSimpleForm",
+									"fieldParent": "4",
+									"fieldType": "sap.ui.layout.form.SimpleForm",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "title",
+											"grouping": "Properties",
+											"value": "Generic MaskInput",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "editable",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "18ddbc52-e587-42ea-d912-2e25334731ee",
+											"fieldName": "labelChar",
+											"fieldParent": "23a28d19-d1af-492a-f0b9-509fe63eea9a",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "tooltip",
+													"grouping": "Properties",
+													"value": "Any Character   ",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Any Character   ",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "3191dbd1-a088-448a-f752-9dbe47528d55",
+											"fieldName": "oMaskInput",
+											"fieldParent": "23a28d19-d1af-492a-f0b9-509fe63eea9a",
+											"fieldType": "sap.m.MaskInput",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "placeholder",
+													"grouping": "Properties",
+													"value": "Any character",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "mask",
+													"grouping": "Properties",
+													"value": "CCCCCCCCC",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "0cbb8185-ece2-4a2a-b13f-2b9d714d5f6d",
+													"fieldName": "oMaskInputRule",
+													"fieldParent": "3191dbd1-a088-448a-f752-9dbe47528d55",
+													"fieldType": "sap.m.MaskInputRule",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "regex",
+															"grouping": "Properties",
+															"value": "\"[A-Za-z0-9]\"",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "maskFormatSymbol",
+															"grouping": "Properties",
+															"value": "C",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "7813d78f-2d04-4d87-f8d9-69c8cf56d914",
+											"fieldName": "labelText",
+											"fieldParent": "23a28d19-d1af-492a-f0b9-509fe63eea9a",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Only Text",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "f285d27e-ec7c-4cdc-c25a-ff18acc281e3",
+											"fieldName": "oMaskInputText",
+											"fieldParent": "23a28d19-d1af-492a-f0b9-509fe63eea9a",
+											"fieldType": "sap.m.MaskInput",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Number",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "placeholder",
+													"grouping": "Properties",
+													"value": "Only text",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "mask",
+													"grouping": "Properties",
+													"value": "xxxxxxxxx",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "80b55882-7a0a-4c12-e6fa-5dca97317484",
+													"fieldName": "oMaskInputRule1",
+													"fieldParent": "f285d27e-ec7c-4cdc-c25a-ff18acc281e3",
+													"fieldType": "sap.m.MaskInputRule",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "regex",
+															"grouping": "Properties",
+															"value": "\"[A-Za-z]\"",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "maskFormatSymbol",
+															"grouping": "Properties",
+															"value": "x",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "2ce285d2-daad-4ff8-90b4-4abde7539db3",
+											"fieldName": "labelNum",
+											"fieldParent": "23a28d19-d1af-492a-f0b9-509fe63eea9a",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Numeric Only",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "d626763b-99b9-44e7-b049-d8a0bfc98bc2",
+											"fieldName": "oMaskInput2",
+											"fieldParent": "23a28d19-d1af-492a-f0b9-509fe63eea9a",
+											"fieldType": "sap.m.MaskInput",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Password",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "placeholder",
+													"grouping": "Properties",
+													"value": "Numeric Value",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "mask",
+													"grouping": "Properties",
+													"value": "xxxxxxx",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "0c29542c-4641-4622-d573-abca4e6e0f12",
+													"fieldName": "oMaskInputRule2",
+													"fieldParent": "d626763b-99b9-44e7-b049-d8a0bfc98bc2",
+													"fieldType": "sap.m.MaskInputRule",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "regex",
+															"grouping": "Properties",
+															"value": "\"[0-9]\"",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "maskFormatSymbol",
+															"grouping": "Properties",
+															"value": "x",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "d9c740cc-195e-4e84-887c-5cea5293da01",
+											"fieldName": "labelTel",
+											"fieldParent": "23a28d19-d1af-492a-f0b9-509fe63eea9a",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Tel",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "e5059227-4a26-4ba3-e929-f6ae5e28d4e9",
+											"fieldName": "oMaskInput3",
+											"fieldParent": "23a28d19-d1af-492a-f0b9-509fe63eea9a",
+											"fieldType": "sap.m.MaskInput",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Tel",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "placeholder",
+													"grouping": "Properties",
+													"value": "Number",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "mask",
+													"grouping": "Properties",
+													"value": "********",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "f3ab3b00-b68c-4622-e065-078ea0a8518d",
+													"fieldName": "oMaskInputRule3",
+													"fieldParent": "e5059227-4a26-4ba3-e929-f6ae5e28d4e9",
+													"fieldType": "sap.m.MaskInputRule",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "regex",
+															"grouping": "Properties",
+															"value": "\"[0-9]\"",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "5d5b9581-8edf-4cec-9aad-3a0d697ac897",
+											"fieldName": "oMaskInput4",
+											"fieldParent": "23a28d19-d1af-492a-f0b9-509fe63eea9a",
+											"fieldType": "sap.m.MaskInput",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Number",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "placeholder",
+													"grouping": "Properties",
+													"value": "+Code",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "mask",
+													"grouping": "Properties",
+													"value": "xxx",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "05b4364a-96a8-4498-88fd-13f4977dd350",
+													"fieldName": "oMaskInputRule4",
+													"fieldParent": "5d5b9581-8edf-4cec-9aad-3a0d697ac897",
+													"fieldType": "sap.m.MaskInputRule",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "regex",
+															"grouping": "Properties",
+															"value": "\"[+0-9]\"",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "maskFormatSymbol",
+															"grouping": "Properties",
+															"value": "x",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "9dc2aa93-efc6-479a-fa17-51e9095b17bd",
+									"fieldName": "oSimpleForm1",
+									"fieldParent": "4",
+									"fieldType": "sap.ui.layout.form.SimpleForm",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "title",
+											"grouping": "Properties",
+											"value": "possible Usage",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "editable",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "094e7f24-b42b-411d-f8de-0c71f4b66ad4",
+											"fieldName": "oLabel",
+											"fieldParent": "9dc2aa93-efc6-479a-fa17-51e9095b17bd",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Password type",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "5ab5eaa8-ab5f-41a2-b998-6ee4a29a0865",
+											"fieldName": "oMaskInput1",
+											"fieldParent": "9dc2aa93-efc6-479a-fa17-51e9095b17bd",
+											"fieldType": "sap.m.MaskInput",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "placeholder",
+													"grouping": "Properties",
+													"value": " A-Za-z0-9@$",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "mask",
+													"grouping": "Properties",
+													"value": "******************",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "eb5cf1f1-0feb-4b05-d27e-81d29b9b74c8",
+													"fieldName": "oMaskInputRule5",
+													"fieldParent": "5ab5eaa8-ab5f-41a2-b998-6ee4a29a0865",
+													"fieldType": "sap.m.MaskInputRule",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "regex",
+															"grouping": "Properties",
+															"value": "\"[ A-Za-z0-9@$]\"",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "72fb9847-97d4-43ad-c13e-53f95a585a74",
+											"fieldName": "oLabel1",
+											"fieldParent": "9dc2aa93-efc6-479a-fa17-51e9095b17bd",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Serial Number",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "5df97b9b-dcf5-4fd8-ad0b-28e27bbb6dd8",
+											"fieldName": "oMaskInput5",
+											"fieldParent": "9dc2aa93-efc6-479a-fa17-51e9095b17bd",
+											"fieldType": "sap.m.MaskInput",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "placeholder",
+													"grouping": "Properties",
+													"value": "A-Z0-9",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "mask",
+													"grouping": "Properties",
+													"value": "CC-CC-CC-CC",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "f9b94bbc-94b6-4d58-f8ac-286fcdd3c35f",
+													"fieldName": "oMaskInputRule6",
+													"fieldParent": "5df97b9b-dcf5-4fd8-ad0b-28e27bbb6dd8",
+													"fieldType": "sap.m.MaskInputRule",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "regex",
+															"grouping": "Properties",
+															"value": "\"[A-Z0-9]\"",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "maskFormatSymbol",
+															"grouping": "Properties",
+															"value": "C",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "84e697c2-d338-4fe2-95d1-7fd228efaa3a",
+											"fieldName": "oLabel2",
+											"fieldParent": "9dc2aa93-efc6-479a-fa17-51e9095b17bd",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Version Number",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "2eee0d20-45d4-440f-f0ef-b41a1c395ebc",
+											"fieldName": "oMaskInput6",
+											"fieldParent": "9dc2aa93-efc6-479a-fa17-51e9095b17bd",
+											"fieldType": "sap.m.MaskInput",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "placeholder",
+													"grouping": "Properties",
+													"value": "Version",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "mask",
+													"grouping": "Properties",
+													"value": "VERSION - C.C.CC",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "d39f297b-ab97-4576-df80-979861fc985b",
+													"fieldName": "oMaskInputRule7",
+													"fieldParent": "2eee0d20-45d4-440f-f0ef-b41a1c395ebc",
+													"fieldType": "sap.m.MaskInputRule",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "regex",
+															"grouping": "Properties",
+															"value": "\"[0-9]\"",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "maskFormatSymbol",
+															"grouping": "Properties",
+															"value": "C",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "5",
+									"fieldName": "oFooter",
+									"fieldParent": "4",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "6",
+											"fieldName": "Left",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "d45dcbf1-27a7-48db-e2fc-0572e1c7b247",
+													"fieldName": "oButton",
+													"fieldParent": "6",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Open In App Designer",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "7",
+											"fieldName": "Middle",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentMiddle",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "8",
+											"fieldName": "Right",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "c5acc9b3-77a4-4cfd-9ce1-f0bd909a4b2c",
+													"fieldName": "butCompact",
+													"fieldParent": "8",
+													"fieldType": "sap.m.ToggleButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Compact",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": null,
+	"ver": "20.11.25.1725",
+	"application": "sample_maskinput",
+	"title": "Sample sap.m.MaskInput",
+	"description": "sap.m.MaskInput",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_belize",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

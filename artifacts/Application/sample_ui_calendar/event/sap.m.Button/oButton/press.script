@@ -1,0 +1,11 @@
+
+//add current Date
+jQuery.sap.require("sap.ui.core.format.DateFormat");
+var oSapFormat = sap.ui.core.format.DateFormat.getDateTimeInstance({
+    pattern: "yyyy/MM/dd"
+});
+var dateStr = oSapFormat.format(new Date());
+
+oText.setText(dateStr);
+
+oCalendar.addSelectedDate(new Date());

@@ -1,0 +1,23 @@
+
+var aSorters = [];
+
+var mParams = oEvent.getParameters();
+
+// Sorting
+
+if (mParams.sortItem) {
+    var sPath = mParams.sortItem.getKey();
+    var bDescending = mParams.sortDescending;
+    aSorters.push(new sap.ui.model.Sorter(sPath, bDescending, false));
+}
+
+// Sort with Grouping
+
+if (mParams.groupItem) {
+    var sPath = mParams.groupItem.getKey();
+    var bDescending = mParams.groupDescending;
+    aSorters.push(new sap.ui.model.Sorter(sPath, bDescending, true));
+}
+
+var binding = oCustomerTable.getBinding("items");
+binding.sort(aSorters);

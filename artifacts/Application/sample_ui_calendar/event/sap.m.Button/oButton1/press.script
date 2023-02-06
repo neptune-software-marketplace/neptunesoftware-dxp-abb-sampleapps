@@ -1,0 +1,2 @@
+oCalendar2.removeAllSelectedDates();
+oList.removeAllItems();

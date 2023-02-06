@@ -1,0 +1,190 @@
+{
+	"id": "ed5f87c2-8100-4bdb-b691-6243cf5e404c",
+	"createdAt": "2022-06-10T12:49:19.346Z",
+	"createdBy": "serviceuser",
+	"objects": [
+		{
+			"fieldNo": "629bc73f-5252-4c6a-e44e-67205e3cb6e5",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "273cc934-4290-44eb-9297-404b04f63357",
+					"fieldName": "oApp",
+					"fieldParent": "629bc73f-5252-4c6a-e44e-67205e3cb6e5",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "bd93f3bf-a005-4cfa-c040-800cdd73f17f",
+							"fieldName": "oPage",
+							"fieldParent": "273cc934-4290-44eb-9297-404b04f63357",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "PDF Viewer",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "8b20306e-3902-4508-8479-44739f8528ea",
+									"fieldName": "oPDFViewer",
+									"fieldParent": "bd93f3bf-a005-4cfa-c040-800cdd73f17f",
+									"fieldType": "sap.m.PDFViewer",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "source",
+											"grouping": "Properties",
+											"value": "/media/root/SampleApps/developer license uxp.pdf",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "69fc9f90-8e32-4388-9218-c71200ae32af",
+									"fieldName": "oBarFooter",
+									"fieldParent": "bd93f3bf-a005-4cfa-c040-800cdd73f17f",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "4bea21d1-1770-4491-a33b-7a82c32fc190",
+											"fieldName": "Left",
+											"fieldParent": "69fc9f90-8e32-4388-9218-c71200ae32af",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "56e65c9d-446f-4711-b0e7-258870813634",
+													"fieldName": "oButton",
+													"fieldParent": "4bea21d1-1770-4491-a33b-7a82c32fc190",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Open In App Designer",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": null,
+	"ver": "20.11.25.175",
+	"application": "sample_pdf_viewer",
+	"title": "Sample sap.m.PDFViewer",
+	"description": "sap.m.PDFViewer",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_belize",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

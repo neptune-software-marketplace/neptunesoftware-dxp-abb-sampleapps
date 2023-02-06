@@ -1,0 +1,5 @@
+var item1 = oComboBox1.getSelectedItem().getText();
+
+// Use MessageToast 
+
+sap.m.MessageToast.show("Selected Value : " + item1);

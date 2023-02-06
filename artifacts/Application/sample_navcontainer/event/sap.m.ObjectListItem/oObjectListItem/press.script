@@ -1,0 +1,10 @@
+// Multimodel needs name of Multimodel 
+var context =oEvent.oSource.getBindingContext("oMultiModel");
+
+var data = context.getObject();
+
+data = JSON.parse(JSON.stringify(data));
+
+
+modeloSimpleForm.setData(data);
+oNavContainer.to(oPageNavDetail);

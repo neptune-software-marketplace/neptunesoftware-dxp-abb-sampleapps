@@ -1,0 +1,439 @@
+{
+	"id": "c63510e9-3044-eb11-9889-0003ff5949fe",
+	"createdAt": "2022-06-10T12:49:15.440Z",
+	"createdBy": "serviceuser",
+	"objects": [
+		{
+			"fieldNo": "1",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "2",
+					"fieldName": "oApp",
+					"fieldParent": "1",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "4",
+							"fieldName": "oPage",
+							"fieldParent": "2",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Full Screen",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "d6b18340-6572-4908-c4c1-bf0bb90f62ae",
+									"fieldName": "oTable",
+									"fieldParent": "4",
+									"fieldType": "sap.m.Table",
+									"script": "",
+									"bindingValue": "API highchart_data>highchart_data",
+									"bindingType": "h",
+									"bindingSource": "API",
+									"bindingParentID": "34E8231D-C2FD-46B9-9B84-88E777FCBC28",
+									"bindingPathID": "34b38ed2-d4b2-4740-8bca-5f5efe68fc72",
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "583c2ef5-2580-47cf-b311-810b4713473f",
+											"fieldName": "oDragDropInfo",
+											"fieldParent": "d6b18340-6572-4908-c4c1-bf0bb90f62ae",
+											"fieldType": "sap.ui.core.dnd.DragDropInfo",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "dropPosition",
+													"grouping": "Properties",
+													"value": "Between",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "targetAggregation",
+													"grouping": "Properties",
+													"value": "items",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "drop",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.ui.core.dnd.DragDropInfo/oDragDropInfo/drop.script",
+													"translation": []
+												},
+												{
+													"attribute": "sourceAggregation",
+													"grouping": "Properties",
+													"value": "items",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "b189b7cc-b86f-4e78-a0b5-2da6cc57d372",
+											"fieldName": "coloTablePeople",
+											"fieldParent": "d6b18340-6572-4908-c4c1-bf0bb90f62ae",
+											"fieldType": "sap.m.Column",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "3691ed90-6266-4e57-c15a-f434363715e7",
+													"fieldName": "colHoTablePeople",
+													"fieldParent": "b189b7cc-b86f-4e78-a0b5-2da6cc57d372",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "People",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "c12747f3-c4b5-47f8-9a3c-f7eed7b3f9e5",
+											"fieldName": "coloTableCity",
+											"fieldParent": "d6b18340-6572-4908-c4c1-bf0bb90f62ae",
+											"fieldType": "sap.m.Column",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "22ca419b-d571-4cae-ace6-362097d409ad",
+													"fieldName": "colHoTableCity",
+													"fieldParent": "c12747f3-c4b5-47f8-9a3c-f7eed7b3f9e5",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "City",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "bcd099a8-74aa-4ec4-d9cc-d1fa884f4359",
+											"fieldName": "coloTableHouses",
+											"fieldParent": "d6b18340-6572-4908-c4c1-bf0bb90f62ae",
+											"fieldType": "sap.m.Column",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "6a4a1ac3-3afe-4e0f-e577-fdcdcd20e441",
+													"fieldName": "colHoTableHouses",
+													"fieldParent": "bcd099a8-74aa-4ec4-d9cc-d1fa884f4359",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Houses",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "a97f22aa-8768-4788-ad0b-988ed3493cad",
+											"fieldName": "colItemoTable",
+											"fieldParent": "d6b18340-6572-4908-c4c1-bf0bb90f62ae",
+											"fieldType": "sap.m.ColumnListItem",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "9b521341-ad4d-40b6-a92e-87d37b3977eb",
+													"fieldName": "txtoTablePeople",
+													"fieldParent": "a97f22aa-8768-4788-ad0b-988ed3493cad",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{People}",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "a0a272c3-9b85-42fa-8352-f41ff6b5c3c9",
+													"fieldName": "txtoTableCity",
+													"fieldParent": "a97f22aa-8768-4788-ad0b-988ed3493cad",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{City}",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "21d492f3-ebc5-4641-ea7e-198614e1fdba",
+													"fieldName": "txtoTableHouses",
+													"fieldParent": "a97f22aa-8768-4788-ad0b-988ed3493cad",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{Houses}",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "5",
+									"fieldName": "oFooter",
+									"fieldParent": "4",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "6",
+											"fieldName": "Left",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "7",
+											"fieldName": "Middle",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentMiddle",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "8",
+											"fieldName": "Right",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "22820faf-ca39-4e91-f8d3-dbcccd4a02c7",
+					"fieldName": "DragDropFunction",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/DragDropFunction.script",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "ac3c10f7-77d6-496a-d73e-18ac96fe4006",
+					"fieldName": "GetData",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"restSource": "34e8231d-c2fd-46b9-9b84-88e777fcbc28",
+					"restOperation": "c22b2136-4505-4cc3-8472-c3ac36762a51",
+					"request": [],
+					"response": [
+						{
+							"status": 200,
+							"dataId": "34b38ed2-d4b2-4740-8bca-5f5efe68fc72",
+							"modelFieldNo": "d6b18340-6572-4908-c4c1-bf0bb90f62ae"
+						}
+					],
+					"attributes": [
+						{
+							"attribute": "setInitLoad",
+							"grouping": "Model",
+							"value": "online",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": null,
+	"ver": "20.12.22.954",
+	"application": "sample_table_drag_drop",
+	"title": "Sample sap.m.Table with Drag and Drop",
+	"description": "Sample sap.m.Table with Drag and Drop",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [
+		{
+			"id": "34e8231d-c2fd-46b9-9b84-88e777fcbc28",
+			"name": "API highchart_data",
+			"ver": "23.2.6.1643"
+		}
+	],
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

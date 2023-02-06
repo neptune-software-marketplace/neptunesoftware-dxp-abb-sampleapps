@@ -1,0 +1,217 @@
+{
+	"id": "9221ea37-1d06-4eb9-b848-c34494cdb318",
+	"createdAt": "2022-06-10T12:49:22.616Z",
+	"createdBy": "serviceuser",
+	"objects": [
+		{
+			"fieldNo": "c83ee032-2932-42c9-d928-b75824a8f7e1",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "28c3ea74-a8be-4883-8345-e3753aaa34e2",
+					"fieldName": "oApp",
+					"fieldParent": "c83ee032-2932-42c9-d928-b75824a8f7e1",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "51bc5ebc-7f3b-4e17-fe52-eef8e010a61e",
+							"fieldName": "oPage",
+							"fieldParent": "28c3ea74-a8be-4883-8345-e3753aaa34e2",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "e1ace55f-ece5-49cc-9fc3-fe75f98c3adb",
+									"fieldName": "oMessagePage",
+									"fieldParent": "51bc5ebc-7f3b-4e17-fe52-eef8e010a61e",
+									"fieldType": "sap.m.MessagePage",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "title",
+											"grouping": "Properties",
+											"value": "Message Page",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Check the Filter Settings ",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "showNavButton",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "icon",
+											"grouping": "Properties",
+											"value": "sap-icon://action-settings",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "description",
+											"grouping": "Properties",
+											"value": "Add some basic Information",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "navButtonPress",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.MessagePage/oMessagePage/navButtonPress.script",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "cb866e76-0789-4360-a6fe-5809faca1ae8",
+									"fieldName": "oBarFooter",
+									"fieldParent": "51bc5ebc-7f3b-4e17-fe52-eef8e010a61e",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "3f37d14b-f5c5-45a6-fbff-8636509fc397",
+											"fieldName": "Left",
+											"fieldParent": "cb866e76-0789-4360-a6fe-5809faca1ae8",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "3b55b531-9f12-45b1-ccca-c2c51a03ee27",
+													"fieldName": "oButton",
+													"fieldParent": "3f37d14b-f5c5-45a6-fbff-8636509fc397",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Open In App Designer",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": null,
+	"ver": "20.11.25.1724",
+	"application": "sample_messagepage",
+	"title": "Sample sap.m.MessagePage",
+	"description": "sap.m.MessagePage",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_belize",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

@@ -1,0 +1,526 @@
+{
+	"id": "0fc49908-adb6-4ee7-847d-550527512088",
+	"createdAt": "2022-06-10T12:49:18.650Z",
+	"createdBy": "serviceuser",
+	"objects": [
+		{
+			"fieldNo": "089af604-80f7-4d9c-92c0-20a9352df23f",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "9fcc86bc-dfca-479d-e754-6304913fb0f2",
+					"fieldName": "oApp",
+					"fieldParent": "089af604-80f7-4d9c-92c0-20a9352df23f",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "a1a1d6a3-a3b4-4973-b7c7-a961158b1ccd",
+							"fieldName": "oPage",
+							"fieldParent": "9fcc86bc-dfca-479d-e754-6304913fb0f2",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Draft Indicator",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "ec6be38c-7b06-4fb5-ebd8-5a014a42ce10",
+									"fieldName": "oPanel",
+									"fieldParent": "a1a1d6a3-a3b4-4973-b7c7-a961158b1ccd",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "Draft Indicator on text Change",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "2dc74c2b-7b15-4724-ef1e-47cb90f2e654",
+											"fieldName": "oLabel",
+											"fieldParent": "ec6be38c-7b06-4fb5-ebd8-5a014a42ce10",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Type here:",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "1643da3f-9724-4320-bb55-3681eb420db0",
+											"fieldName": "oInput",
+											"fieldParent": "ec6be38c-7b06-4fb5-ebd8-5a014a42ce10",
+											"fieldType": "sap.m.Input",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "submit",
+													"grouping": "Events",
+													"value": "oDraftIndicator.setState(\"Saved\");",
+													"script": "oDraftIndicator.setState(\"Saved\");",
+													"translation": []
+												},
+												{
+													"attribute": "liveChange",
+													"grouping": "Events",
+													"value": "oDraftIndicator.setState(\"Saving\");",
+													"script": "oDraftIndicator.setState(\"Saving\");",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "9fc34384-e461-4ce2-c7df-2efea1a5cb4f",
+											"fieldName": "oDraftIndicator",
+											"fieldParent": "ec6be38c-7b06-4fb5-ebd8-5a014a42ce10",
+											"fieldType": "sap.m.DraftIndicator",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiLargeMargin",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "e1fa11ad-af98-4a7a-e76d-1e5d6835fe10",
+									"fieldName": "oPanel1",
+									"fieldParent": "a1a1d6a3-a3b4-4973-b7c7-a961158b1ccd",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "Check draft Indicator on button click event",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "12373d74-8915-4dbd-fc04-3de926830156",
+											"fieldName": "oBarFooter",
+											"fieldParent": "e1fa11ad-af98-4a7a-e76d-1e5d6835fe10",
+											"fieldType": "sap.m.Bar",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "addContent",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "582fcfaf-e52c-4e5f-ce7f-f42f8b3f2733",
+													"fieldName": "Left",
+													"fieldParent": "12373d74-8915-4dbd-fc04-3de926830156",
+													"fieldType": "neptune.BarContent",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "position",
+															"grouping": "Parent",
+															"value": "ContentLeft",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "56d477c9-30e4-400c-8f49-408c71d8985a",
+															"fieldName": "oButClear",
+															"fieldParent": "582fcfaf-e52c-4e5f-ce7f-f42f8b3f2733",
+															"fieldType": "sap.m.Button",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Emphasized",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Clear Draft State",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "press",
+																	"grouping": "Events",
+																	"value": "oDraftIndicator1.setState(\"Clear\");",
+																	"script": "oDraftIndicator1.setState(\"Clear\");",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "309de592-d016-408e-c7fb-4d3218c1029f",
+													"fieldName": "Middle",
+													"fieldParent": "12373d74-8915-4dbd-fc04-3de926830156",
+													"fieldType": "neptune.BarContent",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "position",
+															"grouping": "Parent",
+															"value": "ContentMiddle",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "3357b0bc-138f-4ffc-e79a-6c6cc70ebf29",
+															"fieldName": "oButSaving",
+															"fieldParent": "309de592-d016-408e-c7fb-4d3218c1029f",
+															"fieldType": "sap.m.Button",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Emphasized",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Set Draft Saving state",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "press",
+																	"grouping": "Events",
+																	"value": "oDraftIndicator1.setState(\"Saving\");",
+																	"script": "oDraftIndicator1.setState(\"Saving\");",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "8cfeeff3-8fd4-47dd-a196-8e7933af917a",
+													"fieldName": "Right",
+													"fieldParent": "12373d74-8915-4dbd-fc04-3de926830156",
+													"fieldType": "neptune.BarContent",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "position",
+															"grouping": "Parent",
+															"value": "ContentRight",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "7b1c568c-afbc-49a8-9a03-d2074c6065f3",
+															"fieldName": "oButSaved",
+															"fieldParent": "8cfeeff3-8fd4-47dd-a196-8e7933af917a",
+															"fieldType": "sap.m.Button",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Emphasized",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Set Draft Saved state",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "press",
+																	"grouping": "Events",
+																	"value": "oDraftIndicator1.setState(\"Saved\");",
+																	"script": "oDraftIndicator1.setState(\"Saved\");",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "c8747db8-ce36-4791-f17d-f052dfcd6f1e",
+											"fieldName": "oDraftIndicator1",
+											"fieldParent": "e1fa11ad-af98-4a7a-e76d-1e5d6835fe10",
+											"fieldType": "sap.m.DraftIndicator",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiMediumMargin",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "3df54b1d-5a56-4ffb-b344-265f897f89b2",
+									"fieldName": "oFooter",
+									"fieldParent": "a1a1d6a3-a3b4-4973-b7c7-a961158b1ccd",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "d147d6a4-61c6-4392-dd02-7d579ff2905c",
+											"fieldName": "Left",
+											"fieldParent": "3df54b1d-5a56-4ffb-b344-265f897f89b2",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "5506458b-d10e-4b71-ea92-9b0b27d7682c",
+													"fieldName": "oButton",
+													"fieldParent": "d147d6a4-61c6-4392-dd02-7d579ff2905c",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Open in App Designer",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "8b7a7e4e-294c-4a7d-dde1-238927829daf",
+											"fieldName": "Right",
+											"fieldParent": "3df54b1d-5a56-4ffb-b344-265f897f89b2",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "3e695ef6-e5fe-40ec-9f40-cc2461064c26",
+													"fieldName": "butCompact",
+													"fieldParent": "8b7a7e4e-294c-4a7d-dde1-238927829daf",
+													"fieldType": "sap.m.ToggleButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Compact",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": null,
+	"ver": "20.11.25.1738",
+	"application": "sample_draftindicator",
+	"title": "Sample sap.m.DraftIndicator",
+	"description": "sap.m.DraftIndicator",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_belize",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

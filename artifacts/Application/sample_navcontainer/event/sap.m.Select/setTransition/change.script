@@ -1,0 +1,1 @@
+oNavContainer.setDefaultTransitionName(this.getSelectedKey());

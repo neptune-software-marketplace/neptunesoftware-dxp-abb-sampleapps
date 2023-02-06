@@ -1,0 +1,2 @@
+imgSignature.setSrc(oSignaturePad.toDataURL());
+oSignaturePad.clear();

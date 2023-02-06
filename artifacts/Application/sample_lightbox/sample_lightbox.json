@@ -1,0 +1,669 @@
+{
+	"id": "6d0efda6-ccfe-4d73-9b4e-d2e23f25ad44",
+	"createdAt": "2022-06-10T12:49:23.270Z",
+	"createdBy": "serviceuser",
+	"objects": [
+		{
+			"fieldNo": "4e5d0cfe-3463-4030-8c10-cfa19ddfdd5c",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "f15f76c7-5122-4a2a-b314-6959044ccb08",
+					"fieldName": "oApp",
+					"fieldParent": "4e5d0cfe-3463-4030-8c10-cfa19ddfdd5c",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "28d2960b-9ab9-4912-99c0-b321b884a9d4",
+							"fieldName": "oPage",
+							"fieldParent": "f15f76c7-5122-4a2a-b314-6959044ccb08",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Light Box",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "3436cf4c-d28a-4d10-d1f1-a993a433003a",
+									"fieldName": "oList",
+									"fieldParent": "28d2960b-9ab9-4912-99c0-b321b884a9d4",
+									"fieldType": "sap.m.List",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiTinyMargin",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "Click on the images below. This will open the images in their real size",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "ff610aca-c4c2-4d0e-e0d8-480a8e8303d5",
+											"fieldName": "oCustomListItem",
+											"fieldParent": "3436cf4c-d28a-4d10-d1f1-a993a433003a",
+											"fieldType": "sap.m.CustomListItem",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "b676153c-a8a1-467f-f162-6ed6911c54d7",
+													"fieldName": "oLabel",
+													"fieldParent": "ff610aca-c4c2-4d0e-e0d8-480a8e8303d5",
+													"fieldType": "sap.m.Label",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Expanse - Rocinante",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMargin",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "3aa22e66-f89c-47c4-cba6-51087f771818",
+													"fieldName": "oHBox",
+													"fieldParent": "ff610aca-c4c2-4d0e-e0d8-480a8e8303d5",
+													"fieldType": "sap.m.HBox",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "93620584-58ab-4771-ed19-fd4c37f99f94",
+															"fieldName": "oImage",
+															"fieldParent": "3aa22e66-f89c-47c4-cba6-51087f771818",
+															"fieldType": "sap.m.Image",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "200px",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "styleClassMargin",
+																	"grouping": "Properties",
+																	"value": "sapUiLargeMarginEnd",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "src",
+																	"grouping": "Properties",
+																	"value": "/media/root/SampleApps/rocinante.jpg",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "height",
+																	"grouping": "Properties",
+																	"value": "200px",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "press",
+																	"grouping": "Events",
+																	"value": "oLightBox.open();",
+																	"script": "oLightBox.open();",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "12a5cda5-04ed-4a3c-9406-c761b41b88ec",
+															"fieldName": "oText",
+															"fieldParent": "3aa22e66-f89c-47c4-cba6-51087f771818",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "The Rocinante is a MCRN Corvette Class, light fast-attack ship with multiple roles, such as torpedo bomber and boarding party insertion. The Corvette class ships are the smallest naval ships equipped with an Epstein drive.",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "700ed726-dd22-4161-d445-bbc76018eabe",
+															"fieldName": "oButton1",
+															"fieldParent": "3aa22e66-f89c-47c4-cba6-51087f771818",
+															"fieldType": "sap.m.Button",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Emphasized",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Details",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "styleClassMargin",
+																	"grouping": "Properties",
+																	"value": "sapUiSmallMarginBeginEnd",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "press",
+																	"grouping": "Events",
+																	"value": "oLightBox.open();",
+																	"script": "oLightBox.open();",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "2324df71-5b75-4c06-b64a-c76a1722a676",
+											"fieldName": "oCustomListItem1",
+											"fieldParent": "3436cf4c-d28a-4d10-d1f1-a993a433003a",
+											"fieldType": "sap.m.CustomListItem",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "8a507c0b-3add-421a-9857-cf2e42e8d5dd",
+													"fieldName": "oLabel1",
+													"fieldParent": "2324df71-5b75-4c06-b64a-c76a1722a676",
+													"fieldType": "sap.m.Label",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "StarCraft - Battlecruiser",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiTinyMargin",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "b231a365-72b4-4d43-85df-5f59bdc7b098",
+													"fieldName": "oHBox1",
+													"fieldParent": "2324df71-5b75-4c06-b64a-c76a1722a676",
+													"fieldType": "sap.m.HBox",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "justifyContent",
+															"grouping": "Properties",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "05235669-c234-49f2-f627-07b4964438cc",
+															"fieldName": "oImage1",
+															"fieldParent": "b231a365-72b4-4d43-85df-5f59bdc7b098",
+															"fieldType": "sap.m.Image",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "200px",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "styleClassMargin",
+																	"grouping": "Properties",
+																	"value": "sapUiLargeMarginEnd",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "src",
+																	"grouping": "Properties",
+																	"value": "/media/root/SampleApps/battlecruiser.jpg",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "height",
+																	"grouping": "Properties",
+																	"value": "200px",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "press",
+																	"grouping": "Events",
+																	"value": "oLightBox1.open();",
+																	"script": "oLightBox1.open();",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "c1d6c424-08df-4090-9644-df31a90be061",
+															"fieldName": "oText2",
+															"fieldParent": "b231a365-72b4-4d43-85df-5f59bdc7b098",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Battlecruisers stem as far back as the early days of the Terran Confederacy. While there are many classes of battlecruisers, all are armed with lasers and protected by neosteel armor. These laser weapons consist of multiple twin-cannon laser batteries for aerial defense and surface bombardment, located across the battlecruiser's hull. Its air-to-air guns, not as powerful as its air-to-ground ones, are equipped with advanced optics and sensors to deal with fast moving targets. The vessel’s air-to-ground guns make use of electromagnetic coils to increase the potency of their shots. Air Unit built From Starport Tactical Jump: Cooldown: 71s, Duration: 4s Ground Targets: Damage: 8, DPS: 50, Cooldown: 0.16, Range: 6 show more...",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "e4616b0e-0d95-43a0-c779-bdbcb0a1973d",
+															"fieldName": "oButton2",
+															"fieldParent": "b231a365-72b4-4d43-85df-5f59bdc7b098",
+															"fieldType": "sap.m.Button",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "Emphasized",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Details",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "styleClassMargin",
+																	"grouping": "Properties",
+																	"value": "sapUiSmallMarginBeginEnd",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "press",
+																	"grouping": "Events",
+																	"value": "oLightBox1.open();",
+																	"script": "oLightBox1.open();",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "b56e6605-b34a-4b6a-8278-0692aad91d3e",
+									"fieldName": "oBarFooter",
+									"fieldParent": "28d2960b-9ab9-4912-99c0-b321b884a9d4",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "bedf6fb8-5296-4218-ea89-eb5fb3416e39",
+											"fieldName": "Left",
+											"fieldParent": "b56e6605-b34a-4b6a-8278-0692aad91d3e",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "8073603d-fbbc-4dbb-c92b-c2f91d997a0a",
+													"fieldName": "oButton",
+													"fieldParent": "bedf6fb8-5296-4218-ea89-eb5fb3416e39",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Open In App Designer",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "a5e6e05f-e6cb-4d1e-cf7e-22d8b1e4d50a",
+											"fieldName": "Right",
+											"fieldParent": "b56e6605-b34a-4b6a-8278-0692aad91d3e",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "337c831b-436b-4958-f2b4-f1bf9a2f5ca4",
+													"fieldName": "oToggleButton",
+													"fieldParent": "a5e6e05f-e6cb-4d1e-cf7e-22d8b1e4d50a",
+													"fieldType": "sap.m.ToggleButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Inset",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.ToggleButton/oToggleButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "10d31b31-34d2-4b26-a8c7-6aed56c29256",
+													"fieldName": "butCompact",
+													"fieldParent": "a5e6e05f-e6cb-4d1e-cf7e-22d8b1e4d50a",
+													"fieldType": "sap.m.ToggleButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Compact",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "5f9feb60-f2ec-4da0-adcf-5568f12fc707",
+					"fieldName": "oLightBox",
+					"fieldParent": 99999,
+					"fieldType": "sap.m.LightBox",
+					"script": "",
+					"filePath": "olightbox",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "e24b71fd-d5ce-4483-ac7f-28b7bdf1b9de",
+							"fieldName": "oLightBoxItem",
+							"fieldParent": "5f9feb60-f2ec-4da0-adcf-5568f12fc707",
+							"fieldType": "sap.m.LightBoxItem",
+							"script": "",
+							"filePath": "olightbox/olightboxitem",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "imageSrc",
+									"grouping": "Properties",
+									"value": "https://explored.neptune-software.com/media/root/sample%20apps/rocinante.jpg",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "da3d5f61-b82a-46a1-a9bc-b89f861ae9b3",
+					"fieldName": "oLightBox1",
+					"fieldParent": 99999,
+					"fieldType": "sap.m.LightBox",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "3104c401-2b48-4a41-8526-bae241fa8f28",
+							"fieldName": "oLightBoxItem1",
+							"fieldParent": "da3d5f61-b82a-46a1-a9bc-b89f861ae9b3",
+							"fieldType": "sap.m.LightBoxItem",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "imageSrc",
+									"grouping": "Properties",
+									"value": "https://explored.neptune-software.com/media/root/sample%20apps/battlecruiser.jpg",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": null,
+	"ver": "20.11.25.1725",
+	"application": "sample_lightbox",
+	"title": "Sample sap.m.LightBox",
+	"description": "sap.m.LightBox",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_belize",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

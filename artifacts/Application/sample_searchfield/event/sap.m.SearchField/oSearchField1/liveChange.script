@@ -1,0 +1,3 @@
+var binding = oTable.getBinding("items");
+var filter = new sap.ui.model.Filter("NAME1", "Contains", this.getValue());
+binding.filter([filter]);

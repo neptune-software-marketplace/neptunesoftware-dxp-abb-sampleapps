@@ -1,0 +1,23 @@
+if (oEvent == 'YES')
+{
+
+// Use MessageToast
+jQuery.sap.require("sap.m.MessageToast");
+sap.m.MessageToast.show("Yes");
+
+
+}
+
+if (oEvent == 'NO')
+{
+    // Use MessageToast
+jQuery.sap.require("sap.m.MessageToast");
+sap.m.MessageToast.show("No");
+}
+
+if (oEvent == 'CANCEL')
+{
+        // Use MessageToast
+jQuery.sap.require("sap.m.MessageToast");
+sap.m.MessageToast.show("Cancel");
+}

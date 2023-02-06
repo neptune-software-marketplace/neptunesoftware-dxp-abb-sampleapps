@@ -1,0 +1,619 @@
+{
+	"id": "3754147f-1ff8-4bf4-b250-697474236d42",
+	"createdAt": "2022-06-10T12:49:19.146Z",
+	"createdBy": "serviceuser",
+	"objects": [
+		{
+			"fieldNo": "1",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "2",
+					"fieldName": "oApp",
+					"fieldParent": "1",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "4",
+							"fieldName": "oPage",
+							"fieldParent": "2",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "SideNavigation",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "f913538f-109a-41a8-93ff-99b0b407cbd9",
+									"fieldName": "oHBox",
+									"fieldParent": "4",
+									"fieldType": "sap.m.HBox",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "c7ec9f48-24c8-4ee4-c31f-e84f14901316",
+											"fieldName": "oSideNavigation",
+											"fieldParent": "f913538f-109a-41a8-93ff-99b0b407cbd9",
+											"fieldType": "sap.tnt.SideNavigation",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "fa9aa72d-4758-4bc2-ce33-b2a84aa9c9eb",
+													"fieldName": "oNavigationList",
+													"fieldParent": "c7ec9f48-24c8-4ee4-c31f-e84f14901316",
+													"fieldType": "sap.tnt.NavigationList",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "position",
+															"grouping": "Parent",
+															"value": "setItem",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "b4487821-bb2a-48a5-cfbb-b6194660633e",
+															"fieldName": "oNavigationListItem",
+															"fieldParent": "fa9aa72d-4758-4bc2-ce33-b2a84aa9c9eb",
+															"fieldType": "sap.tnt.NavigationListItem",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Cars",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "icon",
+																	"grouping": "Properties",
+																	"value": "sap-icon://fa-solid/car",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "enabled",
+																	"grouping": "Properties",
+																	"value": "false",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "092526e8-2c53-4b40-fe6b-534fbcc4f6c1",
+																	"fieldName": "oNavigationListItem1",
+																	"fieldParent": "b4487821-bb2a-48a5-cfbb-b6194660633e",
+																	"fieldType": "sap.tnt.NavigationListItem",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Audi",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "161ff3ed-b2e5-47b7-cae9-6bffa274a86b",
+																	"fieldName": "oNavigationListItem2",
+																	"fieldParent": "b4487821-bb2a-48a5-cfbb-b6194660633e",
+																	"fieldType": "sap.tnt.NavigationListItem",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "BMW",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "cad77034-97e6-4811-fcb7-44357281ef86",
+																	"fieldName": "oNavigationListItem3",
+																	"fieldParent": "b4487821-bb2a-48a5-cfbb-b6194660633e",
+																	"fieldType": "sap.tnt.NavigationListItem",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Mercedez Benz",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"fieldNo": "26ea6ff0-962e-4cbe-d8ff-85c5adbd8ee2",
+													"fieldName": "oNavigationList1",
+													"fieldParent": "c7ec9f48-24c8-4ee4-c31f-e84f14901316",
+													"fieldType": "sap.tnt.NavigationList",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "position",
+															"grouping": "Parent",
+															"value": "setFixedItem",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "f7d8a271-8c24-4d38-d8cf-958d39cb749e",
+															"fieldName": "oNavigationListItem4",
+															"fieldParent": "26ea6ff0-962e-4cbe-d8ff-85c5adbd8ee2",
+															"fieldType": "sap.tnt.NavigationListItem",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Global Car brands",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "icon",
+																	"grouping": "Properties",
+																	"value": "sap-icon://fa-solid/car-side",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "de6f6768-8f81-4c27-bd43-fa0494f1f0c8",
+																	"fieldName": "oNavigationListItem5",
+																	"fieldParent": "f7d8a271-8c24-4d38-d8cf-958d39cb749e",
+																	"fieldType": "sap.tnt.NavigationListItem",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "German Cars",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "57cec813-b0f2-43f8-925f-50c87443c5d6",
+																	"fieldName": "oNavigationListItem6",
+																	"fieldParent": "f7d8a271-8c24-4d38-d8cf-958d39cb749e",
+																	"fieldType": "sap.tnt.NavigationListItem",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Italian Cars",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "55f28956-fb94-4da7-dc60-d12a774e3dd5",
+																	"fieldName": "oNavigationListItem7",
+																	"fieldParent": "f7d8a271-8c24-4d38-d8cf-958d39cb749e",
+																	"fieldType": "sap.tnt.NavigationListItem",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Indian Cars",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"fieldNo": "06686136-2c2d-4694-8f9b-305a00b25de5",
+													"fieldName": "oNavigationList2",
+													"fieldParent": "c7ec9f48-24c8-4ee4-c31f-e84f14901316",
+													"fieldType": "sap.tnt.NavigationList",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "position",
+															"grouping": "Parent",
+															"value": "setFooter",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "6ebdde82-2c84-4a47-b8f3-67fb211d3a82",
+															"fieldName": "oNavigationListItem8",
+															"fieldParent": "06686136-2c2d-4694-8f9b-305a00b25de5",
+															"fieldType": "sap.tnt.NavigationListItem",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Coolest Cars",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "icon",
+																	"grouping": "Properties",
+																	"value": "sap-icon://card",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "expanded",
+																	"grouping": "Properties",
+																	"value": "false",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "c2b12bb8-07cf-4baa-d510-d428c52c37dc",
+																	"fieldName": "oNavigationListItem9",
+																	"fieldParent": "6ebdde82-2c84-4a47-b8f3-67fb211d3a82",
+																	"fieldType": "sap.tnt.NavigationListItem",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Dodge",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "5af842fd-9e76-42cb-e133-885a62c7081d",
+																	"fieldName": "oNavigationListItem10",
+																	"fieldParent": "6ebdde82-2c84-4a47-b8f3-67fb211d3a82",
+																	"fieldType": "sap.tnt.NavigationListItem",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Ferrari Mustang",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "d8ecd669-2a81-4921-b635-5c039e7447a7",
+																	"fieldName": "oNavigationListItem11",
+																	"fieldParent": "6ebdde82-2c84-4a47-b8f3-67fb211d3a82",
+																	"fieldType": "sap.tnt.NavigationListItem",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "AMC Javelin",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"fieldNo": "b4a25723-a192-493d-b58a-b2b01a403f8e",
+											"fieldName": "oText",
+											"fieldParent": "f913538f-109a-41a8-93ff-99b0b407cbd9",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Side Navigation with multiple Navigation Lists",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiMediumMargin",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "5",
+									"fieldName": "oFooter",
+									"fieldParent": "4",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "6",
+											"fieldName": "Left",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "6a50136d-62ac-4f2a-a24b-568cda6fd557",
+													"fieldName": "oButOpenAD",
+													"fieldParent": "6",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Open In App Designer",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButOpenAD/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "7",
+											"fieldName": "Middle",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentMiddle",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "8",
+											"fieldName": "Right",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "efaadabf-9bcd-461f-d604-22fcba66e8d8",
+													"fieldName": "oToggleButton",
+													"fieldParent": "8",
+													"fieldType": "sap.m.ToggleButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Compact",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.ToggleButton/oToggleButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": null,
+	"ver": "20.11.25.1646",
+	"application": "sample_sidenavigation",
+	"title": "Sample sap.tnt.SideNavigation",
+	"description": "sap.tnt.SideNavigation",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": true,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_belize",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

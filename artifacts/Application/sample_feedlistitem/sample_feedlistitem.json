@@ -1,0 +1,513 @@
+{
+	"id": "fcd48248-305b-43fb-8baf-43f3918f4770",
+	"createdAt": "2022-06-10T12:49:18.223Z",
+	"createdBy": "serviceuser",
+	"objects": [
+		{
+			"fieldNo": "d1d1e04f-cbb3-4066-e171-e1a5075ccfcf",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "5b6a544f-5f5c-471b-b109-b993a00b485f",
+					"fieldName": "oApp",
+					"fieldParent": "d1d1e04f-cbb3-4066-e171-e1a5075ccfcf",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "31d2bcd9-7762-4783-915a-134daeda6ede",
+							"fieldName": "oPage",
+							"fieldParent": "5b6a544f-5f5c-471b-b109-b993a00b485f",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "FeedListItem",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "a5bfe743-a475-4b72-dd32-1c390850b231",
+									"fieldName": "oList",
+									"fieldParent": "31d2bcd9-7762-4783-915a-134daeda6ede",
+									"fieldType": "sap.m.List",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "d9656457-7525-4eb4-97e0-2623f427cc01",
+											"fieldName": "oFeedListItem",
+											"fieldParent": "a5bfe743-a475-4b72-dd32-1c390850b231",
+											"fieldType": "sap.m.FeedListItem",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Active",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "timestamp",
+													"grouping": "Properties",
+													"value": "13.09.2017 - 10:00:00",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "This is the content for FeedListItem for Type : Active",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "sender",
+													"grouping": "Properties",
+													"value": "Frank Smith",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "info",
+													"grouping": "Properties",
+													"value": "Request",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://activity-individual",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "counter",
+													"grouping": "Properties",
+													"value": "10",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "f137e8c9-acaf-4898-d74d-970b7f1aff24",
+											"fieldName": "oFeedListItem1",
+											"fieldParent": "a5bfe743-a475-4b72-dd32-1c390850b231",
+											"fieldType": "sap.m.FeedListItem",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Detail",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "timestamp",
+													"grouping": "Properties",
+													"value": "13.09.2017 - 10:00:00",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "This is the content for FeedListItem for Type:Detail",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "sender",
+													"grouping": "Properties",
+													"value": "Frank D",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "info",
+													"grouping": "Properties",
+													"value": "Request",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "counter",
+													"grouping": "Properties",
+													"value": "20",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "detailPress",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.FeedListItem/oFeedListItem1/detailPress.script",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "52c0260c-64fe-42f7-baa7-7cc472da279f",
+											"fieldName": "oFeedListItem2",
+											"fieldParent": "a5bfe743-a475-4b72-dd32-1c390850b231",
+											"fieldType": "sap.m.FeedListItem",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "DetailAndActive",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "timestamp",
+													"grouping": "Properties",
+													"value": "1309.2017 - 10:00:00",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "This is the content for FeedListItem for Type: Detail And Active",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "sender",
+													"grouping": "Properties",
+													"value": "Frank E",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "info",
+													"grouping": "Properties",
+													"value": "Request",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://add-contact",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "counter",
+													"grouping": "Properties",
+													"value": "30",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "1f1cae1e-2437-4e5f-cc9b-894f462ac836",
+											"fieldName": "oFeedListItem3",
+											"fieldParent": "a5bfe743-a475-4b72-dd32-1c390850b231",
+											"fieldType": "sap.m.FeedListItem",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Inactive",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "timestamp",
+													"grouping": "Properties",
+													"value": "13.09.2017 - 10:00:00",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "This is the content for FeedListItem",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "sender",
+													"grouping": "Properties",
+													"value": "Frank F",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "info",
+													"grouping": "Properties",
+													"value": "Request",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "counter",
+													"grouping": "Properties",
+													"value": "40",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "detailPress",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.FeedListItem/oFeedListItem3/detailPress.script",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "ae85d140-1ee5-438d-8964-d901d5e962ea",
+									"fieldName": "oBarFooter",
+									"fieldParent": "31d2bcd9-7762-4783-915a-134daeda6ede",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "d81eeeb4-837a-403a-9b6b-e53c36dd048c",
+											"fieldName": "Left",
+											"fieldParent": "ae85d140-1ee5-438d-8964-d901d5e962ea",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "c3af1332-a17a-4e0b-c315-80ec616f03e8",
+													"fieldName": "oButton",
+													"fieldParent": "d81eeeb4-837a-403a-9b6b-e53c36dd048c",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Open In App Designer",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "00852a32-d416-4b3e-8365-6dd06e09decb",
+											"fieldName": "Right",
+											"fieldParent": "ae85d140-1ee5-438d-8964-d901d5e962ea",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "45529839-bd5a-4e55-ce6e-b932451de1ba",
+													"fieldName": "butInset",
+													"fieldParent": "00852a32-d416-4b3e-8365-6dd06e09decb",
+													"fieldType": "sap.m.ToggleButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Inset",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "oList.setInset(this.getPressed());",
+															"script": "oList.setInset(this.getPressed());",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "f367f81c-7144-45eb-d12f-c889c6d7a001",
+													"fieldName": "oToggleButton",
+													"fieldParent": "00852a32-d416-4b3e-8365-6dd06e09decb",
+													"fieldType": "sap.m.ToggleButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Compact",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.ToggleButton/oToggleButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": null,
+	"ver": "20.11.25.1736",
+	"application": "sample_feedlistitem",
+	"title": "Sample sap.m.FeedListItem",
+	"description": "sap.m.FeedListItem",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_belize",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

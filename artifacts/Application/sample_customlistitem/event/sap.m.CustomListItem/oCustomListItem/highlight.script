@@ -1,0 +1,3 @@
+if (typeof Information === "undefined" || Information === null || Information === "") { return; }  
+var formattedText = Information; 
+return formattedText;

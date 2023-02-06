@@ -1,0 +1,5 @@
+if (oList.getInset()) {
+    oList.setInset(false);
+} else {
+    oList.setInset(true);
+}

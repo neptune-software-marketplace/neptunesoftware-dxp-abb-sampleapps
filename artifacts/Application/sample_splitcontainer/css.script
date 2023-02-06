@@ -1,0 +1,7 @@
+.BackgroundMasterPage{
+    Background-color :#eff4f9;
+}
+
+.sapMSplitContainerMaster .sapMPageHeader{
+    Background-color :#eff4f9;
+}

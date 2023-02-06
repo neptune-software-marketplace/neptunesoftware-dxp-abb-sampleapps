@@ -1,0 +1,5 @@
+if (this.getPressed()) {
+    oShell.addStyleClass("sapUiSizeCompact");
+} else {
+    oShell.removeStyleClass("sapUiSizeCompact");
+}

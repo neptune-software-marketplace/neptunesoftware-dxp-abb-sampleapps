@@ -1,0 +1,3 @@
+var selectedKey = oSegmentedButton.getSelectedKey();
+
+alert("Selected Key:" + selectedKey);

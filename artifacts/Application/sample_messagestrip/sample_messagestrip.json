@@ -1,0 +1,396 @@
+{
+	"id": "635c33f7-468c-48aa-b86c-91bce3d4434d",
+	"createdAt": "2022-06-10T12:49:20.900Z",
+	"createdBy": "serviceuser",
+	"objects": [
+		{
+			"fieldNo": "0012a174-2a32-404a-b824-3ef27928ae54",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "1e83576b-fd1a-4dec-a978-12b5501a6c0a",
+					"fieldName": "oApp",
+					"fieldParent": "0012a174-2a32-404a-b824-3ef27928ae54",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "4b24c6db-918e-4592-9d28-6c63743e0659",
+							"fieldName": "oPage",
+							"fieldParent": "1e83576b-fd1a-4dec-a978-12b5501a6c0a",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "MessageStrip",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "ba9d14db-959a-453d-dcf9-115952965458",
+									"fieldName": "oBarFooter",
+									"fieldParent": "4b24c6db-918e-4592-9d28-6c63743e0659",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "75ca858d-0e57-42f7-c0ae-b3dbee318ede",
+											"fieldName": "Left",
+											"fieldParent": "ba9d14db-959a-453d-dcf9-115952965458",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "6fbe115f-8c16-49ee-b95a-04bde8c30b39",
+													"fieldName": "oButton",
+													"fieldParent": "75ca858d-0e57-42f7-c0ae-b3dbee318ede",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Open In App Designer",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "a6b8c527-6e0d-4791-82dd-4ef25511c493",
+											"fieldName": "Right",
+											"fieldParent": "ba9d14db-959a-453d-dcf9-115952965458",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "8e6c668b-417e-444d-db56-1ddf5ef704c1",
+													"fieldName": "butCompact",
+													"fieldParent": "a6b8c527-6e0d-4791-82dd-4ef25511c493",
+													"fieldType": "sap.m.ToggleButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Compact",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "ca6c0456-48ab-42cd-86b3-ba03ad4b51d0",
+									"fieldName": "oMessageStrip",
+									"fieldParent": "4b24c6db-918e-4592-9d28-6c63743e0659",
+									"fieldType": "sap.m.MessageStrip",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "type",
+											"grouping": "Properties",
+											"value": "None",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Default (Information) with default icon and close button",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "showIcon",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "showCloseButton",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "0143981a-fbcc-41a0-b496-a7c63e2db2be",
+									"fieldName": "oMessageStrip1",
+									"fieldParent": "4b24c6db-918e-4592-9d28-6c63743e0659",
+									"fieldType": "sap.m.MessageStrip",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "type",
+											"grouping": "Properties",
+											"value": "Warning",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Warning with default icon",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "showIcon",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "ef1ff3a2-f58d-4635-ecc7-f23e5b24dd66",
+									"fieldName": "oMessageStrip2",
+									"fieldParent": "4b24c6db-918e-4592-9d28-6c63743e0659",
+									"fieldType": "sap.m.MessageStrip",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "type",
+											"grouping": "Properties",
+											"value": "Error",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Error with  close button",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "showIcon",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "showCloseButton",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "1bd9ad3a-fbbb-46f8-ef79-b6c87fcd6c83",
+									"fieldName": "oMessageStrip3",
+									"fieldParent": "4b24c6db-918e-4592-9d28-6c63743e0659",
+									"fieldType": "sap.m.MessageStrip",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "type",
+											"grouping": "Properties",
+											"value": "Success",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Success with default icon",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "showIcon",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "3907ad13-79c8-4c81-98bc-4b3ae241ebeb",
+									"fieldName": "oMessageStrip4",
+									"fieldParent": "4b24c6db-918e-4592-9d28-6c63743e0659",
+									"fieldType": "sap.m.MessageStrip",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Information without icon",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "customIcon",
+											"grouping": "Properties",
+											"value": "sap-icon://download-from-cloud",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": null,
+	"ver": "20.11.25.1723",
+	"application": "sample_messagestrip",
+	"title": "Sample sap.m.MessageStrip",
+	"description": "sap.m.MessageStrip",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_belize",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

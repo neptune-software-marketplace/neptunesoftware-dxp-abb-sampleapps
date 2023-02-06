@@ -1,0 +1,8 @@
+
+// Single Select
+var selectedItem = oEvent.getParameter("selectedItem");
+var context = selectedItem.getBindingContext("oMultiModel");
+var value = context.getProperty("NAME1");
+
+// Update Inputfield
+oInput.setValue(value);

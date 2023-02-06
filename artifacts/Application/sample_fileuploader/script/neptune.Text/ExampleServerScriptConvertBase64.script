@@ -1,0 +1,9 @@
+let dataString;
+//added the keys logic because when called from the launchpad, the FileUploader changes name in property (is not req.files.oFileUploader)
+var keys = Object.keys(req.files);
+
+if (keys.toString().includes("oFileUploader")){
+    dataString = req.files[keys.toString()][0].data;
+}
+
+let dataEncoded = dataString.toString('base64');

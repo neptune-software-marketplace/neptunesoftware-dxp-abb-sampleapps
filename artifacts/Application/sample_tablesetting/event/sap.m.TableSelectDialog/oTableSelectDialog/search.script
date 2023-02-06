@@ -1,0 +1,18 @@
+
+
+
+
+
+
+
+
+
+
+
+// var binding = oTableSelectDialog.getBinding("items");
+// var sValue = oEvent.getParameter("value");
+
+
+// var filter = new sap.ui.model.Filter("CITYFROM", "Contains", sValue);
+
+// binding.filter([filter]);

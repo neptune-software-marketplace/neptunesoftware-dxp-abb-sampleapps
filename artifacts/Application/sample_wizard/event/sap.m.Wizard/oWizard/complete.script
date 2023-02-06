@@ -1,0 +1,7 @@
+
+//var lv_msg = 'Thanks! ' + oInput.getValue() + ' ' + oInput2.getValue()+ ' ' + oTextArea.getValue();
+
+var lv_msg = 'Thanks! ' + oInput.getValue() + '' + ' Your Query ' + '' + '*'+ + oTextArea.getValue() + '*' + ' has been received'  ;
+
+
+sap.m.MessageToast.show(lv_msg);

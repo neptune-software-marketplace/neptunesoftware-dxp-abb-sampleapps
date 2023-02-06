@@ -1,0 +1,21 @@
+var oDraggedControl = oEvent.getParameter("draggedControl");
+var oDroppedControl = oEvent.getParameter("droppedControl");
+debugger;
+var oDraggedContext = oDraggedControl.getBindingContext();
+var oDroppedContext = oDroppedControl.getBindingContext();
+
+if (!oDraggedContext && !oDroppedContext) return;
+
+var oDraggedData = oDraggedContext.getObject();
+var oDroppedData = oDroppedContext.getObject();
+
+var indexDrag = 0;
+var indexDrop = 0;
+
+$.each(modeloTable.oData, function(i, data) {
+    if (data.id === oDraggedData.id ) indexDrag = i;
+    if (data.id === oDroppedData.id ) indexDrop = i;
+});
+
+adjustTable(modeloTable.oData, indexDrag, indexDrop);
+modeloTable.refresh();

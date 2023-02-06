@@ -1,0 +1,6 @@
+
+oShell.setShowPane(!oShell.getShowPane());
+//this.setSelected(oShell.getShowPane());
+//this.setShowMarker(oShell.getShowPane());
+
+

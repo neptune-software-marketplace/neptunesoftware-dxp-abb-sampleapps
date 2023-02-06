@@ -1,0 +1,4 @@
+
+// Use MessageToast
+jQuery.sap.require("sap.m.MessageToast");
+sap.m.MessageToast.show("NavButton pressed");

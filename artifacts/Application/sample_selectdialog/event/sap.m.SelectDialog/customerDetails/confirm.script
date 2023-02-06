@@ -1,0 +1,9 @@
+
+// Single Select
+var selectedItem = oEvent.getParameter("selectedItem");
+console.log(selectedItem);
+var context = selectedItem.getBindingContext();
+var value = context.getProperty("NAME1");
+
+// Update Inputfield
+inCustomer.setValue(value);

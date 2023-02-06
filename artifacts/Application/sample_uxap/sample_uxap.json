@@ -1,0 +1,755 @@
+{
+	"id": "494e4ec5-ec0e-4b62-9fd0-6a000466ec9b",
+	"createdAt": "2022-06-10T12:49:19.860Z",
+	"createdBy": "serviceuser",
+	"objects": [
+		{
+			"fieldNo": "1",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "2",
+					"fieldName": "oApp",
+					"fieldParent": "1",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "4",
+							"fieldName": "oPage",
+							"fieldParent": "2",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "UXAP- Objects with Links",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "21359fdb-a244-4f69-a365-1e56bf943c7e",
+									"fieldName": "oObjectPageLayout",
+									"fieldParent": "4",
+									"fieldType": "sap.uxap.ObjectPageLayout",
+									"script": "",
+									"bindingType": "h",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "showTitleInHeaderContent",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "showEditHeaderButton",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "editHeaderButtonPress",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.uxap.ObjectPageLayout/oObjectPageLayout/editHeaderButtonPress.script",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "ec640f68-b01a-40da-b6af-b5e22d65e4f5",
+											"fieldName": "oObjectPageHeader",
+											"fieldParent": "21359fdb-a244-4f69-a365-1e56bf943c7e",
+											"fieldType": "sap.uxap.ObjectPageHeader",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "showTitleSelector",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "objectTitle",
+													"grouping": "Properties",
+													"value": "Neptune Software",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "objectSubtitle",
+													"grouping": "Properties",
+													"value": "Neptune DX Platform",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "objectImageURI",
+													"grouping": "Properties",
+													"value": "/media/root/icon-762x.png",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "isObjectTitleAlwaysVisible",
+													"grouping": "Properties",
+													"value": "false",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "isObjectSubtitleAlwaysVisible",
+													"grouping": "Properties",
+													"value": "false",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "8a30f1e2-1ee3-4adc-ecca-b90141870c34",
+											"fieldName": "oObjectPageHeaderContent",
+											"fieldParent": "21359fdb-a244-4f69-a365-1e56bf943c7e",
+											"fieldType": "sap.uxap.ObjectPageHeaderContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiSmallMarginTop",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "57eb133e-f58f-4b8a-daab-69b5f06f26a1",
+													"fieldName": "oLink",
+													"fieldParent": "8a30f1e2-1ee3-4adc-ecca-b90141870c34",
+													"fieldType": "sap.m.Link",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Read more about DX-Platform at our community",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "target",
+															"grouping": "Properties",
+															"value": "https://community.neptune-software.com/documentation",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "href",
+															"grouping": "Properties",
+															"value": "https://community.neptune-software.com/documentation",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "fc3023cc-2883-4fa5-98c5-2dee42d359ff",
+													"fieldName": "oObjectPageHeaderActionButton1",
+													"fieldParent": "8a30f1e2-1ee3-4adc-ecca-b90141870c34",
+													"fieldType": "sap.uxap.ObjectPageHeaderActionButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "tooltip",
+															"grouping": "Properties",
+															"value": "pull-down",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "sap-icon://pull-down",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.uxap.ObjectPageHeaderActionButton/oObjectPageHeaderActionButton1/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "334aa7ba-4a9b-4fc9-870e-252bed3526a6",
+											"fieldName": "oObjectPageSection",
+											"fieldParent": "21359fdb-a244-4f69-a365-1e56bf943c7e",
+											"fieldType": "sap.uxap.ObjectPageSection",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "title",
+													"grouping": "Properties",
+													"value": "Neptune DX-Modules",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "1a8fcddd-b66c-4d56-ca35-91289fde8d5e",
+													"fieldName": "oObjectPageSubSection",
+													"fieldParent": "334aa7ba-4a9b-4fc9-870e-252bed3526a6",
+													"fieldType": "sap.uxap.ObjectPageSubSection",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "title",
+															"grouping": "Properties",
+															"value": "Planet 8",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "15e23a3c-02af-4d1a-c76e-95daae959468",
+															"fieldName": "oObjectPageSubSectionContent",
+															"fieldParent": "1a8fcddd-b66c-4d56-ca35-91289fde8d5e",
+															"fieldType": "neptune.ObjectPageSubSectionContent",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "position",
+																	"grouping": "Parent",
+																	"value": "Block",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "cd597f57-1953-4f74-b64e-c7f56006246d",
+																	"fieldName": "Planet8",
+																	"fieldParent": "15e23a3c-02af-4d1a-c76e-95daae959468",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Neptune DXP-Planet 8 covers the entire development, management and life-cycle of SAP Fiori UX Apps. Enabling traditional SAP developers to produce SAP applications for mobile, tablet and desktop.",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														},
+														{
+															"fieldNo": "68fe2d46-60a6-47b8-f423-6ec3d9733394",
+															"fieldName": "oObjectPageSubSectionContent2",
+															"fieldParent": "1a8fcddd-b66c-4d56-ca35-91289fde8d5e",
+															"fieldType": "neptune.ObjectPageSubSectionContent",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "position",
+																	"grouping": "Parent",
+																	"value": "MoreBlock",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "78decd87-b720-49ee-8103-aa9e8969f1f1",
+																	"fieldName": "oLink1",
+																	"fieldParent": "68fe2d46-60a6-47b8-f423-6ec3d9733394",
+																	"fieldType": "sap.m.Link",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Read in Detail",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "target",
+																			"grouping": "Properties",
+																			"value": "https://community.neptune-software.com/documentation/neptune-ux",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "href",
+																			"grouping": "Properties",
+																			"value": "https://community.neptune-software.com/documentation/neptune-ux",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"fieldNo": "3fe3d288-7423-47a5-fb43-0b869128955a",
+													"fieldName": "oObjectPageSubSection1",
+													"fieldParent": "334aa7ba-4a9b-4fc9-870e-252bed3526a6",
+													"fieldType": "sap.uxap.ObjectPageSubSection",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "title",
+															"grouping": "Properties",
+															"value": "Planet 9",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "mode",
+															"grouping": "Properties",
+															"value": "Expanded",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "a668da8c-c2bb-4d68-b93a-dbbf35ff2274",
+															"fieldName": "oObjectPageSubSectionContent1",
+															"fieldParent": "3fe3d288-7423-47a5-fb43-0b869128955a",
+															"fieldType": "neptune.ObjectPageSubSectionContent",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "position",
+																	"grouping": "Parent",
+																	"value": "Block",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "844d2325-fbe4-4a3c-e2b7-99bc3f464733",
+																	"fieldName": "Planet9",
+																	"fieldParent": "a668da8c-c2bb-4d68-b93a-dbbf35ff2274",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Neptune DXP-Planet 9 covers the entire development and management of UI5 Apps. It's our new low-code, drag & drop platform for any cloud/server/database. Learn what is Planet 9 and how to best use it all.",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "353fd41d-2185-4a62-caf9-7cfdc476fcac",
+																	"fieldName": "oLink2",
+																	"fieldParent": "a668da8c-c2bb-4d68-b93a-dbbf35ff2274",
+																	"fieldType": "sap.m.Link",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Read in Detail",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "target",
+																			"grouping": "Properties",
+																			"value": "https://community.neptune-software.com/documentation/planet9",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "href",
+																			"grouping": "Properties",
+																			"value": "https://community.neptune-software.com/documentation/planet9",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														}
+													]
+												},
+												{
+													"fieldNo": "59d77016-1766-4138-cb82-dc8ac07d3dca",
+													"fieldName": "oObjectPageSubSection2",
+													"fieldParent": "334aa7ba-4a9b-4fc9-870e-252bed3526a6",
+													"fieldType": "sap.uxap.ObjectPageSubSection",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "title",
+															"grouping": "Properties",
+															"value": "DX-eLearning",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "mode",
+															"grouping": "Properties",
+															"value": "Expanded",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "99d186b0-56e1-4f7f-dd9d-d258fab11ea3",
+															"fieldName": "oObjectPageSubSectionContent3",
+															"fieldParent": "59d77016-1766-4138-cb82-dc8ac07d3dca",
+															"fieldType": "neptune.ObjectPageSubSectionContent",
+															"script": "",
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "position",
+																	"grouping": "Parent",
+																	"value": "Block",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": [
+																{
+																	"fieldNo": "ef31c1f7-80cb-4176-b2f3-d3bcecfa1ccf",
+																	"fieldName": "eLearning",
+																	"fieldParent": "99d186b0-56e1-4f7f-dd9d-d258fab11ea3",
+																	"fieldType": "sap.m.Text",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "Learn how to succeed with the Neptune DX Platform",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																},
+																{
+																	"fieldNo": "43c77e4d-6516-4b52-c5bb-07f6b1d286ff",
+																	"fieldName": "oLink3",
+																	"fieldParent": "99d186b0-56e1-4f7f-dd9d-d258fab11ea3",
+																	"fieldType": "sap.m.Link",
+																	"script": "",
+																	"request": [],
+																	"response": [],
+																	"attributes": [
+																		{
+																			"attribute": "text",
+																			"grouping": "Properties",
+																			"value": "DX-eLearning program",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "target",
+																			"grouping": "Properties",
+																			"value": "https://elearning.neptune-software.com/?utm_source=Community&utm_medium=webnav",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "href",
+																			"grouping": "Properties",
+																			"value": "https://elearning.neptune-software.com/?utm_source=Community&utm_medium=webnav",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
+																	"data": []
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "5",
+									"fieldName": "oFooter",
+									"fieldParent": "4",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "6",
+											"fieldName": "Left",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "024d3703-5317-415f-db5f-42bfdbf5ce6a",
+													"fieldName": "oButton",
+													"fieldParent": "6",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Open In App Designer",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "7",
+											"fieldName": "Middle",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentMiddle",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "8",
+											"fieldName": "Right",
+											"fieldParent": "5",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "501f76f8-12cb-4798-c69b-b7b564c84bfe",
+													"fieldName": "oToggleButton",
+													"fieldParent": "8",
+													"fieldType": "sap.m.ToggleButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Compact",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.ToggleButton/oToggleButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": null,
+	"ver": "20.11.25.1633",
+	"application": "sample_uxap",
+	"title": "Sample sap.uxap",
+	"description": "sap.uxap Library",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": true,
+	"ui5_chart": false,
+	"ui5_theme": "sap_belize",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

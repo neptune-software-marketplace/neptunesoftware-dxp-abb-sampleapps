@@ -1,0 +1,4 @@
+debugger;
+oMultiInput1.addToken(new sap.m.Token({key: this.getValue(), text: this.getValue()}));
+
+this.setValue();

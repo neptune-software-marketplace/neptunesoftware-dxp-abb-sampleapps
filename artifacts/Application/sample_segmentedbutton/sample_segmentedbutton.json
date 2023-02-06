@@ -1,0 +1,343 @@
+{
+	"id": "2a6b5e30-5ae7-44a1-b3e5-0f11095362b9",
+	"createdAt": "2022-06-10T12:49:16.110Z",
+	"createdBy": "serviceuser",
+	"objects": [
+		{
+			"fieldNo": "73c5036e-7582-467c-8f6e-d1186de0fe82",
+			"fieldName": "oShell",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Shell",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "8be4f012-4e66-46e0-b738-4cee8760b3ef",
+					"fieldName": "oApp",
+					"fieldParent": "73c5036e-7582-467c-8f6e-d1186de0fe82",
+					"fieldType": "sap.m.App",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "3b366785-8a79-4afe-91dd-fa89bed62bea",
+							"fieldName": "oPage",
+							"fieldParent": "8be4f012-4e66-46e0-b738-4cee8760b3ef",
+							"fieldType": "sap.m.Page",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Segmented Button",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "027d4a23-c36e-401a-e2a5-21075558d802",
+									"fieldName": "oSegmentedButton",
+									"fieldParent": "3b366785-8a79-4afe-91dd-fa89bed62bea",
+									"fieldType": "sap.m.SegmentedButton",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "select",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.SegmentedButton/oSegmentedButton/select.script",
+											"translation": []
+										},
+										{
+											"attribute": "selectionChange",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.SegmentedButton/oSegmentedButton/selectionChange.script",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "17a8eaa4-7e3e-41c5-cc6a-87423afc3e92",
+											"fieldName": "oSegmentedButtonItem",
+											"fieldParent": "027d4a23-c36e-401a-e2a5-21075558d802",
+											"fieldType": "sap.m.SegmentedButtonItem",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Hello",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "key",
+													"grouping": "Properties",
+													"value": "Key1",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://hello-world",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "cc71ae83-23d0-4eaf-fadf-b22e14f84181",
+											"fieldName": "oSegmentedButtonItem1",
+											"fieldParent": "027d4a23-c36e-401a-e2a5-21075558d802",
+											"fieldType": "sap.m.SegmentedButtonItem",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Blabla",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "key",
+													"grouping": "Properties",
+													"value": "Key2",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://fa-brands/rocketchat",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "7d0c5ae2-cd6c-4b92-c31a-9020172e2018",
+											"fieldName": "oSegmentedButtonItem2",
+											"fieldParent": "027d4a23-c36e-401a-e2a5-21075558d802",
+											"fieldType": "sap.m.SegmentedButtonItem",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Bye",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "key",
+													"grouping": "Properties",
+													"value": "Key3",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "1383d2b7-8ab3-48a0-ae90-702368611f4b",
+									"fieldName": "oBarFooter",
+									"fieldParent": "3b366785-8a79-4afe-91dd-fa89bed62bea",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "setFooter",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "b54b80cf-0c3c-42b9-9d3b-4c64374fa490",
+											"fieldName": "Left",
+											"fieldParent": "1383d2b7-8ab3-48a0-ae90-702368611f4b",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentLeft",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "002762ba-2edd-48e6-8d0d-f8e156adaeb8",
+													"fieldName": "oButton",
+													"fieldParent": "b54b80cf-0c3c-42b9-9d3b-4c64374fa490",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Open In App Designer",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/oButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "03c2c118-5644-491b-cbaa-bd0278067946",
+											"fieldName": "Right",
+											"fieldParent": "1383d2b7-8ab3-48a0-ae90-702368611f4b",
+											"fieldType": "neptune.BarContent",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "position",
+													"grouping": "Parent",
+													"value": "ContentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "da7d33a6-72ee-41fe-ce09-d87d60b8af1f",
+													"fieldName": "oToggleButton",
+													"fieldParent": "03c2c118-5644-491b-cbaa-bd0278067946",
+													"fieldType": "sap.m.ToggleButton",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "type",
+															"grouping": "Properties",
+															"value": "Emphasized",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Compact",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.ToggleButton/oToggleButton/press.script",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": null,
+	"ver": "20.11.25.172",
+	"application": "sample_segmentedbutton",
+	"title": "sap.m.SegmentedButton",
+	"description": "sap.m.SegmentedButton",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_belize",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

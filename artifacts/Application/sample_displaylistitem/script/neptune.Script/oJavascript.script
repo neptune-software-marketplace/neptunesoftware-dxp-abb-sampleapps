@@ -1,0 +1,13 @@
+
+
+setTimeout(function () {
+
+    var oTree = new sap.m.Tree();
+
+    oTree.addItem(new sap.m.StandardTreeItem({
+        title: "item 1"
+    }))
+
+    oPage.addContent(oTree);
+
+}, 500);

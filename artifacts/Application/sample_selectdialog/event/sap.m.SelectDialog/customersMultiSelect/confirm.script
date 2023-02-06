@@ -1,0 +1,13 @@
+var selectedItems = oEvent.getParameter("selectedItems");
+
+orderArray = [];
+
+
+for (i = 0; i < selectedItems.length; i++) {
+    var item = selectedItems[i];
+    var context = item.getBindingContext();
+    var value = context.getProperty("STRAS");
+    orderArray.push(value);
+}
+
+inOrder.setValue(orderArray.join());

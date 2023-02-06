@@ -1,0 +1,19 @@
+
+jQuery.sap.require("sap.ui.core.format.DateFormat");
+var oSapFormat = sap.ui.core.format.DateFormat.getDateTimeInstance({
+    pattern: "yyyy/MM/dd"
+});
+
+
+var oCalendar = oEvent.getSource();
+var aSelectedDates = oCalendar.getSelectedDates();
+var oDate;
+var oData = { selectedDates: [] };
+	if (aSelectedDates.length > 0 ) {
+		for (var i = 0; i < aSelectedDates.length; i++){		
+		    oDate = aSelectedDates[i].getStartDate();
+		    	oData.selectedDates.push({Date:oSapFormat.format(oDate)});
+		}
+   modeloList.setData(oData.selectedDates);
+   
+	}

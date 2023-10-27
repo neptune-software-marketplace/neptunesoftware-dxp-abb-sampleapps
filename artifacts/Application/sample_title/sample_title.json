@@ -4,304 +4,154 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "1",
-			"fieldName": "oShell",
+			"fieldNo": "2",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "2",
-					"fieldName": "oApp",
-					"fieldParent": "1",
-					"fieldType": "sap.m.App",
+					"fieldNo": "4",
+					"fieldName": "oPage",
+					"fieldParent": "2",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Title",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "4",
-							"fieldName": "oPage",
-							"fieldParent": "2",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "c0885a55-dd4d-4f9e-98ec-e53296d9c3f8",
+							"fieldName": "oSimpleForm",
+							"fieldParent": "4",
+							"fieldType": "sap.ui.layout.form.SimpleForm",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
 								{
 									"attribute": "title",
 									"grouping": "Properties",
-									"value": "Title",
+									"value": "Simple Form with ui.core.Title properties",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "layout",
+									"grouping": "Properties",
+									"value": "ResponsiveGridLayout",
 									"script": "",
 									"translation": []
 								}
 							],
 							"data": [
 								{
-									"fieldNo": "c0885a55-dd4d-4f9e-98ec-e53296d9c3f8",
-									"fieldName": "oSimpleForm",
-									"fieldParent": "4",
-									"fieldType": "sap.ui.layout.form.SimpleForm",
+									"fieldNo": "ad86413e-e50d-4983-a179-3be0063d181c",
+									"fieldName": "oTitle",
+									"fieldParent": "c0885a55-dd4d-4f9e-98ec-e53296d9c3f8",
+									"fieldType": "sap.ui.core.Title",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "title",
+											"attribute": "text",
 											"grouping": "Properties",
-											"value": "Simple Form with ui.core.Title properties",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "layout",
-											"grouping": "Properties",
-											"value": "ResponsiveGridLayout",
+											"value": "Add SubTitle using Title control",
 											"script": "",
 											"translation": []
 										}
 									],
-									"data": [
-										{
-											"fieldNo": "ad86413e-e50d-4983-a179-3be0063d181c",
-											"fieldName": "oTitle",
-											"fieldParent": "c0885a55-dd4d-4f9e-98ec-e53296d9c3f8",
-											"fieldType": "sap.ui.core.Title",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Add SubTitle using Title control",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "926d1729-cda2-4e8d-a3d2-ddc3d78df3da",
-											"fieldName": "oTitle1",
-											"fieldParent": "c0885a55-dd4d-4f9e-98ec-e53296d9c3f8",
-											"fieldType": "sap.ui.core.Title",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": " SubTitle2 with Icon",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "icon",
-													"grouping": "Properties",
-													"value": "sap-icon://fa-brands/accusoft",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "1ca954bb-1f0f-4b14-fe27-d35364b3a74c",
-											"fieldName": "oTitle2",
-											"fieldParent": "c0885a55-dd4d-4f9e-98ec-e53296d9c3f8",
-											"fieldType": "sap.ui.core.Title",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Subtitle with text level H2",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "level",
-													"grouping": "Properties",
-													"value": "H2",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "4ac2dea0-7677-4b89-d91a-3b01610bf180",
-											"fieldName": "oTitle3",
-											"fieldParent": "c0885a55-dd4d-4f9e-98ec-e53296d9c3f8",
-											"fieldType": "sap.ui.core.Title",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "SubTitle with text level H6",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										}
-									]
+									"data": []
 								},
 								{
-									"fieldNo": "5",
-									"fieldName": "oFooter",
-									"fieldParent": "4",
-									"fieldType": "sap.m.Bar",
+									"fieldNo": "926d1729-cda2-4e8d-a3d2-ddc3d78df3da",
+									"fieldName": "oTitle1",
+									"fieldParent": "c0885a55-dd4d-4f9e-98ec-e53296d9c3f8",
+									"fieldType": "sap.ui.core.Title",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": " SubTitle2 with Icon",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "icon",
+											"grouping": "Properties",
+											"value": "sap-icon://fa-brands/accusoft",
 											"script": "",
 											"translation": []
 										}
 									],
-									"data": [
+									"data": []
+								},
+								{
+									"fieldNo": "1ca954bb-1f0f-4b14-fe27-d35364b3a74c",
+									"fieldName": "oTitle2",
+									"fieldParent": "c0885a55-dd4d-4f9e-98ec-e53296d9c3f8",
+									"fieldType": "sap.ui.core.Title",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
 										{
-											"fieldNo": "6",
-											"fieldName": "Left",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Subtitle with text level H2",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "6974fad5-a5cb-44f0-d6f7-4aab8249469f",
-													"fieldName": "oButton",
-													"fieldParent": "6",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Open In App Designer",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButton/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
+											"translation": []
 										},
 										{
-											"fieldNo": "7",
-											"fieldName": "Middle",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
+											"attribute": "level",
+											"grouping": "Properties",
+											"value": "H2",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentMiddle",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "8",
-											"fieldName": "Right",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "d72b4a94-b260-4bff-cadf-8870120446ed",
-													"fieldName": "butCompact",
-													"fieldParent": "8",
-													"fieldType": "sap.m.ToggleButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Compact",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
+											"translation": []
 										}
-									]
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "4ac2dea0-7677-4b89-d91a-3b01610bf180",
+									"fieldName": "oTitle3",
+									"fieldParent": "c0885a55-dd4d-4f9e-98ec-e53296d9c3f8",
+									"fieldType": "sap.ui.core.Title",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "SubTitle with text level H6",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
 								}
 							]
 						}
@@ -318,8 +168,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.1637",
+	"componentInterface": [],
+	"ver": "23.10.27.1433",
 	"application": "sample_title",
 	"title": "sap.ui.core.Title",
 	"description": "sap.ui.core.Title",
@@ -338,12 +188,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -355,6 +206,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

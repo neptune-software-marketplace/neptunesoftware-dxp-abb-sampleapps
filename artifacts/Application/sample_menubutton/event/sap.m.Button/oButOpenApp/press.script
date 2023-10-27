@@ -1,2 +1,0 @@
-res = localAppID.toLowerCase();
-sap.m.URLHelper.redirect("/app/explored_appdesigner.html?application=" + res , true);

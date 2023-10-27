@@ -4,565 +4,421 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "1",
-			"fieldName": "oShell",
+			"fieldNo": "2",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "2",
-					"fieldName": "oApp",
-					"fieldParent": "1",
-					"fieldType": "sap.m.App",
+					"fieldNo": "4",
+					"fieldName": "oPage",
+					"fieldParent": "2",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "TextArea",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "4",
-							"fieldName": "oPage",
-							"fieldParent": "2",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
+							"fieldName": "oVBox",
+							"fieldParent": "4",
+							"fieldType": "sap.m.VBox",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
 								{
-									"attribute": "title",
+									"attribute": "styleClassMargin",
 									"grouping": "Properties",
-									"value": "TextArea",
+									"value": "sapUiSmallMargin",
 									"script": "",
 									"translation": []
 								}
 							],
 							"data": [
 								{
-									"fieldNo": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
-									"fieldName": "oVBox",
-									"fieldParent": "4",
-									"fieldType": "sap.m.VBox",
+									"fieldNo": "496e3bd8-f757-4ec0-b7f3-38ba277b9de4",
+									"fieldName": "oLabel",
+									"fieldParent": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
+									"fieldType": "sap.m.Label",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
+										{
+											"attribute": "textAlign",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Text Area  With Value",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "7e611dec-9669-4c4a-b034-38dfb1a238b5",
+									"fieldName": "oTextArea",
+									"fieldParent": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
+									"fieldType": "sap.m.TextArea",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "50%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "value",
+											"grouping": "Properties",
+											"value": "The Text Area allows to enter multi-line text and automatically breaks to a new line for overflow text. If the text gets too big to be displayed at once the user can scroll up and down.",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "4d8d18c8-c5a1-42a8-9913-d0325758f7d4",
+									"fieldName": "oLabel1",
+									"fieldParent": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Show Exceeded Text  = True, MaxLength = 30",
+											"script": "",
+											"translation": []
+										},
 										{
 											"attribute": "styleClassMargin",
 											"grouping": "Properties",
-											"value": "sapUiSmallMargin",
+											"value": "sapUiSmallMarginTop",
 											"script": "",
 											"translation": []
 										}
 									],
-									"data": [
-										{
-											"fieldNo": "496e3bd8-f757-4ec0-b7f3-38ba277b9de4",
-											"fieldName": "oLabel",
-											"fieldParent": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "textAlign",
-													"grouping": "Properties",
-													"value": "Center",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Text Area  With Value",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "7e611dec-9669-4c4a-b034-38dfb1a238b5",
-											"fieldName": "oTextArea",
-											"fieldParent": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
-											"fieldType": "sap.m.TextArea",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "50%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "value",
-													"grouping": "Properties",
-													"value": "The Text Area allows to enter multi-line text and automatically breaks to a new line for overflow text. If the text gets too big to be displayed at once the user can scroll up and down.",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "4d8d18c8-c5a1-42a8-9913-d0325758f7d4",
-											"fieldName": "oLabel1",
-											"fieldParent": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Show Exceeded Text  = True, MaxLength = 30",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "styleClassMargin",
-													"grouping": "Properties",
-													"value": "sapUiSmallMarginTop",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "f2bb04d5-bdb3-47ad-eb02-810a10ad139b",
-											"fieldName": "oTextArea1",
-											"fieldParent": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
-											"fieldType": "sap.m.TextArea",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "50%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "value",
-													"grouping": "Properties",
-													"value": "Shows the behavior of the control with the new showExceededText property",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "maxLength",
-													"grouping": "Properties",
-													"value": "30",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "showExceededText",
-													"grouping": "Properties",
-													"value": "true",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "2a5c4ff6-21e1-46f3-f03c-a401cb849b66",
-											"fieldName": "oLabel2",
-											"fieldParent": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Show Exceeded Text = True, MaxLength = 30, Value State = Error",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "64c5a9a3-8aab-4850-e396-c635652ffd8d",
-											"fieldName": "oTextArea3",
-											"fieldParent": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
-											"fieldType": "sap.m.TextArea",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "50%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "valueState",
-													"grouping": "Properties",
-													"value": "Error",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "value",
-													"grouping": "Properties",
-													"value": "Shows the behavior of the control with the new showExceededText property with value State= Error",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "maxLength",
-													"grouping": "Properties",
-													"value": "30",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "liveChange",
-													"grouping": "Events",
-													"value": "Anonymous Function",
-													"script": "file://event/sap.m.TextArea/oTextArea3/liveChange.script",
-													"translation": []
-												},
-												{
-													"attribute": "showExceededText",
-													"grouping": "Properties",
-													"value": "true",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "valueLiveUpdate",
-													"grouping": "Properties",
-													"value": "true",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "c7ad95b5-7310-4ee0-e9b9-72906c7412fe",
-											"fieldName": "oLabel3",
-											"fieldParent": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Show Exceeded Text = True, MaxLength = 30, Value State = Success",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "39392e7c-c5a1-4f46-a4d6-b5de978d4b32",
-											"fieldName": "oTextArea2",
-											"fieldParent": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
-											"fieldType": "sap.m.TextArea",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "50%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "valueState",
-													"grouping": "Properties",
-													"value": "Success",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "value",
-													"grouping": "Properties",
-													"value": "Shows the behavior of the control with the new showExceededText property with value State= Success",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "maxLength",
-													"grouping": "Properties",
-													"value": "30",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "liveChange",
-													"grouping": "Events",
-													"value": "Anonymous Function",
-													"script": "file://event/sap.m.TextArea/oTextArea2/liveChange.script",
-													"translation": []
-												},
-												{
-													"attribute": "showExceededText",
-													"grouping": "Properties",
-													"value": "true",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "valueLiveUpdate",
-													"grouping": "Properties",
-													"value": "true",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "de6fc2ca-0fa1-4a6d-c069-4d744db1f7af",
-											"fieldName": "oLabel4",
-											"fieldParent": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Show Exceeded Text = True, MaxLength = 30, Value State = Warning",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "ff124613-0af0-418f-831c-acbc52a33b0c",
-											"fieldName": "oTextArea4",
-											"fieldParent": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
-											"fieldType": "sap.m.TextArea",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "50%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "valueState",
-													"grouping": "Properties",
-													"value": "Warning",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "value",
-													"grouping": "Properties",
-													"value": "Shows the behavior of the control with the new showExceededText property with value State= Warning",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "maxLength",
-													"grouping": "Properties",
-													"value": "30",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "liveChange",
-													"grouping": "Events",
-													"value": "Anonymous Function",
-													"script": "file://event/sap.m.TextArea/oTextArea4/liveChange.script",
-													"translation": []
-												},
-												{
-													"attribute": "showExceededText",
-													"grouping": "Properties",
-													"value": "true",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "valueLiveUpdate",
-													"grouping": "Properties",
-													"value": "true",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										}
-									]
+									"data": []
 								},
 								{
-									"fieldNo": "5",
-									"fieldName": "oFooter",
-									"fieldParent": "4",
-									"fieldType": "sap.m.Bar",
+									"fieldNo": "f2bb04d5-bdb3-47ad-eb02-810a10ad139b",
+									"fieldName": "oTextArea1",
+									"fieldParent": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
+									"fieldType": "sap.m.TextArea",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "50%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "value",
+											"grouping": "Properties",
+											"value": "Shows the behavior of the control with the new showExceededText property",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "maxLength",
+											"grouping": "Properties",
+											"value": "30",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "showExceededText",
+											"grouping": "Properties",
+											"value": "true",
 											"script": "",
 											"translation": []
 										}
 									],
-									"data": [
+									"data": []
+								},
+								{
+									"fieldNo": "2a5c4ff6-21e1-46f3-f03c-a401cb849b66",
+									"fieldName": "oLabel2",
+									"fieldParent": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
 										{
-											"fieldNo": "6",
-											"fieldName": "Left",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Show Exceeded Text = True, MaxLength = 30, Value State = Error",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "b7d1549b-3a2a-494a-c3fa-0cb7dacfd5f3",
-													"fieldName": "oButton",
-													"fieldParent": "6",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Open In App Designer",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButton/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										},
-										{
-											"fieldNo": "7",
-											"fieldName": "Middle",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentMiddle",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "8",
-											"fieldName": "Right",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "a3c10034-ce23-40f6-cb8d-85f2783f6220",
-													"fieldName": "butCompact",
-													"fieldParent": "8",
-													"fieldType": "sap.m.ToggleButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Compact",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
+											"translation": []
 										}
-									]
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "64c5a9a3-8aab-4850-e396-c635652ffd8d",
+									"fieldName": "oTextArea3",
+									"fieldParent": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
+									"fieldType": "sap.m.TextArea",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "50%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "valueState",
+											"grouping": "Properties",
+											"value": "Error",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "value",
+											"grouping": "Properties",
+											"value": "Shows the behavior of the control with the new showExceededText property with value State= Error",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "maxLength",
+											"grouping": "Properties",
+											"value": "30",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "liveChange",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "showExceededText",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "valueLiveUpdate",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "c7ad95b5-7310-4ee0-e9b9-72906c7412fe",
+									"fieldName": "oLabel3",
+									"fieldParent": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Show Exceeded Text = True, MaxLength = 30, Value State = Success",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "39392e7c-c5a1-4f46-a4d6-b5de978d4b32",
+									"fieldName": "oTextArea2",
+									"fieldParent": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
+									"fieldType": "sap.m.TextArea",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "50%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "valueState",
+											"grouping": "Properties",
+											"value": "Success",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "value",
+											"grouping": "Properties",
+											"value": "Shows the behavior of the control with the new showExceededText property with value State= Success",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "maxLength",
+											"grouping": "Properties",
+											"value": "30",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "liveChange",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.TextArea/oTextArea2/liveChange.script",
+											"translation": []
+										},
+										{
+											"attribute": "showExceededText",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "valueLiveUpdate",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "de6fc2ca-0fa1-4a6d-c069-4d744db1f7af",
+									"fieldName": "oLabel4",
+									"fieldParent": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Show Exceeded Text = True, MaxLength = 30, Value State = Warning",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "ff124613-0af0-418f-831c-acbc52a33b0c",
+									"fieldName": "oTextArea4",
+									"fieldParent": "b5d1c1bd-dd51-469d-fb85-eb6da29e41d6",
+									"fieldType": "sap.m.TextArea",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "50%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "valueState",
+											"grouping": "Properties",
+											"value": "Warning",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "value",
+											"grouping": "Properties",
+											"value": "Shows the behavior of the control with the new showExceededText property with value State= Warning",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "maxLength",
+											"grouping": "Properties",
+											"value": "30",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "liveChange",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.TextArea/oTextArea4/liveChange.script",
+											"translation": []
+										},
+										{
+											"attribute": "showExceededText",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "valueLiveUpdate",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
 								}
 							]
 						}
@@ -579,8 +435,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.1638",
+	"componentInterface": [],
+	"ver": "23.10.27.1416",
 	"application": "sample_textarea",
 	"title": "sap.m.TextArea",
 	"description": "sap.m.TextArea",
@@ -599,12 +455,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -616,6 +473,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

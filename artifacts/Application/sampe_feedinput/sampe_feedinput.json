@@ -415,7 +415,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
+	"componentInterface": [],
 	"ver": "20.11.25.1747",
 	"application": "sampe_feedinput",
 	"title": "Sample sap.m.FeedInput",
@@ -441,10 +441,11 @@
 	"ui5_url": null,
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
-	"deleted": false,
+	"deleted": true,
 	"libHighchart": false,
 	"libHighmap": false,
 	"publicAccess": false,
@@ -452,6 +453,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

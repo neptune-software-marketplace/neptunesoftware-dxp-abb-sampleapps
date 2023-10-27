@@ -4,270 +4,119 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "1",
-			"fieldName": "oShell",
+			"fieldNo": "583ddde4-0ba6-4b68-d7ae-e86f16216993",
+			"fieldName": "App",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "2",
-					"fieldName": "oApp",
-					"fieldParent": "1",
-					"fieldType": "sap.m.App",
+					"fieldNo": "4",
+					"fieldName": "oPage",
+					"fieldParent": "583ddde4-0ba6-4b68-d7ae-e86f16216993",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Calendar Legend",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "4",
-							"fieldName": "oPage",
-							"fieldParent": "2",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "60a3e101-e74b-44ea-c663-be80984dd4be",
+							"fieldName": "oCalendar",
+							"fieldParent": "4",
+							"fieldType": "sap.ui.unified.Calendar",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
 								{
-									"attribute": "title",
-									"grouping": "Properties",
-									"value": "Calendar Legend",
+									"attribute": "select",
+									"grouping": "Events",
+									"value": "Anonymous Function",
 									"script": "",
 									"translation": []
 								}
 							],
+							"data": []
+						},
+						{
+							"fieldNo": "5f7f7e90-b39d-4321-fe7d-5762aa714b79",
+							"fieldName": "oCalendarLegend",
+							"fieldParent": "4",
+							"fieldType": "sap.ui.unified.CalendarLegend",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
 							"data": [
 								{
-									"fieldNo": "60a3e101-e74b-44ea-c663-be80984dd4be",
-									"fieldName": "oCalendar",
-									"fieldParent": "4",
-									"fieldType": "sap.ui.unified.Calendar",
+									"fieldNo": "a2482a45-1c86-4c9a-9261-98de71f5b199",
+									"fieldName": "oCalendarLegendItem",
+									"fieldParent": "5f7f7e90-b39d-4321-fe7d-5762aa714b79",
+									"fieldType": "sap.ui.unified.CalendarLegendItem",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "select",
-											"grouping": "Events",
-											"value": "Anonymous Function",
-											"script": "file://event/sap.ui.unified.Calendar/oCalendar/select.script",
+											"attribute": "type",
+											"grouping": "Properties",
+											"value": "Type10",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "PlaceHolder 1",
+											"script": "",
 											"translation": []
 										}
 									],
 									"data": []
 								},
 								{
-									"fieldNo": "5f7f7e90-b39d-4321-fe7d-5762aa714b79",
-									"fieldName": "oCalendarLegend",
-									"fieldParent": "4",
-									"fieldType": "sap.ui.unified.CalendarLegend",
+									"fieldNo": "a4b1be3c-a344-4a44-8cc0-d2af708be97f",
+									"fieldName": "oCalendarLegendItem1",
+									"fieldParent": "5f7f7e90-b39d-4321-fe7d-5762aa714b79",
+									"fieldType": "sap.ui.unified.CalendarLegendItem",
 									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [],
-									"data": [
-										{
-											"fieldNo": "a2482a45-1c86-4c9a-9261-98de71f5b199",
-											"fieldName": "oCalendarLegendItem",
-											"fieldParent": "5f7f7e90-b39d-4321-fe7d-5762aa714b79",
-											"fieldType": "sap.ui.unified.CalendarLegendItem",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "type",
-													"grouping": "Properties",
-													"value": "Type10",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "PlaceHolder 1",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "a4b1be3c-a344-4a44-8cc0-d2af708be97f",
-											"fieldName": "oCalendarLegendItem1",
-											"fieldParent": "5f7f7e90-b39d-4321-fe7d-5762aa714b79",
-											"fieldType": "sap.ui.unified.CalendarLegendItem",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "type",
-													"grouping": "Properties",
-													"value": "Type02",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "PlaceHolder 2",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										}
-									]
-								},
-								{
-									"fieldNo": "5",
-									"fieldName": "oFooter",
-									"fieldParent": "4",
-									"fieldType": "sap.m.Bar",
-									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"attribute": "type",
+											"grouping": "Properties",
+											"value": "Type02",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "PlaceHolder 2",
 											"script": "",
 											"translation": []
 										}
 									],
-									"data": [
-										{
-											"fieldNo": "6",
-											"fieldName": "Left",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "8c1c76ac-a75f-4ad2-fa7f-269fa25bb240",
-													"fieldName": "oButOpenAD",
-													"fieldParent": "6",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Open In App Designer",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButOpenAD/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										},
-										{
-											"fieldNo": "7",
-											"fieldName": "Middle",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentMiddle",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "8",
-											"fieldName": "Right",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "3a8174a3-886c-4866-e894-f726bc60050f",
-													"fieldName": "oToggleButton",
-													"fieldParent": "8",
-													"fieldType": "sap.m.ToggleButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Compact",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/oToggleButton/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										}
-									]
+									"data": []
 								}
 							]
 						}
@@ -283,7 +132,8 @@
 					"fieldName": "onInit",
 					"fieldParent": 99999,
 					"fieldType": "neptune.event.oninit",
-					"script": "file://script/neptune.event.oninit/onInit.script",
+					"script": "file://script/neptune.event.oninit/onInit.js",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [],
@@ -296,8 +146,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.1744",
+	"componentInterface": [],
+	"ver": "23.10.26.1234",
 	"application": "sample_calendarlegend",
 	"title": "Sample sap.ui.unified.CalendarLegend",
 	"description": "sap.ui.unified.CalendarLegend",
@@ -316,12 +166,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -333,6 +184,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

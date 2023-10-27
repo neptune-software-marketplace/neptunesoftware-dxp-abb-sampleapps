@@ -4,117 +4,139 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "1",
-			"fieldName": "oShell",
+			"fieldNo": "2",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "2",
-					"fieldName": "oApp",
-					"fieldParent": "1",
-					"fieldType": "sap.m.App",
+					"fieldNo": "4",
+					"fieldName": "oPage",
+					"fieldParent": "2",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Avatar",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "4",
-							"fieldName": "oPage",
-							"fieldParent": "2",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "6ef0111e-48b1-49b9-f50f-0b7474c51e63",
+							"fieldName": "oScrollContainer",
+							"fieldParent": "4",
+							"fieldType": "sap.m.ScrollContainer",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
-							"attributes": [
-								{
-									"attribute": "title",
-									"grouping": "Properties",
-									"value": "Avatar",
-									"script": "",
-									"translation": []
-								}
-							],
+							"attributes": [],
 							"data": [
 								{
-									"fieldNo": "6ef0111e-48b1-49b9-f50f-0b7474c51e63",
-									"fieldName": "oScrollContainer",
-									"fieldParent": "4",
-									"fieldType": "sap.m.ScrollContainer",
+									"fieldNo": "d1e655ed-97e8-4270-db3c-c094c51270b3",
+									"fieldName": "oText",
+									"fieldParent": "6ef0111e-48b1-49b9-f50f-0b7474c51e63",
+									"fieldType": "sap.m.Text",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
-									"attributes": [],
-									"data": [
+									"attributes": [
 										{
-											"fieldNo": "d1e655ed-97e8-4270-db3c-c094c51270b3",
-											"fieldName": "oText",
-											"fieldParent": "6ef0111e-48b1-49b9-f50f-0b7474c51e63",
-											"fieldType": "sap.m.Text",
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "The Avatar control allows usage of different shapes, sizes and content.",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "The Avatar control allows usage of different shapes, sizes and content.",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "614ca429-7841-4f64-ea81-e6e1edb1108a",
+									"fieldName": "oPanel",
+									"fieldParent": "6ef0111e-48b1-49b9-f50f-0b7474c51e63",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "DisplayShape: Circle, ImageFitType: Cover",
+											"script": "",
+											"translation": []
 										},
 										{
-											"fieldNo": "614ca429-7841-4f64-ea81-e6e1edb1108a",
-											"fieldName": "oPanel",
-											"fieldParent": "6ef0111e-48b1-49b9-f50f-0b7474c51e63",
-											"fieldType": "sap.m.Panel",
+											"attribute": "expanded",
+											"grouping": "Properties",
+											"value": "true",
 											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "expandable",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "backgroundDesign",
+											"grouping": "Properties",
+											"value": "Solid",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "8693c6e4-69f8-482b-de4e-6fa24b83f5bd",
+											"fieldName": "oVBoxCircleCover",
+											"fieldParent": "614ca429-7841-4f64-ea81-e6e1edb1108a",
+											"fieldType": "sap.m.VBox",
+											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "headerText",
+													"attribute": "styleClassMargin",
 													"grouping": "Properties",
-													"value": "DisplayShape: Circle, ImageFitType: Cover",
+													"value": "sapUiSmallMarginTop",
 													"script": "",
 													"translation": []
 												},
 												{
-													"attribute": "expanded",
+													"attribute": "fitContainer",
 													"grouping": "Properties",
 													"value": "true",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "expandable",
-													"grouping": "Properties",
-													"value": "true",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "backgroundDesign",
-													"grouping": "Properties",
-													"value": "Solid",
 													"script": "",
 													"translation": []
 												}
 											],
 											"data": [
 												{
-													"fieldNo": "8693c6e4-69f8-482b-de4e-6fa24b83f5bd",
-													"fieldName": "oVBoxCircleCover",
-													"fieldParent": "614ca429-7841-4f64-ea81-e6e1edb1108a",
-													"fieldType": "sap.m.VBox",
+													"fieldNo": "9bce487b-2690-4fe0-9d3d-a8473b5f2b21",
+													"fieldName": "oHBox1",
+													"fieldParent": "8693c6e4-69f8-482b-de4e-6fa24b83f5bd",
+													"fieldType": "sap.m.HBox",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
@@ -135,734 +157,392 @@
 													],
 													"data": [
 														{
-															"fieldNo": "9bce487b-2690-4fe0-9d3d-a8473b5f2b21",
-															"fieldName": "oHBox1",
-															"fieldParent": "8693c6e4-69f8-482b-de4e-6fa24b83f5bd",
-															"fieldType": "sap.m.HBox",
+															"fieldNo": "c348b7b7-5359-40c6-ac34-4bbda22320f8",
+															"fieldName": "oAvatar1",
+															"fieldParent": "9bce487b-2690-4fe0-9d3d-a8473b5f2b21",
+															"fieldType": "sap.f.Avatar",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
-																	"attribute": "styleClassMargin",
+																	"attribute": "displaySize",
 																	"grouping": "Properties",
-																	"value": "sapUiSmallMarginTop",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "fitContainer",
-																	"grouping": "Properties",
-																	"value": "true",
+																	"value": "XL",
 																	"script": "",
 																	"translation": []
 																}
 															],
-															"data": [
-																{
-																	"fieldNo": "c348b7b7-5359-40c6-ac34-4bbda22320f8",
-																	"fieldName": "oAvatar1",
-																	"fieldParent": "9bce487b-2690-4fe0-9d3d-a8473b5f2b21",
-																	"fieldType": "sap.f.Avatar",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "src",
-																			"grouping": "Properties",
-																			"value": "https://planet9dev.neptune-software.com:8081/media/root/Nature/Morning.jpg",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "displaySize",
-																			"grouping": "Properties",
-																			"value": "XL",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "ffc8c36b-acb6-4b54-f814-32d3d8653655",
-																	"fieldName": "oAvatar2",
-																	"fieldParent": "9bce487b-2690-4fe0-9d3d-a8473b5f2b21",
-																	"fieldType": "sap.f.Avatar",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "src",
-																			"grouping": "Properties",
-																			"value": "https://planet9dev.neptune-software.com:8081/media/root/Nature/Morning.jpg",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "displaySize",
-																			"grouping": "Properties",
-																			"value": "L",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "22996dec-156a-4607-f0e1-5435dab73a8c",
-																	"fieldName": "oAvatar3",
-																	"fieldParent": "9bce487b-2690-4fe0-9d3d-a8473b5f2b21",
-																	"fieldType": "sap.f.Avatar",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "src",
-																			"grouping": "Properties",
-																			"value": "https://planet9dev.neptune-software.com:8081/media/root/Nature/Morning.jpg",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "displaySize",
-																			"grouping": "Properties",
-																			"value": "M",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "45763a1d-c490-4272-c808-558ab2b3ab88",
-																	"fieldName": "oAvatar4",
-																	"fieldParent": "9bce487b-2690-4fe0-9d3d-a8473b5f2b21",
-																	"fieldType": "sap.f.Avatar",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "src",
-																			"grouping": "Properties",
-																			"value": "https://planet9dev.neptune-software.com:8081/media/root/Nature/Morning.jpg",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "72831dcc-7242-4f49-8463-ab993ebcb88b",
-																	"fieldName": "oAvatar5",
-																	"fieldParent": "9bce487b-2690-4fe0-9d3d-a8473b5f2b21",
-																	"fieldType": "sap.f.Avatar",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "src",
-																			"grouping": "Properties",
-																			"value": "https://planet9dev.neptune-software.com:8081/media/root/Nature/Morning.jpg",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "displaySize",
-																			"grouping": "Properties",
-																			"value": "XS",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														}
-													]
-												}
-											]
-										},
-										{
-											"fieldNo": "9a6d2bc9-17ef-40d2-8b9b-1d2ce20243fc",
-											"fieldName": "oPanel1",
-											"fieldParent": "6ef0111e-48b1-49b9-f50f-0b7474c51e63",
-											"fieldType": "sap.m.Panel",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "headerText",
-													"grouping": "Properties",
-													"value": "DisplayShape: Circle, ImageFitType: Contain",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "expandable",
-													"grouping": "Properties",
-													"value": "true",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "backgroundDesign",
-													"grouping": "Properties",
-													"value": "Solid",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "5147b5e6-b9be-4e1a-eb91-c90ee9f734d4",
-													"fieldName": "oVBoxCircleContain",
-													"fieldParent": "9a6d2bc9-17ef-40d2-8b9b-1d2ce20243fc",
-													"fieldType": "sap.m.VBox",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "styleClassMargin",
-															"grouping": "Properties",
-															"value": "sapUiSmallMarginTop",
-															"script": "",
-															"translation": []
+															"data": []
 														},
 														{
-															"attribute": "fitContainer",
-															"grouping": "Properties",
-															"value": "true",
+															"fieldNo": "ffc8c36b-acb6-4b54-f814-32d3d8653655",
+															"fieldName": "oAvatar2",
+															"fieldParent": "9bce487b-2690-4fe0-9d3d-a8473b5f2b21",
+															"fieldType": "sap.f.Avatar",
 															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "displaySize",
+																	"grouping": "Properties",
+																	"value": "L",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
 														{
-															"fieldNo": "1796f1c5-670e-4626-a459-c711df3b160f",
-															"fieldName": "oHBox11",
-															"fieldParent": "5147b5e6-b9be-4e1a-eb91-c90ee9f734d4",
-															"fieldType": "sap.m.HBox",
+															"fieldNo": "22996dec-156a-4607-f0e1-5435dab73a8c",
+															"fieldName": "oAvatar3",
+															"fieldParent": "9bce487b-2690-4fe0-9d3d-a8473b5f2b21",
+															"fieldType": "sap.f.Avatar",
 															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "displaySize",
+																	"grouping": "Properties",
+																	"value": "M",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "45763a1d-c490-4272-c808-558ab2b3ab88",
+															"fieldName": "oAvatar4",
+															"fieldParent": "9bce487b-2690-4fe0-9d3d-a8473b5f2b21",
+															"fieldType": "sap.f.Avatar",
+															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [],
-															"data": [
-																{
-																	"fieldNo": "63bd7ae4-1dce-422d-9f4b-3aef20db7ebc",
-																	"fieldName": "oAvatar11",
-																	"fieldParent": "1796f1c5-670e-4626-a459-c711df3b160f",
-																	"fieldType": "sap.f.Avatar",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "src",
-																			"grouping": "Properties",
-																			"value": "https://planet9dev.neptune-software.com:8081/media/root/Nature/Morning.jpg",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "displaySize",
-																			"grouping": "Properties",
-																			"value": "XL",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "imageFitType",
-																			"grouping": "Properties",
-																			"value": "Contain",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "b17f57e7-9689-4ff6-960a-c55112cbecbc",
-																	"fieldName": "oAvatar12",
-																	"fieldParent": "1796f1c5-670e-4626-a459-c711df3b160f",
-																	"fieldType": "sap.f.Avatar",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "src",
-																			"grouping": "Properties",
-																			"value": "https://planet9dev.neptune-software.com:8081/media/root/Nature/Morning.jpg",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "displaySize",
-																			"grouping": "Properties",
-																			"value": "L",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "imageFitType",
-																			"grouping": "Properties",
-																			"value": "Contain",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "af1e3fee-6c43-4bd0-c83b-c48911a8f97d",
-																	"fieldName": "oAvatar13",
-																	"fieldParent": "1796f1c5-670e-4626-a459-c711df3b160f",
-																	"fieldType": "sap.f.Avatar",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "src",
-																			"grouping": "Properties",
-																			"value": "https://planet9dev.neptune-software.com:8081/media/root/Nature/Morning.jpg",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "displaySize",
-																			"grouping": "Properties",
-																			"value": "M",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "imageFitType",
-																			"grouping": "Properties",
-																			"value": "Contain",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "f1a06075-f8a1-4ee1-97db-6a4227130cfb",
-																	"fieldName": "oAvatar14",
-																	"fieldParent": "1796f1c5-670e-4626-a459-c711df3b160f",
-																	"fieldType": "sap.f.Avatar",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "src",
-																			"grouping": "Properties",
-																			"value": "https://planet9dev.neptune-software.com:8081/media/root/Nature/Morning.jpg",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "imageFitType",
-																			"grouping": "Properties",
-																			"value": "Contain",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "19631830-e21f-4996-aedc-3f126c7bea9b",
-																	"fieldName": "oAvatar15",
-																	"fieldParent": "1796f1c5-670e-4626-a459-c711df3b160f",
-																	"fieldType": "sap.f.Avatar",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "src",
-																			"grouping": "Properties",
-																			"value": "https://planet9dev.neptune-software.com:8081/media/root/Nature/Morning.jpg",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "displaySize",
-																			"grouping": "Properties",
-																			"value": "XS",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "imageFitType",
-																			"grouping": "Properties",
-																			"value": "Contain",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														}
-													]
-												}
-											]
-										},
-										{
-											"fieldNo": "09b9dc0f-e802-494f-c1d2-2e1be3d6ab3a",
-											"fieldName": "oPanel2",
-											"fieldParent": "6ef0111e-48b1-49b9-f50f-0b7474c51e63",
-											"fieldType": "sap.m.Panel",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "headerText",
-													"grouping": "Properties",
-													"value": "DisplayShape: Square, ImageFitType: Cover",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "expandable",
-													"grouping": "Properties",
-													"value": "true",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "backgroundDesign",
-													"grouping": "Properties",
-													"value": "Solid",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "a18557ce-8b63-448a-e096-921587e22139",
-													"fieldName": "oVBoxSquareCover",
-													"fieldParent": "09b9dc0f-e802-494f-c1d2-2e1be3d6ab3a",
-													"fieldType": "sap.m.VBox",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
+															"data": []
+														},
 														{
-															"attribute": "styleClassMargin",
-															"grouping": "Properties",
-															"value": "sapUiMediumMarginTop",
+															"fieldNo": "72831dcc-7242-4f49-8463-ab993ebcb88b",
+															"fieldName": "oAvatar5",
+															"fieldParent": "9bce487b-2690-4fe0-9d3d-a8473b5f2b21",
+															"fieldType": "sap.f.Avatar",
 															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "baf5564b-5149-4a40-9054-577482b4055e",
-															"fieldName": "oHBox2",
-															"fieldParent": "a18557ce-8b63-448a-e096-921587e22139",
-															"fieldType": "sap.m.HBox",
-															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
-																	"attribute": "styleClassMargin",
+																	"attribute": "displaySize",
 																	"grouping": "Properties",
-																	"value": "sapUiTinyMarginTop",
+																	"value": "XS",
 																	"script": "",
 																	"translation": []
 																}
 															],
-															"data": [
-																{
-																	"fieldNo": "65245793-21ae-47a4-8bf7-51c9e89a9dc1",
-																	"fieldName": "oAvatar21",
-																	"fieldParent": "baf5564b-5149-4a40-9054-577482b4055e",
-																	"fieldType": "sap.f.Avatar",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "src",
-																			"grouping": "Properties",
-																			"value": "https://planet9dev.neptune-software.com:8081/media/root/Nature/Blackhole.jpg",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "initials",
-																			"grouping": "Properties",
-																			"value": "dssa",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "displayShape",
-																			"grouping": "Properties",
-																			"value": "Square",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "displaySize",
-																			"grouping": "Properties",
-																			"value": "XL",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "imageFitType",
-																			"grouping": "Properties",
-																			"value": "Contain",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "2047ef9a-2c58-4493-d22f-4b5d346fc8c9",
-																	"fieldName": "oAvatar22",
-																	"fieldParent": "baf5564b-5149-4a40-9054-577482b4055e",
-																	"fieldType": "sap.f.Avatar",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "src",
-																			"grouping": "Properties",
-																			"value": "https://planet9dev.neptune-software.com:8081/media/root/Nature/Blackhole.jpg",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "displayShape",
-																			"grouping": "Properties",
-																			"value": "Square",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "displaySize",
-																			"grouping": "Properties",
-																			"value": "L",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "imageFitType",
-																			"grouping": "Properties",
-																			"value": "Contain",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "845a374d-d037-46b9-85bb-7964bf124980",
-																	"fieldName": "oAvatar23",
-																	"fieldParent": "baf5564b-5149-4a40-9054-577482b4055e",
-																	"fieldType": "sap.f.Avatar",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "src",
-																			"grouping": "Properties",
-																			"value": "https://planet9dev.neptune-software.com:8081/media/root/Nature/Blackhole.jpg",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "displayShape",
-																			"grouping": "Properties",
-																			"value": "Square",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "displaySize",
-																			"grouping": "Properties",
-																			"value": "M",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "imageFitType",
-																			"grouping": "Properties",
-																			"value": "Contain",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "e4da0c66-b7e0-489e-e27d-60af3397a445",
-																	"fieldName": "oAvatar24",
-																	"fieldParent": "baf5564b-5149-4a40-9054-577482b4055e",
-																	"fieldType": "sap.f.Avatar",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "src",
-																			"grouping": "Properties",
-																			"value": "https://planet9dev.neptune-software.com:8081/media/root/Nature/Blackhole.jpg",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "displayShape",
-																			"grouping": "Properties",
-																			"value": "Square",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "imageFitType",
-																			"grouping": "Properties",
-																			"value": "Contain",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "66d83f55-082a-4706-d288-864878d67c16",
-																	"fieldName": "oAvatar25",
-																	"fieldParent": "baf5564b-5149-4a40-9054-577482b4055e",
-																	"fieldType": "sap.f.Avatar",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "src",
-																			"grouping": "Properties",
-																			"value": "https://planet9dev.neptune-software.com:8081/media/root/Nature/Blackhole.jpg",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "displayShape",
-																			"grouping": "Properties",
-																			"value": "Square",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "displaySize",
-																			"grouping": "Properties",
-																			"value": "XS",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "imageFitType",
-																			"grouping": "Properties",
-																			"value": "Contain",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
+															"data": []
 														}
 													]
 												}
 											]
+										}
+									]
+								},
+								{
+									"fieldNo": "9a6d2bc9-17ef-40d2-8b9b-1d2ce20243fc",
+									"fieldName": "oPanel1",
+									"fieldParent": "6ef0111e-48b1-49b9-f50f-0b7474c51e63",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "DisplayShape: Circle, ImageFitType: Contain",
+											"script": "",
+											"translation": []
 										},
 										{
-											"fieldNo": "9c587f4e-66a0-4eb2-ee64-f60d692f2685",
-											"fieldName": "oPanel3",
-											"fieldParent": "6ef0111e-48b1-49b9-f50f-0b7474c51e63",
-											"fieldType": "sap.m.Panel",
+											"attribute": "expandable",
+											"grouping": "Properties",
+											"value": "true",
 											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "backgroundDesign",
+											"grouping": "Properties",
+											"value": "Solid",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "5147b5e6-b9be-4e1a-eb91-c90ee9f734d4",
+											"fieldName": "oVBoxCircleContain",
+											"fieldParent": "9a6d2bc9-17ef-40d2-8b9b-1d2ce20243fc",
+											"fieldType": "sap.m.VBox",
+											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "headerText",
+													"attribute": "styleClassMargin",
 													"grouping": "Properties",
-													"value": "DisplayShape: Square, Blocked:True",
+													"value": "sapUiSmallMarginTop",
 													"script": "",
 													"translation": []
 												},
 												{
-													"attribute": "expandable",
+													"attribute": "fitContainer",
 													"grouping": "Properties",
 													"value": "true",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "backgroundDesign",
-													"grouping": "Properties",
-													"value": "Solid",
 													"script": "",
 													"translation": []
 												}
 											],
 											"data": [
 												{
-													"fieldNo": "8ad8f490-0b13-49ff-a1a6-7c75c5576ea2",
-													"fieldName": "oVBoxBlocked",
-													"fieldParent": "9c587f4e-66a0-4eb2-ee64-f60d692f2685",
-													"fieldType": "sap.m.VBox",
+													"fieldNo": "1796f1c5-670e-4626-a459-c711df3b160f",
+													"fieldName": "oHBox11",
+													"fieldParent": "5147b5e6-b9be-4e1a-eb91-c90ee9f734d4",
+													"fieldType": "sap.m.HBox",
 													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "63bd7ae4-1dce-422d-9f4b-3aef20db7ebc",
+															"fieldName": "oAvatar11",
+															"fieldParent": "1796f1c5-670e-4626-a459-c711df3b160f",
+															"fieldType": "sap.f.Avatar",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "displaySize",
+																	"grouping": "Properties",
+																	"value": "XL",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "imageFitType",
+																	"grouping": "Properties",
+																	"value": "Contain",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "b17f57e7-9689-4ff6-960a-c55112cbecbc",
+															"fieldName": "oAvatar12",
+															"fieldParent": "1796f1c5-670e-4626-a459-c711df3b160f",
+															"fieldType": "sap.f.Avatar",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "displaySize",
+																	"grouping": "Properties",
+																	"value": "L",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "imageFitType",
+																	"grouping": "Properties",
+																	"value": "Contain",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "af1e3fee-6c43-4bd0-c83b-c48911a8f97d",
+															"fieldName": "oAvatar13",
+															"fieldParent": "1796f1c5-670e-4626-a459-c711df3b160f",
+															"fieldType": "sap.f.Avatar",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "displaySize",
+																	"grouping": "Properties",
+																	"value": "M",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "imageFitType",
+																	"grouping": "Properties",
+																	"value": "Contain",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "f1a06075-f8a1-4ee1-97db-6a4227130cfb",
+															"fieldName": "oAvatar14",
+															"fieldParent": "1796f1c5-670e-4626-a459-c711df3b160f",
+															"fieldType": "sap.f.Avatar",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "imageFitType",
+																	"grouping": "Properties",
+																	"value": "Contain",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "19631830-e21f-4996-aedc-3f126c7bea9b",
+															"fieldName": "oAvatar15",
+															"fieldParent": "1796f1c5-670e-4626-a459-c711df3b160f",
+															"fieldType": "sap.f.Avatar",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "displaySize",
+																	"grouping": "Properties",
+																	"value": "XS",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "imageFitType",
+																	"grouping": "Properties",
+																	"value": "Contain",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "09b9dc0f-e802-494f-c1d2-2e1be3d6ab3a",
+									"fieldName": "oPanel2",
+									"fieldParent": "6ef0111e-48b1-49b9-f50f-0b7474c51e63",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "DisplayShape: Square, ImageFitType: Cover",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "expandable",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "backgroundDesign",
+											"grouping": "Properties",
+											"value": "Solid",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "a18557ce-8b63-448a-e096-921587e22139",
+											"fieldName": "oVBoxSquareCover",
+											"fieldParent": "09b9dc0f-e802-494f-c1d2-2e1be3d6ab3a",
+											"fieldType": "sap.m.VBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiMediumMarginTop",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "baf5564b-5149-4a40-9054-577482b4055e",
+													"fieldName": "oHBox2",
+													"fieldParent": "a18557ce-8b63-448a-e096-921587e22139",
+													"fieldType": "sap.m.HBox",
+													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
 															"attribute": "styleClassMargin",
 															"grouping": "Properties",
-															"value": "sapUiMediumMarginTop",
+															"value": "sapUiTinyMarginTop",
 															"script": "",
 															"translation": []
 														}
 													],
 													"data": [
 														{
-															"fieldNo": "c0b033a3-1ad7-43f3-aa4b-20a2c0ce4902",
-															"fieldName": "oAvatar31",
-															"fieldParent": "8ad8f490-0b13-49ff-a1a6-7c75c5576ea2",
+															"fieldNo": "65245793-21ae-47a4-8bf7-51c9e89a9dc1",
+															"fieldName": "oAvatar21",
+															"fieldParent": "baf5564b-5149-4a40-9054-577482b4055e",
 															"fieldType": "sap.f.Avatar",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
-																	"attribute": "blocked",
+																	"attribute": "initials",
 																	"grouping": "Properties",
-																	"value": "true",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "src",
-																	"grouping": "Properties",
-																	"value": "https://planet9dev.neptune-software.com:8081/media/root/Nature/moon.jpg",
+																	"value": "dssa",
 																	"script": "",
 																	"translation": []
 																},
@@ -889,496 +569,135 @@
 																}
 															],
 															"data": []
-														}
-													]
-												}
-											]
-										},
-										{
-											"fieldNo": "380c82cf-9ee4-41c9-860f-9703993d4733",
-											"fieldName": "oPanel4",
-											"fieldParent": "6ef0111e-48b1-49b9-f50f-0b7474c51e63",
-											"fieldType": "sap.m.Panel",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "headerText",
-													"grouping": "Properties",
-													"value": "DisplaySize: Custom, ImageFitType: Cover",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "expandable",
-													"grouping": "Properties",
-													"value": "true",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "83f281d1-4094-4bef-8b83-442b6598442e",
-													"fieldName": "oHBox4",
-													"fieldParent": "380c82cf-9ee4-41c9-860f-9703993d4733",
-													"fieldType": "sap.m.HBox",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [],
-													"data": [
-														{
-															"fieldNo": "bc3f4605-2549-4cf5-bf70-1ee9c93da040",
-															"fieldName": "oVBox41",
-															"fieldParent": "83f281d1-4094-4bef-8b83-442b6598442e",
-															"fieldType": "sap.m.VBox",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [],
-															"data": [
-																{
-																	"fieldNo": "f54f2be4-0f79-4536-c8b7-3556efe8aece",
-																	"fieldName": "oAvatar41",
-																	"fieldParent": "bc3f4605-2549-4cf5-bf70-1ee9c93da040",
-																	"fieldType": "sap.f.Avatar",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "src",
-																			"grouping": "Properties",
-																			"value": "https://planet9dev.neptune-software.com:8081/media/root/Nature/moon.jpg",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "displaySize",
-																			"grouping": "Properties",
-																			"value": "Custom",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "bf6dedb7-6bca-48d7-90a9-2618894a2346",
-																	"fieldName": "oText41",
-																	"fieldParent": "bc3f4605-2549-4cf5-bf70-1ee9c93da040",
-																	"fieldType": "sap.m.Text",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "displaySize: Custom,  imageFitType:Cover",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
 														},
 														{
-															"fieldNo": "5773bbdf-7dd5-4964-8f46-aed04ca5473b",
-															"fieldName": "oVBox42",
-															"fieldParent": "83f281d1-4094-4bef-8b83-442b6598442e",
-															"fieldType": "sap.m.VBox",
+															"fieldNo": "2047ef9a-2c58-4493-d22f-4b5d346fc8c9",
+															"fieldName": "oAvatar22",
+															"fieldParent": "baf5564b-5149-4a40-9054-577482b4055e",
+															"fieldType": "sap.f.Avatar",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
-																	"attribute": "styleClassMargin",
+																	"attribute": "displayShape",
 																	"grouping": "Properties",
-																	"value": "sapUiSmallMarginBegin",
+																	"value": "Square",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "displaySize",
+																	"grouping": "Properties",
+																	"value": "L",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "imageFitType",
+																	"grouping": "Properties",
+																	"value": "Contain",
 																	"script": "",
 																	"translation": []
 																}
 															],
-															"data": [
-																{
-																	"fieldNo": "02e4513a-211a-45d4-b105-b7a10a3167f5",
-																	"fieldName": "oAvatar42",
-																	"fieldParent": "5773bbdf-7dd5-4964-8f46-aed04ca5473b",
-																	"fieldType": "sap.f.Avatar",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "src",
-																			"grouping": "Properties",
-																			"value": "https://planet9dev.neptune-software.com:8081/media/root/Nature/moon.jpg",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "displaySize",
-																			"grouping": "Properties",
-																			"value": "Custom",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "imageFitType",
-																			"grouping": "Properties",
-																			"value": "Contain",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "2dccfe8e-b1ee-41bd-ad6b-aed56c8f9831",
-																	"fieldName": "oText42",
-																	"fieldParent": "5773bbdf-7dd5-4964-8f46-aed04ca5473b",
-																	"fieldType": "sap.m.Text",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "displaySize: Custom,  imageFitType:Contain",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														}
-													]
-												}
-											]
-										},
-										{
-											"fieldNo": "df62fef0-b03b-43be-a682-ddbec08d3436",
-											"fieldName": "oPanel5",
-											"fieldParent": "6ef0111e-48b1-49b9-f50f-0b7474c51e63",
-											"fieldType": "sap.m.Panel",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "headerText",
-													"grouping": "Properties",
-													"value": "With Initials",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "expandable",
-													"grouping": "Properties",
-													"value": "true",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "backgroundDesign",
-													"grouping": "Properties",
-													"value": "Solid",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "9d6c12ed-9e4d-478f-f990-9d0f931e5b3a",
-													"fieldName": "oHBox",
-													"fieldParent": "df62fef0-b03b-43be-a682-ddbec08d3436",
-													"fieldType": "sap.m.HBox",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [],
-													"data": [
-														{
-															"fieldNo": "9e814598-918c-4dc1-8eda-44ed57cf8039",
-															"fieldName": "oVBox3",
-															"fieldParent": "9d6c12ed-9e4d-478f-f990-9d0f931e5b3a",
-															"fieldType": "sap.m.VBox",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [],
-															"data": [
-																{
-																	"fieldNo": "201b11d4-c69b-46ea-bcc3-fbbd15c520c6",
-																	"fieldName": "oAvatar51",
-																	"fieldParent": "9e814598-918c-4dc1-8eda-44ed57cf8039",
-																	"fieldType": "sap.f.Avatar",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "initials",
-																			"grouping": "Properties",
-																			"value": "WR",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "46e04a63-26d2-4d56-e315-074a46a96621",
-																	"fieldName": "oText51",
-																	"fieldParent": "9e814598-918c-4dc1-8eda-44ed57cf8039",
-																	"fieldType": "sap.m.Text",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "Display Shape: Circle",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
+															"data": []
 														},
 														{
-															"fieldNo": "4cee0a4a-1d15-4146-e208-ab52e2f466c1",
-															"fieldName": "oVBox4",
-															"fieldParent": "9d6c12ed-9e4d-478f-f990-9d0f931e5b3a",
-															"fieldType": "sap.m.VBox",
+															"fieldNo": "845a374d-d037-46b9-85bb-7964bf124980",
+															"fieldName": "oAvatar23",
+															"fieldParent": "baf5564b-5149-4a40-9054-577482b4055e",
+															"fieldType": "sap.f.Avatar",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
-																	"attribute": "styleClassMargin",
+																	"attribute": "displayShape",
 																	"grouping": "Properties",
-																	"value": "sapUiSmallMarginBegin",
+																	"value": "Square",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "displaySize",
+																	"grouping": "Properties",
+																	"value": "M",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "imageFitType",
+																	"grouping": "Properties",
+																	"value": "Contain",
 																	"script": "",
 																	"translation": []
 																}
 															],
-															"data": [
-																{
-																	"fieldNo": "ed0dd2ff-4af2-4d75-bad2-eb53afa3a651",
-																	"fieldName": "oAvatar52",
-																	"fieldParent": "4cee0a4a-1d15-4146-e208-ab52e2f466c1",
-																	"fieldType": "sap.f.Avatar",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "initials",
-																			"grouping": "Properties",
-																			"value": "WR",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "displayShape",
-																			"grouping": "Properties",
-																			"value": "Square",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "3cbe0fd4-1b28-499e-e762-511522720e4b",
-																	"fieldName": "oText52",
-																	"fieldParent": "4cee0a4a-1d15-4146-e208-ab52e2f466c1",
-																	"fieldType": "sap.m.Text",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "Dislplay Shape:Square",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														}
-													]
-												}
-											]
-										},
-										{
-											"fieldNo": "9e023abf-6df9-498f-f87b-20172cdfd239",
-											"fieldName": "oPanel6",
-											"fieldParent": "6ef0111e-48b1-49b9-f50f-0b7474c51e63",
-											"fieldType": "sap.m.Panel",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "headerText",
-													"grouping": "Properties",
-													"value": "No Image, No Icon, No Initials",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "expandable",
-													"grouping": "Properties",
-													"value": "true",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "backgroundDesign",
-													"grouping": "Properties",
-													"value": "Solid",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "a5c1991c-bb00-4605-f559-012bd06cc3d1",
-													"fieldName": "oHBox3",
-													"fieldParent": "9e023abf-6df9-498f-f87b-20172cdfd239",
-													"fieldType": "sap.m.HBox",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "styleClassMargin",
-															"grouping": "Properties",
-															"value": "sapUiTinyMarginTop",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "75d00be5-e7b7-4fe9-8eb6-5395b7a66c10",
-															"fieldName": "oVBox1",
-															"fieldParent": "a5c1991c-bb00-4605-f559-012bd06cc3d1",
-															"fieldType": "sap.m.VBox",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [],
-															"data": [
-																{
-																	"fieldNo": "40d0b659-85ac-474f-a02c-d303e6135662",
-																	"fieldName": "oAvatar61",
-																	"fieldParent": "75d00be5-e7b7-4fe9-8eb6-5395b7a66c10",
-																	"fieldType": "sap.f.Avatar",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [],
-																	"data": []
-																},
-																{
-																	"fieldNo": "35905483-a33f-4176-e7c5-c2a0cd7f8cb4",
-																	"fieldName": "oText1",
-																	"fieldParent": "75d00be5-e7b7-4fe9-8eb6-5395b7a66c10",
-																	"fieldType": "sap.m.Text",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "Display Shape: Circle",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
+															"data": []
 														},
 														{
-															"fieldNo": "22a2f011-0123-45c2-8dd9-9ae2eed8d279",
-															"fieldName": "oVBox2",
-															"fieldParent": "a5c1991c-bb00-4605-f559-012bd06cc3d1",
-															"fieldType": "sap.m.VBox",
+															"fieldNo": "e4da0c66-b7e0-489e-e27d-60af3397a445",
+															"fieldName": "oAvatar24",
+															"fieldParent": "baf5564b-5149-4a40-9054-577482b4055e",
+															"fieldType": "sap.f.Avatar",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
-																	"attribute": "styleClassMargin",
+																	"attribute": "displayShape",
 																	"grouping": "Properties",
-																	"value": "sapUiSmallMarginBegin",
+																	"value": "Square",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "imageFitType",
+																	"grouping": "Properties",
+																	"value": "Contain",
 																	"script": "",
 																	"translation": []
 																}
 															],
-															"data": [
+															"data": []
+														},
+														{
+															"fieldNo": "66d83f55-082a-4706-d288-864878d67c16",
+															"fieldName": "oAvatar25",
+															"fieldParent": "baf5564b-5149-4a40-9054-577482b4055e",
+															"fieldType": "sap.f.Avatar",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
 																{
-																	"fieldNo": "63a5b15b-f874-402d-8ed0-903884276b06",
-																	"fieldName": "oAvata62",
-																	"fieldParent": "22a2f011-0123-45c2-8dd9-9ae2eed8d279",
-																	"fieldType": "sap.f.Avatar",
+																	"attribute": "displayShape",
+																	"grouping": "Properties",
+																	"value": "Square",
 																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "displayShape",
-																			"grouping": "Properties",
-																			"value": "Square",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "imageFitType",
-																			"grouping": "Properties",
-																			"value": "Contain",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
+																	"translation": []
 																},
 																{
-																	"fieldNo": "24a46240-18a9-41c9-c546-f426716810c7",
-																	"fieldName": "oText2",
-																	"fieldParent": "22a2f011-0123-45c2-8dd9-9ae2eed8d279",
-																	"fieldType": "sap.m.Text",
+																	"attribute": "displaySize",
+																	"grouping": "Properties",
+																	"value": "XS",
 																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "Dislplay Shape:Square",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
+																	"translation": []
+																},
+																{
+																	"attribute": "imageFitType",
+																	"grouping": "Properties",
+																	"value": "Contain",
+																	"script": "",
+																	"translation": []
 																}
-															]
+															],
+															"data": []
 														}
 													]
 												}
@@ -1387,113 +706,599 @@
 									]
 								},
 								{
-									"fieldNo": "5",
-									"fieldName": "oFooter",
-									"fieldParent": "4",
-									"fieldType": "sap.m.Bar",
+									"fieldNo": "9c587f4e-66a0-4eb2-ee64-f60d692f2685",
+									"fieldName": "oPanel3",
+									"fieldParent": "6ef0111e-48b1-49b9-f50f-0b7474c51e63",
+									"fieldType": "sap.m.Panel",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "DisplayShape: Square, Blocked:True",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "expandable",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "backgroundDesign",
+											"grouping": "Properties",
+											"value": "Solid",
 											"script": "",
 											"translation": []
 										}
 									],
 									"data": [
 										{
-											"fieldNo": "6",
-											"fieldName": "Left",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
+											"fieldNo": "8ad8f490-0b13-49ff-a1a6-7c75c5576ea2",
+											"fieldName": "oVBoxBlocked",
+											"fieldParent": "9c587f4e-66a0-4eb2-ee64-f60d692f2685",
+											"fieldType": "sap.m.VBox",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiMediumMarginTop",
 													"script": "",
 													"translation": []
 												}
 											],
 											"data": [
 												{
-													"fieldNo": "bb1fdf78-60b8-4df9-82a6-55886acb88b5",
-													"fieldName": "oButton",
-													"fieldParent": "6",
-													"fieldType": "sap.m.Button",
+													"fieldNo": "c0b033a3-1ad7-43f3-aa4b-20a2c0ce4902",
+													"fieldName": "oAvatar31",
+													"fieldParent": "8ad8f490-0b13-49ff-a1a6-7c75c5576ea2",
+													"fieldType": "sap.f.Avatar",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "type",
+															"attribute": "blocked",
 															"grouping": "Properties",
-															"value": "Emphasized",
+															"value": "true",
 															"script": "",
 															"translation": []
 														},
 														{
-															"attribute": "text",
+															"attribute": "displayShape",
 															"grouping": "Properties",
-															"value": "Open In App Designer",
+															"value": "Square",
 															"script": "",
 															"translation": []
 														},
 														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButton/press.script",
+															"attribute": "displaySize",
+															"grouping": "Properties",
+															"value": "XL",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "imageFitType",
+															"grouping": "Properties",
+															"value": "Contain",
+															"script": "",
 															"translation": []
 														}
 													],
 													"data": []
 												}
 											]
+										}
+									]
+								},
+								{
+									"fieldNo": "380c82cf-9ee4-41c9-860f-9703993d4733",
+									"fieldName": "oPanel4",
+									"fieldParent": "6ef0111e-48b1-49b9-f50f-0b7474c51e63",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "DisplaySize: Custom, ImageFitType: Cover",
+											"script": "",
+											"translation": []
 										},
 										{
-											"fieldNo": "7",
-											"fieldName": "Middle",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
+											"attribute": "expandable",
+											"grouping": "Properties",
+											"value": "true",
 											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "83f281d1-4094-4bef-8b83-442b6598442e",
+											"fieldName": "oHBox4",
+											"fieldParent": "380c82cf-9ee4-41c9-860f-9703993d4733",
+											"fieldType": "sap.m.HBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "bc3f4605-2549-4cf5-bf70-1ee9c93da040",
+													"fieldName": "oVBox41",
+													"fieldParent": "83f281d1-4094-4bef-8b83-442b6598442e",
+													"fieldType": "sap.m.VBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "f54f2be4-0f79-4536-c8b7-3556efe8aece",
+															"fieldName": "oAvatar41",
+															"fieldParent": "bc3f4605-2549-4cf5-bf70-1ee9c93da040",
+															"fieldType": "sap.f.Avatar",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "displaySize",
+																	"grouping": "Properties",
+																	"value": "Custom",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "bf6dedb7-6bca-48d7-90a9-2618894a2346",
+															"fieldName": "oText41",
+															"fieldParent": "bc3f4605-2549-4cf5-bf70-1ee9c93da040",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "displaySize: Custom,  imageFitType:Cover",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "5773bbdf-7dd5-4964-8f46-aed04ca5473b",
+													"fieldName": "oVBox42",
+													"fieldParent": "83f281d1-4094-4bef-8b83-442b6598442e",
+													"fieldType": "sap.m.VBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiSmallMarginBegin",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "02e4513a-211a-45d4-b105-b7a10a3167f5",
+															"fieldName": "oAvatar42",
+															"fieldParent": "5773bbdf-7dd5-4964-8f46-aed04ca5473b",
+															"fieldType": "sap.f.Avatar",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "displaySize",
+																	"grouping": "Properties",
+																	"value": "Custom",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "imageFitType",
+																	"grouping": "Properties",
+																	"value": "Contain",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "2dccfe8e-b1ee-41bd-ad6b-aed56c8f9831",
+															"fieldName": "oText42",
+															"fieldParent": "5773bbdf-7dd5-4964-8f46-aed04ca5473b",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "displaySize: Custom,  imageFitType:Contain",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "df62fef0-b03b-43be-a682-ddbec08d3436",
+									"fieldName": "oPanel5",
+									"fieldParent": "6ef0111e-48b1-49b9-f50f-0b7474c51e63",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "With Initials",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "expandable",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "backgroundDesign",
+											"grouping": "Properties",
+											"value": "Solid",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "9d6c12ed-9e4d-478f-f990-9d0f931e5b3a",
+											"fieldName": "oHBox",
+											"fieldParent": "df62fef0-b03b-43be-a682-ddbec08d3436",
+											"fieldType": "sap.m.HBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "9e814598-918c-4dc1-8eda-44ed57cf8039",
+													"fieldName": "oVBox3",
+													"fieldParent": "9d6c12ed-9e4d-478f-f990-9d0f931e5b3a",
+													"fieldType": "sap.m.VBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "201b11d4-c69b-46ea-bcc3-fbbd15c520c6",
+															"fieldName": "oAvatar51",
+															"fieldParent": "9e814598-918c-4dc1-8eda-44ed57cf8039",
+															"fieldType": "sap.f.Avatar",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "initials",
+																	"grouping": "Properties",
+																	"value": "WR",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "46e04a63-26d2-4d56-e315-074a46a96621",
+															"fieldName": "oText51",
+															"fieldParent": "9e814598-918c-4dc1-8eda-44ed57cf8039",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Display Shape: Circle",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "4cee0a4a-1d15-4146-e208-ab52e2f466c1",
+													"fieldName": "oVBox4",
+													"fieldParent": "9d6c12ed-9e4d-478f-f990-9d0f931e5b3a",
+													"fieldType": "sap.m.VBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiSmallMarginBegin",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "ed0dd2ff-4af2-4d75-bad2-eb53afa3a651",
+															"fieldName": "oAvatar52",
+															"fieldParent": "4cee0a4a-1d15-4146-e208-ab52e2f466c1",
+															"fieldType": "sap.f.Avatar",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "initials",
+																	"grouping": "Properties",
+																	"value": "WR",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "displayShape",
+																	"grouping": "Properties",
+																	"value": "Square",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "3cbe0fd4-1b28-499e-e762-511522720e4b",
+															"fieldName": "oText52",
+															"fieldParent": "4cee0a4a-1d15-4146-e208-ab52e2f466c1",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Dislplay Shape:Square",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "9e023abf-6df9-498f-f87b-20172cdfd239",
+									"fieldName": "oPanel6",
+									"fieldParent": "6ef0111e-48b1-49b9-f50f-0b7474c51e63",
+									"fieldType": "sap.m.Panel",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "headerText",
+											"grouping": "Properties",
+											"value": "No Image, No Icon, No Initials",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "expandable",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "backgroundDesign",
+											"grouping": "Properties",
+											"value": "Solid",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "a5c1991c-bb00-4605-f559-012bd06cc3d1",
+											"fieldName": "oHBox3",
+											"fieldParent": "9e023abf-6df9-498f-f87b-20172cdfd239",
+											"fieldType": "sap.m.HBox",
+											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentMiddle",
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiTinyMarginTop",
 													"script": "",
 													"translation": []
 												}
 											],
-											"data": []
-										},
-										{
-											"fieldNo": "8",
-											"fieldName": "Right",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
+											"data": [
 												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
+													"fieldNo": "75d00be5-e7b7-4fe9-8eb6-5395b7a66c10",
+													"fieldName": "oVBox1",
+													"fieldParent": "a5c1991c-bb00-4605-f559-012bd06cc3d1",
+													"fieldType": "sap.m.VBox",
 													"script": "",
-													"translation": []
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "40d0b659-85ac-474f-a02c-d303e6135662",
+															"fieldName": "oAvatar61",
+															"fieldParent": "75d00be5-e7b7-4fe9-8eb6-5395b7a66c10",
+															"fieldType": "sap.f.Avatar",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": []
+														},
+														{
+															"fieldNo": "35905483-a33f-4176-e7c5-c2a0cd7f8cb4",
+															"fieldName": "oText1",
+															"fieldParent": "75d00be5-e7b7-4fe9-8eb6-5395b7a66c10",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Display Shape: Circle",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "22a2f011-0123-45c2-8dd9-9ae2eed8d279",
+													"fieldName": "oVBox2",
+													"fieldParent": "a5c1991c-bb00-4605-f559-012bd06cc3d1",
+													"fieldType": "sap.m.VBox",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "styleClassMargin",
+															"grouping": "Properties",
+															"value": "sapUiSmallMarginBegin",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "63a5b15b-f874-402d-8ed0-903884276b06",
+															"fieldName": "oAvata62",
+															"fieldParent": "22a2f011-0123-45c2-8dd9-9ae2eed8d279",
+															"fieldType": "sap.f.Avatar",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "displayShape",
+																	"grouping": "Properties",
+																	"value": "Square",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "imageFitType",
+																	"grouping": "Properties",
+																	"value": "Contain",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "24a46240-18a9-41c9-c546-f426716810c7",
+															"fieldName": "oText2",
+															"fieldParent": "22a2f011-0123-45c2-8dd9-9ae2eed8d279",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Dislplay Shape:Square",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
 												}
-											],
-											"data": []
+											]
 										}
 									]
 								}
@@ -1512,8 +1317,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.1746",
+	"componentInterface": [],
+	"ver": "23.10.26.1058",
 	"application": "sample_avatar",
 	"title": "Sample sap.f.Avatar",
 	"description": "sap.f.Avatar",
@@ -1532,12 +1337,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -1549,6 +1355,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

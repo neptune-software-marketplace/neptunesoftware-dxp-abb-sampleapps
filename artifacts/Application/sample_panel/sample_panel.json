@@ -4,74 +4,106 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "a0f423ef-c928-4202-e428-f19eab9ae56a",
-			"fieldName": "oShell",
+			"fieldNo": "8b725a6a-3578-4b48-ba43-d2a5db348600",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "8b725a6a-3578-4b48-ba43-d2a5db348600",
-					"fieldName": "oApp",
-					"fieldParent": "a0f423ef-c928-4202-e428-f19eab9ae56a",
-					"fieldType": "sap.m.App",
+					"fieldNo": "144841d3-9881-4858-a7c9-7ae597424b75",
+					"fieldName": "oPage",
+					"fieldParent": "8b725a6a-3578-4b48-ba43-d2a5db348600",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Panel",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "144841d3-9881-4858-a7c9-7ae597424b75",
-							"fieldName": "oPage",
-							"fieldParent": "8b725a6a-3578-4b48-ba43-d2a5db348600",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "f105b4f8-ed1d-493b-f9f8-c57da6ee34b2",
+							"fieldName": "oPanel",
+							"fieldParent": "144841d3-9881-4858-a7c9-7ae597424b75",
+							"fieldType": "sap.m.Panel",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
 								{
-									"attribute": "title",
+									"attribute": "headerText",
 									"grouping": "Properties",
-									"value": "Panel",
+									"value": "Non-expandable Panel",
 									"script": "",
 									"translation": []
 								}
 							],
 							"data": [
 								{
-									"fieldNo": "f105b4f8-ed1d-493b-f9f8-c57da6ee34b2",
-									"fieldName": "oPanel",
-									"fieldParent": "144841d3-9881-4858-a7c9-7ae597424b75",
-									"fieldType": "sap.m.Panel",
+									"fieldNo": "97b6cfc8-92eb-465f-88a8-a02968699552",
+									"fieldName": "oText",
+									"fieldParent": "f105b4f8-ed1d-493b-f9f8-c57da6ee34b2",
+									"fieldType": "sap.m.Text",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "headerText",
+											"attribute": "text",
 											"grouping": "Properties",
-											"value": "Non-expandable Panel",
+											"value": "This is non expandable Panel . Ie. Expandable = false",
 											"script": "",
 											"translation": []
 										}
 									],
+									"data": []
+								},
+								{
+									"fieldNo": "e498541b-2d2d-4a17-f466-95482bf60858",
+									"fieldName": "oToolHeader1",
+									"fieldParent": "f105b4f8-ed1d-493b-f9f8-c57da6ee34b2",
+									"fieldType": "sap.tnt.ToolHeader",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
 									"data": [
 										{
-											"fieldNo": "97b6cfc8-92eb-465f-88a8-a02968699552",
-											"fieldName": "oText",
-											"fieldParent": "f105b4f8-ed1d-493b-f9f8-c57da6ee34b2",
-											"fieldType": "sap.m.Text",
+											"fieldNo": "4f838f02-d25f-41fa-c275-5dfe0833567a",
+											"fieldName": "oButton1",
+											"fieldParent": "e498541b-2d2d-4a17-f466-95482bf60858",
+											"fieldType": "sap.m.Button",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "text",
+													"attribute": "type",
 													"grouping": "Properties",
-													"value": "This is non expandable Panel . Ie. Expandable = false",
+													"value": "Emphasized",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://home",
 													"script": "",
 													"translation": []
 												}
@@ -79,173 +111,121 @@
 											"data": []
 										},
 										{
-											"fieldNo": "e498541b-2d2d-4a17-f466-95482bf60858",
-											"fieldName": "oToolHeader1",
-											"fieldParent": "f105b4f8-ed1d-493b-f9f8-c57da6ee34b2",
-											"fieldType": "sap.tnt.ToolHeader",
+											"fieldNo": "0674a5dd-6c49-4558-a68f-833b8909c08d",
+											"fieldName": "oButton3",
+											"fieldParent": "e498541b-2d2d-4a17-f466-95482bf60858",
+											"fieldType": "sap.m.Button",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [],
-											"data": [
-												{
-													"fieldNo": "4f838f02-d25f-41fa-c275-5dfe0833567a",
-													"fieldName": "oButton1",
-													"fieldParent": "e498541b-2d2d-4a17-f466-95482bf60858",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://home",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "0674a5dd-6c49-4558-a68f-833b8909c08d",
-													"fieldName": "oButton3",
-													"fieldParent": "e498541b-2d2d-4a17-f466-95482bf60858",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://customer",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										}
-									]
-								},
-								{
-									"fieldNo": "51523a05-e40b-4b47-ac76-cc3e2b497f50",
-									"fieldName": "oPanel1",
-									"fieldParent": "144841d3-9881-4858-a7c9-7ae597424b75",
-									"fieldType": "sap.m.Panel",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "headerText",
-											"grouping": "Properties",
-											"value": "Expandable Panel",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expandable",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "f4b9e23a-0456-4220-a4ef-f99bb67af962",
-											"fieldName": "oToolHeader",
-											"fieldParent": "51523a05-e40b-4b47-ac76-cc3e2b497f50",
-											"fieldType": "sap.tnt.ToolHeader",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [],
-											"data": [
-												{
-													"fieldNo": "73d43f16-84eb-4f7d-909b-4b97e0c264bc",
-													"fieldName": "oButton",
-													"fieldParent": "f4b9e23a-0456-4220-a4ef-f99bb67af962",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://home",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "71cf55c5-033c-4ee9-d459-7ea6a3ae6c27",
-													"fieldName": "oButton2",
-													"fieldParent": "f4b9e23a-0456-4220-a4ef-f99bb67af962",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://customer",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										},
-										{
-											"fieldNo": "d44a66e0-9ebe-48d1-b69b-dfcc6ec9de7b",
-											"fieldName": "oText1",
-											"fieldParent": "51523a05-e40b-4b47-ac76-cc3e2b497f50",
-											"fieldType": "sap.m.Text",
-											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "text",
+													"attribute": "type",
 													"grouping": "Properties",
-													"value": "This is expandable Panel with tool Header and text. Ie. Expandable = true",
+													"value": "Emphasized",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://customer",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "51523a05-e40b-4b47-ac76-cc3e2b497f50",
+							"fieldName": "oPanel1",
+							"fieldParent": "144841d3-9881-4858-a7c9-7ae597424b75",
+							"fieldType": "sap.m.Panel",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "headerText",
+									"grouping": "Properties",
+									"value": "Expandable Panel",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expandable",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "f4b9e23a-0456-4220-a4ef-f99bb67af962",
+									"fieldName": "oToolHeader",
+									"fieldParent": "51523a05-e40b-4b47-ac76-cc3e2b497f50",
+									"fieldType": "sap.tnt.ToolHeader",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "73d43f16-84eb-4f7d-909b-4b97e0c264bc",
+											"fieldName": "oButton",
+											"fieldParent": "f4b9e23a-0456-4220-a4ef-f99bb67af962",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Emphasized",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://home",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "71cf55c5-033c-4ee9-d459-7ea6a3ae6c27",
+											"fieldName": "oButton2",
+											"fieldParent": "f4b9e23a-0456-4220-a4ef-f99bb67af962",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Emphasized",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://customer",
 													"script": "",
 													"translation": []
 												}
@@ -255,130 +235,24 @@
 									]
 								},
 								{
-									"fieldNo": "312b071d-f9ba-4d68-8fdd-b406c2c07cee",
-									"fieldName": "oBarFooter",
-									"fieldParent": "144841d3-9881-4858-a7c9-7ae597424b75",
-									"fieldType": "sap.m.Bar",
+									"fieldNo": "d44a66e0-9ebe-48d1-b69b-dfcc6ec9de7b",
+									"fieldName": "oText1",
+									"fieldParent": "51523a05-e40b-4b47-ac76-cc3e2b497f50",
+									"fieldType": "sap.m.Text",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "This is expandable Panel with tool Header and text. Ie. Expandable = true",
 											"script": "",
 											"translation": []
 										}
 									],
-									"data": [
-										{
-											"fieldNo": "58189417-19dd-49c3-8a3e-7aabcfc92337",
-											"fieldName": "Left",
-											"fieldParent": "312b071d-f9ba-4d68-8fdd-b406c2c07cee",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "2a144f64-85f6-4536-af3f-8c7649039409",
-													"fieldName": "oButton4",
-													"fieldParent": "58189417-19dd-49c3-8a3e-7aabcfc92337",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Open In App Designer",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButton4/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										},
-										{
-											"fieldNo": "e482f388-b735-4ae5-f796-4b125c84c00e",
-											"fieldName": "Right",
-											"fieldParent": "312b071d-f9ba-4d68-8fdd-b406c2c07cee",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "2690d023-f000-4cfd-8b2a-d09515826f8e",
-													"fieldName": "oToggleButton",
-													"fieldParent": "e482f388-b735-4ae5-f796-4b125c84c00e",
-													"fieldType": "sap.m.ToggleButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Compact",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/oToggleButton/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										}
-									]
+									"data": []
 								}
 							]
 						}
@@ -395,8 +269,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.175",
+	"componentInterface": [],
+	"ver": "23.10.27.121",
 	"application": "sample_panel",
 	"title": "Sample sap.m.Panel",
 	"description": "sap.m.Panel",
@@ -415,12 +289,13 @@
 	"ui5_tnt": true,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -432,6 +307,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

@@ -4,365 +4,240 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "be6f57f2-b217-42ff-a365-9ea993673336",
-			"fieldName": "oShell",
+			"fieldNo": "5466addf-5dda-4d63-b100-37b428b1c53e",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "5466addf-5dda-4d63-b100-37b428b1c53e",
-					"fieldName": "oApp",
-					"fieldParent": "be6f57f2-b217-42ff-a365-9ea993673336",
-					"fieldType": "sap.m.App",
+					"fieldNo": "7c608d1d-de10-4592-b66b-478a1d72eb09",
+					"fieldName": "oPage",
+					"fieldParent": "5466addf-5dda-4d63-b100-37b428b1c53e",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "ObjectMarker",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "7c608d1d-de10-4592-b66b-478a1d72eb09",
-							"fieldName": "oPage",
-							"fieldParent": "5466addf-5dda-4d63-b100-37b428b1c53e",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "89f58a0b-a8c0-4446-8dd0-bf17ff6b661e",
+							"fieldName": "oTable",
+							"fieldParent": "7c608d1d-de10-4592-b66b-478a1d72eb09",
+							"fieldType": "sap.m.Table",
 							"script": "",
+							"customComponent": false,
+							"bindingValue": "Generic Array",
+							"bindingType": "h",
+							"bindingSource": "P9",
 							"request": [],
 							"response": [],
 							"attributes": [
 								{
-									"attribute": "title",
-									"grouping": "Properties",
-									"value": "ObjectMarker",
+									"attribute": "ajaxSuccess",
+									"grouping": "Events",
+									"value": "Anonymous Function",
 									"script": "",
 									"translation": []
 								}
 							],
 							"data": [
 								{
-									"fieldNo": "89f58a0b-a8c0-4446-8dd0-bf17ff6b661e",
-									"fieldName": "oTable",
-									"fieldParent": "7c608d1d-de10-4592-b66b-478a1d72eb09",
-									"fieldType": "sap.m.Table",
+									"fieldNo": "cfebb84e-8c08-4a7a-d74f-2d7b6d191ac9",
+									"fieldName": "colProduct",
+									"fieldParent": "89f58a0b-a8c0-4446-8dd0-bf17ff6b661e",
+									"fieldType": "sap.m.Column",
 									"script": "",
-									"bindingValue": "Generic Array",
-									"bindingType": "h",
-									"bindingSource": "P9",
+									"customComponent": false,
 									"request": [],
 									"response": [],
-									"attributes": [
-										{
-											"attribute": "ajaxSuccess",
-											"grouping": "Events",
-											"value": "Anonymous Function",
-											"script": "",
-											"translation": []
-										}
-									],
+									"attributes": [],
 									"data": [
 										{
-											"fieldNo": "cfebb84e-8c08-4a7a-d74f-2d7b6d191ac9",
-											"fieldName": "colProduct",
-											"fieldParent": "89f58a0b-a8c0-4446-8dd0-bf17ff6b661e",
-											"fieldType": "sap.m.Column",
+											"fieldNo": "635be598-f79c-4736-98c9-646d3a813c65",
+											"fieldName": "oText",
+											"fieldParent": "cfebb84e-8c08-4a7a-d74f-2d7b6d191ac9",
+											"fieldType": "sap.m.Text",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
-											"attributes": [],
-											"data": [
+											"attributes": [
 												{
-													"fieldNo": "635be598-f79c-4736-98c9-646d3a813c65",
-													"fieldName": "oText",
-													"fieldParent": "cfebb84e-8c08-4a7a-d74f-2d7b6d191ac9",
-													"fieldType": "sap.m.Text",
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Products",
 													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Products",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
+													"translation": []
 												}
-											]
-										},
-										{
-											"fieldNo": "f41f8723-7b19-40ee-9a46-375978374058",
-											"fieldName": "colStatus",
-											"fieldParent": "89f58a0b-a8c0-4446-8dd0-bf17ff6b661e",
-											"fieldType": "sap.m.Column",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [],
-											"data": [
-												{
-													"fieldNo": "cbc5f0f4-8c45-4cc9-e29a-7c65726e4570",
-													"fieldName": "oText1",
-													"fieldParent": "f41f8723-7b19-40ee-9a46-375978374058",
-													"fieldType": "sap.m.Text",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Status",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										},
-										{
-											"fieldNo": "72fdb92d-1498-4f34-d4d8-9b35250a1d17",
-											"fieldName": "colActStatus",
-											"fieldParent": "89f58a0b-a8c0-4446-8dd0-bf17ff6b661e",
-											"fieldType": "sap.m.Column",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [],
-											"data": [
-												{
-													"fieldNo": "f4c43a90-874d-4863-d0d5-9126c8e79587",
-													"fieldName": "oText2",
-													"fieldParent": "72fdb92d-1498-4f34-d4d8-9b35250a1d17",
-													"fieldType": "sap.m.Text",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Status (Active)",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										},
-										{
-											"fieldNo": "7db80188-b5d7-49eb-8b8e-e123e5290d79",
-											"fieldName": "oColumnListItem",
-											"fieldParent": "89f58a0b-a8c0-4446-8dd0-bf17ff6b661e",
-											"fieldType": "sap.m.ColumnListItem",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [],
-											"data": [
-												{
-													"fieldNo": "3585fa4b-9e12-41ff-bd93-13160011c84f",
-													"fieldName": "txtProduct",
-													"fieldParent": "7db80188-b5d7-49eb-8b8e-e123e5290d79",
-													"fieldType": "sap.m.Text",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "{product}",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "82d791d9-31f0-407c-f07c-5b0473aed308",
-													"fieldName": "oObjectMarkerStatus",
-													"fieldParent": "7db80188-b5d7-49eb-8b8e-e123e5290d79",
-													"fieldType": "sap.m.ObjectMarker",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "{type}",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "additionalInfo",
-															"grouping": "Properties",
-															"value": "{type}",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "39928a9a-3089-4096-bc67-a425d8506aa9",
-													"fieldName": "oObjectMarkerActStatus",
-													"fieldParent": "7db80188-b5d7-49eb-8b8e-e123e5290d79",
-													"fieldType": "sap.m.ObjectMarker",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "{type}",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ObjectMarker/oObjectMarkerActStatus/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
+											],
+											"data": []
 										}
 									]
 								},
 								{
-									"fieldNo": "1a907c3c-4978-42e0-b507-f6e2e862cdc5",
-									"fieldName": "oBarFooter",
-									"fieldParent": "7c608d1d-de10-4592-b66b-478a1d72eb09",
-									"fieldType": "sap.m.Bar",
+									"fieldNo": "f41f8723-7b19-40ee-9a46-375978374058",
+									"fieldName": "colStatus",
+									"fieldParent": "89f58a0b-a8c0-4446-8dd0-bf17ff6b661e",
+									"fieldType": "sap.m.Column",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
-									"attributes": [
-										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
-											"script": "",
-											"translation": []
-										}
-									],
+									"attributes": [],
 									"data": [
 										{
-											"fieldNo": "9989ac65-754b-4cd7-e87e-723e59b119b1",
-											"fieldName": "Left",
-											"fieldParent": "1a907c3c-4978-42e0-b507-f6e2e862cdc5",
-											"fieldType": "neptune.BarContent",
+											"fieldNo": "cbc5f0f4-8c45-4cc9-e29a-7c65726e4570",
+											"fieldName": "oText1",
+											"fieldParent": "f41f8723-7b19-40ee-9a46-375978374058",
+											"fieldType": "sap.m.Text",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Status",
 													"script": "",
 													"translation": []
 												}
 											],
-											"data": [
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "72fdb92d-1498-4f34-d4d8-9b35250a1d17",
+									"fieldName": "colActStatus",
+									"fieldParent": "89f58a0b-a8c0-4446-8dd0-bf17ff6b661e",
+									"fieldType": "sap.m.Column",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "f4c43a90-874d-4863-d0d5-9126c8e79587",
+											"fieldName": "oText2",
+											"fieldParent": "72fdb92d-1498-4f34-d4d8-9b35250a1d17",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
 												{
-													"fieldNo": "571c3f0b-3655-4c3a-d05f-e76f0b13f772",
-													"fieldName": "oButton",
-													"fieldParent": "9989ac65-754b-4cd7-e87e-723e59b119b1",
-													"fieldType": "sap.m.Button",
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Status (Active)",
 													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Open In App Designer",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButton/press.script",
-															"translation": []
-														}
-													],
-													"data": []
+													"translation": []
 												}
-											]
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "7db80188-b5d7-49eb-8b8e-e123e5290d79",
+									"fieldName": "oColumnListItem",
+									"fieldParent": "89f58a0b-a8c0-4446-8dd0-bf17ff6b661e",
+									"fieldType": "sap.m.ColumnListItem",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "3585fa4b-9e12-41ff-bd93-13160011c84f",
+											"fieldName": "txtProduct",
+											"fieldParent": "7db80188-b5d7-49eb-8b8e-e123e5290d79",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "{product}",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
 										},
 										{
-											"fieldNo": "95f33153-b17a-4bef-f31b-05d2ef60b672",
-											"fieldName": "Right",
-											"fieldParent": "1a907c3c-4978-42e0-b507-f6e2e862cdc5",
-											"fieldType": "neptune.BarContent",
+											"fieldNo": "82d791d9-31f0-407c-f07c-5b0473aed308",
+											"fieldName": "oObjectMarkerStatus",
+											"fieldParent": "7db80188-b5d7-49eb-8b8e-e123e5290d79",
+											"fieldType": "sap.m.ObjectMarker",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "{type}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "additionalInfo",
+													"grouping": "Properties",
+													"value": "{type}",
 													"script": "",
 													"translation": []
 												}
 											],
-											"data": [
+											"data": []
+										},
+										{
+											"fieldNo": "39928a9a-3089-4096-bc67-a425d8506aa9",
+											"fieldName": "oObjectMarkerActStatus",
+											"fieldParent": "7db80188-b5d7-49eb-8b8e-e123e5290d79",
+											"fieldType": "sap.m.ObjectMarker",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
 												{
-													"fieldNo": "8a253c60-dcbd-46b3-e7c6-904251200db9",
-													"fieldName": "butCompact",
-													"fieldParent": "95f33153-b17a-4bef-f31b-05d2ef60b672",
-													"fieldType": "sap.m.ToggleButton",
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "{type}",
 													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Compact",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
-															"translation": []
-														}
-													],
-													"data": []
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.ObjectMarker/oObjectMarkerActStatus/press.script",
+													"translation": []
 												}
-											]
+											],
+											"data": []
 										}
 									]
 								}
@@ -380,7 +255,8 @@
 					"fieldName": "oInit",
 					"fieldParent": 99999,
 					"fieldType": "neptune.Script",
-					"script": "file://script/neptune.Script/oInit.script",
+					"script": "file://script/neptune.Script/oInit.js",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [],
@@ -393,8 +269,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.1711",
+	"componentInterface": [],
+	"ver": "23.10.27.1151",
 	"application": "sample_objectmarker",
 	"title": "sap.m.ObjectMarker - sap.m.Table - sap.m.ColumnListItem",
 	"description": "sap.m.ObjectMarker - sap.m.Table - sap.m.ColumnListItem",
@@ -413,12 +289,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -430,6 +307,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

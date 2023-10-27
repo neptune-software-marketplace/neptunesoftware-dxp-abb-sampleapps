@@ -4,474 +4,330 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "1",
-			"fieldName": "oShell",
+			"fieldNo": "2",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "2",
-					"fieldName": "oApp",
-					"fieldParent": "1",
-					"fieldType": "sap.m.App",
+					"fieldNo": "4",
+					"fieldName": "oPage",
+					"fieldParent": "2",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Rating Indicator",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "4",
-							"fieldName": "oPage",
-							"fieldParent": "2",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
+							"fieldName": "oVBox",
+							"fieldParent": "4",
+							"fieldType": "sap.m.VBox",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
 								{
-									"attribute": "title",
+									"attribute": "styleClassMargin",
 									"grouping": "Properties",
-									"value": "Rating Inidcator",
+									"value": "sapUiSmallMargin",
 									"script": "",
 									"translation": []
 								}
 							],
 							"data": [
 								{
-									"fieldNo": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
-									"fieldName": "oVBox",
-									"fieldParent": "4",
-									"fieldType": "sap.m.VBox",
+									"fieldNo": "f3b71b2a-9219-4ff3-ffe9-3aa45840a4ca",
+									"fieldName": "oLabel",
+									"fieldParent": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
+									"fieldType": "sap.m.Label",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Rating Indicator default size",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "4419dfab-cba4-46c2-dd57-25792e64d0cc",
+									"fieldName": "oRatingIndicator",
+									"fieldParent": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
+									"fieldType": "sap.m.RatingIndicator",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "value",
+											"grouping": "Properties",
+											"value": "2",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "6a65dc71-8baa-4ea0-ace1-81b09465228f",
+									"fieldName": "oLabel1",
+									"fieldParent": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Rating Indicator with different size",
+											"script": "",
+											"translation": []
+										},
 										{
 											"attribute": "styleClassMargin",
 											"grouping": "Properties",
-											"value": "sapUiSmallMargin",
+											"value": "sapUiSmallMarginTop",
 											"script": "",
 											"translation": []
 										}
 									],
-									"data": [
-										{
-											"fieldNo": "f3b71b2a-9219-4ff3-ffe9-3aa45840a4ca",
-											"fieldName": "oLabel",
-											"fieldParent": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Rating Indicator default size",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "4419dfab-cba4-46c2-dd57-25792e64d0cc",
-											"fieldName": "oRatingIndicator",
-											"fieldParent": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
-											"fieldType": "sap.m.RatingIndicator",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "value",
-													"grouping": "Properties",
-													"value": "2",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "6a65dc71-8baa-4ea0-ace1-81b09465228f",
-											"fieldName": "oLabel1",
-											"fieldParent": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Rating Indicator with different size",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "styleClassMargin",
-													"grouping": "Properties",
-													"value": "sapUiSmallMarginTop",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "4c739823-f843-4d5a-b0f6-0fb2b4b3abde",
-											"fieldName": "oRatingIndicator1",
-											"fieldParent": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
-											"fieldType": "sap.m.RatingIndicator",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "value",
-													"grouping": "Properties",
-													"value": "3",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "iconSize",
-													"grouping": "Properties",
-													"value": "32px",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "722d7499-9111-4a72-8cf6-bde3a3d39a45",
-											"fieldName": "oRatingIndicator2",
-											"fieldParent": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
-											"fieldType": "sap.m.RatingIndicator",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "value",
-													"grouping": "Properties",
-													"value": "4",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "iconSize",
-													"grouping": "Properties",
-													"value": "20px",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "fb42323a-128c-4bf2-d430-0878b6bbe014",
-											"fieldName": "oRatingIndicator3",
-											"fieldParent": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
-											"fieldType": "sap.m.RatingIndicator",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "value",
-													"grouping": "Properties",
-													"value": "1",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "iconSize",
-													"grouping": "Properties",
-													"value": "12px",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "c6bfc075-8c16-4f3c-e0b0-4ab52671e418",
-											"fieldName": "oLabel2",
-											"fieldParent": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Rating Indicator with disabled state",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "styleClassMargin",
-													"grouping": "Properties",
-													"value": "sapUiSmallMarginTop",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "3abdd796-febc-4ad6-e166-31a3056b1efc",
-											"fieldName": "oRatingIndicator4",
-											"fieldParent": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
-											"fieldType": "sap.m.RatingIndicator",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "value",
-													"grouping": "Properties",
-													"value": "5",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "maxValue",
-													"grouping": "Properties",
-													"value": "7",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "enabled",
-													"grouping": "Properties",
-													"value": "false",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "d9e9db5e-6c52-4ee8-bdb6-aee3fa748bc5",
-											"fieldName": "oLabel3",
-											"fieldParent": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Rating Indicator with Display only mode",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "styleClassMargin",
-													"grouping": "Properties",
-													"value": "sapUiSmallMarginTop",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "23c2e5fa-1fc6-402e-e4a6-f39207b3d1d2",
-											"fieldName": "oRatingIndicator5",
-											"fieldParent": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
-											"fieldType": "sap.m.RatingIndicator",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "value",
-													"grouping": "Properties",
-													"value": "4",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "maxValue",
-													"grouping": "Properties",
-													"value": "7",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "iconSize",
-													"grouping": "Properties",
-													"value": "20px",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "displayOnly",
-													"grouping": "Properties",
-													"value": "true",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										}
-									]
+									"data": []
 								},
 								{
-									"fieldNo": "5",
-									"fieldName": "oFooter",
-									"fieldParent": "4",
-									"fieldType": "sap.m.Bar",
+									"fieldNo": "4c739823-f843-4d5a-b0f6-0fb2b4b3abde",
+									"fieldName": "oRatingIndicator1",
+									"fieldParent": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
+									"fieldType": "sap.m.RatingIndicator",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"attribute": "value",
+											"grouping": "Properties",
+											"value": "3",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "iconSize",
+											"grouping": "Properties",
+											"value": "32px",
 											"script": "",
 											"translation": []
 										}
 									],
-									"data": [
+									"data": []
+								},
+								{
+									"fieldNo": "722d7499-9111-4a72-8cf6-bde3a3d39a45",
+									"fieldName": "oRatingIndicator2",
+									"fieldParent": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
+									"fieldType": "sap.m.RatingIndicator",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
 										{
-											"fieldNo": "6",
-											"fieldName": "Left",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
+											"attribute": "value",
+											"grouping": "Properties",
+											"value": "4",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "3bf8b114-4cb9-47b4-9155-06f9e96a4fb4",
-													"fieldName": "oButton",
-													"fieldParent": "6",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Open In App Designer",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButton/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
+											"translation": []
 										},
 										{
-											"fieldNo": "7",
-											"fieldName": "Middle",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
+											"attribute": "iconSize",
+											"grouping": "Properties",
+											"value": "20px",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentMiddle",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "8",
-											"fieldName": "Right",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "66f76c73-6b71-468b-b7b6-8fcc9c35b709",
-													"fieldName": "butCompact",
-													"fieldParent": "8",
-													"fieldType": "sap.m.ToggleButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Compact",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
+											"translation": []
 										}
-									]
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "fb42323a-128c-4bf2-d430-0878b6bbe014",
+									"fieldName": "oRatingIndicator3",
+									"fieldParent": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
+									"fieldType": "sap.m.RatingIndicator",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "value",
+											"grouping": "Properties",
+											"value": "1",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "iconSize",
+											"grouping": "Properties",
+											"value": "12px",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "c6bfc075-8c16-4f3c-e0b0-4ab52671e418",
+									"fieldName": "oLabel2",
+									"fieldParent": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Rating Indicator with disabled state",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMarginTop",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "3abdd796-febc-4ad6-e166-31a3056b1efc",
+									"fieldName": "oRatingIndicator4",
+									"fieldParent": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
+									"fieldType": "sap.m.RatingIndicator",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "value",
+											"grouping": "Properties",
+											"value": "5",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "maxValue",
+											"grouping": "Properties",
+											"value": "7",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "enabled",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "d9e9db5e-6c52-4ee8-bdb6-aee3fa748bc5",
+									"fieldName": "oLabel3",
+									"fieldParent": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Rating Indicator with Display only mode",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMarginTop",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "23c2e5fa-1fc6-402e-e4a6-f39207b3d1d2",
+									"fieldName": "oRatingIndicator5",
+									"fieldParent": "eb1afce4-bb9d-49fb-9683-50d3377e3efa",
+									"fieldType": "sap.m.RatingIndicator",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "value",
+											"grouping": "Properties",
+											"value": "4",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "maxValue",
+											"grouping": "Properties",
+											"value": "7",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "iconSize",
+											"grouping": "Properties",
+											"value": "20px",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "displayOnly",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
 								}
 							]
 						}
@@ -488,8 +344,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.173",
+	"componentInterface": [],
+	"ver": "23.10.27.1220",
 	"application": "sample_ratingindicator",
 	"title": "sap.m.RatingIndicator",
 	"description": "sap.m.RatingIndicator",
@@ -508,12 +364,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -525,6 +382,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

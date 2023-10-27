@@ -4,428 +4,282 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "1",
-			"fieldName": "oShell",
+			"fieldNo": "2",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "2",
-					"fieldName": "oApp",
-					"fieldParent": "1",
-					"fieldType": "sap.m.App",
+					"fieldNo": "4",
+					"fieldName": "oPage",
+					"fieldParent": "2",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Range Slider",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "4",
-							"fieldName": "oPage",
-							"fieldParent": "2",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "dc99f759-4535-4b88-f0c3-82703863061e",
+							"fieldName": "oVBox",
+							"fieldParent": "4",
+							"fieldType": "sap.m.VBox",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
 								{
-									"attribute": "title",
+									"attribute": "styleClassMargin",
 									"grouping": "Properties",
-									"value": "Range Slider",
+									"value": "sapUiSmallMargin",
 									"script": "",
 									"translation": []
 								}
 							],
 							"data": [
 								{
-									"fieldNo": "dc99f759-4535-4b88-f0c3-82703863061e",
-									"fieldName": "oVBox",
-									"fieldParent": "4",
-									"fieldType": "sap.m.VBox",
+									"fieldNo": "3fa90411-b755-47e2-d04c-11b6b33d56f8",
+									"fieldName": "oLabel",
+									"fieldParent": "dc99f759-4535-4b88-f0c3-82703863061e",
+									"fieldType": "sap.m.Label",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Default range slider",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "77021939-739a-4634-9aa9-ab7ec513c03f",
+									"fieldName": "oRangeSlider",
+									"fieldParent": "dc99f759-4535-4b88-f0c3-82703863061e",
+									"fieldType": "sap.m.RangeSlider",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								},
+								{
+									"fieldNo": "57672632-17d5-4574-f53d-cdca5066ca11",
+									"fieldName": "oLabel1",
+									"fieldParent": "dc99f759-4535-4b88-f0c3-82703863061e",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Range slider with min and max value",
+											"script": "",
+											"translation": []
+										},
 										{
 											"attribute": "styleClassMargin",
 											"grouping": "Properties",
-											"value": "sapUiSmallMargin",
+											"value": "sapUiSmallMarginTop",
 											"script": "",
 											"translation": []
 										}
 									],
-									"data": [
-										{
-											"fieldNo": "3fa90411-b755-47e2-d04c-11b6b33d56f8",
-											"fieldName": "oLabel",
-											"fieldParent": "dc99f759-4535-4b88-f0c3-82703863061e",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Default range slider",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "77021939-739a-4634-9aa9-ab7ec513c03f",
-											"fieldName": "oRangeSlider",
-											"fieldParent": "dc99f759-4535-4b88-f0c3-82703863061e",
-											"fieldType": "sap.m.RangeSlider",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [],
-											"data": []
-										},
-										{
-											"fieldNo": "57672632-17d5-4574-f53d-cdca5066ca11",
-											"fieldName": "oLabel1",
-											"fieldParent": "dc99f759-4535-4b88-f0c3-82703863061e",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Range slider with min and max value",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "styleClassMargin",
-													"grouping": "Properties",
-													"value": "sapUiSmallMarginTop",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "35e5f8e1-29a3-4291-f838-3c945b2ae4fa",
-											"fieldName": "oRangeSlider1",
-											"fieldParent": "dc99f759-4535-4b88-f0c3-82703863061e",
-											"fieldType": "sap.m.RangeSlider",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "50%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "min",
-													"grouping": "Properties",
-													"value": "10",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "max",
-													"grouping": "Properties",
-													"value": "50",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "4d0fe10a-f422-4206-9375-1dc5088f1f8d",
-											"fieldName": "oLabel2",
-											"fieldParent": "dc99f759-4535-4b88-f0c3-82703863061e",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Range slider with different values",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "styleClassMargin",
-													"grouping": "Properties",
-													"value": "sapUiSmallMarginTop",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "9fb19805-3a57-4df2-9d4e-34e75b66265c",
-											"fieldName": "oRangeSlider2",
-											"fieldParent": "dc99f759-4535-4b88-f0c3-82703863061e",
-											"fieldType": "sap.m.RangeSlider",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "50%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "value",
-													"grouping": "Properties",
-													"value": "20",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "min",
-													"grouping": "Properties",
-													"value": "10",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "max",
-													"grouping": "Properties",
-													"value": "80",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "value2",
-													"grouping": "Properties",
-													"value": "40",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "8715cc54-c06d-4ec3-eccb-47923ddd93e1",
-											"fieldName": "oLabel3",
-											"fieldParent": "dc99f759-4535-4b88-f0c3-82703863061e",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Slide by 15 steps",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "90ca4724-d921-403f-9ddd-2dda5a0b71f0",
-											"fieldName": "oRangeSlider3",
-											"fieldParent": "dc99f759-4535-4b88-f0c3-82703863061e",
-											"fieldType": "sap.m.RangeSlider",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "60%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "value",
-													"grouping": "Properties",
-													"value": "0",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "tooltip",
-													"grouping": "Properties",
-													"value": "Slide by 15 steps",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "step",
-													"grouping": "Properties",
-													"value": "15",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										}
-									]
+									"data": []
 								},
 								{
-									"fieldNo": "5",
-									"fieldName": "oFooter",
-									"fieldParent": "4",
-									"fieldType": "sap.m.Bar",
+									"fieldNo": "35e5f8e1-29a3-4291-f838-3c945b2ae4fa",
+									"fieldName": "oRangeSlider1",
+									"fieldParent": "dc99f759-4535-4b88-f0c3-82703863061e",
+									"fieldType": "sap.m.RangeSlider",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "50%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "min",
+											"grouping": "Properties",
+											"value": "10",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "max",
+											"grouping": "Properties",
+											"value": "50",
 											"script": "",
 											"translation": []
 										}
 									],
-									"data": [
+									"data": []
+								},
+								{
+									"fieldNo": "4d0fe10a-f422-4206-9375-1dc5088f1f8d",
+									"fieldName": "oLabel2",
+									"fieldParent": "dc99f759-4535-4b88-f0c3-82703863061e",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
 										{
-											"fieldNo": "6",
-											"fieldName": "Left",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Range slider with different values",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "b0dce7fa-9f7c-45cf-8cfa-39a608a7d5cf",
-													"fieldName": "oButton",
-													"fieldParent": "6",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Open In App Designer",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButton/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
+											"translation": []
 										},
 										{
-											"fieldNo": "7",
-											"fieldName": "Middle",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMarginTop",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentMiddle",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "8",
-											"fieldName": "Right",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "eca82361-546a-4df9-e5d9-ca167200b721",
-													"fieldName": "butCompact",
-													"fieldParent": "8",
-													"fieldType": "sap.m.ToggleButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Compact",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
+											"translation": []
 										}
-									]
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "9fb19805-3a57-4df2-9d4e-34e75b66265c",
+									"fieldName": "oRangeSlider2",
+									"fieldParent": "dc99f759-4535-4b88-f0c3-82703863061e",
+									"fieldType": "sap.m.RangeSlider",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "50%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "value",
+											"grouping": "Properties",
+											"value": "20",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "min",
+											"grouping": "Properties",
+											"value": "10",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "max",
+											"grouping": "Properties",
+											"value": "80",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "value2",
+											"grouping": "Properties",
+											"value": "40",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "8715cc54-c06d-4ec3-eccb-47923ddd93e1",
+									"fieldName": "oLabel3",
+									"fieldParent": "dc99f759-4535-4b88-f0c3-82703863061e",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Slide by 15 steps",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "90ca4724-d921-403f-9ddd-2dda5a0b71f0",
+									"fieldName": "oRangeSlider3",
+									"fieldParent": "dc99f759-4535-4b88-f0c3-82703863061e",
+									"fieldType": "sap.m.RangeSlider",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "60%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "value",
+											"grouping": "Properties",
+											"value": "0",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "tooltip",
+											"grouping": "Properties",
+											"value": "Slide by 15 steps",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "step",
+											"grouping": "Properties",
+											"value": "15",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
 								}
 							]
 						}
@@ -442,8 +296,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.173",
+	"componentInterface": [],
+	"ver": "23.10.27.1219",
 	"application": "sample_rangeslider",
 	"title": "sap.m.RangeSlider",
 	"description": "sap.m.RangeSlider",
@@ -462,12 +316,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -479,6 +334,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

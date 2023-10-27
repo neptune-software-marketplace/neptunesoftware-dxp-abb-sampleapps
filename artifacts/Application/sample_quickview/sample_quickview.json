@@ -4,980 +4,586 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "33442b79-e28e-4e46-89cf-71240cfbbff8",
-			"fieldName": "oShell",
+			"fieldNo": "1bf6d157-1353-4106-a6fc-e7b17ce39061",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "1bf6d157-1353-4106-a6fc-e7b17ce39061",
-					"fieldName": "oApp",
-					"fieldParent": "33442b79-e28e-4e46-89cf-71240cfbbff8",
-					"fieldType": "sap.m.App",
+					"fieldNo": "9619eb84-dcc7-429f-dee2-ad2dd08d6436",
+					"fieldName": "oPage",
+					"fieldParent": "1bf6d157-1353-4106-a6fc-e7b17ce39061",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [],
 					"data": [
 						{
-							"fieldNo": "9619eb84-dcc7-429f-dee2-ad2dd08d6436",
-							"fieldName": "oPage",
-							"fieldParent": "1bf6d157-1353-4106-a6fc-e7b17ce39061",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "8734d0f2-2fd9-40ef-eb61-5bfa3d4e8abb",
+							"fieldName": "oPageHeader",
+							"fieldParent": "9619eb84-dcc7-429f-dee2-ad2dd08d6436",
+							"fieldType": "sap.m.Bar",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
-							"attributes": [],
+							"attributes": [
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "setCustomHeader",
+									"script": "",
+									"translation": []
+								}
+							],
 							"data": [
 								{
-									"fieldNo": "8734d0f2-2fd9-40ef-eb61-5bfa3d4e8abb",
-									"fieldName": "oPageHeader",
-									"fieldParent": "9619eb84-dcc7-429f-dee2-ad2dd08d6436",
-									"fieldType": "sap.m.Bar",
+									"fieldNo": "b1686609-84f4-4cf0-a41b-35cdac9b07d3",
+									"fieldName": "Middle",
+									"fieldParent": "8734d0f2-2fd9-40ef-eb61-5bfa3d4e8abb",
+									"fieldType": "neptune.BarContent",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
 											"attribute": "position",
 											"grouping": "Parent",
-											"value": "setCustomHeader",
+											"value": "ContentMiddle",
 											"script": "",
 											"translation": []
 										}
 									],
 									"data": [
 										{
-											"fieldNo": "b1686609-84f4-4cf0-a41b-35cdac9b07d3",
-											"fieldName": "Middle",
-											"fieldParent": "8734d0f2-2fd9-40ef-eb61-5bfa3d4e8abb",
-											"fieldType": "neptune.BarContent",
+											"fieldNo": "561e74e4-7980-462d-f27c-5b08db99b92b",
+											"fieldName": "oLabel",
+											"fieldParent": "b1686609-84f4-4cf0-a41b-35cdac9b07d3",
+											"fieldType": "sap.m.Label",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentMiddle",
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "QuickView Page",
 													"script": "",
 													"translation": []
 												}
 											],
-											"data": [
-												{
-													"fieldNo": "561e74e4-7980-462d-f27c-5b08db99b92b",
-													"fieldName": "oLabel",
-													"fieldParent": "b1686609-84f4-4cf0-a41b-35cdac9b07d3",
-													"fieldType": "sap.m.Label",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "QuickView Page",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
+											"data": []
 										}
 									]
+								}
+							]
+						},
+						{
+							"fieldNo": "f2f635cb-c994-4d28-a861-96146b22ab18",
+							"fieldName": "oSimpleForm",
+							"fieldParent": "9619eb84-dcc7-429f-dee2-ad2dd08d6436",
+							"fieldType": "sap.ui.layout.form.SimpleForm",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Selection",
+									"script": "",
+									"translation": []
 								},
 								{
-									"fieldNo": "f2f635cb-c994-4d28-a861-96146b22ab18",
-									"fieldName": "oSimpleForm",
-									"fieldParent": "9619eb84-dcc7-429f-dee2-ad2dd08d6436",
-									"fieldType": "sap.ui.layout.form.SimpleForm",
+									"attribute": "layout",
+									"grouping": "Properties",
+									"value": "ResponsiveLayout",
 									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "editable",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "eeca06ce-51d8-4795-8c75-b34595148cd3",
+									"fieldName": "oLabel1",
+									"fieldParent": "f2f635cb-c994-4d28-a861-96146b22ab18",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								},
+								{
+									"fieldNo": "3a342483-6697-4639-90a8-9ab89d9282b0",
+									"fieldName": "oButton",
+									"fieldParent": "f2f635cb-c994-4d28-a861-96146b22ab18",
+									"fieldType": "sap.m.Button",
+									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "title",
+											"attribute": "text",
 											"grouping": "Properties",
-											"value": "Selection",
+											"value": "Employee QuickView",
 											"script": "",
 											"translation": []
 										},
 										{
-											"attribute": "layout",
-											"grouping": "Properties",
-											"value": "ResponsiveLayout",
-											"script": "",
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.Button/oButton/press.script",
 											"translation": []
-										},
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "0ae75414-398a-47c5-eb0d-d9ac2cf88559",
+									"fieldName": "oEmployeeQuickView",
+									"fieldParent": "f2f635cb-c994-4d28-a861-96146b22ab18",
+									"fieldType": "sap.m.QuickView",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
 										{
-											"attribute": "editable",
+											"attribute": "placement",
 											"grouping": "Properties",
-											"value": "true",
+											"value": "Bottom",
 											"script": "",
 											"translation": []
 										}
 									],
 									"data": [
 										{
-											"fieldNo": "eeca06ce-51d8-4795-8c75-b34595148cd3",
-											"fieldName": "oLabel1",
-											"fieldParent": "f2f635cb-c994-4d28-a861-96146b22ab18",
-											"fieldType": "sap.m.Label",
+											"fieldNo": "0b131160-1eb7-462c-edda-0a158340485c",
+											"fieldName": "oQuickViewPage",
+											"fieldParent": "0ae75414-398a-47c5-eb0d-d9ac2cf88559",
+											"fieldType": "sap.m.QuickViewPage",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [],
-											"data": []
-										},
-										{
-											"fieldNo": "3a342483-6697-4639-90a8-9ab89d9282b0",
-											"fieldName": "oButton",
-											"fieldParent": "f2f635cb-c994-4d28-a861-96146b22ab18",
-											"fieldType": "sap.m.Button",
-											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "text",
+													"attribute": "title",
 													"grouping": "Properties",
-													"value": "Employee QuickView",
+													"value": "Rohny Disusa",
 													"script": "",
 													"translation": []
 												},
 												{
-													"attribute": "press",
-													"grouping": "Events",
-													"value": "Anonymous Function",
-													"script": "file://event/sap.m.Button/oButton/press.script",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "0ae75414-398a-47c5-eb0d-d9ac2cf88559",
-											"fieldName": "oEmployeeQuickView",
-											"fieldParent": "f2f635cb-c994-4d28-a861-96146b22ab18",
-											"fieldType": "sap.m.QuickView",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "placement",
+													"attribute": "icon",
 													"grouping": "Properties",
-													"value": "Bottom",
+													"value": "sap-icon://employee",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "header",
+													"grouping": "Properties",
+													"value": "Employee Info",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "description",
+													"grouping": "Properties",
+													"value": "General Manager",
 													"script": "",
 													"translation": []
 												}
 											],
 											"data": [
 												{
-													"fieldNo": "0b131160-1eb7-462c-edda-0a158340485c",
-													"fieldName": "oQuickViewPage",
-													"fieldParent": "0ae75414-398a-47c5-eb0d-d9ac2cf88559",
-													"fieldType": "sap.m.QuickViewPage",
+													"fieldNo": "7fae353e-9508-4622-ff2f-204c9f899fac",
+													"fieldName": "oQuickViewGroup",
+													"fieldParent": "0b131160-1eb7-462c-edda-0a158340485c",
+													"fieldType": "sap.m.QuickViewGroup",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "title",
+															"attribute": "heading",
 															"grouping": "Properties",
-															"value": "Rohny Disusa",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://employee",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "header",
-															"grouping": "Properties",
-															"value": "Employee Info",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "description",
-															"grouping": "Properties",
-															"value": "General Manager",
+															"value": "Contact Details",
 															"script": "",
 															"translation": []
 														}
 													],
 													"data": [
 														{
-															"fieldNo": "7fae353e-9508-4622-ff2f-204c9f899fac",
-															"fieldName": "oQuickViewGroup",
-															"fieldParent": "0b131160-1eb7-462c-edda-0a158340485c",
-															"fieldType": "sap.m.QuickViewGroup",
+															"fieldNo": "187f6e24-31de-47cb-9ac2-af593aeed97d",
+															"fieldName": "oQuickViewGroupElement",
+															"fieldParent": "7fae353e-9508-4622-ff2f-204c9f899fac",
+															"fieldType": "sap.m.QuickViewGroupElement",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
-																	"attribute": "heading",
+																	"attribute": "value",
 																	"grouping": "Properties",
-																	"value": "Contact Details",
+																	"value": "click to view",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "pageLink",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "pageLinkId",
+																	"grouping": "Properties",
+																	"value": "Quick2PageId",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "label",
+																	"grouping": "Properties",
+																	"value": "Additional Info",
 																	"script": "",
 																	"translation": []
 																}
 															],
-															"data": [
-																{
-																	"fieldNo": "187f6e24-31de-47cb-9ac2-af593aeed97d",
-																	"fieldName": "oQuickViewGroupElement",
-																	"fieldParent": "7fae353e-9508-4622-ff2f-204c9f899fac",
-																	"fieldType": "sap.m.QuickViewGroupElement",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "value",
-																			"grouping": "Properties",
-																			"value": "click to view",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "type",
-																			"grouping": "Properties",
-																			"value": "pageLink",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "pageLinkId",
-																			"grouping": "Properties",
-																			"value": "Quick2PageId",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "label",
-																			"grouping": "Properties",
-																			"value": "Additional Info",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "c199cbc6-db9f-44bd-adb0-055cd669c5d9",
-																	"fieldName": "oQuickViewGroupElement1",
-																	"fieldParent": "7fae353e-9508-4622-ff2f-204c9f899fac",
-																	"fieldType": "sap.m.QuickViewGroupElement",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "value",
-																			"grouping": "Properties",
-																			"value": "+47 12345667",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "type",
-																			"grouping": "Properties",
-																			"value": "mobile",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "label",
-																			"grouping": "Properties",
-																			"value": "Phone",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "08fa7257-5a11-437f-eec7-132e96df8cc8",
-																	"fieldName": "oQuickViewGroupElement2",
-																	"fieldParent": "7fae353e-9508-4622-ff2f-204c9f899fac",
-																	"fieldType": "sap.m.QuickViewGroupElement",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "value",
-																			"grouping": "Properties",
-																			"value": "+47 12345678",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "type",
-																			"grouping": "Properties",
-																			"value": "mobile",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "label",
-																			"grouping": "Properties",
-																			"value": "Mobile",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "ebb42e7c-c7f6-4f39-b917-4acf90526612",
-																	"fieldName": "oQuickViewGroupElement3",
-																	"fieldParent": "7fae353e-9508-4622-ff2f-204c9f899fac",
-																	"fieldType": "sap.m.QuickViewGroupElement",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "value",
-																			"grouping": "Properties",
-																			"value": "neptune@neptune-software.com",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "type",
-																			"grouping": "Properties",
-																			"value": "email",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "label",
-																			"grouping": "Properties",
-																			"value": "Email",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
+															"data": []
 														},
 														{
-															"fieldNo": "06511f5e-4194-440a-94ee-0e80ee162946",
-															"fieldName": "oQuickViewGroup1",
-															"fieldParent": "0b131160-1eb7-462c-edda-0a158340485c",
-															"fieldType": "sap.m.QuickViewGroup",
+															"fieldNo": "c199cbc6-db9f-44bd-adb0-055cd669c5d9",
+															"fieldName": "oQuickViewGroupElement1",
+															"fieldParent": "7fae353e-9508-4622-ff2f-204c9f899fac",
+															"fieldType": "sap.m.QuickViewGroupElement",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
-																	"attribute": "heading",
+																	"attribute": "value",
 																	"grouping": "Properties",
-																	"value": "Company",
+																	"value": "+47 12345667",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "mobile",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "label",
+																	"grouping": "Properties",
+																	"value": "Phone",
 																	"script": "",
 																	"translation": []
 																}
 															],
-															"data": [
+															"data": []
+														},
+														{
+															"fieldNo": "08fa7257-5a11-437f-eec7-132e96df8cc8",
+															"fieldName": "oQuickViewGroupElement2",
+															"fieldParent": "7fae353e-9508-4622-ff2f-204c9f899fac",
+															"fieldType": "sap.m.QuickViewGroupElement",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
 																{
-																	"fieldNo": "9982d542-ca3f-4531-ba40-85ffc3e820a6",
-																	"fieldName": "oQuickViewGroupElement5",
-																	"fieldParent": "06511f5e-4194-440a-94ee-0e80ee162946",
-																	"fieldType": "sap.m.QuickViewGroupElement",
+																	"attribute": "value",
+																	"grouping": "Properties",
+																	"value": "+47 12345678",
 																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "value",
-																			"grouping": "Properties",
-																			"value": "Neptune Software",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "label",
-																			"grouping": "Properties",
-																			"value": "Name",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
+																	"translation": []
 																},
 																{
-																	"fieldNo": "4fb76108-aa56-4eb8-ed05-be183257474e",
-																	"fieldName": "oQuickViewGroupElement4",
-																	"fieldParent": "06511f5e-4194-440a-94ee-0e80ee162946",
-																	"fieldType": "sap.m.QuickViewGroupElement",
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "mobile",
 																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "value",
-																			"grouping": "Properties",
-																			"value": "Main Street 1. Los Angels",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "label",
-																			"grouping": "Properties",
-																			"value": "Address",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
+																	"translation": []
+																},
+																{
+																	"attribute": "label",
+																	"grouping": "Properties",
+																	"value": "Mobile",
+																	"script": "",
+																	"translation": []
 																}
-															]
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "ebb42e7c-c7f6-4f39-b917-4acf90526612",
+															"fieldName": "oQuickViewGroupElement3",
+															"fieldParent": "7fae353e-9508-4622-ff2f-204c9f899fac",
+															"fieldType": "sap.m.QuickViewGroupElement",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "value",
+																	"grouping": "Properties",
+																	"value": "neptune@neptune-software.com",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "email",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "label",
+																	"grouping": "Properties",
+																	"value": "Email",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
 														}
 													]
 												},
 												{
-													"fieldNo": "e5e210d2-ac2b-4d00-ef3c-d8df6b0aa01a",
-													"fieldName": "oQuickViewPage1",
-													"fieldParent": "0ae75414-398a-47c5-eb0d-d9ac2cf88559",
-													"fieldType": "sap.m.QuickViewPage",
+													"fieldNo": "06511f5e-4194-440a-94ee-0e80ee162946",
+													"fieldName": "oQuickViewGroup1",
+													"fieldParent": "0b131160-1eb7-462c-edda-0a158340485c",
+													"fieldType": "sap.m.QuickViewGroup",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "pageId",
+															"attribute": "heading",
 															"grouping": "Properties",
-															"value": "Quick2PageId",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "header",
-															"grouping": "Properties",
-															"value": "Office Location",
+															"value": "Company",
 															"script": "",
 															"translation": []
 														}
 													],
 													"data": [
 														{
-															"fieldNo": "3cb759fb-c5fa-4be3-ee31-015c101ebc48",
-															"fieldName": "oQuickViewGroup2",
-															"fieldParent": "e5e210d2-ac2b-4d00-ef3c-d8df6b0aa01a",
-															"fieldType": "sap.m.QuickViewGroup",
+															"fieldNo": "9982d542-ca3f-4531-ba40-85ffc3e820a6",
+															"fieldName": "oQuickViewGroupElement5",
+															"fieldParent": "06511f5e-4194-440a-94ee-0e80ee162946",
+															"fieldType": "sap.m.QuickViewGroupElement",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
-																	"attribute": "heading",
+																	"attribute": "value",
 																	"grouping": "Properties",
-																	"value": "Main Office",
+																	"value": "Neptune Software",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "label",
+																	"grouping": "Properties",
+																	"value": "Name",
 																	"script": "",
 																	"translation": []
 																}
 															],
-															"data": [
+															"data": []
+														},
+														{
+															"fieldNo": "4fb76108-aa56-4eb8-ed05-be183257474e",
+															"fieldName": "oQuickViewGroupElement4",
+															"fieldParent": "06511f5e-4194-440a-94ee-0e80ee162946",
+															"fieldType": "sap.m.QuickViewGroupElement",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
 																{
-																	"fieldNo": "a88901fb-da31-43d4-9d3b-9042191c45b4",
-																	"fieldName": "oQuickViewGroupElement6",
-																	"fieldParent": "3cb759fb-c5fa-4be3-ee31-015c101ebc48",
-																	"fieldType": "sap.m.QuickViewGroupElement",
+																	"attribute": "value",
+																	"grouping": "Properties",
+																	"value": "Main Street 1. Los Angels",
 																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "value",
-																			"grouping": "Properties",
-																			"value": "30",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "label",
-																			"grouping": "Properties",
-																			"value": "Building",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
+																	"translation": []
 																},
 																{
-																	"fieldNo": "20007e2e-e0e9-466d-dff9-e3115561c744",
-																	"fieldName": "oQuickViewGroupElement7",
-																	"fieldParent": "3cb759fb-c5fa-4be3-ee31-015c101ebc48",
-																	"fieldType": "sap.m.QuickViewGroupElement",
+																	"attribute": "label",
+																	"grouping": "Properties",
+																	"value": "Address",
 																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "value",
-																			"grouping": "Properties",
-																			"value": "7",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "label",
-																			"grouping": "Properties",
-																			"value": "Floor",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "82baee13-82e9-41b6-d073-f2d4605a1392",
-																	"fieldName": "oQuickViewGroupElement8",
-																	"fieldParent": "3cb759fb-c5fa-4be3-ee31-015c101ebc48",
-																	"fieldType": "sap.m.QuickViewGroupElement",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "value",
-																			"grouping": "Properties",
-																			"value": "second",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "label",
-																			"grouping": "Properties",
-																			"value": "Place",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
+																	"translation": []
 																}
-															]
+															],
+															"data": []
 														}
 													]
 												}
 											]
 										},
 										{
-											"fieldNo": "16d2a3e3-decd-48e6-bf87-66e89c2e9ce2",
-											"fieldName": "oLabel2",
-											"fieldParent": "f2f635cb-c994-4d28-a861-96146b22ab18",
-											"fieldType": "sap.m.Label",
+											"fieldNo": "e5e210d2-ac2b-4d00-ef3c-d8df6b0aa01a",
+											"fieldName": "oQuickViewPage1",
+											"fieldParent": "0ae75414-398a-47c5-eb0d-d9ac2cf88559",
+											"fieldType": "sap.m.QuickViewPage",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [],
-											"data": []
-										},
-										{
-											"fieldNo": "7a39dbaa-e87b-4b4f-db8d-e8c8d467cc24",
-											"fieldName": "oButton1",
-											"fieldParent": "f2f635cb-c994-4d28-a861-96146b22ab18",
-											"fieldType": "sap.m.Button",
-											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "text",
+													"attribute": "pageId",
 													"grouping": "Properties",
-													"value": "Company QuickView",
+													"value": "Quick2PageId",
 													"script": "",
 													"translation": []
 												},
 												{
-													"attribute": "press",
-													"grouping": "Events",
-													"value": "Anonymous Function",
-													"script": "file://event/sap.m.Button/oButton1/press.script",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "1659c633-40c3-465c-8353-e46beec8b707",
-											"fieldName": "oCompanyQuickView",
-											"fieldParent": "f2f635cb-c994-4d28-a861-96146b22ab18",
-											"fieldType": "sap.m.QuickView",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "placement",
+													"attribute": "header",
 													"grouping": "Properties",
-													"value": "Bottom",
+													"value": "Office Location",
 													"script": "",
 													"translation": []
 												}
 											],
 											"data": [
 												{
-													"fieldNo": "7fe8b9f8-127d-4411-d64b-944df6d713e2",
-													"fieldName": "oQuickViewPage2",
-													"fieldParent": "1659c633-40c3-465c-8353-e46beec8b707",
-													"fieldType": "sap.m.QuickViewPage",
+													"fieldNo": "3cb759fb-c5fa-4be3-ee31-015c101ebc48",
+													"fieldName": "oQuickViewGroup2",
+													"fieldParent": "e5e210d2-ac2b-4d00-ef3c-d8df6b0aa01a",
+													"fieldType": "sap.m.QuickViewGroup",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "title",
+															"attribute": "heading",
 															"grouping": "Properties",
-															"value": "Neptune Software",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://company-view",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "header",
-															"grouping": "Properties",
-															"value": "Company Info",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "description",
-															"grouping": "Properties",
-															"value": "Some description",
+															"value": "Main Office",
 															"script": "",
 															"translation": []
 														}
 													],
 													"data": [
 														{
-															"fieldNo": "770c9a73-dcaf-468e-f4ec-17fd37fe3192",
-															"fieldName": "oQuickViewGroup3",
-															"fieldParent": "7fe8b9f8-127d-4411-d64b-944df6d713e2",
-															"fieldType": "sap.m.QuickViewGroup",
+															"fieldNo": "a88901fb-da31-43d4-9d3b-9042191c45b4",
+															"fieldName": "oQuickViewGroupElement6",
+															"fieldParent": "3cb759fb-c5fa-4be3-ee31-015c101ebc48",
+															"fieldType": "sap.m.QuickViewGroupElement",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
-																	"attribute": "heading",
+																	"attribute": "value",
 																	"grouping": "Properties",
-																	"value": "Contact Details",
+																	"value": "30",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "label",
+																	"grouping": "Properties",
+																	"value": "Building",
 																	"script": "",
 																	"translation": []
 																}
 															],
-															"data": [
-																{
-																	"fieldNo": "298faf56-139b-4834-d438-46c21a2765f8",
-																	"fieldName": "oQuickViewGroupElement9",
-																	"fieldParent": "770c9a73-dcaf-468e-f4ec-17fd37fe3192",
-																	"fieldType": "sap.m.QuickViewGroupElement",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "value",
-																			"grouping": "Properties",
-																			"value": "www.neptune-software.com",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "url",
-																			"grouping": "Properties",
-																			"value": "https://www.neptune-software.com/",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "type",
-																			"grouping": "Properties",
-																			"value": "link",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "label",
-																			"grouping": "Properties",
-																			"value": "Website",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "faf5fd54-85c9-4bb4-c0d5-4265d182d394",
-																	"fieldName": "oQuickViewGroupElement10",
-																	"fieldParent": "770c9a73-dcaf-468e-f4ec-17fd37fe3192",
-																	"fieldType": "sap.m.QuickViewGroupElement",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "value",
-																			"grouping": "Properties",
-																			"value": "+47 12345678",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "type",
-																			"grouping": "Properties",
-																			"value": "mobile",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "pageLinkId",
-																			"grouping": "Properties",
-																			"value": "Quick2PageId",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "label",
-																			"grouping": "Properties",
-																			"value": "Mobile",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "8472d5d5-5084-4cda-99e7-c18053be678e",
-																	"fieldName": "oQuickViewGroupElement11",
-																	"fieldParent": "770c9a73-dcaf-468e-f4ec-17fd37fe3192",
-																	"fieldType": "sap.m.QuickViewGroupElement",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "value",
-																			"grouping": "Properties",
-																			"value": "Rosenkrantz' gate 22, 0160 Oslo",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "label",
-																			"grouping": "Properties",
-																			"value": "Addres",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														}
-													]
-												}
-											]
-										},
-										{
-											"fieldNo": "2a9e2757-f84d-41e5-d004-4cac729070a5",
-											"fieldName": "oLabel3",
-											"fieldParent": "f2f635cb-c994-4d28-a861-96146b22ab18",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [],
-											"data": []
-										},
-										{
-											"fieldNo": "7a266c76-4772-470d-81fc-e021c3e41aa7",
-											"fieldName": "oButton2",
-											"fieldParent": "f2f635cb-c994-4d28-a861-96146b22ab18",
-											"fieldType": "sap.m.Button",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Generic QuickView",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "press",
-													"grouping": "Events",
-													"value": "oGenericQuickView.openBy(oButton2);",
-													"script": "oGenericQuickView.openBy(oButton2);",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "735aede6-28ec-4e5b-dc48-7f795719cca5",
-											"fieldName": "oGenericQuickView",
-											"fieldParent": "f2f635cb-c994-4d28-a861-96146b22ab18",
-											"fieldType": "sap.m.QuickView",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "placement",
-													"grouping": "Properties",
-													"value": "Bottom",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "b226a408-9525-4d52-c4f5-4345674b5317",
-													"fieldName": "oQuickViewPage3",
-													"fieldParent": "735aede6-28ec-4e5b-dc48-7f795719cca5",
-													"fieldType": "sap.m.QuickViewPage",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "title",
-															"grouping": "Properties",
-															"value": " Inventarisation",
-															"script": "",
-															"translation": []
+															"data": []
 														},
 														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://process",
+															"fieldNo": "20007e2e-e0e9-466d-dff9-e3115561c744",
+															"fieldName": "oQuickViewGroupElement7",
+															"fieldParent": "3cb759fb-c5fa-4be3-ee31-015c101ebc48",
+															"fieldType": "sap.m.QuickViewGroupElement",
 															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "header",
-															"grouping": "Properties",
-															"value": "Process",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "018f284b-e6cc-4d97-9bd3-225467249701",
-															"fieldName": "oQuickViewGroup4",
-															"fieldParent": "b226a408-9525-4d52-c4f5-4345674b5317",
-															"fieldType": "sap.m.QuickViewGroup",
-															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
-															"attributes": [],
-															"data": [
+															"attributes": [
 																{
-																	"fieldNo": "4cd6bb65-9708-4e58-a6a3-a24d5b1602cf",
-																	"fieldName": "oQuickViewGroupElement12",
-																	"fieldParent": "018f284b-e6cc-4d97-9bd3-225467249701",
-																	"fieldType": "sap.m.QuickViewGroupElement",
+																	"attribute": "value",
+																	"grouping": "Properties",
+																	"value": "7",
 																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "value",
-																			"grouping": "Properties",
-																			"value": "01/01/9999",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "label",
-																			"grouping": "Properties",
-																			"value": "Start Date",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
+																	"translation": []
 																},
 																{
-																	"fieldNo": "eb56b2c8-1632-4490-ce0f-59044794ab55",
-																	"fieldName": "oQuickViewGroupElement13",
-																	"fieldParent": "018f284b-e6cc-4d97-9bd3-225467249701",
-																	"fieldType": "sap.m.QuickViewGroupElement",
+																	"attribute": "label",
+																	"grouping": "Properties",
+																	"value": "Floor",
 																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "value",
-																			"grouping": "Properties",
-																			"value": "31/12/9999",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "label",
-																			"grouping": "Properties",
-																			"value": "End date",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "eaf77fa1-9f8d-49aa-e02f-6103ca11a3f7",
-																	"fieldName": "oQuickViewGroupElement14",
-																	"fieldParent": "018f284b-e6cc-4d97-9bd3-225467249701",
-																	"fieldType": "sap.m.QuickViewGroupElement",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "value",
-																			"grouping": "Properties",
-																			"value": "weekly",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "label",
-																			"grouping": "Properties",
-																			"value": "Occurence",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
+																	"translation": []
 																}
-															]
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "82baee13-82e9-41b6-d073-f2d4605a1392",
+															"fieldName": "oQuickViewGroupElement8",
+															"fieldParent": "3cb759fb-c5fa-4be3-ee31-015c101ebc48",
+															"fieldType": "sap.m.QuickViewGroupElement",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "value",
+																	"grouping": "Properties",
+																	"value": "second",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "label",
+																	"grouping": "Properties",
+																	"value": "Place",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
 														}
 													]
 												}
@@ -986,126 +592,421 @@
 									]
 								},
 								{
-									"fieldNo": "1fdeb63e-7580-4e4a-fe77-f26c1ac89828",
-									"fieldName": "obarFooter",
-									"fieldParent": "9619eb84-dcc7-429f-dee2-ad2dd08d6436",
-									"fieldType": "sap.m.Bar",
+									"fieldNo": "16d2a3e3-decd-48e6-bf87-66e89c2e9ce2",
+									"fieldName": "oLabel2",
+									"fieldParent": "f2f635cb-c994-4d28-a861-96146b22ab18",
+									"fieldType": "sap.m.Label",
 									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								},
+								{
+									"fieldNo": "7a39dbaa-e87b-4b4f-db8d-e8c8d467cc24",
+									"fieldName": "oButton1",
+									"fieldParent": "f2f635cb-c994-4d28-a861-96146b22ab18",
+									"fieldType": "sap.m.Button",
+									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Company QuickView",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.Button/oButton1/press.script",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "1659c633-40c3-465c-8353-e46beec8b707",
+									"fieldName": "oCompanyQuickView",
+									"fieldParent": "f2f635cb-c994-4d28-a861-96146b22ab18",
+									"fieldType": "sap.m.QuickView",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "placement",
+											"grouping": "Properties",
+											"value": "Bottom",
 											"script": "",
 											"translation": []
 										}
 									],
 									"data": [
 										{
-											"fieldNo": "cd407cf6-d710-460d-ac0a-2823cff57e93",
-											"fieldName": "Left",
-											"fieldParent": "1fdeb63e-7580-4e4a-fe77-f26c1ac89828",
-											"fieldType": "neptune.BarContent",
+											"fieldNo": "7fe8b9f8-127d-4411-d64b-944df6d713e2",
+											"fieldName": "oQuickViewPage2",
+											"fieldParent": "1659c633-40c3-465c-8353-e46beec8b707",
+											"fieldType": "sap.m.QuickViewPage",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
+													"attribute": "title",
+													"grouping": "Properties",
+													"value": "Neptune Software",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://company-view",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "header",
+													"grouping": "Properties",
+													"value": "Company Info",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "description",
+													"grouping": "Properties",
+													"value": "Some description",
 													"script": "",
 													"translation": []
 												}
 											],
 											"data": [
 												{
-													"fieldNo": "7856486a-20bf-46a6-8b12-c22fca1f513f",
-													"fieldName": "oButton3",
-													"fieldParent": "cd407cf6-d710-460d-ac0a-2823cff57e93",
-													"fieldType": "sap.m.Button",
+													"fieldNo": "770c9a73-dcaf-468e-f4ec-17fd37fe3192",
+													"fieldName": "oQuickViewGroup3",
+													"fieldParent": "7fe8b9f8-127d-4411-d64b-944df6d713e2",
+													"fieldType": "sap.m.QuickViewGroup",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "type",
+															"attribute": "heading",
 															"grouping": "Properties",
-															"value": "Emphasized",
+															"value": "Contact Details",
 															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Open In App Designer",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButton3/press.script",
 															"translation": []
 														}
 													],
-													"data": []
+													"data": [
+														{
+															"fieldNo": "298faf56-139b-4834-d438-46c21a2765f8",
+															"fieldName": "oQuickViewGroupElement9",
+															"fieldParent": "770c9a73-dcaf-468e-f4ec-17fd37fe3192",
+															"fieldType": "sap.m.QuickViewGroupElement",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "value",
+																	"grouping": "Properties",
+																	"value": "www.neptune-software.com",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "url",
+																	"grouping": "Properties",
+																	"value": "https://www.neptune-software.com/",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "link",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "label",
+																	"grouping": "Properties",
+																	"value": "Website",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "faf5fd54-85c9-4bb4-c0d5-4265d182d394",
+															"fieldName": "oQuickViewGroupElement10",
+															"fieldParent": "770c9a73-dcaf-468e-f4ec-17fd37fe3192",
+															"fieldType": "sap.m.QuickViewGroupElement",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "value",
+																	"grouping": "Properties",
+																	"value": "+47 12345678",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "type",
+																	"grouping": "Properties",
+																	"value": "mobile",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "pageLinkId",
+																	"grouping": "Properties",
+																	"value": "Quick2PageId",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "label",
+																	"grouping": "Properties",
+																	"value": "Mobile",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "8472d5d5-5084-4cda-99e7-c18053be678e",
+															"fieldName": "oQuickViewGroupElement11",
+															"fieldParent": "770c9a73-dcaf-468e-f4ec-17fd37fe3192",
+															"fieldType": "sap.m.QuickViewGroupElement",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "value",
+																	"grouping": "Properties",
+																	"value": "Rosenkrantz' gate 22, 0160 Oslo",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "label",
+																	"grouping": "Properties",
+																	"value": "Addres",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
 												}
 											]
+										}
+									]
+								},
+								{
+									"fieldNo": "2a9e2757-f84d-41e5-d004-4cac729070a5",
+									"fieldName": "oLabel3",
+									"fieldParent": "f2f635cb-c994-4d28-a861-96146b22ab18",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								},
+								{
+									"fieldNo": "7a266c76-4772-470d-81fc-e021c3e41aa7",
+									"fieldName": "oButton2",
+									"fieldParent": "f2f635cb-c994-4d28-a861-96146b22ab18",
+									"fieldType": "sap.m.Button",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Generic QuickView",
+											"script": "",
+											"translation": []
 										},
 										{
-											"fieldNo": "5c0d82d5-e2a6-4769-da06-0ea6d75b393b",
-											"fieldName": "Right",
-											"fieldParent": "1fdeb63e-7580-4e4a-fe77-f26c1ac89828",
-											"fieldType": "neptune.BarContent",
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "oGenericQuickView.openBy(oButton2);",
+											"script": "oGenericQuickView.openBy(oButton2);",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "735aede6-28ec-4e5b-dc48-7f795719cca5",
+									"fieldName": "oGenericQuickView",
+									"fieldParent": "f2f635cb-c994-4d28-a861-96146b22ab18",
+									"fieldType": "sap.m.QuickView",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "placement",
+											"grouping": "Properties",
+											"value": "Bottom",
 											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "b226a408-9525-4d52-c4f5-4345674b5317",
+											"fieldName": "oQuickViewPage3",
+											"fieldParent": "735aede6-28ec-4e5b-dc48-7f795719cca5",
+											"fieldType": "sap.m.QuickViewPage",
+											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
+													"attribute": "title",
+													"grouping": "Properties",
+													"value": " Inventarisation",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://process",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "header",
+													"grouping": "Properties",
+													"value": "Process",
 													"script": "",
 													"translation": []
 												}
 											],
 											"data": [
 												{
-													"fieldNo": "697f1279-79e9-423f-a5f7-dde94b1bc3a0",
-													"fieldName": "butCompact",
-													"fieldParent": "5c0d82d5-e2a6-4769-da06-0ea6d75b393b",
-													"fieldType": "sap.m.ToggleButton",
+													"fieldNo": "018f284b-e6cc-4d97-9bd3-225467249701",
+													"fieldName": "oQuickViewGroup4",
+													"fieldParent": "b226a408-9525-4d52-c4f5-4345674b5317",
+													"fieldType": "sap.m.QuickViewGroup",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
-													"attributes": [
+													"attributes": [],
+													"data": [
 														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
+															"fieldNo": "4cd6bb65-9708-4e58-a6a3-a24d5b1602cf",
+															"fieldName": "oQuickViewGroupElement12",
+															"fieldParent": "018f284b-e6cc-4d97-9bd3-225467249701",
+															"fieldType": "sap.m.QuickViewGroupElement",
 															"script": "",
-															"translation": []
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "value",
+																	"grouping": "Properties",
+																	"value": "01/01/9999",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "label",
+																	"grouping": "Properties",
+																	"value": "Start Date",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
 														},
 														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Compact",
+															"fieldNo": "eb56b2c8-1632-4490-ce0f-59044794ab55",
+															"fieldName": "oQuickViewGroupElement13",
+															"fieldParent": "018f284b-e6cc-4d97-9bd3-225467249701",
+															"fieldType": "sap.m.QuickViewGroupElement",
 															"script": "",
-															"translation": []
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "value",
+																	"grouping": "Properties",
+																	"value": "31/12/9999",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "label",
+																	"grouping": "Properties",
+																	"value": "End date",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
 														},
 														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
-															"translation": []
+															"fieldNo": "eaf77fa1-9f8d-49aa-e02f-6103ca11a3f7",
+															"fieldName": "oQuickViewGroupElement14",
+															"fieldParent": "018f284b-e6cc-4d97-9bd3-225467249701",
+															"fieldType": "sap.m.QuickViewGroupElement",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "value",
+																	"grouping": "Properties",
+																	"value": "weekly",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "label",
+																	"grouping": "Properties",
+																	"value": "Occurence",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
 														}
-													],
-													"data": []
+													]
 												}
 											]
 										}
@@ -1126,8 +1027,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.174",
+	"componentInterface": [],
+	"ver": "23.10.27.1215",
 	"application": "sample_quickview",
 	"title": "Sample sap.m.QuickView",
 	"description": "sap.m.QuickView - sap.ui.layout.form.SimpleForm",
@@ -1146,12 +1047,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -1163,6 +1065,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

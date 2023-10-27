@@ -31,12 +31,6 @@
 			"description": "sap.m.ObjectHeader - sap.m.IconTabBar"
 		},
 		{
-			"id": "f88545da-900b-4796-93a2-299de4d6c06c",
-			"application": "sample_dynamicheader_splitcontainer_highchart",
-			"title": "Dynamic Header - Split Container - HighChart",
-			"description": "Dynamic Header - Split Container - HighChart"
-		},
-		{
 			"id": "f54424c7-9a85-4fda-ba9b-c1c1117a13aa",
 			"application": "sample_switch",
 			"title": "sap.m.Switch",
@@ -77,12 +71,6 @@
 			"application": "sample_columnmultilabel",
 			"title": "Sample neptune.TableMultiLabel",
 			"description": "neptune.TableMultiLabel"
-		},
-		{
-			"id": "ec78ded9-1f3d-4a9e-9517-dcfc072372d3",
-			"application": "sample_odatamockdata",
-			"title": "sap.ui.model.odata.v2.ODataModel with MockData",
-			"description": "sap.ui.model.odata.v2.ODataModel with MockData"
 		},
 		{
 			"id": "eb527ffe-24da-4845-8d78-275065152e9d",
@@ -151,12 +139,6 @@
 			"description": "sap.m.ObjectStatus - sap.m.Table - sap.m.ColumnListItem"
 		},
 		{
-			"id": "cfcc4a7b-575c-44c1-93b6-61c2806fa9a3",
-			"application": "sample_highchart_splitter",
-			"title": "Dynamic Header - Split Container - HighChart",
-			"description": "Dynamic Header - Split Container - HighChart"
-		},
-		{
 			"id": "cf6f8c85-b032-4297-af40-3c1e356f59d4",
 			"application": "sample_treetable",
 			"title": "sap.ui.table.TreeTable",
@@ -191,12 +173,6 @@
 			"application": "sample_calendarlegend",
 			"title": "Sample sap.ui.unified.CalendarLegend",
 			"description": "sap.ui.unified.CalendarLegend"
-		},
-		{
-			"id": "c63510e9-3044-eb11-9889-0003ff5949fe",
-			"application": "sample_table_drag_drop",
-			"title": "Sample sap.m.Table with Drag and Drop",
-			"description": "Sample sap.m.Table with Drag and Drop"
 		},
 		{
 			"id": "c5ee8f4e-beb6-4d1c-9902-3b2d046753ed",
@@ -385,6 +361,12 @@
 			"description": "sap.m.Table - RestAPI - MultiModel - sap.m.SelectDialog"
 		},
 		{
+			"id": "730b285b-201d-4dce-82c6-003626f1e8ce",
+			"application": "sample_feedinput",
+			"title": "Sample sap.m.FeedInput",
+			"description": "sap.m.FeedInput"
+		},
+		{
 			"id": "7179d013-3606-44c2-ac43-868d4efa7d35",
 			"application": "sample_table",
 			"title": "sap.m.Table - RestAPI - MultiModel - sap.m.SelectDialog",
@@ -431,12 +413,6 @@
 			"application": "sample_tiles",
 			"title": "sap.m.GenericTile - sap.m.TileContent - sap.m.CustomTile - sap.m.SlideTile",
 			"description": "sap.m.GenericTile - sap.m.TileContent - sap.m.CustomTile - sap.m.SlideTile"
-		},
-		{
-			"id": "60e0e287-b7f8-4e35-a97b-48fe36984c7d",
-			"application": "sample_odata_mockdata",
-			"title": "",
-			"description": ""
 		},
 		{
 			"id": "5f18784a-5645-4a47-b256-cb704dbcfed3",
@@ -493,12 +469,6 @@
 			"description": "sap.m.ObjectAttribute - sap.m.Popover"
 		},
 		{
-			"id": "494e4ec5-ec0e-4b62-9fd0-6a000466ec9b",
-			"application": "sample_uxap",
-			"title": "Sample sap.uxap",
-			"description": "sap.uxap Library"
-		},
-		{
 			"id": "4839378f-221e-4195-8eb0-f135e0f4e08c",
 			"application": "sample_searchfield",
 			"title": "sap.m.SearchField - sap.m.Table - neptune.model.MultiModel",
@@ -533,12 +503,6 @@
 			"application": "sample_flexiblecolumnlayout",
 			"title": "Sample sap.f.FlexibleColumnLayout",
 			"description": "sap.f.FlexibleColumnLayout"
-		},
-		{
-			"id": "38caf781-9b0c-433d-beb3-69b9c41c9a1c",
-			"application": "sample_displaylistitem",
-			"title": "Sample sap.m.DisplayListItem",
-			"description": "sap.m.DisplayListItem"
 		},
 		{
 			"id": "3754147f-1ff8-4bf4-b250-697474236d42",
@@ -643,12 +607,6 @@
 			"description": "sap.m.IconTabBar - sap.m.IconTabFilter - sap.ui.layout.form.SimpleForm"
 		},
 		{
-			"id": "0d1a80e4-394d-474d-b841-15a9c0172a8c",
-			"application": "sample_carousel2",
-			"title": "Sample sap.m.Carousel",
-			"description": "sap.m.Carousel"
-		},
-		{
 			"id": "0ae9754c-0a6e-4dcf-b41d-984872e2d912",
 			"application": "sample_showdialog",
 			"title": "Dialogs - sap.m.Dialog - sap.m.MessageBox",
@@ -687,14 +645,7 @@
 			"apiGroup": null
 		}
 	],
-	"odataSource": [
-		{
-			"id": "37ab79e3-622f-4551-89bd-82fac085afd6",
-			"name": "SAPTravel",
-			"description": null,
-			"apiGroup": null
-		}
-	],
+	"odataSource": [],
 	"odataMock": [],
 	"dictionary": [],
 	"jsclass": [],
@@ -720,11 +671,14 @@
 	"events": [],
 	"media_library": [
 		{
-			"id": "DD98B6EF-1B8D-ED11-AC20-0050F2C64626",
-			"updatedAt": "2023-02-06T16:44:18.773Z",
+			"id": "fcbbce06-d0a0-4454-a32b-5df45dea27ba",
+			"updatedAt": "2023-10-25T11:14:49.000Z",
 			"name": "SampleApps",
 			"parent": null,
-			"package": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
+			"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 		}
-	]
+	],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
 }

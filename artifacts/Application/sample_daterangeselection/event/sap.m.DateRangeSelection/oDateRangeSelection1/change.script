@@ -1,5 +1,0 @@
-var sFrom = oEvent.getParameter("from");
-var sTo = oEvent.getParameter("to");
-var oEventSource = oEvent.getSource();
-
-oText.setText("Id: " + oEventSource.getId() + "\nFrom: " + sFrom + "\nTo: " + sTo);

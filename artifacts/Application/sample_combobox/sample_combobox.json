@@ -4,440 +4,296 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "1",
-			"fieldName": "oShell",
+			"fieldNo": "2",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "2",
-					"fieldName": "oApp",
-					"fieldParent": "1",
-					"fieldType": "sap.m.App",
+					"fieldNo": "4",
+					"fieldName": "oPage",
+					"fieldParent": "2",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Combo Box",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "4",
-							"fieldName": "oPage",
-							"fieldParent": "2",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "1abc54bb-af43-4373-fe72-5e10a9313afa",
+							"fieldName": "oSimpleForm",
+							"fieldParent": "4",
+							"fieldType": "sap.ui.layout.form.SimpleForm",
 							"script": "",
+							"customComponent": false,
+							"bindingValue": "SAP Local API (SDK)>getCustomerListResponse",
+							"bindingType": "u",
+							"bindingSource": "API",
+							"bindingParentID": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
+							"bindingPathID": "542e0a50-416e-4111-fff4-789457c22b0c",
 							"request": [],
 							"response": [],
 							"attributes": [
 								{
-									"attribute": "title",
+									"attribute": "editable",
 									"grouping": "Properties",
-									"value": "Combo Box",
+									"value": "true",
 									"script": "",
 									"translation": []
 								}
 							],
 							"data": [
 								{
-									"fieldNo": "1abc54bb-af43-4373-fe72-5e10a9313afa",
-									"fieldName": "oSimpleForm",
-									"fieldParent": "4",
-									"fieldType": "sap.ui.layout.form.SimpleForm",
+									"fieldNo": "99eabb5b-944a-4bff-bdf1-e9fe5de1b1c2",
+									"fieldName": "oVBoxForm",
+									"fieldParent": "1abc54bb-af43-4373-fe72-5e10a9313afa",
+									"fieldType": "sap.m.VBox",
 									"script": "",
-									"bindingValue": "SAP Local API (SDK)>getCustomerListResponse",
-									"bindingType": "u",
-									"bindingSource": "API",
-									"bindingParentID": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
-									"bindingPathID": "542e0a50-416e-4111-fff4-789457c22b0c",
+									"customComponent": false,
 									"request": [],
 									"response": [],
-									"attributes": [
-										{
-											"attribute": "editable",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										}
-									],
+									"attributes": [],
 									"data": [
 										{
-											"fieldNo": "99eabb5b-944a-4bff-bdf1-e9fe5de1b1c2",
-											"fieldName": "oVBoxForm",
-											"fieldParent": "1abc54bb-af43-4373-fe72-5e10a9313afa",
+											"fieldNo": "9ee91588-4522-4146-a71b-b28c37b7452c",
+											"fieldName": "oVBox",
+											"fieldParent": "99eabb5b-944a-4bff-bdf1-e9fe5de1b1c2",
 											"fieldType": "sap.m.VBox",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [],
 											"data": [
 												{
-													"fieldNo": "9ee91588-4522-4146-a71b-b28c37b7452c",
-													"fieldName": "oVBox",
-													"fieldParent": "99eabb5b-944a-4bff-bdf1-e9fe5de1b1c2",
-													"fieldType": "sap.m.VBox",
+													"fieldNo": "4ea0c3e9-7782-4216-e6ae-2d23304d1c09",
+													"fieldName": "oLabel",
+													"fieldParent": "9ee91588-4522-4146-a71b-b28c37b7452c",
+													"fieldType": "sap.m.Label",
 													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [],
-													"data": [
-														{
-															"fieldNo": "4ea0c3e9-7782-4216-e6ae-2d23304d1c09",
-															"fieldName": "oLabel",
-															"fieldParent": "9ee91588-4522-4146-a71b-b28c37b7452c",
-															"fieldType": "sap.m.Label",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "text",
-																	"grouping": "Properties",
-																	"value": "SimpleCombo Box",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": []
-														},
-														{
-															"fieldNo": "33faf4b1-8145-41c6-99c7-1559b745ad02",
-															"fieldName": "oComboBox",
-															"fieldParent": "9ee91588-4522-4146-a71b-b28c37b7452c",
-															"fieldType": "sap.m.ComboBox",
-															"script": "",
-															"bindingType": "h",
-															"modelPath": "oMultiModel>/result/IT_CUSTOMER",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "placeholder",
-																	"grouping": "Properties",
-																	"value": "Select Name",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "change",
-																	"grouping": "Events",
-																	"value": "Anonymous Function",
-																	"script": "file://event/sap.m.ComboBox/oComboBox/change.script",
-																	"translation": []
-																},
-																{
-																	"attribute": "loadItems",
-																	"grouping": "Events",
-																	"value": "Anonymous Function",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": [
-																{
-																	"fieldNo": "4e955639-b421-42f6-e137-45a371d888d6",
-																	"fieldName": "oItem",
-																	"fieldParent": "33faf4b1-8145-41c6-99c7-1559b745ad02",
-																	"fieldType": "sap.ui.core.Item",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "{oMultiModel>NAME1}",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "key",
-																			"grouping": "Properties",
-																			"value": "{oMultiModel>KUNNR}",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														}
-													]
-												},
-												{
-													"fieldNo": "60569beb-1949-4252-a4a5-6ae189b7ba24",
-													"fieldName": "oVBox1",
-													"fieldParent": "99eabb5b-944a-4bff-bdf1-e9fe5de1b1c2",
-													"fieldType": "sap.m.VBox",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [],
-													"data": [
-														{
-															"fieldNo": "451026f6-d4b0-4dc6-8d1f-e89632c231cc",
-															"fieldName": "oText",
-															"fieldParent": "60569beb-1949-4252-a4a5-6ae189b7ba24",
-															"fieldType": "sap.m.Text",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "text",
-																	"grouping": "Properties",
-																	"value": "Combo Box - Two Column Layout",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": []
-														},
-														{
-															"fieldNo": "6b666074-fb9b-421e-cfce-ece81d02d9eb",
-															"fieldName": "oComboBox1",
-															"fieldParent": "60569beb-1949-4252-a4a5-6ae189b7ba24",
-															"fieldType": "sap.m.ComboBox",
-															"script": "",
-															"bindingType": "h",
-															"modelPath": "oMultiModel>/result/IT_CUSTOMER",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "width",
-																	"grouping": "Properties",
-																	"value": "80%",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "showSecondaryValues",
-																	"grouping": "Properties",
-																	"value": "true",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "placeholder",
-																	"grouping": "Properties",
-																	"value": "Select Value",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "selectionChange",
-																	"grouping": "Events",
-																	"value": "Anonymous Function",
-																	"script": "file://event/sap.m.ComboBox/oComboBox1/selectionChange.script",
-																	"translation": []
-																},
-																{
-																	"attribute": "change",
-																	"grouping": "Events",
-																	"value": "Anonymous Function",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": [
-																{
-																	"fieldNo": "7b973e67-b854-470f-ab36-cf0da71a7d50",
-																	"fieldName": "oListItem",
-																	"fieldParent": "6b666074-fb9b-421e-cfce-ece81d02d9eb",
-																	"fieldType": "sap.ui.core.ListItem",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "{oMultiModel>NAME1}",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "key",
-																			"grouping": "Properties",
-																			"value": "{oMultiModel>KUNNR}",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "additionalText",
-																			"grouping": "Properties",
-																			"value": "{oMultiModel>LAND1}",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														}
-													]
-												},
-												{
-													"fieldNo": "7585367b-37f8-4140-daa1-c6dbcf3aa07d",
-													"fieldName": "oVBox2",
-													"fieldParent": "99eabb5b-944a-4bff-bdf1-e9fe5de1b1c2",
-													"fieldType": "sap.m.VBox",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [],
-													"data": []
-												}
-											]
-										}
-									]
-								},
-								{
-									"fieldNo": "5",
-									"fieldName": "oFooter",
-									"fieldParent": "4",
-									"fieldType": "sap.m.Bar",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "6",
-											"fieldName": "Left",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "cd444790-e8de-4956-a88f-0c82851e45f1",
-													"fieldName": "oButton",
-													"fieldParent": "6",
-													"fieldType": "sap.m.Button",
-													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
 															"attribute": "text",
 															"grouping": "Properties",
-															"value": "Open In App Designer",
+															"value": "SimpleCombo Box",
 															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButton/press.script",
 															"translation": []
 														}
 													],
 													"data": []
+												},
+												{
+													"fieldNo": "33faf4b1-8145-41c6-99c7-1559b745ad02",
+													"fieldName": "oComboBox",
+													"fieldParent": "9ee91588-4522-4146-a71b-b28c37b7452c",
+													"fieldType": "sap.m.ComboBox",
+													"script": "",
+													"customComponent": false,
+													"bindingType": "h",
+													"modelPath": "oMultiModel>/result/IT_CUSTOMER",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "placeholder",
+															"grouping": "Properties",
+															"value": "Select Name",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "change",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.ComboBox/oComboBox/change.script",
+															"translation": []
+														},
+														{
+															"attribute": "loadItems",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "4e955639-b421-42f6-e137-45a371d888d6",
+															"fieldName": "oItem",
+															"fieldParent": "33faf4b1-8145-41c6-99c7-1559b745ad02",
+															"fieldType": "sap.ui.core.Item",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{oMultiModel>NAME1}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "key",
+																	"grouping": "Properties",
+																	"value": "{oMultiModel>KUNNR}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
 												}
 											]
 										},
 										{
-											"fieldNo": "7",
-											"fieldName": "Middle",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
+											"fieldNo": "60569beb-1949-4252-a4a5-6ae189b7ba24",
+											"fieldName": "oVBox1",
+											"fieldParent": "99eabb5b-944a-4bff-bdf1-e9fe5de1b1c2",
+											"fieldType": "sap.m.VBox",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
-											"attributes": [
+											"attributes": [],
+											"data": [
 												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentMiddle",
+													"fieldNo": "451026f6-d4b0-4dc6-8d1f-e89632c231cc",
+													"fieldName": "oText",
+													"fieldParent": "60569beb-1949-4252-a4a5-6ae189b7ba24",
+													"fieldType": "sap.m.Text",
 													"script": "",
-													"translation": []
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Combo Box - Two Column Layout",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "6b666074-fb9b-421e-cfce-ece81d02d9eb",
+													"fieldName": "oComboBox1",
+													"fieldParent": "60569beb-1949-4252-a4a5-6ae189b7ba24",
+													"fieldType": "sap.m.ComboBox",
+													"script": "",
+													"customComponent": false,
+													"bindingType": "h",
+													"modelPath": "oMultiModel>/result/IT_CUSTOMER",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "80%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "showSecondaryValues",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "placeholder",
+															"grouping": "Properties",
+															"value": "Select Value",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "selectionChange",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "change",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "7b973e67-b854-470f-ab36-cf0da71a7d50",
+															"fieldName": "oListItem",
+															"fieldParent": "6b666074-fb9b-421e-cfce-ece81d02d9eb",
+															"fieldType": "sap.ui.core.ListItem",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{oMultiModel>NAME1}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "key",
+																	"grouping": "Properties",
+																	"value": "{oMultiModel>KUNNR}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "additionalText",
+																	"grouping": "Properties",
+																	"value": "{oMultiModel>LAND1}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
 												}
-											],
+											]
+										},
+										{
+											"fieldNo": "7585367b-37f8-4140-daa1-c6dbcf3aa07d",
+											"fieldName": "oVBox2",
+											"fieldParent": "99eabb5b-944a-4bff-bdf1-e9fe5de1b1c2",
+											"fieldType": "sap.m.VBox",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
 											"data": []
-										},
-										{
-											"fieldNo": "8",
-											"fieldName": "Right",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "9709920a-a2f1-49b8-e91a-1ef218f66025",
-													"fieldName": "butCompact",
-													"fieldParent": "8",
-													"fieldType": "sap.m.ToggleButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Compact",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
 										}
 									]
 								}
@@ -456,6 +312,7 @@
 					"fieldParent": 99999,
 					"fieldType": "neptune.model",
 					"script": "",
+					"customComponent": false,
 					"bindingValue": "SAP Local API (SDK)>getCustomerListResponse",
 					"bindingType": "h",
 					"bindingSource": "API",
@@ -472,6 +329,7 @@
 					"fieldParent": 99999,
 					"fieldType": "neptune.restapi",
 					"script": "",
+					"customComponent": false,
 					"restSource": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
 					"restOperation": "d868597a-6840-4122-f87d-3c21a1fd0eb5",
 					"request": [],
@@ -500,8 +358,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.1741",
+	"componentInterface": [],
+	"ver": "23.10.26.1245",
 	"application": "sample_combobox",
 	"title": "Sample sap.m.ComboBox",
 	"description": "sap.m.ComboBox",
@@ -520,12 +378,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -537,6 +396,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [
 		{
 			"id": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",

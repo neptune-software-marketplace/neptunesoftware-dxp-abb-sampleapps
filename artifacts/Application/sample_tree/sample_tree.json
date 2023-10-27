@@ -4,204 +4,107 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "efa3432f-5034-483c-d708-b3de3b86b69f",
-			"fieldName": "oShell",
+			"fieldNo": "67fb3f32-54ea-43f1-ce00-54012a0c4a64",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "67fb3f32-54ea-43f1-ce00-54012a0c4a64",
-					"fieldName": "oApp",
-					"fieldParent": "efa3432f-5034-483c-d708-b3de3b86b69f",
-					"fieldType": "sap.m.App",
+					"fieldNo": "6cd35268-29ed-4667-b0d9-fdf15e3ab3b8",
+					"fieldName": "oToolPage",
+					"fieldParent": "67fb3f32-54ea-43f1-ce00-54012a0c4a64",
+					"fieldType": "sap.tnt.ToolPage",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [],
 					"data": [
 						{
-							"fieldNo": "6cd35268-29ed-4667-b0d9-fdf15e3ab3b8",
-							"fieldName": "oToolPage",
-							"fieldParent": "67fb3f32-54ea-43f1-ce00-54012a0c4a64",
-							"fieldType": "sap.tnt.ToolPage",
+							"fieldNo": "336f5c01-38fb-4b3c-b7de-7df1184afded",
+							"fieldName": "oToolHeader",
+							"fieldParent": "6cd35268-29ed-4667-b0d9-fdf15e3ab3b8",
+							"fieldType": "sap.tnt.ToolHeader",
 							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "2621d005-4639-44ec-fb37-8d90c687a9ff",
+							"fieldName": "oSideNavigation",
+							"fieldParent": "6cd35268-29ed-4667-b0d9-fdf15e3ab3b8",
+							"fieldType": "sap.tnt.SideNavigation",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "05eb1ca6-bbd2-4f79-bddb-2849eaffd7fe",
+							"fieldName": "oNav",
+							"fieldParent": "6cd35268-29ed-4667-b0d9-fdf15e3ab3b8",
+							"fieldType": "sap.m.NavContainer",
+							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [],
 							"data": [
 								{
-									"fieldNo": "336f5c01-38fb-4b3c-b7de-7df1184afded",
-									"fieldName": "oToolHeader",
-									"fieldParent": "6cd35268-29ed-4667-b0d9-fdf15e3ab3b8",
-									"fieldType": "sap.tnt.ToolHeader",
+									"fieldNo": "5857b729-aad5-41f4-87e4-ad9d3be13e08",
+									"fieldName": "oPageStart",
+									"fieldParent": "05eb1ca6-bbd2-4f79-bddb-2849eaffd7fe",
+									"fieldType": "sap.m.Page",
 									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [],
-									"data": []
-								},
-								{
-									"fieldNo": "2621d005-4639-44ec-fb37-8d90c687a9ff",
-									"fieldName": "oSideNavigation",
-									"fieldParent": "6cd35268-29ed-4667-b0d9-fdf15e3ab3b8",
-									"fieldType": "sap.tnt.SideNavigation",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [],
-									"data": []
-								},
-								{
-									"fieldNo": "05eb1ca6-bbd2-4f79-bddb-2849eaffd7fe",
-									"fieldName": "oNav",
-									"fieldParent": "6cd35268-29ed-4667-b0d9-fdf15e3ab3b8",
-									"fieldType": "sap.m.NavContainer",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [],
-									"data": [
-										{
-											"fieldNo": "5857b729-aad5-41f4-87e4-ad9d3be13e08",
-											"fieldName": "oPageStart",
-											"fieldParent": "05eb1ca6-bbd2-4f79-bddb-2849eaffd7fe",
-											"fieldType": "sap.m.Page",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "title",
-													"grouping": "Properties",
-													"value": "My Start Page",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "backgroundDesign",
-													"grouping": "Properties",
-													"value": "Solid",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "8d3d4fc7-faaf-4837-90b9-485e6c27b2cc",
-													"fieldName": "oMessagePage",
-													"fieldParent": "5857b729-aad5-41f4-87e4-ad9d3be13e08",
-													"fieldType": "sap.m.MessagePage",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "showHeader",
-															"grouping": "Properties",
-															"value": "false",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										}
-									]
-								},
-								{
-									"fieldNo": "6c387a4d-7df0-4620-c64b-205bde2541b6",
-									"fieldName": "oBarFooter",
-									"fieldParent": "6cd35268-29ed-4667-b0d9-fdf15e3ab3b8",
-									"fieldType": "sap.m.Bar",
-									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"attribute": "title",
+											"grouping": "Properties",
+											"value": "My Start Page",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "backgroundDesign",
+											"grouping": "Properties",
+											"value": "Solid",
 											"script": "",
 											"translation": []
 										}
 									],
 									"data": [
 										{
-											"fieldNo": "11d3cc90-a013-478c-cfe5-3e154598142d",
-											"fieldName": "Left",
-											"fieldParent": "6c387a4d-7df0-4620-c64b-205bde2541b6",
-											"fieldType": "neptune.BarContent",
+											"fieldNo": "8d3d4fc7-faaf-4837-90b9-485e6c27b2cc",
+											"fieldName": "oMessagePage",
+											"fieldParent": "5857b729-aad5-41f4-87e4-ad9d3be13e08",
+											"fieldType": "sap.m.MessagePage",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
+													"attribute": "showHeader",
+													"grouping": "Properties",
+													"value": "false",
 													"script": "",
 													"translation": []
 												}
 											],
 											"data": []
-										},
-										{
-											"fieldNo": "a5535938-e891-4153-fb94-c08a10a5c694",
-											"fieldName": "Right",
-											"fieldParent": "6c387a4d-7df0-4620-c64b-205bde2541b6",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "71b95d51-ac38-4a67-859d-8618db56be68",
-													"fieldName": "oButOpenAD",
-													"fieldParent": "a5535938-e891-4153-fb94-c08a10a5c694",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Open In App designer",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButOpenAD/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
 										}
 									]
 								}
@@ -220,6 +123,7 @@
 					"fieldParent": 99999,
 					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [
@@ -259,6 +163,7 @@
 							"fieldParent": "9383b10d-6072-4545-aa1a-297856b33f60",
 							"fieldType": "sap.m.Bar",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
@@ -277,6 +182,7 @@
 									"fieldParent": "8a2605a9-7bfc-4824-a166-9debcae96337",
 									"fieldType": "neptune.BarContent",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
@@ -295,6 +201,7 @@
 											"fieldParent": "bd971fa9-c178-4fb7-a1ee-cb7b667f4f8e",
 											"fieldType": "sap.m.Toolbar",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
@@ -313,6 +220,7 @@
 													"fieldParent": "b136cb9c-5ff6-4fb7-d7e0-5df3a59560ef",
 													"fieldType": "sap.m.SearchField",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
@@ -338,6 +246,7 @@
 							"fieldParent": "9383b10d-6072-4545-aa1a-297856b33f60",
 							"fieldType": "sap.m.Tree",
 							"script": "",
+							"customComponent": false,
 							"bindingValue": "Generic Array",
 							"bindingType": "h",
 							"bindingSource": "P9",
@@ -359,6 +268,7 @@
 									"fieldParent": "067894f1-da27-49f5-b2dd-032dfd9fa1b9",
 									"fieldType": "sap.m.StandardTreeItem",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
@@ -381,7 +291,8 @@
 					"fieldName": "onInit",
 					"fieldParent": 99999,
 					"fieldType": "neptune.event.oninit",
-					"script": "file://script/neptune.event.oninit/onInit.script",
+					"script": "file://script/neptune.event.oninit/onInit.js",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [],
@@ -392,7 +303,8 @@
 					"fieldName": "Functions",
 					"fieldParent": 99999,
 					"fieldType": "neptune.Script",
-					"script": "file://script/neptune.Script/Functions.script",
+					"script": "file://script/neptune.Script/Functions.js",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [],
@@ -405,8 +317,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.1636",
+	"componentInterface": [],
+	"ver": "23.10.27.1432",
 	"application": "sample_tree",
 	"title": "sap.tnt.ToolPage - sap.m.Tree - sap.tnt.SideNavigation",
 	"description": "sap.tnt.ToolPage - sap.m.Tree - sap.tnt.SideNavigation",
@@ -425,12 +337,13 @@
 	"ui5_tnt": true,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
-	"css": "file:///css.script",
+	"css": "file:///css.css",
+	"compiledCss": "file://script/undefined/undefined.script",
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -442,6 +355,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

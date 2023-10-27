@@ -4,408 +4,262 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "1",
-			"fieldName": "oShell",
+			"fieldNo": "2",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "2",
-					"fieldName": "oApp",
-					"fieldParent": "1",
-					"fieldType": "sap.m.App",
+					"fieldNo": "4",
+					"fieldName": "oPage",
+					"fieldParent": "2",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "TimePicker",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "4",
-							"fieldName": "oPage",
-							"fieldParent": "2",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "09d29401-dfa4-4613-e8be-1b8fa3b04bb1",
+							"fieldName": "oVBox",
+							"fieldParent": "4",
+							"fieldType": "sap.m.VBox",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
 								{
-									"attribute": "title",
+									"attribute": "styleClassMargin",
 									"grouping": "Properties",
-									"value": "TimePicker",
+									"value": "sapUiSmallMargin",
 									"script": "",
 									"translation": []
 								}
 							],
 							"data": [
 								{
-									"fieldNo": "09d29401-dfa4-4613-e8be-1b8fa3b04bb1",
-									"fieldName": "oVBox",
-									"fieldParent": "4",
-									"fieldType": "sap.m.VBox",
+									"fieldNo": "acddb728-e6c4-436c-d7bc-8453c85e40a5",
+									"fieldName": "oLabel",
+									"fieldParent": "09d29401-dfa4-4613-e8be-1b8fa3b04bb1",
+									"fieldType": "sap.m.Label",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "styleClassMargin",
+											"attribute": "text",
 											"grouping": "Properties",
-											"value": "sapUiSmallMargin",
+											"value": "Value format HH:mm",
 											"script": "",
 											"translation": []
 										}
 									],
-									"data": [
-										{
-											"fieldNo": "acddb728-e6c4-436c-d7bc-8453c85e40a5",
-											"fieldName": "oLabel",
-											"fieldParent": "09d29401-dfa4-4613-e8be-1b8fa3b04bb1",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Value format HH:mm",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "869ac71b-25fc-4913-8fe5-a7ef1a77fb5c",
-											"fieldName": "oTimePicker",
-											"fieldParent": "09d29401-dfa4-4613-e8be-1b8fa3b04bb1",
-											"fieldType": "sap.m.TimePicker",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "valueFormat",
-													"grouping": "Properties",
-													"value": "HH:mm",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "value",
-													"grouping": "Properties",
-													"value": "19:20",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "placeholder",
-													"grouping": "Properties",
-													"value": "Enter Meeting Time",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "displayFormat",
-													"grouping": "Properties",
-													"value": "HH:mm",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "change",
-													"grouping": "Events",
-													"value": "Anonymous Function",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "1b90dc1d-95ec-40a3-ea36-dcd4516de5ff",
-											"fieldName": "oLabel1",
-											"fieldParent": "09d29401-dfa4-4613-e8be-1b8fa3b04bb1",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Value format HH:mm:ss",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "3cdd38d0-6af3-46cb-cec9-730509bed726",
-											"fieldName": "oTimePicker1",
-											"fieldParent": "09d29401-dfa4-4613-e8be-1b8fa3b04bb1",
-											"fieldType": "sap.m.TimePicker",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "valueFormat",
-													"grouping": "Properties",
-													"value": "HH:mm:ss",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "displayFormat",
-													"grouping": "Properties",
-													"value": "hh:mm:ss",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "cfebac03-264e-4df7-b0ba-9c6ea4e291db",
-											"fieldName": "oLabel2",
-											"fieldParent": "09d29401-dfa4-4613-e8be-1b8fa3b04bb1",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Value format hh:mm:ss a",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "76d6d2d0-068d-487a-d7d6-4b7a4756375b",
-											"fieldName": "oTimePicker2",
-											"fieldParent": "09d29401-dfa4-4613-e8be-1b8fa3b04bb1",
-											"fieldType": "sap.m.TimePicker",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "valueFormat",
-													"grouping": "Properties",
-													"value": "hh:mm:ss a",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "c57d5b69-539a-48d3-a243-870c14435ada",
-											"fieldName": "oLabel3",
-											"fieldParent": "09d29401-dfa4-4613-e8be-1b8fa3b04bb1",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": " Support 2400: true (for cases where 24:00:00 indicates the end of the day)",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "a3748919-bdf7-4c9f-e091-0aefcf23bfd6",
-											"fieldName": "oTimePicker3",
-											"fieldParent": "09d29401-dfa4-4613-e8be-1b8fa3b04bb1",
-											"fieldType": "sap.m.TimePicker",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "valueFormat",
-													"grouping": "Properties",
-													"value": "HH:mm:ss",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "displayFormat",
-													"grouping": "Properties",
-													"value": "HH:mm:ss",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "support2400",
-													"grouping": "Properties",
-													"value": "true",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										}
-									]
+									"data": []
 								},
 								{
-									"fieldNo": "5",
-									"fieldName": "oFooter",
-									"fieldParent": "4",
-									"fieldType": "sap.m.Bar",
+									"fieldNo": "869ac71b-25fc-4913-8fe5-a7ef1a77fb5c",
+									"fieldName": "oTimePicker",
+									"fieldParent": "09d29401-dfa4-4613-e8be-1b8fa3b04bb1",
+									"fieldType": "sap.m.TimePicker",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"attribute": "valueFormat",
+											"grouping": "Properties",
+											"value": "HH:mm",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "value",
+											"grouping": "Properties",
+											"value": "19:20",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "placeholder",
+											"grouping": "Properties",
+											"value": "Enter Meeting Time",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "displayFormat",
+											"grouping": "Properties",
+											"value": "HH:mm",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "change",
+											"grouping": "Events",
+											"value": "Anonymous Function",
 											"script": "",
 											"translation": []
 										}
 									],
-									"data": [
+									"data": []
+								},
+								{
+									"fieldNo": "1b90dc1d-95ec-40a3-ea36-dcd4516de5ff",
+									"fieldName": "oLabel1",
+									"fieldParent": "09d29401-dfa4-4613-e8be-1b8fa3b04bb1",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
 										{
-											"fieldNo": "6",
-											"fieldName": "Left",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Value format HH:mm:ss",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "a6fbeacd-281d-4273-edc8-429c45655481",
-													"fieldName": "oButton",
-													"fieldParent": "6",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Open In App Designer",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButton/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										},
-										{
-											"fieldNo": "7",
-											"fieldName": "Middle",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentMiddle",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "8",
-											"fieldName": "Right",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "722f3f54-1405-42b4-c8b2-573c53a770b4",
-													"fieldName": "butCompact",
-													"fieldParent": "8",
-													"fieldType": "sap.m.ToggleButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Compact",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
+											"translation": []
 										}
-									]
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "3cdd38d0-6af3-46cb-cec9-730509bed726",
+									"fieldName": "oTimePicker1",
+									"fieldParent": "09d29401-dfa4-4613-e8be-1b8fa3b04bb1",
+									"fieldType": "sap.m.TimePicker",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "valueFormat",
+											"grouping": "Properties",
+											"value": "HH:mm:ss",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "displayFormat",
+											"grouping": "Properties",
+											"value": "hh:mm:ss",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "cfebac03-264e-4df7-b0ba-9c6ea4e291db",
+									"fieldName": "oLabel2",
+									"fieldParent": "09d29401-dfa4-4613-e8be-1b8fa3b04bb1",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Value format hh:mm:ss a",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "76d6d2d0-068d-487a-d7d6-4b7a4756375b",
+									"fieldName": "oTimePicker2",
+									"fieldParent": "09d29401-dfa4-4613-e8be-1b8fa3b04bb1",
+									"fieldType": "sap.m.TimePicker",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "valueFormat",
+											"grouping": "Properties",
+											"value": "hh:mm:ss a",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "c57d5b69-539a-48d3-a243-870c14435ada",
+									"fieldName": "oLabel3",
+									"fieldParent": "09d29401-dfa4-4613-e8be-1b8fa3b04bb1",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": " Support 2400: true (for cases where 24:00:00 indicates the end of the day)",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "a3748919-bdf7-4c9f-e091-0aefcf23bfd6",
+									"fieldName": "oTimePicker3",
+									"fieldParent": "09d29401-dfa4-4613-e8be-1b8fa3b04bb1",
+									"fieldType": "sap.m.TimePicker",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "valueFormat",
+											"grouping": "Properties",
+											"value": "HH:mm:ss",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "displayFormat",
+											"grouping": "Properties",
+											"value": "HH:mm:ss",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "support2400",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
 								}
 							]
 						}
@@ -422,8 +276,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.1638",
+	"componentInterface": [],
+	"ver": "23.10.27.1434",
 	"application": "sample_timepicker",
 	"title": "sap.m.TimePicker",
 	"description": "sap.m.TimePicker",
@@ -442,12 +296,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -459,6 +314,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

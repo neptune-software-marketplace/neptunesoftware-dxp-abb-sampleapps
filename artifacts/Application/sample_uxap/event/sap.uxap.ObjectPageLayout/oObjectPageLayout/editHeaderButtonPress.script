@@ -1,2 +1,0 @@
-// Use MessageToast
-sap.m.MessageToast.show("Edit Button enable from 'oObjectPageLayout'");

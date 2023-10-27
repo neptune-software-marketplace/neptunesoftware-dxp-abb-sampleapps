@@ -9,6 +9,7 @@
 			"fieldParent": 0,
 			"fieldType": "sap.ui.unified.Shell",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
@@ -19,6 +20,7 @@
 					"fieldParent": "edc17fa2-5901-47fd-9b08-61a811862824",
 					"fieldType": "sap.ui.unified.ShellHeadItem",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [
@@ -59,6 +61,7 @@
 					"fieldParent": "edc17fa2-5901-47fd-9b08-61a811862824",
 					"fieldType": "sap.ui.unified.ShellHeadItem",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [
@@ -99,6 +102,7 @@
 					"fieldParent": "edc17fa2-5901-47fd-9b08-61a811862824",
 					"fieldType": "sap.ui.unified.ShellHeadItem",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [
@@ -132,6 +136,7 @@
 					"fieldParent": "edc17fa2-5901-47fd-9b08-61a811862824",
 					"fieldType": "sap.ui.unified.ShellHeadUserItem",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [
@@ -165,6 +170,7 @@
 					"fieldParent": "edc17fa2-5901-47fd-9b08-61a811862824",
 					"fieldType": "neptune.ui.unified.ShellItem",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [
@@ -183,6 +189,7 @@
 							"fieldParent": "3692c107-0ebf-4589-d0f1-5528ee239c3b",
 							"fieldType": "sap.m.NavContainer",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [],
@@ -193,6 +200,7 @@
 									"fieldParent": "a25a5afc-9f91-4f5e-8650-20656a53bffa",
 									"fieldType": "sap.m.Page",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
@@ -211,6 +219,7 @@
 											"fieldParent": "446543aa-58e0-4b3b-9592-0ba9a7f2b512",
 											"fieldType": "sap.m.List",
 											"script": "",
+											"customComponent": false,
 											"bindingValue": "Generic Array",
 											"bindingType": "h",
 											"bindingSource": "P9",
@@ -232,6 +241,7 @@
 													"fieldParent": "4ddc3232-85b8-4f73-9e86-01fa43b098c7",
 													"fieldType": "sap.m.ObjectListItem",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
@@ -260,132 +270,6 @@
 													"data": []
 												}
 											]
-										},
-										{
-											"fieldNo": "836dce97-b289-46c6-d06b-bb2ae942a11c",
-											"fieldName": "oBarFooter",
-											"fieldParent": "446543aa-58e0-4b3b-9592-0ba9a7f2b512",
-											"fieldType": "sap.m.Bar",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "setFooter",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "7cad7433-ce15-4803-d4fe-4416387714c0",
-													"fieldName": "Left",
-													"fieldParent": "836dce97-b289-46c6-d06b-bb2ae942a11c",
-													"fieldType": "neptune.BarContent",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "position",
-															"grouping": "Parent",
-															"value": "ContentLeft",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "bf0a4611-2c30-4e32-c165-129fb9437831",
-															"fieldName": "oButton",
-															"fieldParent": "7cad7433-ce15-4803-d4fe-4416387714c0",
-															"fieldType": "sap.m.Button",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "type",
-																	"grouping": "Properties",
-																	"value": "Emphasized",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "text",
-																	"grouping": "Properties",
-																	"value": "Open in App Designer",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "press",
-																	"grouping": "Events",
-																	"value": "Anonymous Function",
-																	"script": "file://event/sap.m.Button/oButton/press.script",
-																	"translation": []
-																}
-															],
-															"data": []
-														}
-													]
-												},
-												{
-													"fieldNo": "cd70746b-80b0-4e9a-effe-4d0b79603c63",
-													"fieldName": "Right",
-													"fieldParent": "836dce97-b289-46c6-d06b-bb2ae942a11c",
-													"fieldType": "neptune.BarContent",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "position",
-															"grouping": "Parent",
-															"value": "ContentRight",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "892dc038-cc86-4fa6-ccb2-75aaffca848b",
-															"fieldName": "oToggleButton",
-															"fieldParent": "cd70746b-80b0-4e9a-effe-4d0b79603c63",
-															"fieldType": "sap.m.ToggleButton",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "type",
-																	"grouping": "Properties",
-																	"value": "Emphasized",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "text",
-																	"grouping": "Properties",
-																	"value": "Compact",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "press",
-																	"grouping": "Events",
-																	"value": "Anonymous Function",
-																	"script": "file://event/sap.m.ToggleButton/oToggleButton/press.script",
-																	"translation": []
-																}
-															],
-															"data": []
-														}
-													]
-												}
-											]
 										}
 									]
 								}
@@ -399,6 +283,7 @@
 					"fieldParent": "edc17fa2-5901-47fd-9b08-61a811862824",
 					"fieldType": "neptune.ui.unified.ShellItem",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [
@@ -417,6 +302,7 @@
 							"fieldParent": "5bc3fcb7-922e-4e41-e13c-56ba502f0bdf",
 							"fieldType": "sap.m.Text",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
@@ -438,6 +324,7 @@
 					"fieldParent": "edc17fa2-5901-47fd-9b08-61a811862824",
 					"fieldType": "neptune.ui.unified.ShellItem",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [
@@ -456,6 +343,7 @@
 							"fieldParent": "ad3ac8d3-fc75-40a1-a384-929ef405691d",
 							"fieldType": "sap.m.Text",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
@@ -477,6 +365,7 @@
 					"fieldParent": "edc17fa2-5901-47fd-9b08-61a811862824",
 					"fieldType": "neptune.ui.unified.ShellItem",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [
@@ -495,6 +384,7 @@
 							"fieldParent": "67417a77-b6ae-4fa5-ee45-9a87fb1b4862",
 							"fieldType": "sap.m.SearchField",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
@@ -516,6 +406,7 @@
 					"fieldParent": "edc17fa2-5901-47fd-9b08-61a811862824",
 					"fieldType": "sap.ui.unified.ShellOverlay",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [],
@@ -526,6 +417,7 @@
 							"fieldParent": "ea701159-9c3c-43af-c7ca-016f44abc671",
 							"fieldType": "neptune.ui.unified.ShellItem",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
@@ -544,6 +436,7 @@
 									"fieldParent": "93890b59-78e9-4018-e748-1f39d353fde2",
 									"fieldType": "sap.m.List",
 									"script": "",
+									"customComponent": false,
 									"bindingValue": "Generic Array",
 									"bindingType": "h",
 									"bindingSource": "P9",
@@ -565,6 +458,7 @@
 											"fieldParent": "b5987fae-b50b-4b2a-9462-fca81016fd93",
 											"fieldType": "sap.m.ObjectListItem",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
@@ -608,7 +502,8 @@
 					"fieldName": "onInit",
 					"fieldParent": 99999,
 					"fieldType": "neptune.event.oninit",
-					"script": "file://script/neptune.event.oninit/onInit.script",
+					"script": "file://script/neptune.event.oninit/onInit.js",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [],
@@ -621,8 +516,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.1634",
+	"componentInterface": [],
+	"ver": "23.10.27.1438",
 	"application": "sample_unifiedshell",
 	"title": "sap.ui.unified.Shell - sap.ui.unified.ShellHeadItem - sap.ui.unified.ShellOverlay - sap.m.NavContainer",
 	"description": "sap.ui.unified.Shell - sap.ui.unified.ShellHeadItem - sap.ui.unified.ShellOverlay - sap.m.NavContainer",
@@ -641,12 +536,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -658,6 +554,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

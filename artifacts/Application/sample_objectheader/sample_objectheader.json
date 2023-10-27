@@ -4,451 +4,321 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "722aabb5-3a6a-4f37-8572-48f8d0e19725",
-			"fieldName": "oShell",
+			"fieldNo": "2508c586-a86d-40ec-cfef-2379c8fc4d14",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "2508c586-a86d-40ec-cfef-2379c8fc4d14",
-					"fieldName": "oApp",
-					"fieldParent": "722aabb5-3a6a-4f37-8572-48f8d0e19725",
-					"fieldType": "sap.m.App",
+					"fieldNo": "28976854-7273-4d28-8199-d88fd08d2680",
+					"fieldName": "oPage",
+					"fieldParent": "2508c586-a86d-40ec-cfef-2379c8fc4d14",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "ObjectHeader",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "28976854-7273-4d28-8199-d88fd08d2680",
-							"fieldName": "oPage",
-							"fieldParent": "2508c586-a86d-40ec-cfef-2379c8fc4d14",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "6164e844-9051-457c-c6d9-0abc198c5d9c",
+							"fieldName": "oPanel1",
+							"fieldParent": "28976854-7273-4d28-8199-d88fd08d2680",
+							"fieldType": "sap.m.Panel",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
 								{
-									"attribute": "title",
+									"attribute": "headerText",
 									"grouping": "Properties",
-									"value": "ObjectHeader",
+									"value": "Tab with Object Header",
 									"script": "",
 									"translation": []
 								}
 							],
 							"data": [
 								{
-									"fieldNo": "6164e844-9051-457c-c6d9-0abc198c5d9c",
-									"fieldName": "oPanel1",
-									"fieldParent": "28976854-7273-4d28-8199-d88fd08d2680",
-									"fieldType": "sap.m.Panel",
+									"fieldNo": "b46150e3-91c3-4a4e-f4e4-4d60bb3183c1",
+									"fieldName": "oIconTabBar",
+									"fieldParent": "6164e844-9051-457c-c6d9-0abc198c5d9c",
+									"fieldType": "sap.m.IconTabBar",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
-									"attributes": [
-										{
-											"attribute": "headerText",
-											"grouping": "Properties",
-											"value": "Tab with Object Header",
-											"script": "",
-											"translation": []
-										}
-									],
+									"attributes": [],
 									"data": [
 										{
-											"fieldNo": "b46150e3-91c3-4a4e-f4e4-4d60bb3183c1",
-											"fieldName": "oIconTabBar",
-											"fieldParent": "6164e844-9051-457c-c6d9-0abc198c5d9c",
-											"fieldType": "sap.m.IconTabBar",
+											"fieldNo": "fdba66a7-68e4-4307-c5d9-3571af7256dd",
+											"fieldName": "oIconTabFilter",
+											"fieldParent": "b46150e3-91c3-4a4e-f4e4-4d60bb3183c1",
+											"fieldType": "sap.m.IconTabFilter",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [],
-											"data": [
-												{
-													"fieldNo": "fdba66a7-68e4-4307-c5d9-3571af7256dd",
-													"fieldName": "oIconTabFilter",
-													"fieldParent": "b46150e3-91c3-4a4e-f4e4-4d60bb3183c1",
-													"fieldType": "sap.m.IconTabFilter",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "TAB FILTER ",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "51e4bab3-0724-40d8-a362-40712ddbbf44",
-															"fieldName": "oObjectHeader",
-															"fieldParent": "fdba66a7-68e4-4307-c5d9-3571af7256dd",
-															"fieldType": "sap.m.ObjectHeader",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "titleActive",
-																	"grouping": "Properties",
-																	"value": "true",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "title",
-																	"grouping": "Properties",
-																	"value": "Active Intro Link",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "numberUnit",
-																	"grouping": "Properties",
-																	"value": "Members",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "numberState",
-																	"grouping": "Properties",
-																	"value": "Warning",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "number",
-																	"grouping": "Properties",
-																	"value": "1200",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "introTarget",
-																	"grouping": "Properties",
-																	"value": "https://community.neptune-software.com/",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "introHref",
-																	"grouping": "Properties",
-																	"value": "https://community.neptune-software.com/",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "introActive",
-																	"grouping": "Properties",
-																	"value": "true",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "intro",
-																	"grouping": "Properties",
-																	"value": "Neptune Community",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "icon",
-																	"grouping": "Properties",
-																	"value": "sap-icon://activity-items",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "enableCompactMode",
-																	"grouping": "Properties",
-																	"value": "true",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "titlePress",
-																	"grouping": "Events",
-																	"value": "Anonymous Function",
-																	"script": "file://event/sap.m.ObjectHeader/oObjectHeader/titlePress.script",
-																	"translation": []
-																}
-															],
-															"data": []
-														},
-														{
-															"fieldNo": "612c7be5-9d24-4665-b125-734e17183475",
-															"fieldName": "oObjectHeader1",
-															"fieldParent": "fdba66a7-68e4-4307-c5d9-3571af7256dd",
-															"fieldType": "sap.m.ObjectHeader",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "title",
-																	"grouping": "Properties",
-																	"value": "Header Container in Object Header",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "numberUnit",
-																	"grouping": "Properties",
-																	"value": "USD",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "number",
-																	"grouping": "Properties",
-																	"value": "4321",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "intro",
-																	"grouping": "Properties",
-																	"value": "Header 2",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "icon",
-																	"grouping": "Properties",
-																	"value": "sap-icon://add-activity",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": []
-														},
-														{
-															"fieldNo": "88e67107-4227-4c64-a139-e820684c3ef5",
-															"fieldName": "oObjectHeader2",
-															"fieldParent": "fdba66a7-68e4-4307-c5d9-3571af7256dd",
-															"fieldType": "sap.m.ObjectHeader",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "titleTarget",
-																	"grouping": "Properties",
-																	"value": "https://community.neptune-software.com/",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "titleHref",
-																	"grouping": "Properties",
-																	"value": "https://community.neptune-software.com/",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "titleActive",
-																	"grouping": "Properties",
-																	"value": "true",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "title",
-																	"grouping": "Properties",
-																	"value": "Neptune Community Link",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "numberUnit",
-																	"grouping": "Properties",
-																	"value": "Members",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "numberState",
-																	"grouping": "Properties",
-																	"value": "Success",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "number",
-																	"grouping": "Properties",
-																	"value": "1200",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "introActive",
-																	"grouping": "Properties",
-																	"value": "false",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "intro",
-																	"grouping": "Properties",
-																	"value": "Active Title Link",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "icon",
-																	"grouping": "Properties",
-																	"value": "sap-icon://activity-items",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "enableCompactMode",
-																	"grouping": "Properties",
-																	"value": "true",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "titlePress",
-																	"grouping": "Events",
-																	"value": "Anonymous Function",
-																	"script": "file://event/sap.m.ObjectHeader/oObjectHeader2/titlePress.script",
-																	"translation": []
-																}
-															],
-															"data": []
-														}
-													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"fieldNo": "36bb3192-350a-4c3d-b09e-747259bfb002",
-									"fieldName": "oBarFooter",
-									"fieldParent": "28976854-7273-4d28-8199-d88fd08d2680",
-									"fieldType": "sap.m.Bar",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "50acba99-7d64-4d57-e898-fdf33ccf5995",
-											"fieldName": "Left",
-											"fieldParent": "36bb3192-350a-4c3d-b09e-747259bfb002",
-											"fieldType": "neptune.BarContent",
-											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "TAB FILTER ",
 													"script": "",
 													"translation": []
 												}
 											],
 											"data": [
 												{
-													"fieldNo": "09d13d65-bee0-4d5f-94f6-d489420e212e",
-													"fieldName": "oButton",
-													"fieldParent": "50acba99-7d64-4d57-e898-fdf33ccf5995",
-													"fieldType": "sap.m.Button",
+													"fieldNo": "51e4bab3-0724-40d8-a362-40712ddbbf44",
+													"fieldName": "oObjectHeader",
+													"fieldParent": "fdba66a7-68e4-4307-c5d9-3571af7256dd",
+													"fieldType": "sap.m.ObjectHeader",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "type",
+															"attribute": "titleActive",
 															"grouping": "Properties",
-															"value": "Emphasized",
+															"value": "true",
 															"script": "",
 															"translation": []
 														},
 														{
-															"attribute": "text",
+															"attribute": "title",
 															"grouping": "Properties",
-															"value": "Open In App Designer",
+															"value": "Active Intro Link",
 															"script": "",
 															"translation": []
 														},
 														{
-															"attribute": "press",
+															"attribute": "numberUnit",
+															"grouping": "Properties",
+															"value": "Members",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "numberState",
+															"grouping": "Properties",
+															"value": "Warning",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "number",
+															"grouping": "Properties",
+															"value": "1200",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "introTarget",
+															"grouping": "Properties",
+															"value": "https://community.neptune-software.com/",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "introHref",
+															"grouping": "Properties",
+															"value": "https://community.neptune-software.com/",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "introActive",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "intro",
+															"grouping": "Properties",
+															"value": "Neptune Community",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "sap-icon://activity-items",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "enableCompactMode",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "titlePress",
 															"grouping": "Events",
 															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButton/press.script",
+															"script": "file://event/sap.m.ObjectHeader/oObjectHeader/titlePress.script",
 															"translation": []
 														}
 													],
 													"data": []
-												}
-											]
-										},
-										{
-											"fieldNo": "9940f85e-8627-46f6-9803-8d6fdb9a9842",
-											"fieldName": "Right",
-											"fieldParent": "36bb3192-350a-4c3d-b09e-747259bfb002",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
+												},
 												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
+													"fieldNo": "612c7be5-9d24-4665-b125-734e17183475",
+													"fieldName": "oObjectHeader1",
+													"fieldParent": "fdba66a7-68e4-4307-c5d9-3571af7256dd",
+													"fieldType": "sap.m.ObjectHeader",
 													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "5bd4e92b-6de6-40a1-8e0d-ff618e24e376",
-													"fieldName": "butCompact",
-													"fieldParent": "9940f85e-8627-46f6-9803-8d6fdb9a9842",
-													"fieldType": "sap.m.ToggleButton",
-													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "type",
+															"attribute": "title",
 															"grouping": "Properties",
-															"value": "Emphasized",
+															"value": "Header Container in Object Header",
 															"script": "",
 															"translation": []
 														},
 														{
-															"attribute": "text",
+															"attribute": "numberUnit",
 															"grouping": "Properties",
-															"value": "Compact",
+															"value": "USD",
 															"script": "",
 															"translation": []
 														},
 														{
-															"attribute": "press",
+															"attribute": "number",
+															"grouping": "Properties",
+															"value": "4321",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "intro",
+															"grouping": "Properties",
+															"value": "Header 2",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "sap-icon://add-activity",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "88e67107-4227-4c64-a139-e820684c3ef5",
+													"fieldName": "oObjectHeader2",
+													"fieldParent": "fdba66a7-68e4-4307-c5d9-3571af7256dd",
+													"fieldType": "sap.m.ObjectHeader",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "titleTarget",
+															"grouping": "Properties",
+															"value": "https://community.neptune-software.com/",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "titleHref",
+															"grouping": "Properties",
+															"value": "https://community.neptune-software.com/",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "titleActive",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "title",
+															"grouping": "Properties",
+															"value": "Neptune Community Link",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "numberUnit",
+															"grouping": "Properties",
+															"value": "Members",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "numberState",
+															"grouping": "Properties",
+															"value": "Success",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "number",
+															"grouping": "Properties",
+															"value": "1200",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "introActive",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "intro",
+															"grouping": "Properties",
+															"value": "Active Title Link",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "sap-icon://activity-items",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "enableCompactMode",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "titlePress",
 															"grouping": "Events",
 															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
+															"script": "file://event/sap.m.ObjectHeader/oObjectHeader2/titlePress.script",
 															"translation": []
 														}
 													],
@@ -473,8 +343,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.1712",
+	"componentInterface": [],
+	"ver": "23.10.27.1150",
 	"application": "sample_objectheader",
 	"title": "sap.m.ObjectHeader - sap.m.IconTabBar",
 	"description": "sap.m.ObjectHeader - sap.m.IconTabBar",
@@ -493,12 +363,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -510,6 +381,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

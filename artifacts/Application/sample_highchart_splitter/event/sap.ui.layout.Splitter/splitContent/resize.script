@@ -1,5 +1,0 @@
-this.rerender();
-
-var options = {};
-
-apiGetData(options);

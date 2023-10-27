@@ -4,442 +4,316 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "8aeb5d0a-a6c6-48fd-c2d8-992c7db086b5",
-			"fieldName": "oShell",
+			"fieldNo": "09d92603-7e81-4c04-d741-9cc402ba8118",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "09d92603-7e81-4c04-d741-9cc402ba8118",
-					"fieldName": "oApp",
-					"fieldParent": "8aeb5d0a-a6c6-48fd-c2d8-992c7db086b5",
-					"fieldType": "sap.m.App",
+					"fieldNo": "8fc79dc0-a045-417a-bd91-6418a3124a6a",
+					"fieldName": "oPage",
+					"fieldParent": "09d92603-7e81-4c04-d741-9cc402ba8118",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Progress Indicator",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "8fc79dc0-a045-417a-bd91-6418a3124a6a",
-							"fieldName": "oPage",
-							"fieldParent": "09d92603-7e81-4c04-d741-9cc402ba8118",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "c22eb3dc-3dd7-4d6f-db2c-7659ec15c0d8",
+							"fieldName": "oPanel",
+							"fieldParent": "8fc79dc0-a045-417a-bd91-6418a3124a6a",
+							"fieldType": "sap.m.Panel",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
-							"attributes": [
-								{
-									"attribute": "title",
-									"grouping": "Properties",
-									"value": "Progress Indicator",
-									"script": "",
-									"translation": []
-								}
-							],
+							"attributes": [],
 							"data": [
 								{
-									"fieldNo": "b260ec98-309f-46ac-e624-4d5e241af7ca",
-									"fieldName": "oBarFooter",
-									"fieldParent": "8fc79dc0-a045-417a-bd91-6418a3124a6a",
-									"fieldType": "sap.m.Bar",
+									"fieldNo": "45ae6230-4c0d-4400-e44d-420c25b12617",
+									"fieldName": "oText",
+									"fieldParent": "c22eb3dc-3dd7-4d6f-db2c-7659ec15c0d8",
+									"fieldType": "sap.m.Text",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Progress Indicator with State : Success",
 											"script": "",
 											"translation": []
 										}
 									],
-									"data": [
-										{
-											"fieldNo": "5562d148-1fd7-4a78-bf3b-93a28ea5a9cf",
-											"fieldName": "Left",
-											"fieldParent": "b260ec98-309f-46ac-e624-4d5e241af7ca",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "33812864-9a59-49fc-b2ba-ebb909c730d7",
-													"fieldName": "oButton1",
-													"fieldParent": "5562d148-1fd7-4a78-bf3b-93a28ea5a9cf",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Open In App Designer",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButton1/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										},
-										{
-											"fieldNo": "d71422d8-c297-4149-c534-65002a24eefb",
-											"fieldName": "Right",
-											"fieldParent": "b260ec98-309f-46ac-e624-4d5e241af7ca",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "e2ec1c14-b99f-4071-b10c-4c6220f1bf02",
-													"fieldName": "butCompact",
-													"fieldParent": "d71422d8-c297-4149-c534-65002a24eefb",
-													"fieldType": "sap.m.ToggleButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Compact",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										}
-									]
+									"data": []
 								},
 								{
-									"fieldNo": "c22eb3dc-3dd7-4d6f-db2c-7659ec15c0d8",
-									"fieldName": "oPanel",
-									"fieldParent": "8fc79dc0-a045-417a-bd91-6418a3124a6a",
-									"fieldType": "sap.m.Panel",
+									"fieldNo": "744413b9-ede5-45f6-f69a-59f71679681d",
+									"fieldName": "oProgressIndicatorSuccess",
+									"fieldParent": "c22eb3dc-3dd7-4d6f-db2c-7659ec15c0d8",
+									"fieldType": "sap.m.ProgressIndicator",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
-									"attributes": [],
-									"data": [
+									"attributes": [
 										{
-											"fieldNo": "45ae6230-4c0d-4400-e44d-420c25b12617",
-											"fieldName": "oText",
-											"fieldParent": "c22eb3dc-3dd7-4d6f-db2c-7659ec15c0d8",
-											"fieldType": "sap.m.Text",
+											"attribute": "state",
+											"grouping": "Properties",
+											"value": "Success",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Progress Indicator with State : Success",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
+											"translation": []
 										},
 										{
-											"fieldNo": "744413b9-ede5-45f6-f69a-59f71679681d",
-											"fieldName": "oProgressIndicatorSuccess",
-											"fieldParent": "c22eb3dc-3dd7-4d6f-db2c-7659ec15c0d8",
-											"fieldType": "sap.m.ProgressIndicator",
+											"attribute": "percentValue",
+											"grouping": "Properties",
+											"value": "80",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "state",
-													"grouping": "Properties",
-													"value": "Success",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "percentValue",
-													"grouping": "Properties",
-													"value": "80",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "displayValue",
-													"grouping": "Properties",
-													"value": "80%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "busy",
-													"grouping": "Properties",
-													"value": "false",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "busyIndicatorSize",
-													"grouping": "Properties",
-													"value": "Small",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "displayOnly",
-													"grouping": "Properties",
-													"value": "false",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
+											"translation": []
 										},
 										{
-											"fieldNo": "595e9d43-10d1-4d49-8ffd-708cdfc8f509",
-											"fieldName": "oText1",
-											"fieldParent": "c22eb3dc-3dd7-4d6f-db2c-7659ec15c0d8",
-											"fieldType": "sap.m.Text",
+											"attribute": "displayValue",
+											"grouping": "Properties",
+											"value": "80%",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Progress Indicator with State : Warning",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
+											"translation": []
 										},
 										{
-											"fieldNo": "4c10ebaa-de89-436d-d5a4-ae1ac9363bd2",
-											"fieldName": "oProgressIndicatorWarning",
-											"fieldParent": "c22eb3dc-3dd7-4d6f-db2c-7659ec15c0d8",
-											"fieldType": "sap.m.ProgressIndicator",
+											"attribute": "busy",
+											"grouping": "Properties",
+											"value": "false",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "state",
-													"grouping": "Properties",
-													"value": "Error",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "percentValue",
-													"grouping": "Properties",
-													"value": "50",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "displayValue",
-													"grouping": "Properties",
-													"value": "50%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "displayOnly",
-													"grouping": "Properties",
-													"value": "false",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
+											"translation": []
 										},
 										{
-											"fieldNo": "29bc8342-a91e-40f5-a454-e5307fa995ee",
-											"fieldName": "oText2",
-											"fieldParent": "c22eb3dc-3dd7-4d6f-db2c-7659ec15c0d8",
-											"fieldType": "sap.m.Text",
+											"attribute": "busyIndicatorSize",
+											"grouping": "Properties",
+											"value": "Small",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Progress Indicator with busy: true",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "busy",
-													"grouping": "Properties",
-													"value": "false",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
+											"translation": []
 										},
 										{
-											"fieldNo": "b608dbf3-9ace-485d-dfb2-d1b6956b2961",
-											"fieldName": "oProgressIndicatorBusy",
-											"fieldParent": "c22eb3dc-3dd7-4d6f-db2c-7659ec15c0d8",
-											"fieldType": "sap.m.ProgressIndicator",
+											"attribute": "displayOnly",
+											"grouping": "Properties",
+											"value": "false",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "state",
-													"grouping": "Properties",
-													"value": "Warning",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "percentValue",
-													"grouping": "Properties",
-													"value": "50",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "displayValue",
-													"grouping": "Properties",
-													"value": "50%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "busy",
-													"grouping": "Properties",
-													"value": "true",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "3323ddf5-4026-4844-81d6-9dbd0d93805e",
-											"fieldName": "oText3",
-											"fieldParent": "c22eb3dc-3dd7-4d6f-db2c-7659ec15c0d8",
-											"fieldType": "sap.m.Text",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Click start ",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "f5d57476-e337-4c2b-8e5a-f5ae8eecec3d",
-											"fieldName": "oProgressIndicator3",
-											"fieldParent": "c22eb3dc-3dd7-4d6f-db2c-7659ec15c0d8",
-											"fieldType": "sap.m.ProgressIndicator",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "state",
-													"grouping": "Properties",
-													"value": "Success",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "de91a9fa-5c78-4580-836b-1a0591925121",
-											"fieldName": "oButton",
-											"fieldParent": "c22eb3dc-3dd7-4d6f-db2c-7659ec15c0d8",
-											"fieldType": "sap.m.Button",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Start",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "press",
-													"grouping": "Events",
-													"value": "Anonymous Function",
-													"script": "file://event/sap.m.Button/oButton/press.script",
-													"translation": []
-												}
-											],
-											"data": []
+											"translation": []
 										}
-									]
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "595e9d43-10d1-4d49-8ffd-708cdfc8f509",
+									"fieldName": "oText1",
+									"fieldParent": "c22eb3dc-3dd7-4d6f-db2c-7659ec15c0d8",
+									"fieldType": "sap.m.Text",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Progress Indicator with State : Warning",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "4c10ebaa-de89-436d-d5a4-ae1ac9363bd2",
+									"fieldName": "oProgressIndicatorWarning",
+									"fieldParent": "c22eb3dc-3dd7-4d6f-db2c-7659ec15c0d8",
+									"fieldType": "sap.m.ProgressIndicator",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "state",
+											"grouping": "Properties",
+											"value": "Error",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "percentValue",
+											"grouping": "Properties",
+											"value": "50",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "displayValue",
+											"grouping": "Properties",
+											"value": "50%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "displayOnly",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "29bc8342-a91e-40f5-a454-e5307fa995ee",
+									"fieldName": "oText2",
+									"fieldParent": "c22eb3dc-3dd7-4d6f-db2c-7659ec15c0d8",
+									"fieldType": "sap.m.Text",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Progress Indicator with busy: true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "busy",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "b608dbf3-9ace-485d-dfb2-d1b6956b2961",
+									"fieldName": "oProgressIndicatorBusy",
+									"fieldParent": "c22eb3dc-3dd7-4d6f-db2c-7659ec15c0d8",
+									"fieldType": "sap.m.ProgressIndicator",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "state",
+											"grouping": "Properties",
+											"value": "Warning",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "percentValue",
+											"grouping": "Properties",
+											"value": "50",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "displayValue",
+											"grouping": "Properties",
+											"value": "50%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "busy",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "3323ddf5-4026-4844-81d6-9dbd0d93805e",
+									"fieldName": "oText3",
+									"fieldParent": "c22eb3dc-3dd7-4d6f-db2c-7659ec15c0d8",
+									"fieldType": "sap.m.Text",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Click start ",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "f5d57476-e337-4c2b-8e5a-f5ae8eecec3d",
+									"fieldName": "oProgressIndicator3",
+									"fieldParent": "c22eb3dc-3dd7-4d6f-db2c-7659ec15c0d8",
+									"fieldType": "sap.m.ProgressIndicator",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "state",
+											"grouping": "Properties",
+											"value": "Success",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "de91a9fa-5c78-4580-836b-1a0591925121",
+									"fieldName": "oButton",
+									"fieldParent": "c22eb3dc-3dd7-4d6f-db2c-7659ec15c0d8",
+									"fieldType": "sap.m.Button",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Start",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.Button/oButton/press.script",
+											"translation": []
+										}
+									],
+									"data": []
 								}
 							]
 						}
@@ -456,8 +330,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.174",
+	"componentInterface": [],
+	"ver": "23.10.27.1214",
 	"application": "sample_progressindicator",
 	"title": "Sample sap.m.ProgressIndicator",
 	"description": "sap.m.ProgressIndicator",
@@ -476,12 +350,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -493,6 +368,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

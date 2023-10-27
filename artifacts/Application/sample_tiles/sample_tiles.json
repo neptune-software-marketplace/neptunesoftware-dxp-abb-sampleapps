@@ -4,160 +4,134 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "54d138e2-2676-4915-f1e2-50b0b2e82543",
-			"fieldName": "oShell",
+			"fieldNo": "013323a0-0ef2-4539-f311-38e87b8daff3",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "013323a0-0ef2-4539-f311-38e87b8daff3",
-					"fieldName": "oApp",
-					"fieldParent": "54d138e2-2676-4915-f1e2-50b0b2e82543",
-					"fieldType": "sap.m.App",
+					"fieldNo": "4c37939c-e703-45a0-8e9e-7af0ae2e1056",
+					"fieldName": "oPage",
+					"fieldParent": "013323a0-0ef2-4539-f311-38e87b8daff3",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Tiles",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "4c37939c-e703-45a0-8e9e-7af0ae2e1056",
-							"fieldName": "oPage",
-							"fieldParent": "013323a0-0ef2-4539-f311-38e87b8daff3",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "68d39eb9-c37c-4f14-ec33-062d6e1e0dc1",
+							"fieldName": "oPanel",
+							"fieldParent": "4c37939c-e703-45a0-8e9e-7af0ae2e1056",
+							"fieldType": "sap.m.Panel",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
-							"attributes": [
-								{
-									"attribute": "title",
-									"grouping": "Properties",
-									"value": "Tiles",
-									"script": "",
-									"translation": []
-								}
-							],
+							"attributes": [],
 							"data": [
 								{
-									"fieldNo": "cfaced37-f505-416f-ac2b-f1d157214d2b",
-									"fieldName": "oBarFooter",
-									"fieldParent": "4c37939c-e703-45a0-8e9e-7af0ae2e1056",
-									"fieldType": "sap.m.Bar",
+									"fieldNo": "5e53834e-9904-4430-9455-62207e7cf7c7",
+									"fieldName": "genTile1",
+									"fieldParent": "68d39eb9-c37c-4f14-ec33-062d6e1e0dc1",
+									"fieldType": "sap.m.GenericTile",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"attribute": "subheader",
+											"grouping": "Properties",
+											"value": "frame Type: One By One",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMargin",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "header",
+											"grouping": "Properties",
+											"value": "Generic Tile Header",
 											"script": "",
 											"translation": []
 										}
 									],
 									"data": [
 										{
-											"fieldNo": "0e7eff23-ad22-4c82-a156-8352f30c63bb",
-											"fieldName": "Left",
-											"fieldParent": "cfaced37-f505-416f-ac2b-f1d157214d2b",
-											"fieldType": "neptune.BarContent",
+											"fieldNo": "2c19c254-3c86-4245-d903-7a2f6e2d3568",
+											"fieldName": "oTileContent",
+											"fieldParent": "5e53834e-9904-4430-9455-62207e7cf7c7",
+											"fieldType": "sap.m.TileContent",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
+													"attribute": "footer",
+													"grouping": "Properties",
+													"value": "Numeric Content",
 													"script": "",
 													"translation": []
 												}
 											],
 											"data": [
 												{
-													"fieldNo": "33d79298-f17c-470a-eeb4-ec4287898468",
-													"fieldName": "oButton",
-													"fieldParent": "0e7eff23-ad22-4c82-a156-8352f30c63bb",
-													"fieldType": "sap.m.Button",
+													"fieldNo": "ea5ee24b-680b-4aa3-b427-d076399e4cb8",
+													"fieldName": "oNumericContent",
+													"fieldParent": "2c19c254-3c86-4245-d903-7a2f6e2d3568",
+													"fieldType": "sap.m.NumericContent",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "type",
+															"attribute": "value",
 															"grouping": "Properties",
-															"value": "Emphasized",
+															"value": "234",
 															"script": "",
 															"translation": []
 														},
 														{
-															"attribute": "text",
+															"attribute": "scale",
 															"grouping": "Properties",
-															"value": "Open In App Designer",
+															"value": "USD",
 															"script": "",
 															"translation": []
 														},
 														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButton/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										},
-										{
-											"fieldNo": "7d332b8e-04a7-4111-b5b5-bb55fa8d1005",
-											"fieldName": "Right",
-											"fieldParent": "cfaced37-f505-416f-ac2b-f1d157214d2b",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "8b3b79e5-d4e2-40d4-83d7-b523078898ed",
-													"fieldName": "butCompact",
-													"fieldParent": "7d332b8e-04a7-4111-b5b5-bb55fa8d1005",
-													"fieldType": "sap.m.ToggleButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
+															"attribute": "indicator",
 															"grouping": "Properties",
-															"value": "Emphasized",
+															"value": "Up",
 															"script": "",
 															"translation": []
 														},
 														{
-															"attribute": "text",
+															"attribute": "icon",
 															"grouping": "Properties",
-															"value": "Compact",
+															"value": "sap-icon://monitor-payments",
 															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
 															"translation": []
 														}
 													],
@@ -168,35 +142,477 @@
 									]
 								},
 								{
-									"fieldNo": "68d39eb9-c37c-4f14-ec33-062d6e1e0dc1",
-									"fieldName": "oPanel",
-									"fieldParent": "4c37939c-e703-45a0-8e9e-7af0ae2e1056",
-									"fieldType": "sap.m.Panel",
+									"fieldNo": "cabe3717-5a28-4936-989a-ac1e2eff4958",
+									"fieldName": "genTile2",
+									"fieldParent": "68d39eb9-c37c-4f14-ec33-062d6e1e0dc1",
+									"fieldType": "sap.m.GenericTile",
 									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "subheader",
+											"grouping": "Properties",
+											"value": "frame Type: Two By One",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMargin",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "header",
+											"grouping": "Properties",
+											"value": "Generic Tile Header",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "frameType",
+											"grouping": "Properties",
+											"value": "TwoByOne",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "cc730fc5-9df8-4f2e-a638-fc9961b609c3",
+											"fieldName": "oTileContent5",
+											"fieldParent": "cabe3717-5a28-4936-989a-ac1e2eff4958",
+											"fieldType": "sap.m.TileContent",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "size",
+													"grouping": "Properties",
+													"value": "Responsive",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "footer",
+													"grouping": "Properties",
+													"value": "Image Content",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "56875625-fce0-4f85-eb22-ff4df0d899cc",
+													"fieldName": "oImageContent1",
+													"fieldParent": "cc730fc5-9df8-4f2e-a638-fc9961b609c3",
+													"fieldType": "sap.m.ImageContent",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "https://planet9test.neptune-software.com:8081/media/root/WorkshopHH/wifi.png",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "875a51f8-0020-4830-b5d1-f46ace2f38c2",
+											"fieldName": "oTileContent2",
+											"fieldParent": "cabe3717-5a28-4936-989a-ac1e2eff4958",
+											"fieldType": "sap.m.TileContent",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "size",
+													"grouping": "Properties",
+													"value": "Responsive",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "footer",
+													"grouping": "Properties",
+													"value": "Numeric Content",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "footerColor",
+													"grouping": "Properties",
+													"value": "Good",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "02829f93-6df5-4242-9e14-673d874651f4",
+													"fieldName": "oNumericContent3",
+													"fieldParent": "875a51f8-0020-4830-b5d1-f46ace2f38c2",
+													"fieldType": "sap.m.NumericContent",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "value",
+															"grouping": "Properties",
+															"value": "1234",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "scale",
+															"grouping": "Properties",
+															"value": "EUR",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "c0a07d2c-5276-4d25-e97a-8fda05cf8564",
+									"fieldName": "genTile3",
+									"fieldParent": "68d39eb9-c37c-4f14-ec33-062d6e1e0dc1",
+									"fieldType": "sap.m.GenericTile",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "subheader",
+											"grouping": "Properties",
+											"value": "Third Tile",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMargin",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "headerImage",
+											"grouping": "Properties",
+											"value": "https://planet9test.neptune-software.com:8081/media/root/NeptuneIcon192px.png",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "header",
+											"grouping": "Properties",
+											"value": "Generic Tile Header ",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "frameType",
+											"grouping": "Properties",
+											"value": "TwoByOne",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "6b42da7e-ea3f-48bf-cb81-0de6a7bdec4c",
+											"fieldName": "oTileContent3",
+											"fieldParent": "c0a07d2c-5276-4d25-e97a-8fda05cf8564",
+											"fieldType": "sap.m.TileContent",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "00b0e2ec-57b4-46ea-c969-d0588b8f8fea",
+													"fieldName": "oNewsContent",
+													"fieldParent": "6b42da7e-ea3f-48bf-cb81-0de6a7bdec4c",
+													"fieldType": "sap.m.NewsContent",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "contentText",
+															"grouping": "Properties",
+															"value": "This is the news content text, used for information on the tile. Using an tile header image",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "cb2437cf-4e88-4417-ac73-d70148e75f9d",
+									"fieldName": "genTile4",
+									"fieldParent": "68d39eb9-c37c-4f14-ec33-062d6e1e0dc1",
+									"fieldType": "sap.m.GenericTile",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "subheader",
+											"grouping": "Properties",
+											"value": "frame type: Two By One",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMargin",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "header",
+											"grouping": "Properties",
+											"value": "Generic Tile Header",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "frameType",
+											"grouping": "Properties",
+											"value": "TwoByOne",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "b537bd77-e1ac-4185-a160-d1dcbc5e4763",
+											"fieldName": "oTileContent4",
+											"fieldParent": "cb2437cf-4e88-4417-ac73-d70148e75f9d",
+											"fieldType": "sap.m.TileContent",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "footer",
+													"grouping": "Properties",
+													"value": "Feed Content",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "footerColor",
+													"grouping": "Properties",
+													"value": "Error",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "29dfe969-bd79-4699-cd09-fab19690ca77",
+													"fieldName": "oFeedContent4",
+													"fieldParent": "b537bd77-e1ac-4185-a160-d1dcbc5e4763",
+													"fieldType": "sap.m.FeedContent",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "valueColor",
+															"grouping": "Properties",
+															"value": "Error",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "value",
+															"grouping": "Properties",
+															"value": "456",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "contentText",
+															"grouping": "Properties",
+															"value": "Displays the tile containing text of the feed, a sub header and numeric value.",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "945499cd-62c1-465e-b24f-849b874f9711",
+							"fieldName": "oPanel1",
+							"fieldParent": "4c37939c-e703-45a0-8e9e-7af0ae2e1056",
+							"fieldType": "sap.m.Panel",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "424ced8f-53fe-4554-e74a-4cde4377ccd3",
+									"fieldName": "oCustomTile",
+									"fieldParent": "945499cd-62c1-465e-b24f-849b874f9711",
+									"fieldType": "sap.m.CustomTile",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMargin",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.CustomTile/oCustomTile/press.script",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "083454f5-b5b3-44d5-a8ce-2f5709be5293",
+											"fieldName": "oTileContent1",
+											"fieldParent": "424ced8f-53fe-4554-e74a-4cde4377ccd3",
+											"fieldType": "sap.m.TileContent",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "frameType",
+													"grouping": "Properties",
+													"value": "TwoByOne",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "footer",
+													"grouping": "Properties",
+													"value": " Click on Custom Tile",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "7b616800-b206-4387-beb3-e067795e728a",
+													"fieldName": "oNewsContent1",
+													"fieldParent": "083454f5-b5b3-44d5-a8ce-2f5709be5293",
+													"fieldType": "sap.m.NewsContent",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "contentText",
+															"grouping": "Properties",
+															"value": "Click to get genTile content",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "21f942d1-bbe6-49d3-fed5-039daff4b664",
+							"fieldName": "oPanel2",
+							"fieldParent": "4c37939c-e703-45a0-8e9e-7af0ae2e1056",
+							"fieldType": "sap.m.Panel",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "e110fc82-5c47-416c-dcc5-b04ff520d3ce",
+									"fieldName": "oSlideTile1",
+									"fieldParent": "21f942d1-bbe6-49d3-fed5-039daff4b664",
+									"fieldType": "sap.m.SlideTile",
+									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [],
 									"data": [
 										{
-											"fieldNo": "5e53834e-9904-4430-9455-62207e7cf7c7",
-											"fieldName": "genTile1",
-											"fieldParent": "68d39eb9-c37c-4f14-ec33-062d6e1e0dc1",
+											"fieldNo": "b9a2ce57-6009-4264-d2e5-9538f29c1b5f",
+											"fieldName": "genTileSlide",
+											"fieldParent": "e110fc82-5c47-416c-dcc5-b04ff520d3ce",
 											"fieldType": "sap.m.GenericTile",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
 													"attribute": "subheader",
 													"grouping": "Properties",
-													"value": "frame Type: One By One",
+													"value": "First Tile",
 													"script": "",
 													"translation": []
 												},
 												{
 													"attribute": "styleClassMargin",
 													"grouping": "Properties",
-													"value": "sapUiSmallMargin",
+													"value": "sapUiNoMargin",
 													"script": "",
 													"translation": []
 												},
@@ -210,14 +626,22 @@
 											],
 											"data": [
 												{
-													"fieldNo": "2c19c254-3c86-4245-d903-7a2f6e2d3568",
-													"fieldName": "oTileContent",
-													"fieldParent": "5e53834e-9904-4430-9455-62207e7cf7c7",
+													"fieldNo": "a52f489d-03ec-4496-f049-8efcd8b63f2f",
+													"fieldName": "oTileContentslide1",
+													"fieldParent": "b9a2ce57-6009-4264-d2e5-9538f29c1b5f",
 													"fieldType": "sap.m.TileContent",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
+														{
+															"attribute": "frameType",
+															"grouping": "Properties",
+															"value": "OneByOne",
+															"script": "",
+															"translation": []
+														},
 														{
 															"attribute": "footer",
 															"grouping": "Properties",
@@ -228,11 +652,12 @@
 													],
 													"data": [
 														{
-															"fieldNo": "ea5ee24b-680b-4aa3-b427-d076399e4cb8",
-															"fieldName": "oNumericContent",
-															"fieldParent": "2c19c254-3c86-4245-d903-7a2f6e2d3568",
+															"fieldNo": "291e80fb-9e67-4b28-af49-63bdcb136163",
+															"fieldName": "oNumericContentslide1",
+															"fieldParent": "a52f489d-03ec-4496-f049-8efcd8b63f2f",
 															"fieldType": "sap.m.NumericContent",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
@@ -272,11 +697,12 @@
 											]
 										},
 										{
-											"fieldNo": "cabe3717-5a28-4936-989a-ac1e2eff4958",
-											"fieldName": "genTile2",
-											"fieldParent": "68d39eb9-c37c-4f14-ec33-062d6e1e0dc1",
+											"fieldNo": "4f2cabbe-1966-4b33-d2c2-2187b20ff2b9",
+											"fieldName": "genTileslide1",
+											"fieldParent": "e110fc82-5c47-416c-dcc5-b04ff520d3ce",
 											"fieldType": "sap.m.GenericTile",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
@@ -290,7 +716,7 @@
 												{
 													"attribute": "styleClassMargin",
 													"grouping": "Properties",
-													"value": "sapUiSmallMargin",
+													"value": "sapUiNoMargin",
 													"script": "",
 													"translation": []
 												},
@@ -311,11 +737,12 @@
 											],
 											"data": [
 												{
-													"fieldNo": "cc730fc5-9df8-4f2e-a638-fc9961b609c3",
-													"fieldName": "oTileContent5",
-													"fieldParent": "cabe3717-5a28-4936-989a-ac1e2eff4958",
+													"fieldNo": "4db50ce8-9953-4cca-bc1b-819861416a3c",
+													"fieldName": "oTileContentslide2",
+													"fieldParent": "4f2cabbe-1966-4b33-d2c2-2187b20ff2b9",
 													"fieldType": "sap.m.TileContent",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
@@ -336,11 +763,12 @@
 													],
 													"data": [
 														{
-															"fieldNo": "56875625-fce0-4f85-eb22-ff4df0d899cc",
-															"fieldName": "oImageContent1",
-															"fieldParent": "cc730fc5-9df8-4f2e-a638-fc9961b609c3",
+															"fieldNo": "efd09e98-f25a-46a4-a121-5acd5f362975",
+															"fieldName": "oImageContentslide2",
+															"fieldParent": "4db50ce8-9953-4cca-bc1b-819861416a3c",
 															"fieldType": "sap.m.ImageContent",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
@@ -357,11 +785,12 @@
 													]
 												},
 												{
-													"fieldNo": "875a51f8-0020-4830-b5d1-f46ace2f38c2",
-													"fieldName": "oTileContent2",
-													"fieldParent": "cabe3717-5a28-4936-989a-ac1e2eff4958",
+													"fieldNo": "27beab67-47d1-45c9-98af-beb19358fb7d",
+													"fieldName": "oTileContentslide3",
+													"fieldParent": "4f2cabbe-1966-4b33-d2c2-2187b20ff2b9",
 													"fieldType": "sap.m.TileContent",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
@@ -389,11 +818,12 @@
 													],
 													"data": [
 														{
-															"fieldNo": "02829f93-6df5-4242-9e14-673d874651f4",
-															"fieldName": "oNumericContent3",
-															"fieldParent": "875a51f8-0020-4830-b5d1-f46ace2f38c2",
+															"fieldNo": "b7ec686b-5217-410b-f664-ceff2ac98782",
+															"fieldName": "oNumericContentslide3",
+															"fieldParent": "27beab67-47d1-45c9-98af-beb19358fb7d",
 															"fieldType": "sap.m.NumericContent",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
@@ -419,11 +849,12 @@
 											]
 										},
 										{
-											"fieldNo": "c0a07d2c-5276-4d25-e97a-8fda05cf8564",
-											"fieldName": "genTile3",
-											"fieldParent": "68d39eb9-c37c-4f14-ec33-062d6e1e0dc1",
+											"fieldNo": "15a736e2-dcbe-4ac4-9f62-c6162fbdceae",
+											"fieldName": "genTileSlide2",
+											"fieldParent": "e110fc82-5c47-416c-dcc5-b04ff520d3ce",
 											"fieldType": "sap.m.GenericTile",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
@@ -437,7 +868,7 @@
 												{
 													"attribute": "styleClassMargin",
 													"grouping": "Properties",
-													"value": "sapUiSmallMargin",
+													"value": "sapUiNoMargin",
 													"script": "",
 													"translation": []
 												},
@@ -465,21 +896,23 @@
 											],
 											"data": [
 												{
-													"fieldNo": "6b42da7e-ea3f-48bf-cb81-0de6a7bdec4c",
-													"fieldName": "oTileContent3",
-													"fieldParent": "c0a07d2c-5276-4d25-e97a-8fda05cf8564",
+													"fieldNo": "63ae2cbe-8016-462f-b59c-38c28cda73f6",
+													"fieldName": "oTileContentSlide2",
+													"fieldParent": "15a736e2-dcbe-4ac4-9f62-c6162fbdceae",
 													"fieldType": "sap.m.TileContent",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [],
 													"data": [
 														{
-															"fieldNo": "00b0e2ec-57b4-46ea-c969-d0588b8f8fea",
-															"fieldName": "oNewsContent",
-															"fieldParent": "6b42da7e-ea3f-48bf-cb81-0de6a7bdec4c",
+															"fieldNo": "0fbbf197-05a3-4e07-a307-4adfcd107391",
+															"fieldName": "oNewsContentSlide",
+															"fieldParent": "63ae2cbe-8016-462f-b59c-38c28cda73f6",
 															"fieldType": "sap.m.NewsContent",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
@@ -498,11 +931,12 @@
 											]
 										},
 										{
-											"fieldNo": "cb2437cf-4e88-4417-ac73-d70148e75f9d",
-											"fieldName": "genTile4",
-											"fieldParent": "68d39eb9-c37c-4f14-ec33-062d6e1e0dc1",
+											"fieldNo": "3575fcef-bf95-451a-8d0b-07f0d82c5953",
+											"fieldName": "genTileSlide3",
+											"fieldParent": "e110fc82-5c47-416c-dcc5-b04ff520d3ce",
 											"fieldType": "sap.m.GenericTile",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
@@ -516,7 +950,7 @@
 												{
 													"attribute": "styleClassMargin",
 													"grouping": "Properties",
-													"value": "sapUiSmallMargin",
+													"value": "sapUiNoMargin",
 													"script": "",
 													"translation": []
 												},
@@ -537,11 +971,12 @@
 											],
 											"data": [
 												{
-													"fieldNo": "b537bd77-e1ac-4185-a160-d1dcbc5e4763",
-													"fieldName": "oTileContent4",
-													"fieldParent": "cb2437cf-4e88-4417-ac73-d70148e75f9d",
+													"fieldNo": "22f8b03e-2cce-475f-8221-d69ae54adcbc",
+													"fieldName": "oTileContentSlide3",
+													"fieldParent": "3575fcef-bf95-451a-8d0b-07f0d82c5953",
 													"fieldType": "sap.m.TileContent",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
@@ -562,11 +997,12 @@
 													],
 													"data": [
 														{
-															"fieldNo": "29dfe969-bd79-4699-cd09-fab19690ca77",
-															"fieldName": "oFeedContent4",
-															"fieldParent": "b537bd77-e1ac-4185-a160-d1dcbc5e4763",
+															"fieldNo": "389e00f2-b727-4b05-8abd-b42e1bd7c087",
+															"fieldName": "oFeedContentSlide3",
+															"fieldParent": "22f8b03e-2cce-475f-8221-d69ae54adcbc",
 															"fieldType": "sap.m.FeedContent",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
@@ -599,543 +1035,6 @@
 											]
 										}
 									]
-								},
-								{
-									"fieldNo": "945499cd-62c1-465e-b24f-849b874f9711",
-									"fieldName": "oPanel1",
-									"fieldParent": "4c37939c-e703-45a0-8e9e-7af0ae2e1056",
-									"fieldType": "sap.m.Panel",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [],
-									"data": [
-										{
-											"fieldNo": "424ced8f-53fe-4554-e74a-4cde4377ccd3",
-											"fieldName": "oCustomTile",
-											"fieldParent": "945499cd-62c1-465e-b24f-849b874f9711",
-											"fieldType": "sap.m.CustomTile",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "styleClassMargin",
-													"grouping": "Properties",
-													"value": "sapUiSmallMargin",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "press",
-													"grouping": "Events",
-													"value": "Anonymous Function",
-													"script": "file://event/sap.m.CustomTile/oCustomTile/press.script",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "083454f5-b5b3-44d5-a8ce-2f5709be5293",
-													"fieldName": "oTileContent1",
-													"fieldParent": "424ced8f-53fe-4554-e74a-4cde4377ccd3",
-													"fieldType": "sap.m.TileContent",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "frameType",
-															"grouping": "Properties",
-															"value": "TwoByOne",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "footer",
-															"grouping": "Properties",
-															"value": " Click on Custom Tile",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "7b616800-b206-4387-beb3-e067795e728a",
-															"fieldName": "oNewsContent1",
-															"fieldParent": "083454f5-b5b3-44d5-a8ce-2f5709be5293",
-															"fieldType": "sap.m.NewsContent",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "contentText",
-																	"grouping": "Properties",
-																	"value": "Click to get genTile content",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": []
-														}
-													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"fieldNo": "21f942d1-bbe6-49d3-fed5-039daff4b664",
-									"fieldName": "oPanel2",
-									"fieldParent": "4c37939c-e703-45a0-8e9e-7af0ae2e1056",
-									"fieldType": "sap.m.Panel",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [],
-									"data": [
-										{
-											"fieldNo": "e110fc82-5c47-416c-dcc5-b04ff520d3ce",
-											"fieldName": "oSlideTile1",
-											"fieldParent": "21f942d1-bbe6-49d3-fed5-039daff4b664",
-											"fieldType": "sap.m.SlideTile",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [],
-											"data": [
-												{
-													"fieldNo": "b9a2ce57-6009-4264-d2e5-9538f29c1b5f",
-													"fieldName": "genTileSlide",
-													"fieldParent": "e110fc82-5c47-416c-dcc5-b04ff520d3ce",
-													"fieldType": "sap.m.GenericTile",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "subheader",
-															"grouping": "Properties",
-															"value": "First Tile",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "styleClassMargin",
-															"grouping": "Properties",
-															"value": "sapUiNoMargin",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "header",
-															"grouping": "Properties",
-															"value": "Generic Tile Header",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "a52f489d-03ec-4496-f049-8efcd8b63f2f",
-															"fieldName": "oTileContentslide1",
-															"fieldParent": "b9a2ce57-6009-4264-d2e5-9538f29c1b5f",
-															"fieldType": "sap.m.TileContent",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "frameType",
-																	"grouping": "Properties",
-																	"value": "OneByOne",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "footer",
-																	"grouping": "Properties",
-																	"value": "Numeric Content",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": [
-																{
-																	"fieldNo": "291e80fb-9e67-4b28-af49-63bdcb136163",
-																	"fieldName": "oNumericContentslide1",
-																	"fieldParent": "a52f489d-03ec-4496-f049-8efcd8b63f2f",
-																	"fieldType": "sap.m.NumericContent",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "value",
-																			"grouping": "Properties",
-																			"value": "234",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "scale",
-																			"grouping": "Properties",
-																			"value": "USD",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "indicator",
-																			"grouping": "Properties",
-																			"value": "Up",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "icon",
-																			"grouping": "Properties",
-																			"value": "sap-icon://monitor-payments",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														}
-													]
-												},
-												{
-													"fieldNo": "4f2cabbe-1966-4b33-d2c2-2187b20ff2b9",
-													"fieldName": "genTileslide1",
-													"fieldParent": "e110fc82-5c47-416c-dcc5-b04ff520d3ce",
-													"fieldType": "sap.m.GenericTile",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "subheader",
-															"grouping": "Properties",
-															"value": "frame Type: Two By One",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "styleClassMargin",
-															"grouping": "Properties",
-															"value": "sapUiNoMargin",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "header",
-															"grouping": "Properties",
-															"value": "Generic Tile Header",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "frameType",
-															"grouping": "Properties",
-															"value": "TwoByOne",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "4db50ce8-9953-4cca-bc1b-819861416a3c",
-															"fieldName": "oTileContentslide2",
-															"fieldParent": "4f2cabbe-1966-4b33-d2c2-2187b20ff2b9",
-															"fieldType": "sap.m.TileContent",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "size",
-																	"grouping": "Properties",
-																	"value": "Responsive",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "footer",
-																	"grouping": "Properties",
-																	"value": "Image Content",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": [
-																{
-																	"fieldNo": "efd09e98-f25a-46a4-a121-5acd5f362975",
-																	"fieldName": "oImageContentslide2",
-																	"fieldParent": "4db50ce8-9953-4cca-bc1b-819861416a3c",
-																	"fieldType": "sap.m.ImageContent",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "src",
-																			"grouping": "Properties",
-																			"value": "https://planet9test.neptune-software.com:8081/media/root/WorkshopHH/wifi.png",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														},
-														{
-															"fieldNo": "27beab67-47d1-45c9-98af-beb19358fb7d",
-															"fieldName": "oTileContentslide3",
-															"fieldParent": "4f2cabbe-1966-4b33-d2c2-2187b20ff2b9",
-															"fieldType": "sap.m.TileContent",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "size",
-																	"grouping": "Properties",
-																	"value": "Responsive",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "footer",
-																	"grouping": "Properties",
-																	"value": "Numeric Content",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "footerColor",
-																	"grouping": "Properties",
-																	"value": "Good",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": [
-																{
-																	"fieldNo": "b7ec686b-5217-410b-f664-ceff2ac98782",
-																	"fieldName": "oNumericContentslide3",
-																	"fieldParent": "27beab67-47d1-45c9-98af-beb19358fb7d",
-																	"fieldType": "sap.m.NumericContent",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "value",
-																			"grouping": "Properties",
-																			"value": "1234",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "scale",
-																			"grouping": "Properties",
-																			"value": "EUR",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														}
-													]
-												},
-												{
-													"fieldNo": "15a736e2-dcbe-4ac4-9f62-c6162fbdceae",
-													"fieldName": "genTileSlide2",
-													"fieldParent": "e110fc82-5c47-416c-dcc5-b04ff520d3ce",
-													"fieldType": "sap.m.GenericTile",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "subheader",
-															"grouping": "Properties",
-															"value": "Third Tile",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "styleClassMargin",
-															"grouping": "Properties",
-															"value": "sapUiNoMargin",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "headerImage",
-															"grouping": "Properties",
-															"value": "https://planet9test.neptune-software.com:8081/media/root/NeptuneIcon192px.png",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "header",
-															"grouping": "Properties",
-															"value": "Generic Tile Header ",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "frameType",
-															"grouping": "Properties",
-															"value": "TwoByOne",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "63ae2cbe-8016-462f-b59c-38c28cda73f6",
-															"fieldName": "oTileContentSlide2",
-															"fieldParent": "15a736e2-dcbe-4ac4-9f62-c6162fbdceae",
-															"fieldType": "sap.m.TileContent",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [],
-															"data": [
-																{
-																	"fieldNo": "0fbbf197-05a3-4e07-a307-4adfcd107391",
-																	"fieldName": "oNewsContentSlide",
-																	"fieldParent": "63ae2cbe-8016-462f-b59c-38c28cda73f6",
-																	"fieldType": "sap.m.NewsContent",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "contentText",
-																			"grouping": "Properties",
-																			"value": "This is the news content text, used for information on the tile. Using an tile header image",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														}
-													]
-												},
-												{
-													"fieldNo": "3575fcef-bf95-451a-8d0b-07f0d82c5953",
-													"fieldName": "genTileSlide3",
-													"fieldParent": "e110fc82-5c47-416c-dcc5-b04ff520d3ce",
-													"fieldType": "sap.m.GenericTile",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "subheader",
-															"grouping": "Properties",
-															"value": "frame type: Two By One",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "styleClassMargin",
-															"grouping": "Properties",
-															"value": "sapUiNoMargin",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "header",
-															"grouping": "Properties",
-															"value": "Generic Tile Header",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "frameType",
-															"grouping": "Properties",
-															"value": "TwoByOne",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "22f8b03e-2cce-475f-8221-d69ae54adcbc",
-															"fieldName": "oTileContentSlide3",
-															"fieldParent": "3575fcef-bf95-451a-8d0b-07f0d82c5953",
-															"fieldType": "sap.m.TileContent",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "footer",
-																	"grouping": "Properties",
-																	"value": "Feed Content",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "footerColor",
-																	"grouping": "Properties",
-																	"value": "Error",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": [
-																{
-																	"fieldNo": "389e00f2-b727-4b05-8abd-b42e1bd7c087",
-																	"fieldName": "oFeedContentSlide3",
-																	"fieldParent": "22f8b03e-2cce-475f-8221-d69ae54adcbc",
-																	"fieldType": "sap.m.FeedContent",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "valueColor",
-																			"grouping": "Properties",
-																			"value": "Error",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "value",
-																			"grouping": "Properties",
-																			"value": "456",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "contentText",
-																			"grouping": "Properties",
-																			"value": "Displays the tile containing text of the feed, a sub header and numeric value.",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
 								}
 							]
 						}
@@ -1152,8 +1051,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.1638",
+	"componentInterface": [],
+	"ver": "23.10.27.1435",
 	"application": "sample_tiles",
 	"title": "sap.m.GenericTile - sap.m.TileContent - sap.m.CustomTile - sap.m.SlideTile",
 	"description": "sap.m.GenericTile - sap.m.TileContent - sap.m.CustomTile - sap.m.SlideTile",
@@ -1172,12 +1071,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -1189,6 +1089,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

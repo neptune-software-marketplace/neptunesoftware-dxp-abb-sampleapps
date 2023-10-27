@@ -4,160 +4,135 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "4ac86a5a-a69f-4a00-97b0-38c224caef7b",
-			"fieldName": "oShell",
+			"fieldNo": "0cd6f815-9cc3-473f-dbfb-a83655c33aca",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "0cd6f815-9cc3-473f-dbfb-a83655c33aca",
-					"fieldName": "oApp",
-					"fieldParent": "4ac86a5a-a69f-4a00-97b0-38c224caef7b",
-					"fieldType": "sap.m.App",
+					"fieldNo": "2e1889a7-abd6-4bcf-fbe0-0d31176efeb3",
+					"fieldName": "oPage",
+					"fieldParent": "0cd6f815-9cc3-473f-dbfb-a83655c33aca",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Flex Box",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "2e1889a7-abd6-4bcf-fbe0-0d31176efeb3",
-							"fieldName": "oPage",
-							"fieldParent": "0cd6f815-9cc3-473f-dbfb-a83655c33aca",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "9d3bc5b4-0d33-462d-d88d-b5ec85360ed0",
+							"fieldName": "oSimpleForm",
+							"fieldParent": "2e1889a7-abd6-4bcf-fbe0-0d31176efeb3",
+							"fieldType": "sap.ui.layout.form.SimpleForm",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
 								{
-									"attribute": "title",
+									"attribute": "editable",
 									"grouping": "Properties",
-									"value": "Flex Box",
+									"value": "true",
 									"script": "",
 									"translation": []
 								}
 							],
 							"data": [
 								{
-									"fieldNo": "bb040943-df25-4636-ac38-b20230a413fb",
-									"fieldName": "oBarFooter",
-									"fieldParent": "2e1889a7-abd6-4bcf-fbe0-0d31176efeb3",
-									"fieldType": "sap.m.Bar",
+									"fieldNo": "258728a0-435b-43f0-e601-d34bc80daae2",
+									"fieldName": "oGenericTile",
+									"fieldParent": "9d3bc5b4-0d33-462d-d88d-b5ec85360ed0",
+									"fieldType": "sap.m.GenericTile",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"attribute": "subheader",
+											"grouping": "Properties",
+											"value": "Basic",
 											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiLargeMargin",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "header",
+											"grouping": "Properties",
+											"value": "Basic Alignment",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "oApp.to(oPageBasic);",
+											"script": "oApp.to(oPageBasic);",
 											"translation": []
 										}
 									],
 									"data": [
 										{
-											"fieldNo": "44bab734-1886-4bc7-da44-7ecaccbbdaec",
-											"fieldName": "Left",
-											"fieldParent": "bb040943-df25-4636-ac38-b20230a413fb",
-											"fieldType": "neptune.BarContent",
+											"fieldNo": "442cd62f-505e-4884-fbae-8fb251605746",
+											"fieldName": "oTileContent",
+											"fieldParent": "258728a0-435b-43f0-e601-d34bc80daae2",
+											"fieldType": "sap.m.TileContent",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
+													"attribute": "footer",
+													"grouping": "Properties",
+													"value": "FlexBox",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "footerColor",
+													"grouping": "Properties",
+													"value": "Good",
 													"script": "",
 													"translation": []
 												}
 											],
 											"data": [
 												{
-													"fieldNo": "56b8dddd-07b0-45bd-c512-2abfc2c695d7",
-													"fieldName": "oButton",
-													"fieldParent": "44bab734-1886-4bc7-da44-7ecaccbbdaec",
-													"fieldType": "sap.m.Button",
+													"fieldNo": "e745555d-2d35-40a7-bfd6-b3a290bbc40e",
+													"fieldName": "oImageContent",
+													"fieldParent": "442cd62f-505e-4884-fbae-8fb251605746",
+													"fieldType": "sap.m.ImageContent",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "type",
+															"attribute": "src",
 															"grouping": "Properties",
-															"value": "Emphasized",
+															"value": "sap-icon://message-information",
 															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Open In App Designer",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButton/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										},
-										{
-											"fieldNo": "34d30154-6492-4b65-e8e4-cf69d105c2e0",
-											"fieldName": "Right",
-											"fieldParent": "bb040943-df25-4636-ac38-b20230a413fb",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "7553c96d-8c88-4593-b726-7ecb643d916d",
-													"fieldName": "butCompact",
-													"fieldParent": "34d30154-6492-4b65-e8e4-cf69d105c2e0",
-													"fieldType": "sap.m.ToggleButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Compact",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
 															"translation": []
 														}
 													],
@@ -168,173 +143,311 @@
 									]
 								},
 								{
-									"fieldNo": "9d3bc5b4-0d33-462d-d88d-b5ec85360ed0",
-									"fieldName": "oSimpleForm",
-									"fieldParent": "2e1889a7-abd6-4bcf-fbe0-0d31176efeb3",
-									"fieldType": "sap.ui.layout.form.SimpleForm",
+									"fieldNo": "670e214e-638f-4174-f533-23ce1ae1e551",
+									"fieldName": "oGenericTile1",
+									"fieldParent": "9d3bc5b4-0d33-462d-d88d-b5ec85360ed0",
+									"fieldType": "sap.m.GenericTile",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "editable",
+											"attribute": "styleClassMargin",
 											"grouping": "Properties",
-											"value": "true",
+											"value": "sapUiLargeMargin",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "header",
+											"grouping": "Properties",
+											"value": "Direction & Order",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "oApp.to(oPageDirection);",
+											"script": "oApp.to(oPageDirection);",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "6ff72b4f-194a-48b6-ae65-9c0fb8848b6d",
+											"fieldName": "oTileContent1",
+											"fieldParent": "670e214e-638f-4174-f533-23ce1ae1e551",
+											"fieldType": "sap.m.TileContent",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "footer",
+													"grouping": "Properties",
+													"value": "Flex Box",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "d3c7046d-ceb7-4d85-8f82-652abc5cc474",
+													"fieldName": "oImageContent1",
+													"fieldParent": "6ff72b4f-194a-48b6-ae65-9c0fb8848b6d",
+													"fieldType": "sap.m.ImageContent",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "src",
+															"grouping": "Properties",
+															"value": "sap-icon://message-information",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
+					"fieldName": "oPageBasic",
+					"fieldParent": "0cd6f815-9cc3-473f-dbfb-a83655c33aca",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Flex Box- Basic Alignment",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "showNavButton",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "navButtonPress",
+							"grouping": "Events",
+							"value": "oApp.back();",
+							"script": "oApp.back();",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "236a423a-d28a-4b6b-da4a-1cc3b0465f02",
+							"fieldName": "PanelUpperLeft",
+							"fieldParent": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
+							"fieldType": "sap.m.Panel",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiNoMargin",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "headerText",
+									"grouping": "Properties",
+									"value": "Upper Left",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expanded",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expandable",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "4c77fb3e-03b2-42e5-b1ec-e57bca7a7119",
+									"fieldName": "FlexBoxUpperLeft",
+									"fieldParent": "236a423a-d28a-4b6b-da4a-1cc3b0465f02",
+									"fieldType": "sap.m.FlexBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "justifyContent",
+											"grouping": "Properties",
+											"value": "Start",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "height",
+											"grouping": "Properties",
+											"value": "200px",
 											"script": "",
 											"translation": []
 										}
 									],
 									"data": [
 										{
-											"fieldNo": "258728a0-435b-43f0-e601-d34bc80daae2",
-											"fieldName": "oGenericTile",
-											"fieldParent": "9d3bc5b4-0d33-462d-d88d-b5ec85360ed0",
-											"fieldType": "sap.m.GenericTile",
+											"fieldNo": "062c6db8-cb3f-4598-ab8d-c98c60c54d87",
+											"fieldName": "oButHome",
+											"fieldParent": "4c77fb3e-03b2-42e5-b1ec-e57bca7a7119",
+											"fieldType": "sap.m.Button",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "subheader",
+													"attribute": "text",
 													"grouping": "Properties",
-													"value": "Basic",
+													"value": "Home",
 													"script": "",
 													"translation": []
 												},
 												{
-													"attribute": "styleClassMargin",
+													"attribute": "icon",
 													"grouping": "Properties",
-													"value": "sapUiLargeMargin",
+													"value": "sap-icon://home",
 													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "header",
-													"grouping": "Properties",
-													"value": "Basic Alignment",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "press",
-													"grouping": "Events",
-													"value": "oApp.to(oPageBasic);",
-													"script": "oApp.to(oPageBasic);",
 													"translation": []
 												}
 											],
-											"data": [
-												{
-													"fieldNo": "442cd62f-505e-4884-fbae-8fb251605746",
-													"fieldName": "oTileContent",
-													"fieldParent": "258728a0-435b-43f0-e601-d34bc80daae2",
-													"fieldType": "sap.m.TileContent",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "footer",
-															"grouping": "Properties",
-															"value": "FlexBox",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "footerColor",
-															"grouping": "Properties",
-															"value": "Good",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "e745555d-2d35-40a7-bfd6-b3a290bbc40e",
-															"fieldName": "oImageContent",
-															"fieldParent": "442cd62f-505e-4884-fbae-8fb251605746",
-															"fieldType": "sap.m.ImageContent",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "src",
-																	"grouping": "Properties",
-																	"value": "sap-icon://message-information",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": []
-														}
-													]
-												}
-											]
+											"data": []
 										},
 										{
-											"fieldNo": "670e214e-638f-4174-f533-23ce1ae1e551",
-											"fieldName": "oGenericTile1",
-											"fieldParent": "9d3bc5b4-0d33-462d-d88d-b5ec85360ed0",
-											"fieldType": "sap.m.GenericTile",
+											"fieldNo": "84c4d072-de3a-4d61-b1f2-03b4ca950937",
+											"fieldName": "oButSettings",
+											"fieldParent": "4c77fb3e-03b2-42e5-b1ec-e57bca7a7119",
+											"fieldType": "sap.m.Button",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "styleClassMargin",
+													"attribute": "text",
 													"grouping": "Properties",
-													"value": "sapUiLargeMargin",
+													"value": "Settings",
 													"script": "",
 													"translation": []
 												},
 												{
-													"attribute": "header",
+													"attribute": "icon",
 													"grouping": "Properties",
-													"value": "Direction & Order",
+													"value": "sap-icon://settings",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "5ab65260-880f-448c-ace5-d41f131f3658",
+											"fieldName": "oMenuButton",
+											"fieldParent": "4c77fb3e-03b2-42e5-b1ec-e57bca7a7119",
+											"fieldType": "sap.m.MenuButton",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Example",
 													"script": "",
 													"translation": []
 												},
 												{
-													"attribute": "press",
-													"grouping": "Events",
-													"value": "oApp.to(oPageDirection);",
-													"script": "oApp.to(oPageDirection);",
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://example",
+													"script": "",
 													"translation": []
 												}
 											],
 											"data": [
 												{
-													"fieldNo": "6ff72b4f-194a-48b6-ae65-9c0fb8848b6d",
-													"fieldName": "oTileContent1",
-													"fieldParent": "670e214e-638f-4174-f533-23ce1ae1e551",
-													"fieldType": "sap.m.TileContent",
+													"fieldNo": "a8ff86b9-5f18-4904-847d-7ef4bcb1933d",
+													"fieldName": "oMenu",
+													"fieldParent": "5ab65260-880f-448c-ace5-d41f131f3658",
+													"fieldType": "sap.m.Menu",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "footer",
+															"attribute": "busyIndicatorSize",
 															"grouping": "Properties",
-															"value": "Flex Box",
+															"value": "Large",
 															"script": "",
 															"translation": []
 														}
 													],
 													"data": [
 														{
-															"fieldNo": "d3c7046d-ceb7-4d85-8f82-652abc5cc474",
-															"fieldName": "oImageContent1",
-															"fieldParent": "6ff72b4f-194a-48b6-ae65-9c0fb8848b6d",
-															"fieldType": "sap.m.ImageContent",
+															"fieldNo": "f1301666-0e53-496f-a499-970f33779d37",
+															"fieldName": "oMenuItem",
+															"fieldParent": "a8ff86b9-5f18-4904-847d-7ef4bcb1933d",
+															"fieldType": "sap.m.MenuItem",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
-																	"attribute": "src",
+																	"attribute": "text",
 																	"grouping": "Properties",
-																	"value": "sap-icon://message-information",
+																	"value": "User",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "icon",
+																	"grouping": "Properties",
+																	"value": "sap-icon://user-settings",
 																	"script": "",
 																	"translation": []
 																}
@@ -350,1917 +463,196 @@
 							]
 						},
 						{
-							"fieldNo": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
-							"fieldName": "oPageBasic",
-							"fieldParent": "0cd6f815-9cc3-473f-dbfb-a83655c33aca",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "eace6f49-a3eb-47b4-d4ef-8dea6f186881",
+							"fieldName": "PanelUpperCenter",
+							"fieldParent": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
+							"fieldType": "sap.m.Panel",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
 								{
-									"attribute": "title",
+									"attribute": "headerText",
 									"grouping": "Properties",
-									"value": "Flex Box- Basic Alignment",
+									"value": "Upper Center",
 									"script": "",
 									"translation": []
 								},
 								{
-									"attribute": "showNavButton",
+									"attribute": "expanded",
 									"grouping": "Properties",
 									"value": "true",
 									"script": "",
 									"translation": []
 								},
 								{
-									"attribute": "navButtonPress",
-									"grouping": "Events",
-									"value": "oApp.back();",
-									"script": "oApp.back();",
+									"attribute": "expandable",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
 									"translation": []
 								}
 							],
 							"data": [
 								{
-									"fieldNo": "3f57ca5a-ad99-43cd-cebc-3098088d8419",
-									"fieldName": "oBarFooter1",
-									"fieldParent": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
-									"fieldType": "sap.m.Bar",
+									"fieldNo": "640f53a1-f2db-47f6-d8dd-74aa588de090",
+									"fieldName": "oFlexBoxUpperCenter",
+									"fieldParent": "eace6f49-a3eb-47b4-d4ef-8dea6f186881",
+									"fieldType": "sap.m.FlexBox",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "justifyContent",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "height",
+											"grouping": "Properties",
+											"value": "200px",
 											"script": "",
 											"translation": []
 										}
 									],
 									"data": [
 										{
-											"fieldNo": "8b18785e-fc21-4d37-92d7-65199bb5503b",
-											"fieldName": "Right",
-											"fieldParent": "3f57ca5a-ad99-43cd-cebc-3098088d8419",
-											"fieldType": "neptune.BarContent",
+											"fieldNo": "bd1f9646-b871-4f6d-bd88-3bdb0be12ca9",
+											"fieldName": "oButHome1",
+											"fieldParent": "640f53a1-f2db-47f6-d8dd-74aa588de090",
+											"fieldType": "sap.m.Button",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Home",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://home",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "856334d9-538c-4b2c-e609-803e641f37c3",
+											"fieldName": "oButSettings1",
+											"fieldParent": "640f53a1-f2db-47f6-d8dd-74aa588de090",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Settings",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://settings",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "6c4dcb07-2a50-475e-9b5b-ce6083bf20c3",
+											"fieldName": "oMenuButton1",
+											"fieldParent": "640f53a1-f2db-47f6-d8dd-74aa588de090",
+											"fieldType": "sap.m.MenuButton",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Example",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://example",
 													"script": "",
 													"translation": []
 												}
 											],
 											"data": [
 												{
-													"fieldNo": "cb5787a2-d7aa-4a89-8f78-8fc4e46d47e8",
-													"fieldName": "butCompact1",
-													"fieldParent": "8b18785e-fc21-4d37-92d7-65199bb5503b",
-													"fieldType": "sap.m.ToggleButton",
+													"fieldNo": "82f0362d-5cea-431a-902a-d8650f264dd2",
+													"fieldName": "oMenu1",
+													"fieldParent": "6c4dcb07-2a50-475e-9b5b-ce6083bf20c3",
+													"fieldType": "sap.m.Menu",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "type",
+															"attribute": "busyIndicatorSize",
 															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Compact",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/butCompact1/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										}
-									]
-								},
-								{
-									"fieldNo": "236a423a-d28a-4b6b-da4a-1cc3b0465f02",
-									"fieldName": "PanelUpperLeft",
-									"fieldParent": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
-									"fieldType": "sap.m.Panel",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "styleClassMargin",
-											"grouping": "Properties",
-											"value": "sapUiNoMargin",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "headerText",
-											"grouping": "Properties",
-											"value": "Upper Left",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expanded",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expandable",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "4c77fb3e-03b2-42e5-b1ec-e57bca7a7119",
-											"fieldName": "FlexBoxUpperLeft",
-											"fieldParent": "236a423a-d28a-4b6b-da4a-1cc3b0465f02",
-											"fieldType": "sap.m.FlexBox",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "100%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "justifyContent",
-													"grouping": "Properties",
-													"value": "Start",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "height",
-													"grouping": "Properties",
-													"value": "200px",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "062c6db8-cb3f-4598-ab8d-c98c60c54d87",
-													"fieldName": "oButHome",
-													"fieldParent": "4c77fb3e-03b2-42e5-b1ec-e57bca7a7119",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Home",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://home",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "84c4d072-de3a-4d61-b1f2-03b4ca950937",
-													"fieldName": "oButSettings",
-													"fieldParent": "4c77fb3e-03b2-42e5-b1ec-e57bca7a7119",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Settings",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://settings",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "5ab65260-880f-448c-ace5-d41f131f3658",
-													"fieldName": "oMenuButton",
-													"fieldParent": "4c77fb3e-03b2-42e5-b1ec-e57bca7a7119",
-													"fieldType": "sap.m.MenuButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Example",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://example",
+															"value": "Large",
 															"script": "",
 															"translation": []
 														}
 													],
 													"data": [
 														{
-															"fieldNo": "a8ff86b9-5f18-4904-847d-7ef4bcb1933d",
-															"fieldName": "oMenu",
-															"fieldParent": "5ab65260-880f-448c-ace5-d41f131f3658",
-															"fieldType": "sap.m.Menu",
+															"fieldNo": "62d3e881-fa8e-406a-9eab-d5dc8916e354",
+															"fieldName": "oMenuItem1",
+															"fieldParent": "82f0362d-5cea-431a-902a-d8650f264dd2",
+															"fieldType": "sap.m.MenuItem",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
-																	"attribute": "busyIndicatorSize",
+																	"attribute": "text",
 																	"grouping": "Properties",
-																	"value": "Large",
+																	"value": "User",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "icon",
+																	"grouping": "Properties",
+																	"value": "sap-icon://user-settings",
 																	"script": "",
 																	"translation": []
 																}
 															],
-															"data": [
-																{
-																	"fieldNo": "f1301666-0e53-496f-a499-970f33779d37",
-																	"fieldName": "oMenuItem",
-																	"fieldParent": "a8ff86b9-5f18-4904-847d-7ef4bcb1933d",
-																	"fieldType": "sap.m.MenuItem",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "User",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "icon",
-																			"grouping": "Properties",
-																			"value": "sap-icon://user-settings",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"fieldNo": "eace6f49-a3eb-47b4-d4ef-8dea6f186881",
-									"fieldName": "PanelUpperCenter",
-									"fieldParent": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
-									"fieldType": "sap.m.Panel",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "headerText",
-											"grouping": "Properties",
-											"value": "Upper Center",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expanded",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expandable",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "640f53a1-f2db-47f6-d8dd-74aa588de090",
-											"fieldName": "oFlexBoxUpperCenter",
-											"fieldParent": "eace6f49-a3eb-47b4-d4ef-8dea6f186881",
-											"fieldType": "sap.m.FlexBox",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "100%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "justifyContent",
-													"grouping": "Properties",
-													"value": "Center",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "height",
-													"grouping": "Properties",
-													"value": "200px",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "bd1f9646-b871-4f6d-bd88-3bdb0be12ca9",
-													"fieldName": "oButHome1",
-													"fieldParent": "640f53a1-f2db-47f6-d8dd-74aa588de090",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Home",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://home",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "856334d9-538c-4b2c-e609-803e641f37c3",
-													"fieldName": "oButSettings1",
-													"fieldParent": "640f53a1-f2db-47f6-d8dd-74aa588de090",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Settings",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://settings",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "6c4dcb07-2a50-475e-9b5b-ce6083bf20c3",
-													"fieldName": "oMenuButton1",
-													"fieldParent": "640f53a1-f2db-47f6-d8dd-74aa588de090",
-													"fieldType": "sap.m.MenuButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Example",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://example",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "82f0362d-5cea-431a-902a-d8650f264dd2",
-															"fieldName": "oMenu1",
-															"fieldParent": "6c4dcb07-2a50-475e-9b5b-ce6083bf20c3",
-															"fieldType": "sap.m.Menu",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "busyIndicatorSize",
-																	"grouping": "Properties",
-																	"value": "Large",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": [
-																{
-																	"fieldNo": "62d3e881-fa8e-406a-9eab-d5dc8916e354",
-																	"fieldName": "oMenuItem1",
-																	"fieldParent": "82f0362d-5cea-431a-902a-d8650f264dd2",
-																	"fieldType": "sap.m.MenuItem",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "User",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "icon",
-																			"grouping": "Properties",
-																			"value": "sap-icon://user-settings",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"fieldNo": "6134f1c9-06ce-47a1-e644-40d530a46648",
-									"fieldName": "PanelUpperRight",
-									"fieldParent": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
-									"fieldType": "sap.m.Panel",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "styleClassMargin",
-											"grouping": "Properties",
-											"value": "sapUiNoMargin",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "headerText",
-											"grouping": "Properties",
-											"value": "Upper Right",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expanded",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expandable",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "b410eb25-95dd-4e8c-a111-ab12f5337a9e",
-											"fieldName": "FlexBoxUpperRight",
-											"fieldParent": "6134f1c9-06ce-47a1-e644-40d530a46648",
-											"fieldType": "sap.m.FlexBox",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "100%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "justifyContent",
-													"grouping": "Properties",
-													"value": "End",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "height",
-													"grouping": "Properties",
-													"value": "200px",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "b1863b09-bdb8-4bb2-f30a-ca11034259d5",
-													"fieldName": "oButHome2",
-													"fieldParent": "b410eb25-95dd-4e8c-a111-ab12f5337a9e",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Home",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://home",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "35344bd7-0f3d-4d1f-9806-a84f8d69c2b4",
-													"fieldName": "oButSettings2",
-													"fieldParent": "b410eb25-95dd-4e8c-a111-ab12f5337a9e",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Settings",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://settings",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "379f4f1d-0f11-40b2-a0c3-2bfc6118277d",
-													"fieldName": "oMenuButton2",
-													"fieldParent": "b410eb25-95dd-4e8c-a111-ab12f5337a9e",
-													"fieldType": "sap.m.MenuButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Example",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://example",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "ab493ede-8d33-4461-9489-e47379b7a10b",
-															"fieldName": "oMenu2",
-															"fieldParent": "379f4f1d-0f11-40b2-a0c3-2bfc6118277d",
-															"fieldType": "sap.m.Menu",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "busyIndicatorSize",
-																	"grouping": "Properties",
-																	"value": "Large",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": [
-																{
-																	"fieldNo": "2440a9d4-31ca-45b9-a29b-e6222b8a5056",
-																	"fieldName": "oMenuItem2",
-																	"fieldParent": "ab493ede-8d33-4461-9489-e47379b7a10b",
-																	"fieldType": "sap.m.MenuItem",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "User",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "icon",
-																			"grouping": "Properties",
-																			"value": "sap-icon://user-settings",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"fieldNo": "1b6a761a-666e-424a-a700-24494f0079c3",
-									"fieldName": "PanelMiddleLeft",
-									"fieldParent": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
-									"fieldType": "sap.m.Panel",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "styleClassMargin",
-											"grouping": "Properties",
-											"value": "sapUiNoMargin",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "headerText",
-											"grouping": "Properties",
-											"value": "Middle Left",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expanded",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expandable",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "f7b18c42-7d99-4e95-9bd1-9129193378d3",
-											"fieldName": "FlexBoxMiddleLeft",
-											"fieldParent": "1b6a761a-666e-424a-a700-24494f0079c3",
-											"fieldType": "sap.m.FlexBox",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "100%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "justifyContent",
-													"grouping": "Properties",
-													"value": "Start",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "height",
-													"grouping": "Properties",
-													"value": "200px",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "alignItems",
-													"grouping": "Properties",
-													"value": "Center",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "5e8343f8-a3f5-4827-ea1e-58ebdc520a4e",
-													"fieldName": "oButHome3",
-													"fieldParent": "f7b18c42-7d99-4e95-9bd1-9129193378d3",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Home",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://home",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "31424294-34fe-4086-d713-acd611fc1fbf",
-													"fieldName": "oButSettings3",
-													"fieldParent": "f7b18c42-7d99-4e95-9bd1-9129193378d3",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Settings",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://settings",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "4fbd5713-af5a-4530-84fd-461841122566",
-													"fieldName": "oMenuButton3",
-													"fieldParent": "f7b18c42-7d99-4e95-9bd1-9129193378d3",
-													"fieldType": "sap.m.MenuButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Example",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://example",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "f380a3ff-7ec9-4c4f-9a16-3a20552adb41",
-															"fieldName": "oMenu3",
-															"fieldParent": "4fbd5713-af5a-4530-84fd-461841122566",
-															"fieldType": "sap.m.Menu",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "busyIndicatorSize",
-																	"grouping": "Properties",
-																	"value": "Large",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": [
-																{
-																	"fieldNo": "5aa5dbf9-f822-49b6-e8ee-d7bf3c2ef82e",
-																	"fieldName": "oMenuItem3",
-																	"fieldParent": "f380a3ff-7ec9-4c4f-9a16-3a20552adb41",
-																	"fieldType": "sap.m.MenuItem",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "User",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "icon",
-																			"grouping": "Properties",
-																			"value": "sap-icon://user-settings",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"fieldNo": "9a2d61f9-66a7-4ed9-8ccc-6fd561092250",
-									"fieldName": "PanelMiddleCenter",
-									"fieldParent": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
-									"fieldType": "sap.m.Panel",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "headerText",
-											"grouping": "Properties",
-											"value": "Middle Center",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expanded",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expandable",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "07687928-faff-4b9c-ca98-7056607a6b67",
-											"fieldName": "oFlexBoxCenter",
-											"fieldParent": "9a2d61f9-66a7-4ed9-8ccc-6fd561092250",
-											"fieldType": "sap.m.FlexBox",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "100%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "justifyContent",
-													"grouping": "Properties",
-													"value": "Center",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "height",
-													"grouping": "Properties",
-													"value": "200px",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "alignItems",
-													"grouping": "Properties",
-													"value": "Center",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "d4213c1c-35d8-4dcf-b807-8754a82f0169",
-													"fieldName": "oButHome4",
-													"fieldParent": "07687928-faff-4b9c-ca98-7056607a6b67",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Home",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://home",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "8d2b726c-c2c3-407b-bb13-ddc0e94010f3",
-													"fieldName": "oButSettings4",
-													"fieldParent": "07687928-faff-4b9c-ca98-7056607a6b67",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Settings",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://settings",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "2acc9c6d-f79f-436c-efc0-07b140350f72",
-													"fieldName": "oMenuButton4",
-													"fieldParent": "07687928-faff-4b9c-ca98-7056607a6b67",
-													"fieldType": "sap.m.MenuButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Example",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://example",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "f65548e4-fb6f-402b-a7e2-0cbeec15381d",
-															"fieldName": "oMenu4",
-															"fieldParent": "2acc9c6d-f79f-436c-efc0-07b140350f72",
-															"fieldType": "sap.m.Menu",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "busyIndicatorSize",
-																	"grouping": "Properties",
-																	"value": "Large",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": [
-																{
-																	"fieldNo": "c0ec463f-8301-4a76-f9a4-5e5f2525e0a7",
-																	"fieldName": "oMenuItem4",
-																	"fieldParent": "f65548e4-fb6f-402b-a7e2-0cbeec15381d",
-																	"fieldType": "sap.m.MenuItem",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "User",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "icon",
-																			"grouping": "Properties",
-																			"value": "sap-icon://user-settings",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"fieldNo": "29f0ed62-86b1-4138-d6db-a7bbd475849c",
-									"fieldName": "PanelMiddleRight",
-									"fieldParent": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
-									"fieldType": "sap.m.Panel",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "headerText",
-											"grouping": "Properties",
-											"value": "Middle Right",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expanded",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expandable",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "86f4b453-9067-4e3a-d2c2-369464ebecd9",
-											"fieldName": "oFlexBoxMiddleRight",
-											"fieldParent": "29f0ed62-86b1-4138-d6db-a7bbd475849c",
-											"fieldType": "sap.m.FlexBox",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "100%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "justifyContent",
-													"grouping": "Properties",
-													"value": "End",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "height",
-													"grouping": "Properties",
-													"value": "200px",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "alignItems",
-													"grouping": "Properties",
-													"value": "Center",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "dbea81d0-37ab-4289-bfc0-0c224582f8c0",
-													"fieldName": "oButHome5",
-													"fieldParent": "86f4b453-9067-4e3a-d2c2-369464ebecd9",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Home",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://home",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "49dfb2d6-1556-4729-bc7d-2e8e4fb4a68e",
-													"fieldName": "oButSettings5",
-													"fieldParent": "86f4b453-9067-4e3a-d2c2-369464ebecd9",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Settings",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://settings",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "9ec3408d-c986-4f9e-d766-0fe9a3479d16",
-													"fieldName": "oMenuButton5",
-													"fieldParent": "86f4b453-9067-4e3a-d2c2-369464ebecd9",
-													"fieldType": "sap.m.MenuButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Example",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://example",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "f00999ca-217c-4c2c-f056-b3aee962a29c",
-															"fieldName": "oMenu5",
-															"fieldParent": "9ec3408d-c986-4f9e-d766-0fe9a3479d16",
-															"fieldType": "sap.m.Menu",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "busyIndicatorSize",
-																	"grouping": "Properties",
-																	"value": "Large",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": [
-																{
-																	"fieldNo": "c8c4375f-80b1-47bb-b657-c75ff760753e",
-																	"fieldName": "oMenuItem5",
-																	"fieldParent": "f00999ca-217c-4c2c-f056-b3aee962a29c",
-																	"fieldType": "sap.m.MenuItem",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "User",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "icon",
-																			"grouping": "Properties",
-																			"value": "sap-icon://user-settings",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"fieldNo": "7222d74f-b7b3-42d7-9254-ec31ab533a3c",
-									"fieldName": "PanelLowerLeft",
-									"fieldParent": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
-									"fieldType": "sap.m.Panel",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "styleClassMargin",
-											"grouping": "Properties",
-											"value": "sapUiNoMargin",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "headerText",
-											"grouping": "Properties",
-											"value": "Lower Left",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expanded",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expandable",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "a28aca82-6bc2-4c6f-d56a-134f0115ab33",
-											"fieldName": "FlexBoxLowerLeft",
-											"fieldParent": "7222d74f-b7b3-42d7-9254-ec31ab533a3c",
-											"fieldType": "sap.m.FlexBox",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "100%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "justifyContent",
-													"grouping": "Properties",
-													"value": "Start",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "height",
-													"grouping": "Properties",
-													"value": "200px",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "alignItems",
-													"grouping": "Properties",
-													"value": "End",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "243e790b-3cc9-45c1-fca9-a1371e6766c9",
-													"fieldName": "oButHome6",
-													"fieldParent": "a28aca82-6bc2-4c6f-d56a-134f0115ab33",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Home",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://home",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "00f90ecd-e9f2-497b-d5fd-cc0db2901955",
-													"fieldName": "oButSettings6",
-													"fieldParent": "a28aca82-6bc2-4c6f-d56a-134f0115ab33",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Settings",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://settings",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "5d52799a-ef46-4561-c46a-ec0bc226943a",
-													"fieldName": "oMenuButton6",
-													"fieldParent": "a28aca82-6bc2-4c6f-d56a-134f0115ab33",
-													"fieldType": "sap.m.MenuButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Example",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://example",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "0c2bcdc7-e97c-416a-b838-2dbe8fa9b435",
-															"fieldName": "oMenu6",
-															"fieldParent": "5d52799a-ef46-4561-c46a-ec0bc226943a",
-															"fieldType": "sap.m.Menu",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "busyIndicatorSize",
-																	"grouping": "Properties",
-																	"value": "Large",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": [
-																{
-																	"fieldNo": "87cce516-31b0-4927-d883-9771a0f371b6",
-																	"fieldName": "oMenuItem6",
-																	"fieldParent": "0c2bcdc7-e97c-416a-b838-2dbe8fa9b435",
-																	"fieldType": "sap.m.MenuItem",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "User",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "icon",
-																			"grouping": "Properties",
-																			"value": "sap-icon://user-settings",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"fieldNo": "8ef566e1-e61c-4e0b-e2c9-5562e3473b23",
-									"fieldName": "PanelLowerCenter",
-									"fieldParent": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
-									"fieldType": "sap.m.Panel",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "headerText",
-											"grouping": "Properties",
-											"value": "Lower Center",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expanded",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expandable",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "0d7bc51b-786a-4ad1-e2af-a4312c55ca21",
-											"fieldName": "oFlexBoxLowerCenter",
-											"fieldParent": "8ef566e1-e61c-4e0b-e2c9-5562e3473b23",
-											"fieldType": "sap.m.FlexBox",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "100%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "justifyContent",
-													"grouping": "Properties",
-													"value": "Center",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "height",
-													"grouping": "Properties",
-													"value": "200px",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "alignItems",
-													"grouping": "Properties",
-													"value": "End",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "cdcdcc0f-077e-4d8e-aaa9-004ea8771f88",
-													"fieldName": "oButHome7",
-													"fieldParent": "0d7bc51b-786a-4ad1-e2af-a4312c55ca21",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Home",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://home",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "dd03dd5e-1c81-45ef-d176-63e67e774c30",
-													"fieldName": "oButSettings7",
-													"fieldParent": "0d7bc51b-786a-4ad1-e2af-a4312c55ca21",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Settings",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://settings",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "f2728cf8-9b4a-40f3-a9d0-896e5ab15103",
-													"fieldName": "oMenuButton7",
-													"fieldParent": "0d7bc51b-786a-4ad1-e2af-a4312c55ca21",
-													"fieldType": "sap.m.MenuButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Example",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://example",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "e9938ad4-8c04-48b5-ca25-68ab02802211",
-															"fieldName": "oMenu7",
-															"fieldParent": "f2728cf8-9b4a-40f3-a9d0-896e5ab15103",
-															"fieldType": "sap.m.Menu",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "busyIndicatorSize",
-																	"grouping": "Properties",
-																	"value": "Large",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": [
-																{
-																	"fieldNo": "2ae7a54b-0a4d-447f-d9ac-ffd8eabe3e55",
-																	"fieldName": "oMenuItem7",
-																	"fieldParent": "e9938ad4-8c04-48b5-ca25-68ab02802211",
-																	"fieldType": "sap.m.MenuItem",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "User",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "icon",
-																			"grouping": "Properties",
-																			"value": "sap-icon://user-settings",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"fieldNo": "56e92121-5a2d-4da3-9ad7-d133266463e7",
-									"fieldName": "PanelLowerRight",
-									"fieldParent": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
-									"fieldType": "sap.m.Panel",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "styleClassMargin",
-											"grouping": "Properties",
-											"value": "sapUiNoMargin",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "headerText",
-											"grouping": "Properties",
-											"value": "Lower Right",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expanded",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expandable",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "7e3f5d0d-bb56-4aad-eaf8-84c5bea74085",
-											"fieldName": "FlexBoxLowerRight",
-											"fieldParent": "56e92121-5a2d-4da3-9ad7-d133266463e7",
-											"fieldType": "sap.m.FlexBox",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "100%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "justifyContent",
-													"grouping": "Properties",
-													"value": "End",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "height",
-													"grouping": "Properties",
-													"value": "200px",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "alignItems",
-													"grouping": "Properties",
-													"value": "End",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "5ebb5732-6f46-49da-962e-98d647fa8d8e",
-													"fieldName": "oButHome8",
-													"fieldParent": "7e3f5d0d-bb56-4aad-eaf8-84c5bea74085",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Home",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://home",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "46676a8f-879e-49c0-ae40-e806e78a8b72",
-													"fieldName": "oButSettings8",
-													"fieldParent": "7e3f5d0d-bb56-4aad-eaf8-84c5bea74085",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Settings",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://settings",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "968efde7-3dae-452d-b7df-5568bb6e2f52",
-													"fieldName": "oMenuButton8",
-													"fieldParent": "7e3f5d0d-bb56-4aad-eaf8-84c5bea74085",
-													"fieldType": "sap.m.MenuButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Example",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://example",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": [
-														{
-															"fieldNo": "a96df763-9ce4-42e4-de74-2e72e3897499",
-															"fieldName": "oMenu8",
-															"fieldParent": "968efde7-3dae-452d-b7df-5568bb6e2f52",
-															"fieldType": "sap.m.Menu",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "busyIndicatorSize",
-																	"grouping": "Properties",
-																	"value": "Large",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": [
-																{
-																	"fieldNo": "33e91810-cac9-49f1-8112-66adb7f2eb03",
-																	"fieldName": "oMenuItem8",
-																	"fieldParent": "a96df763-9ce4-42e4-de74-2e72e3897499",
-																	"fieldType": "sap.m.MenuItem",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "User",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "icon",
-																			"grouping": "Properties",
-																			"value": "sap-icon://user-settings",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
+															"data": []
 														}
 													]
 												}
@@ -2271,703 +663,2122 @@
 							]
 						},
 						{
-							"fieldNo": "68430a2c-63e5-40bd-a814-d2c3719de558",
-							"fieldName": "oPageDirection",
-							"fieldParent": "0cd6f815-9cc3-473f-dbfb-a83655c33aca",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "6134f1c9-06ce-47a1-e644-40d530a46648",
+							"fieldName": "PanelUpperRight",
+							"fieldParent": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
+							"fieldType": "sap.m.Panel",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
 								{
-									"attribute": "title",
+									"attribute": "styleClassMargin",
 									"grouping": "Properties",
-									"value": "Direction & Order",
+									"value": "sapUiNoMargin",
 									"script": "",
 									"translation": []
 								},
 								{
-									"attribute": "showNavButton",
+									"attribute": "headerText",
+									"grouping": "Properties",
+									"value": "Upper Right",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expanded",
 									"grouping": "Properties",
 									"value": "true",
 									"script": "",
 									"translation": []
 								},
 								{
-									"attribute": "navButtonPress",
-									"grouping": "Events",
-									"value": "oApp.back();",
-									"script": "oApp.back();",
+									"attribute": "expandable",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
 									"translation": []
 								}
 							],
 							"data": [
 								{
-									"fieldNo": "a4acc787-ef23-4e8a-f4b5-de3209a63030",
-									"fieldName": "oBarFooter2",
-									"fieldParent": "68430a2c-63e5-40bd-a814-d2c3719de558",
-									"fieldType": "sap.m.Bar",
+									"fieldNo": "b410eb25-95dd-4e8c-a111-ab12f5337a9e",
+									"fieldName": "FlexBoxUpperRight",
+									"fieldParent": "6134f1c9-06ce-47a1-e644-40d530a46648",
+									"fieldType": "sap.m.FlexBox",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "justifyContent",
+											"grouping": "Properties",
+											"value": "End",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "height",
+											"grouping": "Properties",
+											"value": "200px",
 											"script": "",
 											"translation": []
 										}
 									],
 									"data": [
 										{
-											"fieldNo": "1739a652-c951-409f-dd43-54f1d85a38dc",
-											"fieldName": "Right",
-											"fieldParent": "a4acc787-ef23-4e8a-f4b5-de3209a63030",
-											"fieldType": "neptune.BarContent",
+											"fieldNo": "b1863b09-bdb8-4bb2-f30a-ca11034259d5",
+											"fieldName": "oButHome2",
+											"fieldParent": "b410eb25-95dd-4e8c-a111-ab12f5337a9e",
+											"fieldType": "sap.m.Button",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Home",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://home",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "35344bd7-0f3d-4d1f-9806-a84f8d69c2b4",
+											"fieldName": "oButSettings2",
+											"fieldParent": "b410eb25-95dd-4e8c-a111-ab12f5337a9e",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Settings",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://settings",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "379f4f1d-0f11-40b2-a0c3-2bfc6118277d",
+											"fieldName": "oMenuButton2",
+											"fieldParent": "b410eb25-95dd-4e8c-a111-ab12f5337a9e",
+											"fieldType": "sap.m.MenuButton",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Example",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://example",
 													"script": "",
 													"translation": []
 												}
 											],
 											"data": [
 												{
-													"fieldNo": "3197ab93-ff14-40a9-8629-1734586bade5",
-													"fieldName": "butCompact2",
-													"fieldParent": "1739a652-c951-409f-dd43-54f1d85a38dc",
-													"fieldType": "sap.m.ToggleButton",
+													"fieldNo": "ab493ede-8d33-4461-9489-e47379b7a10b",
+													"fieldName": "oMenu2",
+													"fieldParent": "379f4f1d-0f11-40b2-a0c3-2bfc6118277d",
+													"fieldType": "sap.m.Menu",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "type",
+															"attribute": "busyIndicatorSize",
 															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Compact",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/butCompact2/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										}
-									]
-								},
-								{
-									"fieldNo": "3dcd1cc5-de84-4fae-95e6-2baedeba6c2c",
-									"fieldName": "oPanelReverseHorizontal",
-									"fieldParent": "68430a2c-63e5-40bd-a814-d2c3719de558",
-									"fieldType": "sap.m.Panel",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "headerText",
-											"grouping": "Properties",
-											"value": "Reverse,Horizontal",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expanded",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "expandable",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "42ffeb58-3453-4689-ed43-a98490cf457b",
-											"fieldName": "FlexBoxReverseHorizontal",
-											"fieldParent": "3dcd1cc5-de84-4fae-95e6-2baedeba6c2c",
-											"fieldType": "sap.m.FlexBox",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "100%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "justifyContent",
-													"grouping": "Properties",
-													"value": "Start",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "height",
-													"grouping": "Properties",
-													"value": "200px",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "direction",
-													"grouping": "Properties",
-													"value": "RowReverse",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "50728d14-4b80-47f8-bee8-262bed0a2cdf",
-													"fieldName": "oButHome9",
-													"fieldParent": "42ffeb58-3453-4689-ed43-a98490cf457b",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Home",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://home",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "4892e3c2-8907-46b1-d056-8a45d9fdd52a",
-													"fieldName": "oButSettings9",
-													"fieldParent": "42ffeb58-3453-4689-ed43-a98490cf457b",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Settings",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://settings",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "2250cd0c-1020-467a-e3b5-5c1ebeb2b99b",
-													"fieldName": "oMenuButton9",
-													"fieldParent": "42ffeb58-3453-4689-ed43-a98490cf457b",
-													"fieldType": "sap.m.MenuButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Example",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://example",
+															"value": "Large",
 															"script": "",
 															"translation": []
 														}
 													],
 													"data": [
 														{
-															"fieldNo": "06ad1838-118a-4599-f7da-8ef14a4acf1f",
-															"fieldName": "oMenu9",
-															"fieldParent": "2250cd0c-1020-467a-e3b5-5c1ebeb2b99b",
-															"fieldType": "sap.m.Menu",
+															"fieldNo": "2440a9d4-31ca-45b9-a29b-e6222b8a5056",
+															"fieldName": "oMenuItem2",
+															"fieldParent": "ab493ede-8d33-4461-9489-e47379b7a10b",
+															"fieldType": "sap.m.MenuItem",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
-																	"attribute": "busyIndicatorSize",
+																	"attribute": "text",
 																	"grouping": "Properties",
-																	"value": "Large",
+																	"value": "User",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "icon",
+																	"grouping": "Properties",
+																	"value": "sap-icon://user-settings",
 																	"script": "",
 																	"translation": []
 																}
 															],
-															"data": [
-																{
-																	"fieldNo": "4f4a5ccf-4a49-4eac-b1a6-f1dba4dae041",
-																	"fieldName": "oMenuItem9",
-																	"fieldParent": "06ad1838-118a-4599-f7da-8ef14a4acf1f",
-																	"fieldType": "sap.m.MenuItem",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "User",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "icon",
-																			"grouping": "Properties",
-																			"value": "sap-icon://user-settings",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
+															"data": []
 														}
 													]
 												}
 											]
 										}
 									]
+								}
+							]
+						},
+						{
+							"fieldNo": "1b6a761a-666e-424a-a700-24494f0079c3",
+							"fieldName": "PanelMiddleLeft",
+							"fieldParent": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
+							"fieldType": "sap.m.Panel",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiNoMargin",
+									"script": "",
+									"translation": []
 								},
 								{
-									"fieldNo": "d42f070b-34b8-4324-d8ab-f10ce88df6f3",
-									"fieldName": "oPanelTopBottom",
-									"fieldParent": "68430a2c-63e5-40bd-a814-d2c3719de558",
-									"fieldType": "sap.m.Panel",
+									"attribute": "headerText",
+									"grouping": "Properties",
+									"value": "Middle Left",
 									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expanded",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expandable",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "f7b18c42-7d99-4e95-9bd1-9129193378d3",
+									"fieldName": "FlexBoxMiddleLeft",
+									"fieldParent": "1b6a761a-666e-424a-a700-24494f0079c3",
+									"fieldType": "sap.m.FlexBox",
+									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "headerText",
+											"attribute": "width",
 											"grouping": "Properties",
-											"value": "Top to Bottom, Vertical",
+											"value": "100%",
 											"script": "",
 											"translation": []
 										},
 										{
-											"attribute": "expanded",
+											"attribute": "justifyContent",
 											"grouping": "Properties",
-											"value": "true",
+											"value": "Start",
 											"script": "",
 											"translation": []
 										},
 										{
-											"attribute": "expandable",
+											"attribute": "height",
 											"grouping": "Properties",
-											"value": "true",
+											"value": "200px",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "alignItems",
+											"grouping": "Properties",
+											"value": "Center",
 											"script": "",
 											"translation": []
 										}
 									],
 									"data": [
 										{
-											"fieldNo": "5809d692-8c1c-4564-ab89-c6352261653f",
-											"fieldName": "FlexBoxTopBottom",
-											"fieldParent": "d42f070b-34b8-4324-d8ab-f10ce88df6f3",
-											"fieldType": "sap.m.FlexBox",
+											"fieldNo": "5e8343f8-a3f5-4827-ea1e-58ebdc520a4e",
+											"fieldName": "oButHome3",
+											"fieldParent": "f7b18c42-7d99-4e95-9bd1-9129193378d3",
+											"fieldType": "sap.m.Button",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "width",
+													"attribute": "text",
 													"grouping": "Properties",
-													"value": "100%",
+													"value": "Home",
 													"script": "",
 													"translation": []
 												},
 												{
-													"attribute": "justifyContent",
+													"attribute": "icon",
 													"grouping": "Properties",
-													"value": "Start",
+													"value": "sap-icon://home",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "31424294-34fe-4086-d713-acd611fc1fbf",
+											"fieldName": "oButSettings3",
+											"fieldParent": "f7b18c42-7d99-4e95-9bd1-9129193378d3",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Settings",
 													"script": "",
 													"translation": []
 												},
 												{
-													"attribute": "height",
+													"attribute": "icon",
 													"grouping": "Properties",
-													"value": "200px",
+													"value": "sap-icon://settings",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "4fbd5713-af5a-4530-84fd-461841122566",
+											"fieldName": "oMenuButton3",
+											"fieldParent": "f7b18c42-7d99-4e95-9bd1-9129193378d3",
+											"fieldType": "sap.m.MenuButton",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Example",
 													"script": "",
 													"translation": []
 												},
 												{
-													"attribute": "direction",
+													"attribute": "icon",
 													"grouping": "Properties",
-													"value": "Column",
+													"value": "sap-icon://example",
 													"script": "",
 													"translation": []
 												}
 											],
 											"data": [
 												{
-													"fieldNo": "3784def1-d82e-4be9-e36b-bac2fb69bd6e",
-													"fieldName": "oButHome10",
-													"fieldParent": "5809d692-8c1c-4564-ab89-c6352261653f",
-													"fieldType": "sap.m.Button",
+													"fieldNo": "f380a3ff-7ec9-4c4f-9a16-3a20552adb41",
+													"fieldName": "oMenu3",
+													"fieldParent": "4fbd5713-af5a-4530-84fd-461841122566",
+													"fieldType": "sap.m.Menu",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "text",
+															"attribute": "busyIndicatorSize",
 															"grouping": "Properties",
-															"value": "Home",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://home",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "c1f3c860-40a9-4001-9172-8662467592cd",
-													"fieldName": "oButSettings10",
-													"fieldParent": "5809d692-8c1c-4564-ab89-c6352261653f",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Settings",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://settings",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "990f75a6-9b57-41b8-abd3-df1f287996cf",
-													"fieldName": "oMenuButton10",
-													"fieldParent": "5809d692-8c1c-4564-ab89-c6352261653f",
-													"fieldType": "sap.m.MenuButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Example",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://example",
+															"value": "Large",
 															"script": "",
 															"translation": []
 														}
 													],
 													"data": [
 														{
-															"fieldNo": "35a49c70-c249-476e-a27b-cc216cc86951",
-															"fieldName": "oMenu10",
-															"fieldParent": "990f75a6-9b57-41b8-abd3-df1f287996cf",
-															"fieldType": "sap.m.Menu",
+															"fieldNo": "5aa5dbf9-f822-49b6-e8ee-d7bf3c2ef82e",
+															"fieldName": "oMenuItem3",
+															"fieldParent": "f380a3ff-7ec9-4c4f-9a16-3a20552adb41",
+															"fieldType": "sap.m.MenuItem",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
-																	"attribute": "busyIndicatorSize",
+																	"attribute": "text",
 																	"grouping": "Properties",
-																	"value": "Large",
+																	"value": "User",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "icon",
+																	"grouping": "Properties",
+																	"value": "sap-icon://user-settings",
 																	"script": "",
 																	"translation": []
 																}
 															],
-															"data": [
-																{
-																	"fieldNo": "97560016-247c-45c2-8b88-c232a96b133a",
-																	"fieldName": "oMenuItem10",
-																	"fieldParent": "35a49c70-c249-476e-a27b-cc216cc86951",
-																	"fieldType": "sap.m.MenuItem",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "User",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "icon",
-																			"grouping": "Properties",
-																			"value": "sap-icon://user-settings",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
+															"data": []
 														}
 													]
 												}
 											]
 										}
 									]
+								}
+							]
+						},
+						{
+							"fieldNo": "9a2d61f9-66a7-4ed9-8ccc-6fd561092250",
+							"fieldName": "PanelMiddleCenter",
+							"fieldParent": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
+							"fieldType": "sap.m.Panel",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "headerText",
+									"grouping": "Properties",
+									"value": "Middle Center",
+									"script": "",
+									"translation": []
 								},
 								{
-									"fieldNo": "90774bc2-4090-40d4-ad04-a44b82d36c4b",
-									"fieldName": "oPanelBottomTop",
-									"fieldParent": "68430a2c-63e5-40bd-a814-d2c3719de558",
-									"fieldType": "sap.m.Panel",
+									"attribute": "expanded",
+									"grouping": "Properties",
+									"value": "true",
 									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expandable",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "07687928-faff-4b9c-ca98-7056607a6b67",
+									"fieldName": "oFlexBoxCenter",
+									"fieldParent": "9a2d61f9-66a7-4ed9-8ccc-6fd561092250",
+									"fieldType": "sap.m.FlexBox",
+									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "headerText",
+											"attribute": "width",
 											"grouping": "Properties",
-											"value": "Bottom to Top, Reverse Vertical",
+											"value": "100%",
 											"script": "",
 											"translation": []
 										},
 										{
-											"attribute": "expanded",
+											"attribute": "justifyContent",
 											"grouping": "Properties",
-											"value": "true",
+											"value": "Center",
 											"script": "",
 											"translation": []
 										},
 										{
-											"attribute": "expandable",
+											"attribute": "height",
 											"grouping": "Properties",
-											"value": "true",
+											"value": "200px",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "alignItems",
+											"grouping": "Properties",
+											"value": "Center",
 											"script": "",
 											"translation": []
 										}
 									],
 									"data": [
 										{
-											"fieldNo": "4eb678aa-62c4-421c-a934-f4b89aafa845",
-											"fieldName": "FlexBoxBottomTop",
-											"fieldParent": "90774bc2-4090-40d4-ad04-a44b82d36c4b",
-											"fieldType": "sap.m.FlexBox",
+											"fieldNo": "d4213c1c-35d8-4dcf-b807-8754a82f0169",
+											"fieldName": "oButHome4",
+											"fieldParent": "07687928-faff-4b9c-ca98-7056607a6b67",
+											"fieldType": "sap.m.Button",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "width",
+													"attribute": "text",
 													"grouping": "Properties",
-													"value": "100%",
+													"value": "Home",
 													"script": "",
 													"translation": []
 												},
 												{
-													"attribute": "justifyContent",
+													"attribute": "icon",
 													"grouping": "Properties",
-													"value": "Start",
+													"value": "sap-icon://home",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "8d2b726c-c2c3-407b-bb13-ddc0e94010f3",
+											"fieldName": "oButSettings4",
+											"fieldParent": "07687928-faff-4b9c-ca98-7056607a6b67",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Settings",
 													"script": "",
 													"translation": []
 												},
 												{
-													"attribute": "height",
+													"attribute": "icon",
 													"grouping": "Properties",
-													"value": "200px",
+													"value": "sap-icon://settings",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "2acc9c6d-f79f-436c-efc0-07b140350f72",
+											"fieldName": "oMenuButton4",
+											"fieldParent": "07687928-faff-4b9c-ca98-7056607a6b67",
+											"fieldType": "sap.m.MenuButton",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Example",
 													"script": "",
 													"translation": []
 												},
 												{
-													"attribute": "direction",
+													"attribute": "icon",
 													"grouping": "Properties",
-													"value": "ColumnReverse",
+													"value": "sap-icon://example",
 													"script": "",
 													"translation": []
 												}
 											],
 											"data": [
 												{
-													"fieldNo": "3a02b1eb-fc04-461f-bfe7-e1efa9c7c121",
-													"fieldName": "oButHome11",
-													"fieldParent": "4eb678aa-62c4-421c-a934-f4b89aafa845",
-													"fieldType": "sap.m.Button",
+													"fieldNo": "f65548e4-fb6f-402b-a7e2-0cbeec15381d",
+													"fieldName": "oMenu4",
+													"fieldParent": "2acc9c6d-f79f-436c-efc0-07b140350f72",
+													"fieldType": "sap.m.Menu",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "text",
+															"attribute": "busyIndicatorSize",
 															"grouping": "Properties",
-															"value": "Home",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://home",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "5ad24b50-515f-4daa-fdff-a6a6a22df1c0",
-													"fieldName": "oButSettings11",
-													"fieldParent": "4eb678aa-62c4-421c-a934-f4b89aafa845",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Settings",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://settings",
-															"script": "",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "4d498564-7b5a-408c-8857-b81327ae529d",
-													"fieldName": "oMenuButton11",
-													"fieldParent": "4eb678aa-62c4-421c-a934-f4b89aafa845",
-													"fieldType": "sap.m.MenuButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Example",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://example",
+															"value": "Large",
 															"script": "",
 															"translation": []
 														}
 													],
 													"data": [
 														{
-															"fieldNo": "487f9ec3-5f61-4898-b2df-0f2c679a6ada",
-															"fieldName": "oMenu11",
-															"fieldParent": "4d498564-7b5a-408c-8857-b81327ae529d",
-															"fieldType": "sap.m.Menu",
+															"fieldNo": "c0ec463f-8301-4a76-f9a4-5e5f2525e0a7",
+															"fieldName": "oMenuItem4",
+															"fieldParent": "f65548e4-fb6f-402b-a7e2-0cbeec15381d",
+															"fieldType": "sap.m.MenuItem",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
-																	"attribute": "busyIndicatorSize",
+																	"attribute": "text",
 																	"grouping": "Properties",
-																	"value": "Large",
+																	"value": "User",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "icon",
+																	"grouping": "Properties",
+																	"value": "sap-icon://user-settings",
 																	"script": "",
 																	"translation": []
 																}
 															],
-															"data": [
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "29f0ed62-86b1-4138-d6db-a7bbd475849c",
+							"fieldName": "PanelMiddleRight",
+							"fieldParent": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
+							"fieldType": "sap.m.Panel",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "headerText",
+									"grouping": "Properties",
+									"value": "Middle Right",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expanded",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expandable",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "86f4b453-9067-4e3a-d2c2-369464ebecd9",
+									"fieldName": "oFlexBoxMiddleRight",
+									"fieldParent": "29f0ed62-86b1-4138-d6db-a7bbd475849c",
+									"fieldType": "sap.m.FlexBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "justifyContent",
+											"grouping": "Properties",
+											"value": "End",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "height",
+											"grouping": "Properties",
+											"value": "200px",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "alignItems",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "dbea81d0-37ab-4289-bfc0-0c224582f8c0",
+											"fieldName": "oButHome5",
+											"fieldParent": "86f4b453-9067-4e3a-d2c2-369464ebecd9",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Home",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://home",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "49dfb2d6-1556-4729-bc7d-2e8e4fb4a68e",
+											"fieldName": "oButSettings5",
+											"fieldParent": "86f4b453-9067-4e3a-d2c2-369464ebecd9",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Settings",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://settings",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "9ec3408d-c986-4f9e-d766-0fe9a3479d16",
+											"fieldName": "oMenuButton5",
+											"fieldParent": "86f4b453-9067-4e3a-d2c2-369464ebecd9",
+											"fieldType": "sap.m.MenuButton",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Example",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://example",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "f00999ca-217c-4c2c-f056-b3aee962a29c",
+													"fieldName": "oMenu5",
+													"fieldParent": "9ec3408d-c986-4f9e-d766-0fe9a3479d16",
+													"fieldType": "sap.m.Menu",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "busyIndicatorSize",
+															"grouping": "Properties",
+															"value": "Large",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "c8c4375f-80b1-47bb-b657-c75ff760753e",
+															"fieldName": "oMenuItem5",
+															"fieldParent": "f00999ca-217c-4c2c-f056-b3aee962a29c",
+															"fieldType": "sap.m.MenuItem",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
 																{
-																	"fieldNo": "8b6f55d6-b724-4d8d-b056-49b3e66105b5",
-																	"fieldName": "oMenuItem11",
-																	"fieldParent": "487f9ec3-5f61-4898-b2df-0f2c679a6ada",
-																	"fieldType": "sap.m.MenuItem",
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "User",
 																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "User",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "icon",
-																			"grouping": "Properties",
-																			"value": "sap-icon://user-settings",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
+																	"translation": []
+																},
+																{
+																	"attribute": "icon",
+																	"grouping": "Properties",
+																	"value": "sap-icon://user-settings",
+																	"script": "",
+																	"translation": []
 																}
-															]
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "7222d74f-b7b3-42d7-9254-ec31ab533a3c",
+							"fieldName": "PanelLowerLeft",
+							"fieldParent": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
+							"fieldType": "sap.m.Panel",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiNoMargin",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "headerText",
+									"grouping": "Properties",
+									"value": "Lower Left",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expanded",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expandable",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "a28aca82-6bc2-4c6f-d56a-134f0115ab33",
+									"fieldName": "FlexBoxLowerLeft",
+									"fieldParent": "7222d74f-b7b3-42d7-9254-ec31ab533a3c",
+									"fieldType": "sap.m.FlexBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "justifyContent",
+											"grouping": "Properties",
+											"value": "Start",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "height",
+											"grouping": "Properties",
+											"value": "200px",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "alignItems",
+											"grouping": "Properties",
+											"value": "End",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "243e790b-3cc9-45c1-fca9-a1371e6766c9",
+											"fieldName": "oButHome6",
+											"fieldParent": "a28aca82-6bc2-4c6f-d56a-134f0115ab33",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Home",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://home",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "00f90ecd-e9f2-497b-d5fd-cc0db2901955",
+											"fieldName": "oButSettings6",
+											"fieldParent": "a28aca82-6bc2-4c6f-d56a-134f0115ab33",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Settings",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://settings",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "5d52799a-ef46-4561-c46a-ec0bc226943a",
+											"fieldName": "oMenuButton6",
+											"fieldParent": "a28aca82-6bc2-4c6f-d56a-134f0115ab33",
+											"fieldType": "sap.m.MenuButton",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Example",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://example",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "0c2bcdc7-e97c-416a-b838-2dbe8fa9b435",
+													"fieldName": "oMenu6",
+													"fieldParent": "5d52799a-ef46-4561-c46a-ec0bc226943a",
+													"fieldType": "sap.m.Menu",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "busyIndicatorSize",
+															"grouping": "Properties",
+															"value": "Large",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "87cce516-31b0-4927-d883-9771a0f371b6",
+															"fieldName": "oMenuItem6",
+															"fieldParent": "0c2bcdc7-e97c-416a-b838-2dbe8fa9b435",
+															"fieldType": "sap.m.MenuItem",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "User",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "icon",
+																	"grouping": "Properties",
+																	"value": "sap-icon://user-settings",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "8ef566e1-e61c-4e0b-e2c9-5562e3473b23",
+							"fieldName": "PanelLowerCenter",
+							"fieldParent": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
+							"fieldType": "sap.m.Panel",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "headerText",
+									"grouping": "Properties",
+									"value": "Lower Center",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expanded",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expandable",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "0d7bc51b-786a-4ad1-e2af-a4312c55ca21",
+									"fieldName": "oFlexBoxLowerCenter",
+									"fieldParent": "8ef566e1-e61c-4e0b-e2c9-5562e3473b23",
+									"fieldType": "sap.m.FlexBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "justifyContent",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "height",
+											"grouping": "Properties",
+											"value": "200px",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "alignItems",
+											"grouping": "Properties",
+											"value": "End",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "cdcdcc0f-077e-4d8e-aaa9-004ea8771f88",
+											"fieldName": "oButHome7",
+											"fieldParent": "0d7bc51b-786a-4ad1-e2af-a4312c55ca21",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Home",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://home",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "dd03dd5e-1c81-45ef-d176-63e67e774c30",
+											"fieldName": "oButSettings7",
+											"fieldParent": "0d7bc51b-786a-4ad1-e2af-a4312c55ca21",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Settings",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://settings",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "f2728cf8-9b4a-40f3-a9d0-896e5ab15103",
+											"fieldName": "oMenuButton7",
+											"fieldParent": "0d7bc51b-786a-4ad1-e2af-a4312c55ca21",
+											"fieldType": "sap.m.MenuButton",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Example",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://example",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "e9938ad4-8c04-48b5-ca25-68ab02802211",
+													"fieldName": "oMenu7",
+													"fieldParent": "f2728cf8-9b4a-40f3-a9d0-896e5ab15103",
+													"fieldType": "sap.m.Menu",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "busyIndicatorSize",
+															"grouping": "Properties",
+															"value": "Large",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "2ae7a54b-0a4d-447f-d9ac-ffd8eabe3e55",
+															"fieldName": "oMenuItem7",
+															"fieldParent": "e9938ad4-8c04-48b5-ca25-68ab02802211",
+															"fieldType": "sap.m.MenuItem",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "User",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "icon",
+																	"grouping": "Properties",
+																	"value": "sap-icon://user-settings",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "56e92121-5a2d-4da3-9ad7-d133266463e7",
+							"fieldName": "PanelLowerRight",
+							"fieldParent": "62012698-6fcb-4430-b813-8f2d76a6bc8b",
+							"fieldType": "sap.m.Panel",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiNoMargin",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "headerText",
+									"grouping": "Properties",
+									"value": "Lower Right",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expanded",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expandable",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "7e3f5d0d-bb56-4aad-eaf8-84c5bea74085",
+									"fieldName": "FlexBoxLowerRight",
+									"fieldParent": "56e92121-5a2d-4da3-9ad7-d133266463e7",
+									"fieldType": "sap.m.FlexBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "justifyContent",
+											"grouping": "Properties",
+											"value": "End",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "height",
+											"grouping": "Properties",
+											"value": "200px",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "alignItems",
+											"grouping": "Properties",
+											"value": "End",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "5ebb5732-6f46-49da-962e-98d647fa8d8e",
+											"fieldName": "oButHome8",
+											"fieldParent": "7e3f5d0d-bb56-4aad-eaf8-84c5bea74085",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Home",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://home",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "46676a8f-879e-49c0-ae40-e806e78a8b72",
+											"fieldName": "oButSettings8",
+											"fieldParent": "7e3f5d0d-bb56-4aad-eaf8-84c5bea74085",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Settings",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://settings",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "968efde7-3dae-452d-b7df-5568bb6e2f52",
+											"fieldName": "oMenuButton8",
+											"fieldParent": "7e3f5d0d-bb56-4aad-eaf8-84c5bea74085",
+											"fieldType": "sap.m.MenuButton",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Example",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://example",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "a96df763-9ce4-42e4-de74-2e72e3897499",
+													"fieldName": "oMenu8",
+													"fieldParent": "968efde7-3dae-452d-b7df-5568bb6e2f52",
+													"fieldType": "sap.m.Menu",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "busyIndicatorSize",
+															"grouping": "Properties",
+															"value": "Large",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "33e91810-cac9-49f1-8112-66adb7f2eb03",
+															"fieldName": "oMenuItem8",
+															"fieldParent": "a96df763-9ce4-42e4-de74-2e72e3897499",
+															"fieldType": "sap.m.MenuItem",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "User",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "icon",
+																	"grouping": "Properties",
+																	"value": "sap-icon://user-settings",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "68430a2c-63e5-40bd-a814-d2c3719de558",
+					"fieldName": "oPageDirection",
+					"fieldParent": "0cd6f815-9cc3-473f-dbfb-a83655c33aca",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Direction & Order",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "showNavButton",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "navButtonPress",
+							"grouping": "Events",
+							"value": "oApp.back();",
+							"script": "oApp.back();",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "3dcd1cc5-de84-4fae-95e6-2baedeba6c2c",
+							"fieldName": "oPanelReverseHorizontal",
+							"fieldParent": "68430a2c-63e5-40bd-a814-d2c3719de558",
+							"fieldType": "sap.m.Panel",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "headerText",
+									"grouping": "Properties",
+									"value": "Reverse,Horizontal",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expanded",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expandable",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "42ffeb58-3453-4689-ed43-a98490cf457b",
+									"fieldName": "FlexBoxReverseHorizontal",
+									"fieldParent": "3dcd1cc5-de84-4fae-95e6-2baedeba6c2c",
+									"fieldType": "sap.m.FlexBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "justifyContent",
+											"grouping": "Properties",
+											"value": "Start",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "height",
+											"grouping": "Properties",
+											"value": "200px",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "direction",
+											"grouping": "Properties",
+											"value": "RowReverse",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "50728d14-4b80-47f8-bee8-262bed0a2cdf",
+											"fieldName": "oButHome9",
+											"fieldParent": "42ffeb58-3453-4689-ed43-a98490cf457b",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Home",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://home",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "4892e3c2-8907-46b1-d056-8a45d9fdd52a",
+											"fieldName": "oButSettings9",
+											"fieldParent": "42ffeb58-3453-4689-ed43-a98490cf457b",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Settings",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://settings",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "2250cd0c-1020-467a-e3b5-5c1ebeb2b99b",
+											"fieldName": "oMenuButton9",
+											"fieldParent": "42ffeb58-3453-4689-ed43-a98490cf457b",
+											"fieldType": "sap.m.MenuButton",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Example",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://example",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "06ad1838-118a-4599-f7da-8ef14a4acf1f",
+													"fieldName": "oMenu9",
+													"fieldParent": "2250cd0c-1020-467a-e3b5-5c1ebeb2b99b",
+													"fieldType": "sap.m.Menu",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "busyIndicatorSize",
+															"grouping": "Properties",
+															"value": "Large",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "4f4a5ccf-4a49-4eac-b1a6-f1dba4dae041",
+															"fieldName": "oMenuItem9",
+															"fieldParent": "06ad1838-118a-4599-f7da-8ef14a4acf1f",
+															"fieldType": "sap.m.MenuItem",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "User",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "icon",
+																	"grouping": "Properties",
+																	"value": "sap-icon://user-settings",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "d42f070b-34b8-4324-d8ab-f10ce88df6f3",
+							"fieldName": "oPanelTopBottom",
+							"fieldParent": "68430a2c-63e5-40bd-a814-d2c3719de558",
+							"fieldType": "sap.m.Panel",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "headerText",
+									"grouping": "Properties",
+									"value": "Top to Bottom, Vertical",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expanded",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expandable",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "5809d692-8c1c-4564-ab89-c6352261653f",
+									"fieldName": "FlexBoxTopBottom",
+									"fieldParent": "d42f070b-34b8-4324-d8ab-f10ce88df6f3",
+									"fieldType": "sap.m.FlexBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "justifyContent",
+											"grouping": "Properties",
+											"value": "Start",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "height",
+											"grouping": "Properties",
+											"value": "200px",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "direction",
+											"grouping": "Properties",
+											"value": "Column",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "3784def1-d82e-4be9-e36b-bac2fb69bd6e",
+											"fieldName": "oButHome10",
+											"fieldParent": "5809d692-8c1c-4564-ab89-c6352261653f",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Home",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://home",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "c1f3c860-40a9-4001-9172-8662467592cd",
+											"fieldName": "oButSettings10",
+											"fieldParent": "5809d692-8c1c-4564-ab89-c6352261653f",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Settings",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://settings",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "990f75a6-9b57-41b8-abd3-df1f287996cf",
+											"fieldName": "oMenuButton10",
+											"fieldParent": "5809d692-8c1c-4564-ab89-c6352261653f",
+											"fieldType": "sap.m.MenuButton",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Example",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://example",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "35a49c70-c249-476e-a27b-cc216cc86951",
+													"fieldName": "oMenu10",
+													"fieldParent": "990f75a6-9b57-41b8-abd3-df1f287996cf",
+													"fieldType": "sap.m.Menu",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "busyIndicatorSize",
+															"grouping": "Properties",
+															"value": "Large",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "97560016-247c-45c2-8b88-c232a96b133a",
+															"fieldName": "oMenuItem10",
+															"fieldParent": "35a49c70-c249-476e-a27b-cc216cc86951",
+															"fieldType": "sap.m.MenuItem",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "User",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "icon",
+																	"grouping": "Properties",
+																	"value": "sap-icon://user-settings",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "90774bc2-4090-40d4-ad04-a44b82d36c4b",
+							"fieldName": "oPanelBottomTop",
+							"fieldParent": "68430a2c-63e5-40bd-a814-d2c3719de558",
+							"fieldType": "sap.m.Panel",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "headerText",
+									"grouping": "Properties",
+									"value": "Bottom to Top, Reverse Vertical",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expanded",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "expandable",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "4eb678aa-62c4-421c-a934-f4b89aafa845",
+									"fieldName": "FlexBoxBottomTop",
+									"fieldParent": "90774bc2-4090-40d4-ad04-a44b82d36c4b",
+									"fieldType": "sap.m.FlexBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100%",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "justifyContent",
+											"grouping": "Properties",
+											"value": "Start",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "height",
+											"grouping": "Properties",
+											"value": "200px",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "direction",
+											"grouping": "Properties",
+											"value": "ColumnReverse",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "3a02b1eb-fc04-461f-bfe7-e1efa9c7c121",
+											"fieldName": "oButHome11",
+											"fieldParent": "4eb678aa-62c4-421c-a934-f4b89aafa845",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Home",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://home",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "5ad24b50-515f-4daa-fdff-a6a6a22df1c0",
+											"fieldName": "oButSettings11",
+											"fieldParent": "4eb678aa-62c4-421c-a934-f4b89aafa845",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Settings",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://settings",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "4d498564-7b5a-408c-8857-b81327ae529d",
+											"fieldName": "oMenuButton11",
+											"fieldParent": "4eb678aa-62c4-421c-a934-f4b89aafa845",
+											"fieldType": "sap.m.MenuButton",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Example",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://example",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "487f9ec3-5f61-4898-b2df-0f2c679a6ada",
+													"fieldName": "oMenu11",
+													"fieldParent": "4d498564-7b5a-408c-8857-b81327ae529d",
+													"fieldType": "sap.m.Menu",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "busyIndicatorSize",
+															"grouping": "Properties",
+															"value": "Large",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "8b6f55d6-b724-4d8d-b056-49b3e66105b5",
+															"fieldName": "oMenuItem11",
+															"fieldParent": "487f9ec3-5f61-4898-b2df-0f2c679a6ada",
+															"fieldType": "sap.m.MenuItem",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "User",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "icon",
+																	"grouping": "Properties",
+																	"value": "sap-icon://user-settings",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
 														}
 													]
 												}
@@ -2990,8 +2801,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.1734",
+	"componentInterface": [],
+	"ver": "23.10.26.154",
 	"application": "sample_flexbox",
 	"title": "Flexbox - Generic Tile - MenuButton",
 	"description": "Flexbox - Generic Tile - MenuButton",
@@ -3010,12 +2821,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -3027,6 +2839,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

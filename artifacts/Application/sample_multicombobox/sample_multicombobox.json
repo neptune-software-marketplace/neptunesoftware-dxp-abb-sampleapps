@@ -4,423 +4,278 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "1",
-			"fieldName": "oShell",
+			"fieldNo": "2",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "2",
-					"fieldName": "oApp",
-					"fieldParent": "1",
-					"fieldType": "sap.m.App",
+					"fieldNo": "4",
+					"fieldName": "oPage",
+					"fieldParent": "2",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Multi Combo Box",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "4",
-							"fieldName": "oPage",
-							"fieldParent": "2",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "097e1879-f0ea-4b88-b725-5ebcd40cd366",
+							"fieldName": "oSimpleForm",
+							"fieldParent": "4",
+							"fieldType": "sap.ui.layout.form.SimpleForm",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
 								{
-									"attribute": "title",
+									"attribute": "editable",
 									"grouping": "Properties",
-									"value": "Multi Combo Box",
+									"value": "true",
 									"script": "",
 									"translation": []
 								}
 							],
 							"data": [
 								{
-									"fieldNo": "097e1879-f0ea-4b88-b725-5ebcd40cd366",
-									"fieldName": "oSimpleForm",
-									"fieldParent": "4",
-									"fieldType": "sap.ui.layout.form.SimpleForm",
+									"fieldNo": "271aa52b-3c9c-481d-988e-0c711516d40b",
+									"fieldName": "oVBoxForm",
+									"fieldParent": "097e1879-f0ea-4b88-b725-5ebcd40cd366",
+									"fieldType": "sap.m.VBox",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
-									"attributes": [
-										{
-											"attribute": "editable",
-											"grouping": "Properties",
-											"value": "true",
-											"script": "",
-											"translation": []
-										}
-									],
+									"attributes": [],
 									"data": [
 										{
-											"fieldNo": "271aa52b-3c9c-481d-988e-0c711516d40b",
-											"fieldName": "oVBoxForm",
-											"fieldParent": "097e1879-f0ea-4b88-b725-5ebcd40cd366",
+											"fieldNo": "d5513b6b-cfab-4d71-ead8-6a9a4bafa19f",
+											"fieldName": "oVBox",
+											"fieldParent": "271aa52b-3c9c-481d-988e-0c711516d40b",
 											"fieldType": "sap.m.VBox",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [],
 											"data": [
 												{
-													"fieldNo": "d5513b6b-cfab-4d71-ead8-6a9a4bafa19f",
-													"fieldName": "oVBox",
-													"fieldParent": "271aa52b-3c9c-481d-988e-0c711516d40b",
-													"fieldType": "sap.m.VBox",
+													"fieldNo": "85cf221a-e26b-4832-f7bd-17d04bb33030",
+													"fieldName": "oLabel",
+													"fieldParent": "d5513b6b-cfab-4d71-ead8-6a9a4bafa19f",
+													"fieldType": "sap.m.Label",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
-													"attributes": [],
-													"data": [
+													"attributes": [
 														{
-															"fieldNo": "85cf221a-e26b-4832-f7bd-17d04bb33030",
-															"fieldName": "oLabel",
-															"fieldParent": "d5513b6b-cfab-4d71-ead8-6a9a4bafa19f",
-															"fieldType": "sap.m.Label",
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Choose one or multiple options",
 															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "text",
-																	"grouping": "Properties",
-																	"value": "Choose one or multiple options",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": []
-														},
-														{
-															"fieldNo": "a46f010d-9d63-4398-9d43-793f9fc88039",
-															"fieldName": "oMultiComboBox",
-															"fieldParent": "d5513b6b-cfab-4d71-ead8-6a9a4bafa19f",
-															"fieldType": "sap.m.MultiComboBox",
-															"script": "",
-															"bindingType": "h",
-															"modelPath": "oMultiModel>/result/IT_CUSTOMER",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "placeholder",
-																	"grouping": "Properties",
-																	"value": "Select Multiple values",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "selectionFinish",
-																	"grouping": "Events",
-																	"value": "Anonymous Function",
-																	"script": "file://event/sap.m.MultiComboBox/oMultiComboBox/selectionFinish.script",
-																	"translation": []
-																},
-																{
-																	"attribute": "change",
-																	"grouping": "Events",
-																	"value": "\t",
-																	"script": "\t",
-																	"translation": []
-																},
-																{
-																	"attribute": "busy",
-																	"grouping": "Properties",
-																	"value": "false",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "required",
-																	"grouping": "Properties",
-																	"value": "false",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": [
-																{
-																	"fieldNo": "8917fb0e-fbdf-438c-a63f-8f93c3ff8cdb",
-																	"fieldName": "oListItem",
-																	"fieldParent": "a46f010d-9d63-4398-9d43-793f9fc88039",
-																	"fieldType": "sap.ui.core.ListItem",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "{oMultiModel>NAME1}",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "key",
-																			"grouping": "Properties",
-																			"value": "{oMultiModel>KUNNR}",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
+															"translation": []
 														}
-													]
+													],
+													"data": []
 												},
 												{
-													"fieldNo": "2bad9b0b-b8cd-4068-803d-e0037f8e19ef",
-													"fieldName": "oVBox1",
-													"fieldParent": "271aa52b-3c9c-481d-988e-0c711516d40b",
-													"fieldType": "sap.m.VBox",
+													"fieldNo": "a46f010d-9d63-4398-9d43-793f9fc88039",
+													"fieldName": "oMultiComboBox",
+													"fieldParent": "d5513b6b-cfab-4d71-ead8-6a9a4bafa19f",
+													"fieldType": "sap.m.MultiComboBox",
 													"script": "",
+													"customComponent": false,
+													"bindingType": "h",
+													"modelPath": "oMultiModel>/result/IT_CUSTOMER",
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "styleClassMargin",
+															"attribute": "placeholder",
 															"grouping": "Properties",
-															"value": "sapUiMediumMarginTop",
+															"value": "Select Multiple values",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "selectionFinish",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.MultiComboBox/oMultiComboBox/selectionFinish.script",
+															"translation": []
+														},
+														{
+															"attribute": "change",
+															"grouping": "Events",
+															"value": "\t",
+															"script": "\t",
+															"translation": []
+														},
+														{
+															"attribute": "busy",
+															"grouping": "Properties",
+															"value": "false",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "required",
+															"grouping": "Properties",
+															"value": "false",
 															"script": "",
 															"translation": []
 														}
 													],
 													"data": [
 														{
-															"fieldNo": "a2566778-2d65-4c98-93a8-5ffbac270f0f",
-															"fieldName": "oLabel1",
-															"fieldParent": "2bad9b0b-b8cd-4068-803d-e0037f8e19ef",
-															"fieldType": "sap.m.Label",
+															"fieldNo": "8917fb0e-fbdf-438c-a63f-8f93c3ff8cdb",
+															"fieldName": "oListItem",
+															"fieldParent": "a46f010d-9d63-4398-9d43-793f9fc88039",
+															"fieldType": "sap.ui.core.ListItem",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
 																	"attribute": "text",
 																	"grouping": "Properties",
-																	"value": "Choose multiple values ( required : true)",
+																	"value": "{oMultiModel>NAME1}",
 																	"script": "",
 																	"translation": []
 																},
 																{
-																	"attribute": "required",
+																	"attribute": "key",
 																	"grouping": "Properties",
-																	"value": "true",
+																	"value": "{oMultiModel>KUNNR}",
 																	"script": "",
 																	"translation": []
 																}
 															],
 															"data": []
-														},
-														{
-															"fieldNo": "47e001df-2e28-47db-c6aa-9f148358ffca",
-															"fieldName": "oMultiComboBox1",
-															"fieldParent": "2bad9b0b-b8cd-4068-803d-e0037f8e19ef",
-															"fieldType": "sap.m.MultiComboBox",
-															"script": "",
-															"bindingType": "h",
-															"modelPath": "oMultiModel>/result/IT_CUSTOMER",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "selectionFinish",
-																	"grouping": "Events",
-																	"value": "Anonymous Function",
-																	"script": "file://event/sap.m.MultiComboBox/oMultiComboBox1/selectionFinish.script",
-																	"translation": []
-																},
-																{
-																	"attribute": "required",
-																	"grouping": "Properties",
-																	"value": "true",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": [
-																{
-																	"fieldNo": "bb454c51-b2bd-441a-f66c-0545f8fb1225",
-																	"fieldName": "oListItem1",
-																	"fieldParent": "47e001df-2e28-47db-c6aa-9f148358ffca",
-																	"fieldType": "sap.ui.core.ListItem",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "{oMultiModel>NAME1}",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "key",
-																			"grouping": "Properties",
-																			"value": "{oMultiModel>/result/IT_CUSTOMER/KUNNR}",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
 														}
 													]
 												}
 											]
-										}
-									]
-								},
-								{
-									"fieldNo": "5",
-									"fieldName": "oFooter",
-									"fieldParent": "4",
-									"fieldType": "sap.m.Bar",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [
+										},
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"fieldNo": "2bad9b0b-b8cd-4068-803d-e0037f8e19ef",
+											"fieldName": "oVBox1",
+											"fieldParent": "271aa52b-3c9c-481d-988e-0c711516d40b",
+											"fieldType": "sap.m.VBox",
 											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "6",
-											"fieldName": "Left",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiMediumMarginTop",
 													"script": "",
 													"translation": []
 												}
 											],
 											"data": [
 												{
-													"fieldNo": "f7d42074-e3cd-4a84-9b1e-dc77ed1fa909",
-													"fieldName": "oButton",
-													"fieldParent": "6",
-													"fieldType": "sap.m.Button",
+													"fieldNo": "a2566778-2d65-4c98-93a8-5ffbac270f0f",
+													"fieldName": "oLabel1",
+													"fieldParent": "2bad9b0b-b8cd-4068-803d-e0037f8e19ef",
+													"fieldType": "sap.m.Label",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
 															"attribute": "text",
 															"grouping": "Properties",
-															"value": "Open In App Designer",
+															"value": "Choose multiple values ( required : true)",
 															"script": "",
 															"translation": []
 														},
 														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButton/press.script",
+															"attribute": "required",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
 															"translation": []
 														}
 													],
 													"data": []
-												}
-											]
-										},
-										{
-											"fieldNo": "7",
-											"fieldName": "Middle",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
+												},
 												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentMiddle",
+													"fieldNo": "47e001df-2e28-47db-c6aa-9f148358ffca",
+													"fieldName": "oMultiComboBox1",
+													"fieldParent": "2bad9b0b-b8cd-4068-803d-e0037f8e19ef",
+													"fieldType": "sap.m.MultiComboBox",
 													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "8",
-											"fieldName": "Right",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "0aa0896d-e69d-4ced-961b-f338038d02d2",
-													"fieldName": "butCompact",
-													"fieldParent": "8",
-													"fieldType": "sap.m.ToggleButton",
-													"script": "",
+													"customComponent": false,
+													"bindingType": "h",
+													"modelPath": "oMultiModel>/result/IT_CUSTOMER",
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Compact",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
+															"attribute": "selectionFinish",
 															"grouping": "Events",
 															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
+															"script": "file://event/sap.m.MultiComboBox/oMultiComboBox1/selectionFinish.script",
+															"translation": []
+														},
+														{
+															"attribute": "required",
+															"grouping": "Properties",
+															"value": "true",
+															"script": "",
 															"translation": []
 														}
 													],
-													"data": []
+													"data": [
+														{
+															"fieldNo": "bb454c51-b2bd-441a-f66c-0545f8fb1225",
+															"fieldName": "oListItem1",
+															"fieldParent": "47e001df-2e28-47db-c6aa-9f148358ffca",
+															"fieldType": "sap.ui.core.ListItem",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{oMultiModel>NAME1}",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "key",
+																	"grouping": "Properties",
+																	"value": "{oMultiModel>/result/IT_CUSTOMER/KUNNR}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
 												}
 											]
 										}
@@ -441,6 +296,7 @@
 					"fieldParent": 99999,
 					"fieldType": "neptune.model",
 					"script": "",
+					"customComponent": false,
 					"bindingValue": "SAP Local API (SDK)>getCustomerListResponse",
 					"bindingType": "h",
 					"bindingSource": "API",
@@ -457,6 +313,7 @@
 					"fieldParent": 99999,
 					"fieldType": "neptune.restapi",
 					"script": "",
+					"customComponent": false,
 					"restSource": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
 					"restOperation": "d868597a-6840-4122-f87d-3c21a1fd0eb5",
 					"request": [],
@@ -485,8 +342,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.1723",
+	"componentInterface": [],
+	"ver": "23.10.27.1145",
 	"application": "sample_multicombobox",
 	"title": "Sample sap.m.MultiComboBox",
 	"description": "sap.m.MultiComboBox",
@@ -505,12 +362,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -522,6 +380,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [
 		{
 			"id": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",

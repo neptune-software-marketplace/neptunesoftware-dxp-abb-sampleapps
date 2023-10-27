@@ -1,2 +1,0 @@
-// Toggle inset mode
-oList.setInset(this.getPressed());

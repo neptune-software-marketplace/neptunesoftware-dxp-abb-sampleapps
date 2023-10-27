@@ -4,356 +4,208 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "1",
-			"fieldName": "oShell",
+			"fieldNo": "2",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "2",
-					"fieldName": "oApp",
-					"fieldParent": "1",
-					"fieldType": "sap.m.App",
+					"fieldNo": "4",
+					"fieldName": "oPage",
+					"fieldParent": "2",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "FileUploader",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "4",
-							"fieldName": "oPage",
-							"fieldParent": "2",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "dd2c0a34-27d8-47bb-89db-bacaa112d6ec",
+							"fieldName": "oSimpleForm",
+							"fieldParent": "4",
+							"fieldType": "sap.ui.layout.form.SimpleForm",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
 								{
-									"attribute": "title",
+									"attribute": "editable",
 									"grouping": "Properties",
-									"value": "FileUploader",
+									"value": "true",
 									"script": "",
 									"translation": []
 								}
 							],
 							"data": [
 								{
-									"fieldNo": "dd2c0a34-27d8-47bb-89db-bacaa112d6ec",
-									"fieldName": "oSimpleForm",
-									"fieldParent": "4",
-									"fieldType": "sap.ui.layout.form.SimpleForm",
+									"fieldNo": "a91cef30-0700-4456-dc50-f1a3cee2e916",
+									"fieldName": "oLabel",
+									"fieldParent": "dd2c0a34-27d8-47bb-89db-bacaa112d6ec",
+									"fieldType": "sap.m.Label",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "editable",
+											"attribute": "text",
 											"grouping": "Properties",
-											"value": "true",
+											"value": "Filename",
 											"script": "",
 											"translation": []
 										}
 									],
-									"data": [
-										{
-											"fieldNo": "a91cef30-0700-4456-dc50-f1a3cee2e916",
-											"fieldName": "oLabel",
-											"fieldParent": "dd2c0a34-27d8-47bb-89db-bacaa112d6ec",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Filename",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "3fd3b7d7-11d0-424e-9b3f-50cd8a02a040",
-											"fieldName": "oFileUploader",
-											"fieldParent": "dd2c0a34-27d8-47bb-89db-bacaa112d6ec",
-											"fieldType": "sap.ui.unified.FileUploader",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [],
-											"data": []
-										},
-										{
-											"fieldNo": "b0d37807-9f67-4c80-c665-795ceb0f1122",
-											"fieldName": "oAdditionalData",
-											"fieldParent": "dd2c0a34-27d8-47bb-89db-bacaa112d6ec",
-											"fieldType": "sap.m.Input",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "placeholder",
-													"grouping": "Properties",
-													"value": "Additional Data",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "565727bc-088c-46d5-c74a-656c701a87c2",
-											"fieldName": "oButton",
-											"fieldParent": "dd2c0a34-27d8-47bb-89db-bacaa112d6ec",
-											"fieldType": "sap.m.Button",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "25%",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "type",
-													"grouping": "Properties",
-													"value": "Accept",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Upload File",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "icon",
-													"grouping": "Properties",
-													"value": "sap-icon://fa-solid/upload",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "press",
-													"grouping": "Events",
-													"value": "Anonymous Function",
-													"script": "file://event/sap.m.Button/oButton/press.script",
-													"translation": []
-												}
-											],
-											"data": []
-										}
-									]
+									"data": []
 								},
 								{
-									"fieldNo": "9d946ab8-aabe-4387-9a8c-4da3260e4c13",
-									"fieldName": "oHBox",
-									"fieldParent": "4",
-									"fieldType": "sap.m.HBox",
+									"fieldNo": "3fd3b7d7-11d0-424e-9b3f-50cd8a02a040",
+									"fieldName": "oFileUploader",
+									"fieldParent": "dd2c0a34-27d8-47bb-89db-bacaa112d6ec",
+									"fieldType": "sap.ui.unified.FileUploader",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
-									"attributes": [
-										{
-											"attribute": "justifyContent",
-											"grouping": "Properties",
-											"value": "Center",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "alignItems",
-											"grouping": "Properties",
-											"value": "Center",
-											"script": "",
-											"translation": []
-										},
-										{
-											"attribute": "alignContent",
-											"grouping": "Properties",
-											"value": "Center",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "24b39a7a-f7fb-4914-a31d-5cd179a6d7cd",
-											"fieldName": "oText",
-											"fieldParent": "9d946ab8-aabe-4387-9a8c-4da3260e4c13",
-											"fieldType": "sap.m.Text",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Set the 'UploadURL' of the oFileUploader, to a server script to process the data.\\nExample Server Script code, converting to Base64 to save in a table, can be found in this apps Resources.",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										}
-									]
+									"attributes": [],
+									"data": []
 								},
 								{
-									"fieldNo": "5",
-									"fieldName": "oFooter",
-									"fieldParent": "4",
-									"fieldType": "sap.m.Bar",
+									"fieldNo": "b0d37807-9f67-4c80-c665-795ceb0f1122",
+									"fieldName": "oAdditionalData",
+									"fieldParent": "dd2c0a34-27d8-47bb-89db-bacaa112d6ec",
+									"fieldType": "sap.m.Input",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"attribute": "placeholder",
+											"grouping": "Properties",
+											"value": "Additional Data",
 											"script": "",
 											"translation": []
 										}
 									],
-									"data": [
+									"data": []
+								},
+								{
+									"fieldNo": "565727bc-088c-46d5-c74a-656c701a87c2",
+									"fieldName": "oButton",
+									"fieldParent": "dd2c0a34-27d8-47bb-89db-bacaa112d6ec",
+									"fieldType": "sap.m.Button",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
 										{
-											"fieldNo": "6",
-											"fieldName": "Left",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "25%",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "158b61cc-c629-4ada-e60b-78d1f3e05660",
-													"fieldName": "oButOpenAD",
-													"fieldParent": "6",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Open In App designer",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButOpenAD/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
+											"translation": []
 										},
 										{
-											"fieldNo": "7",
-											"fieldName": "Middle",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
+											"attribute": "type",
+											"grouping": "Properties",
+											"value": "Accept",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentMiddle",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
+											"translation": []
 										},
 										{
-											"fieldNo": "8",
-											"fieldName": "Right",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Upload File",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "4ef81b05-8644-49ee-c662-cd4233703c03",
-													"fieldName": "oToggleButton",
-													"fieldParent": "8",
-													"fieldType": "sap.m.ToggleButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Compact",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/oToggleButton/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
+											"translation": []
+										},
+										{
+											"attribute": "icon",
+											"grouping": "Properties",
+											"value": "sap-icon://fa-solid/upload",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "",
+											"translation": []
 										}
-									]
+									],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "9d946ab8-aabe-4387-9a8c-4da3260e4c13",
+							"fieldName": "oHBox",
+							"fieldParent": "4",
+							"fieldType": "sap.m.HBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "justifyContent",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "alignItems",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "alignContent",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "24b39a7a-f7fb-4914-a31d-5cd179a6d7cd",
+									"fieldName": "oText",
+									"fieldParent": "9d946ab8-aabe-4387-9a8c-4da3260e4c13",
+									"fieldType": "sap.m.Text",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Set the 'UploadURL' of the oFileUploader, to a server script to process the data.\\nExample Server Script code, converting to Base64 to save in a table, can be found in this apps Resources.",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
 								}
 							]
 						}
@@ -369,7 +221,8 @@
 					"fieldName": "ExampleServerScriptConvertBase64",
 					"fieldParent": 99999,
 					"fieldType": "neptune.Text",
-					"script": "file://script/neptune.Text/ExampleServerScriptConvertBase64.script",
+					"script": "file://script/neptune.Text/ExampleServerScriptConvertBase64.txt",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [],
@@ -382,8 +235,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.1736",
+	"componentInterface": [],
+	"ver": "23.10.26.1458",
 	"application": "sample_fileuploader",
 	"title": "Sample sap.ui.unified.FileUploader",
 	"description": "sap.ui.unified.FileUploader",
@@ -402,12 +255,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -419,6 +273,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

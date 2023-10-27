@@ -4,249 +4,98 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "1",
-			"fieldName": "oShell",
+			"fieldNo": "2",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "2",
-					"fieldName": "oApp",
-					"fieldParent": "1",
-					"fieldType": "sap.m.App",
+					"fieldNo": "4",
+					"fieldName": "oPage",
+					"fieldParent": "2",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "HTML Object",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "4",
-							"fieldName": "oPage",
-							"fieldParent": "2",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "563046b9-407a-489b-f946-f209cdd4dc10",
+							"fieldName": "oPanel",
+							"fieldParent": "4",
+							"fieldType": "sap.m.Panel",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
 								{
-									"attribute": "title",
+									"attribute": "headerText",
 									"grouping": "Properties",
-									"value": "HTML Object",
+									"value": "HTML Content",
 									"script": "",
 									"translation": []
 								}
 							],
 							"data": [
 								{
-									"fieldNo": "563046b9-407a-489b-f946-f209cdd4dc10",
-									"fieldName": "oPanel",
-									"fieldParent": "4",
-									"fieldType": "sap.m.Panel",
+									"fieldNo": "251586ea-88da-45bc-8034-ae2c6a0bcc96",
+									"fieldName": "oHTMLObject",
+									"fieldParent": "563046b9-407a-489b-f946-f209cdd4dc10",
+									"fieldType": "sap.ui.core.HTML",
 									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "headerText",
-											"grouping": "Properties",
-											"value": "HTML Content",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "251586ea-88da-45bc-8034-ae2c6a0bcc96",
-											"fieldName": "oHTMLObject",
-											"fieldParent": "563046b9-407a-489b-f946-f209cdd4dc10",
-											"fieldType": "sap.ui.core.HTML",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [],
-											"data": []
-										}
-									]
-								},
-								{
-									"fieldNo": "5341b9f8-deb7-4670-ec96-52da22dd4803",
-									"fieldName": "oPanel1",
-									"fieldParent": "4",
-									"fieldType": "sap.m.Panel",
-									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [],
-									"data": [
-										{
-											"fieldNo": "6a491a9d-38b4-4b82-9fe1-de166c603969",
-											"fieldName": "oHTMLObject1",
-											"fieldParent": "5341b9f8-deb7-4670-ec96-52da22dd4803",
-											"fieldType": "sap.ui.core.HTML",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "sanitizeContent",
-													"grouping": "Properties",
-													"value": "true",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										}
-									]
-								},
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "5341b9f8-deb7-4670-ec96-52da22dd4803",
+							"fieldName": "oPanel1",
+							"fieldParent": "4",
+							"fieldType": "sap.m.Panel",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
 								{
-									"fieldNo": "5",
-									"fieldName": "oFooter",
-									"fieldParent": "4",
-									"fieldType": "sap.m.Bar",
+									"fieldNo": "6a491a9d-38b4-4b82-9fe1-de166c603969",
+									"fieldName": "oHTMLObject1",
+									"fieldParent": "5341b9f8-deb7-4670-ec96-52da22dd4803",
+									"fieldType": "sap.ui.core.HTML",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"attribute": "sanitizeContent",
+											"grouping": "Properties",
+											"value": "true",
 											"script": "",
 											"translation": []
 										}
 									],
-									"data": [
-										{
-											"fieldNo": "6",
-											"fieldName": "Left",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "be0265c9-2a56-4532-d1d2-91c1feaf2290",
-													"fieldName": "oButton",
-													"fieldParent": "6",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Open In App Designer",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButton/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										},
-										{
-											"fieldNo": "7",
-											"fieldName": "Middle",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentMiddle",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "8",
-											"fieldName": "Right",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "4146c63e-963d-410b-febf-c2812cf94e51",
-													"fieldName": "oToggleButton",
-													"fieldParent": "8",
-													"fieldType": "sap.m.ToggleButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Compact",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/oToggleButton/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										}
-									]
+									"data": []
 								}
 							]
 						}
@@ -262,7 +111,8 @@
 					"fieldName": "onInit",
 					"fieldParent": 99999,
 					"fieldType": "neptune.event.oninit",
-					"script": "file://script/neptune.event.oninit/onInit.script",
+					"script": "file://script/neptune.event.oninit/onInit.js",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [],
@@ -275,8 +125,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.1730",
+	"componentInterface": [],
+	"ver": "23.10.26.1545",
 	"application": "sample_htmlobject",
 	"title": "Sample sap.ui.core.HTML",
 	"description": "sap.ui.core.HTML",
@@ -295,12 +145,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -312,6 +163,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

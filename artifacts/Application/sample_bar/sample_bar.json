@@ -660,7 +660,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
+	"componentInterface": [],
 	"ver": "20.11.25.1746",
 	"application": "sample_bar",
 	"title": "Sample sap.m.Bar",
@@ -686,6 +686,7 @@
 	"ui5_url": null,
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -697,6 +698,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

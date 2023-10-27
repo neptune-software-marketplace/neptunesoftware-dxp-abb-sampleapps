@@ -4,95 +4,209 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "1",
-			"fieldName": "oShell",
+			"fieldNo": "2",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "2",
-					"fieldName": "oApp",
-					"fieldParent": "1",
-					"fieldType": "sap.m.App",
+					"fieldNo": "4",
+					"fieldName": "oPage",
+					"fieldParent": "2",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Block Layout",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "4",
-							"fieldName": "oPage",
-							"fieldParent": "2",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "53a2edbf-a81e-4008-8bcd-f652c9c202af",
+							"fieldName": "oSimpleForm1",
+							"fieldParent": "4",
+							"fieldType": "sap.ui.layout.form.SimpleForm",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
 								{
-									"attribute": "title",
+									"attribute": "editable",
 									"grouping": "Properties",
-									"value": "Block Layout",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "width",
+									"grouping": "Properties",
+									"value": "100%",
 									"script": "",
 									"translation": []
 								}
 							],
 							"data": [
 								{
-									"fieldNo": "53a2edbf-a81e-4008-8bcd-f652c9c202af",
-									"fieldName": "oSimpleForm1",
-									"fieldParent": "4",
-									"fieldType": "sap.ui.layout.form.SimpleForm",
+									"fieldNo": "2284443e-cccd-4268-d90d-8bbb10c89051",
+									"fieldName": "oLabel",
+									"fieldParent": "53a2edbf-a81e-4008-8bcd-f652c9c202af",
+									"fieldType": "sap.m.Label",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "editable",
+											"attribute": "textAlign",
 											"grouping": "Properties",
-											"value": "true",
+											"value": "Begin",
 											"script": "",
 											"translation": []
 										},
 										{
-											"attribute": "width",
+											"attribute": "text",
 											"grouping": "Properties",
-											"value": "100%",
+											"value": "Select Background",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiTinyMarginEnd",
 											"script": "",
 											"translation": []
 										}
 									],
+									"data": []
+								},
+								{
+									"fieldNo": "9da7572c-30c9-4c03-b38d-658b26502ddd",
+									"fieldName": "oSegmentedButton",
+									"fieldParent": "53a2edbf-a81e-4008-8bcd-f652c9c202af",
+									"fieldType": "sap.m.SegmentedButton",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
 									"data": [
 										{
-											"fieldNo": "2284443e-cccd-4268-d90d-8bbb10c89051",
-											"fieldName": "oLabel",
-											"fieldParent": "53a2edbf-a81e-4008-8bcd-f652c9c202af",
-											"fieldType": "sap.m.Label",
+											"fieldNo": "c01a30c0-1eee-48ed-8a5c-a61027294600",
+											"fieldName": "oSegItemAccent",
+											"fieldParent": "9da7572c-30c9-4c03-b38d-658b26502ddd",
+											"fieldType": "sap.m.SegmentedButtonItem",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "textAlign",
+													"attribute": "textDirection",
 													"grouping": "Properties",
-													"value": "Begin",
+													"value": "LTR",
 													"script": "",
 													"translation": []
 												},
 												{
 													"attribute": "text",
 													"grouping": "Properties",
-													"value": "Select Background",
+													"value": "Accent",
 													"script": "",
 													"translation": []
 												},
 												{
-													"attribute": "styleClassMargin",
+													"attribute": "key",
 													"grouping": "Properties",
-													"value": "sapUiTinyMarginEnd",
+													"value": "Accent",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.SegmentedButtonItem/oSegItemAccent/press.script",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "46d2eb4f-087a-4bb1-fcb3-88a79129f4c1",
+											"fieldName": "oSegItemDashboard",
+											"fieldParent": "9da7572c-30c9-4c03-b38d-658b26502ddd",
+											"fieldType": "sap.m.SegmentedButtonItem",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Dashboard",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "key",
+													"grouping": "Properties",
+													"value": "Dashboard",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.SegmentedButtonItem/oSegItemDashboard/press.script",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "724a24b8-4e2c-4639-b59b-fdf3b9ef1157",
+											"fieldName": "oSegItemDefault",
+											"fieldParent": "9da7572c-30c9-4c03-b38d-658b26502ddd",
+											"fieldType": "sap.m.SegmentedButtonItem",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Default",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "key",
+													"grouping": "Properties",
+													"value": "Default",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
 													"script": "",
 													"translation": []
 												}
@@ -100,182 +214,188 @@
 											"data": []
 										},
 										{
-											"fieldNo": "9da7572c-30c9-4c03-b38d-658b26502ddd",
-											"fieldName": "oSegmentedButton",
-											"fieldParent": "53a2edbf-a81e-4008-8bcd-f652c9c202af",
-											"fieldType": "sap.m.SegmentedButton",
+											"fieldNo": "2fd4cb96-3607-4c4b-f1b4-da19c0d6b5fa",
+											"fieldName": "oSegItemLight",
+											"fieldParent": "9da7572c-30c9-4c03-b38d-658b26502ddd",
+											"fieldType": "sap.m.SegmentedButtonItem",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
-											"attributes": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Light",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "key",
+													"grouping": "Properties",
+													"value": "Light",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.SegmentedButtonItem/oSegItemLight/press.script",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "f32115d8-0d41-4183-8291-747afbf507ef",
+											"fieldName": "oSegItemMixed",
+											"fieldParent": "9da7572c-30c9-4c03-b38d-658b26502ddd",
+											"fieldType": "sap.m.SegmentedButtonItem",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Mixed",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "key",
+													"grouping": "Properties",
+													"value": "Mixed",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.SegmentedButtonItem/oSegItemMixed/press.script",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "db067674-01df-4bbe-9b9f-4ab8f575e6b8",
+							"fieldName": "oBlockLayout",
+							"fieldParent": "4",
+							"fieldType": "sap.ui.layout.BlockLayout",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "14e9c5b2-6093-4da8-fdf2-35f6d81a884a",
+									"fieldName": "oBlockLayoutRow",
+									"fieldParent": "db067674-01df-4bbe-9b9f-4ab8f575e6b8",
+									"fieldType": "sap.ui.layout.BlockLayoutRow",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "0dc5231c-83a2-4a00-8944-8884b609c16d",
+											"fieldName": "oBlockLayoutCell",
+											"fieldParent": "14e9c5b2-6093-4da8-fdf2-35f6d81a884a",
+											"fieldType": "sap.ui.layout.BlockLayoutCell",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "title",
+													"grouping": "Properties",
+													"value": "Left aligned heading",
+													"script": "",
+													"translation": []
+												}
+											],
 											"data": [
 												{
-													"fieldNo": "c01a30c0-1eee-48ed-8a5c-a61027294600",
-													"fieldName": "oSegItemAccent",
-													"fieldParent": "9da7572c-30c9-4c03-b38d-658b26502ddd",
-													"fieldType": "sap.m.SegmentedButtonItem",
+													"fieldNo": "724c8067-bb13-450d-b7af-d9b623d35155",
+													"fieldName": "oText1",
+													"fieldParent": "0dc5231c-83a2-4a00-8944-8884b609c16d",
+													"fieldType": "sap.m.Text",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "textDirection",
+															"attribute": "textAlign",
 															"grouping": "Properties",
-															"value": "LTR",
+															"value": "Left",
 															"script": "",
 															"translation": []
 														},
 														{
 															"attribute": "text",
 															"grouping": "Properties",
-															"value": "Accent",
+															"value": "Neptune Software is a leading low-code, rapid app development platform that helps modernize and optimize your business processes and user interfaces, with the full benefits of an award-winning Fiori UX and universal backend integration that unifies your entire business ecosystem on any backed, any cloud and any architecture.",
 															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "key",
-															"grouping": "Properties",
-															"value": "Accent",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.SegmentedButtonItem/oSegItemAccent/press.script",
 															"translation": []
 														}
 													],
 													"data": []
-												},
+												}
+											]
+										},
+										{
+											"fieldNo": "76b30b98-bdce-49a7-bdc8-b182d6a5078a",
+											"fieldName": "oBlockLayoutCell1",
+											"fieldParent": "14e9c5b2-6093-4da8-fdf2-35f6d81a884a",
+											"fieldType": "sap.ui.layout.BlockLayoutCell",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
 												{
-													"fieldNo": "46d2eb4f-087a-4bb1-fcb3-88a79129f4c1",
-													"fieldName": "oSegItemDashboard",
-													"fieldParent": "9da7572c-30c9-4c03-b38d-658b26502ddd",
-													"fieldType": "sap.m.SegmentedButtonItem",
+													"attribute": "title",
+													"grouping": "Properties",
+													"value": "Right aligned heading",
 													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "f4685340-4399-4573-b96b-1614c84b0b18",
+													"fieldName": "oText",
+													"fieldParent": "76b30b98-bdce-49a7-bdc8-b182d6a5078a",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "text",
+															"attribute": "textAlign",
 															"grouping": "Properties",
-															"value": "Dashboard",
+															"value": "Right",
 															"script": "",
 															"translation": []
 														},
-														{
-															"attribute": "key",
-															"grouping": "Properties",
-															"value": "Dashboard",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.SegmentedButtonItem/oSegItemDashboard/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "724a24b8-4e2c-4639-b59b-fdf3b9ef1157",
-													"fieldName": "oSegItemDefault",
-													"fieldParent": "9da7572c-30c9-4c03-b38d-658b26502ddd",
-													"fieldType": "sap.m.SegmentedButtonItem",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
 														{
 															"attribute": "text",
 															"grouping": "Properties",
-															"value": "Default",
+															"value": "Neptune DX Platform is a application development platform for mobile and desktop. We support the hybrid development approach based on the Cordova framework. The apps are developed in a low-code approach based on HTML5/jQuery frameworks and then packaged into the native app format for iOS, Android, and Windows 10 with full access to device specific capabilities and interfaces.",
 															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "key",
-															"grouping": "Properties",
-															"value": "Default",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.SegmentedButtonItem/oSegItemDefault/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "2fd4cb96-3607-4c4b-f1b4-da19c0d6b5fa",
-													"fieldName": "oSegItemLight",
-													"fieldParent": "9da7572c-30c9-4c03-b38d-658b26502ddd",
-													"fieldType": "sap.m.SegmentedButtonItem",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Light",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "key",
-															"grouping": "Properties",
-															"value": "Light",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.SegmentedButtonItem/oSegItemLight/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "f32115d8-0d41-4183-8291-747afbf507ef",
-													"fieldName": "oSegItemMixed",
-													"fieldParent": "9da7572c-30c9-4c03-b38d-658b26502ddd",
-													"fieldType": "sap.m.SegmentedButtonItem",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Mixed",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "key",
-															"grouping": "Properties",
-															"value": "Mixed",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.SegmentedButtonItem/oSegItemMixed/press.script",
 															"translation": []
 														}
 													],
@@ -284,58 +404,212 @@
 											]
 										}
 									]
-								},
+								}
+							]
+						},
+						{
+							"fieldNo": "08afcaae-ca11-4e5b-d95f-05c26ba48657",
+							"fieldName": "oBlockLayout1",
+							"fieldParent": "4",
+							"fieldType": "sap.ui.layout.BlockLayout",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
 								{
-									"fieldNo": "db067674-01df-4bbe-9b9f-4ab8f575e6b8",
-									"fieldName": "oBlockLayout",
-									"fieldParent": "4",
-									"fieldType": "sap.ui.layout.BlockLayout",
+									"fieldNo": "ab178f9f-1296-4fec-c3c5-6fc376bc8b7e",
+									"fieldName": "oBlockLayoutRow1",
+									"fieldParent": "08afcaae-ca11-4e5b-d95f-05c26ba48657",
+									"fieldType": "sap.ui.layout.BlockLayoutRow",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [],
 									"data": [
 										{
-											"fieldNo": "14e9c5b2-6093-4da8-fdf2-35f6d81a884a",
-											"fieldName": "oBlockLayoutRow",
-											"fieldParent": "db067674-01df-4bbe-9b9f-4ab8f575e6b8",
-											"fieldType": "sap.ui.layout.BlockLayoutRow",
+											"fieldNo": "d3a7dbc0-b316-4972-eb99-21a0c942ef45",
+											"fieldName": "oBlockLayoutCell11",
+											"fieldParent": "ab178f9f-1296-4fec-c3c5-6fc376bc8b7e",
+											"fieldType": "sap.ui.layout.BlockLayoutCell",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
-											"attributes": [],
+											"attributes": [
+												{
+													"attribute": "title",
+													"grouping": "Properties",
+													"value": "Center aligned heading",
+													"script": "",
+													"translation": []
+												}
+											],
 											"data": [
 												{
-													"fieldNo": "0dc5231c-83a2-4a00-8944-8884b609c16d",
-													"fieldName": "oBlockLayoutCell",
-													"fieldParent": "14e9c5b2-6093-4da8-fdf2-35f6d81a884a",
-													"fieldType": "sap.ui.layout.BlockLayoutCell",
+													"fieldNo": "4faea36c-532c-4aeb-e4f5-18bfbf05208e",
+													"fieldName": "oText11",
+													"fieldParent": "d3a7dbc0-b316-4972-eb99-21a0c942ef45",
+													"fieldType": "sap.m.Text",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "title",
+															"attribute": "textAlign",
 															"grouping": "Properties",
-															"value": "Left aligned heading",
+															"value": "Center",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Neptune DX Platform has two modules;Planet 8 (a platform specifically developed on ABAP for SAP backend solutions); Planet 9 (a platform which is API driven and provides a Rapid Application Development on any backend system, any Cloud, and any Architecture).",
 															"script": "",
 															"translation": []
 														}
 													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "6f69e942-f36c-453a-9399-69a84e5ae090",
+											"fieldName": "oBlockLayoutCell12",
+											"fieldParent": "ab178f9f-1296-4fec-c3c5-6fc376bc8b7e",
+											"fieldType": "sap.ui.layout.BlockLayoutCell",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "title",
+													"grouping": "Properties",
+													"value": "Initial aligned heading",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "48e478f6-c5ce-492c-f0e2-2659dc56d92d",
+													"fieldName": "oText12",
+													"fieldParent": "6f69e942-f36c-453a-9399-69a84e5ae090",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "textAlign",
+															"grouping": "Properties",
+															"value": "Initial",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Planet9 is differentiated as it can run on premise and in the Cloud, which is unusual for RADP. It works with any back-end and has the powerful API Management capability as well as a business workflow designer to help build apps.",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "ddb7b52f-01c2-49fb-9d28-c3e1e0de5eae",
+							"fieldName": "oPanel2",
+							"fieldParent": "4",
+							"fieldType": "sap.m.Panel",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "headerText",
+									"grouping": "Properties",
+									"value": "Scrollable Block Layout Row",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "607f233a-007c-471f-e06e-8bec0f1d1502",
+									"fieldName": "oBlockLayout2",
+									"fieldParent": "ddb7b52f-01c2-49fb-9d28-c3e1e0de5eae",
+									"fieldType": "sap.ui.layout.BlockLayout",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "b6b283df-861c-46c2-d3ef-9fa95999a2c5",
+											"fieldName": "oBlockLayoutRow2",
+											"fieldParent": "607f233a-007c-471f-e06e-8bec0f1d1502",
+											"fieldType": "sap.ui.layout.BlockLayoutRow",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "scrollable",
+													"grouping": "Properties",
+													"value": "true",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "rowColorSet",
+													"grouping": "Properties",
+													"value": "ColorSet4",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "0c6381dd-8c3d-49cf-bd12-47bf46b1952f",
+													"fieldName": "oBlockLayoutCell21",
+													"fieldParent": "b6b283df-861c-46c2-d3ef-9fa95999a2c5",
+													"fieldType": "sap.ui.layout.BlockLayoutCell",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
 													"data": [
 														{
-															"fieldNo": "724c8067-bb13-450d-b7af-d9b623d35155",
-															"fieldName": "oText1",
-															"fieldParent": "0dc5231c-83a2-4a00-8944-8884b609c16d",
+															"fieldNo": "2c7d9fda-c98b-4386-8b32-67dcc4fe13fe",
+															"fieldName": "oText21",
+															"fieldParent": "0c6381dd-8c3d-49cf-bd12-47bf46b1952f",
 															"fieldType": "sap.m.Text",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
 																	"attribute": "textAlign",
 																	"grouping": "Properties",
-																	"value": "Left",
+																	"value": "Initial",
 																	"script": "",
 																	"translation": []
 																},
@@ -352,36 +626,30 @@
 													]
 												},
 												{
-													"fieldNo": "76b30b98-bdce-49a7-bdc8-b182d6a5078a",
-													"fieldName": "oBlockLayoutCell1",
-													"fieldParent": "14e9c5b2-6093-4da8-fdf2-35f6d81a884a",
+													"fieldNo": "54f7f04f-e93f-409a-e175-548d252f8ba5",
+													"fieldName": "oBlockLayoutCell22",
+													"fieldParent": "b6b283df-861c-46c2-d3ef-9fa95999a2c5",
 													"fieldType": "sap.ui.layout.BlockLayoutCell",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
-													"attributes": [
-														{
-															"attribute": "title",
-															"grouping": "Properties",
-															"value": "Right aligned heading",
-															"script": "",
-															"translation": []
-														}
-													],
+													"attributes": [],
 													"data": [
 														{
-															"fieldNo": "f4685340-4399-4573-b96b-1614c84b0b18",
-															"fieldName": "oText",
-															"fieldParent": "76b30b98-bdce-49a7-bdc8-b182d6a5078a",
+															"fieldNo": "2a720042-2ee2-4737-b587-b5dad5c924de",
+															"fieldName": "oText22",
+															"fieldParent": "54f7f04f-e93f-409a-e175-548d252f8ba5",
 															"fieldType": "sap.m.Text",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
 																	"attribute": "textAlign",
 																	"grouping": "Properties",
-																	"value": "Right",
+																	"value": "Initial",
 																	"script": "",
 																	"translation": []
 																},
@@ -396,62 +664,32 @@
 															"data": []
 														}
 													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"fieldNo": "08afcaae-ca11-4e5b-d95f-05c26ba48657",
-									"fieldName": "oBlockLayout1",
-									"fieldParent": "4",
-									"fieldType": "sap.ui.layout.BlockLayout",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [],
-									"data": [
-										{
-											"fieldNo": "ab178f9f-1296-4fec-c3c5-6fc376bc8b7e",
-											"fieldName": "oBlockLayoutRow1",
-											"fieldParent": "08afcaae-ca11-4e5b-d95f-05c26ba48657",
-											"fieldType": "sap.ui.layout.BlockLayoutRow",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [],
-											"data": [
+												},
 												{
-													"fieldNo": "d3a7dbc0-b316-4972-eb99-21a0c942ef45",
-													"fieldName": "oBlockLayoutCell11",
-													"fieldParent": "ab178f9f-1296-4fec-c3c5-6fc376bc8b7e",
+													"fieldNo": "4d2de0bb-f052-420f-ad7f-8fabe87e84fc",
+													"fieldName": "oBlockLayoutCell23",
+													"fieldParent": "b6b283df-861c-46c2-d3ef-9fa95999a2c5",
 													"fieldType": "sap.ui.layout.BlockLayoutCell",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
-													"attributes": [
-														{
-															"attribute": "title",
-															"grouping": "Properties",
-															"value": "Center aligned heading",
-															"script": "",
-															"translation": []
-														}
-													],
+													"attributes": [],
 													"data": [
 														{
-															"fieldNo": "4faea36c-532c-4aeb-e4f5-18bfbf05208e",
-															"fieldName": "oText11",
-															"fieldParent": "d3a7dbc0-b316-4972-eb99-21a0c942ef45",
+															"fieldNo": "dfeb5b1b-56ba-4ff8-fb48-870d42a1b616",
+															"fieldName": "oText23",
+															"fieldParent": "4d2de0bb-f052-420f-ad7f-8fabe87e84fc",
 															"fieldType": "sap.m.Text",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
 																	"attribute": "textAlign",
 																	"grouping": "Properties",
-																	"value": "Center",
+																	"value": "Initial",
 																	"script": "",
 																	"translation": []
 																},
@@ -468,29 +706,23 @@
 													]
 												},
 												{
-													"fieldNo": "6f69e942-f36c-453a-9399-69a84e5ae090",
-													"fieldName": "oBlockLayoutCell12",
-													"fieldParent": "ab178f9f-1296-4fec-c3c5-6fc376bc8b7e",
+													"fieldNo": "17ab9082-8538-4749-ae8a-f7ccefee47c6",
+													"fieldName": "oBlockLayoutCell24",
+													"fieldParent": "b6b283df-861c-46c2-d3ef-9fa95999a2c5",
 													"fieldType": "sap.ui.layout.BlockLayoutCell",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
-													"attributes": [
-														{
-															"attribute": "title",
-															"grouping": "Properties",
-															"value": "Initial aligned heading",
-															"script": "",
-															"translation": []
-														}
-													],
+													"attributes": [],
 													"data": [
 														{
-															"fieldNo": "48e478f6-c5ce-492c-f0e2-2659dc56d92d",
-															"fieldName": "oText12",
-															"fieldParent": "6f69e942-f36c-453a-9399-69a84e5ae090",
+															"fieldNo": "4c238c58-1545-4a99-bef6-a7e4d5bcd947",
+															"fieldName": "oText24",
+															"fieldParent": "17ab9082-8538-4749-ae8a-f7ccefee47c6",
 															"fieldType": "sap.m.Text",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
@@ -516,654 +748,310 @@
 											]
 										}
 									]
-								},
+								}
+							]
+						},
+						{
+							"fieldNo": "07ae00cf-c4a4-4ebc-b1ca-bbd61cb51210",
+							"fieldName": "oPanel",
+							"fieldParent": "4",
+							"fieldType": "sap.m.Panel",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
 								{
-									"fieldNo": "ddb7b52f-01c2-49fb-9d28-c3e1e0de5eae",
-									"fieldName": "oPanel2",
-									"fieldParent": "4",
-									"fieldType": "sap.m.Panel",
+									"attribute": "headerText",
+									"grouping": "Properties",
+									"value": "Block Layout Cell - Background color set and color shade",
 									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "aecf9c00-1dbd-4e14-f7ce-7e16f64de47c",
+									"fieldName": "oBlockLayout3",
+									"fieldParent": "07ae00cf-c4a4-4ebc-b1ca-bbd61cb51210",
+									"fieldType": "sap.ui.layout.BlockLayout",
+									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
-									"attributes": [
-										{
-											"attribute": "headerText",
-											"grouping": "Properties",
-											"value": "Scrollable Block Layout Row",
-											"script": "",
-											"translation": []
-										}
-									],
+									"attributes": [],
 									"data": [
 										{
-											"fieldNo": "607f233a-007c-471f-e06e-8bec0f1d1502",
-											"fieldName": "oBlockLayout2",
-											"fieldParent": "ddb7b52f-01c2-49fb-9d28-c3e1e0de5eae",
-											"fieldType": "sap.ui.layout.BlockLayout",
+											"fieldNo": "0331e4b1-a533-453f-9c99-57841616d57e",
+											"fieldName": "oBlockLayoutRow3",
+											"fieldParent": "aecf9c00-1dbd-4e14-f7ce-7e16f64de47c",
+											"fieldType": "sap.ui.layout.BlockLayoutRow",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [],
 											"data": [
 												{
-													"fieldNo": "b6b283df-861c-46c2-d3ef-9fa95999a2c5",
-													"fieldName": "oBlockLayoutRow2",
-													"fieldParent": "607f233a-007c-471f-e06e-8bec0f1d1502",
-													"fieldType": "sap.ui.layout.BlockLayoutRow",
+													"fieldNo": "424fcd1e-ffa2-4857-ae0e-7e90376069a9",
+													"fieldName": "oBlockLayoutCell32",
+													"fieldParent": "0331e4b1-a533-453f-9c99-57841616d57e",
+													"fieldType": "sap.ui.layout.BlockLayoutCell",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "scrollable",
+															"attribute": "title",
 															"grouping": "Properties",
-															"value": "true",
+															"value": "background color set: Color Set 2",
 															"script": "",
 															"translation": []
 														},
 														{
-															"attribute": "rowColorSet",
+															"attribute": "backgroundColorSet",
 															"grouping": "Properties",
-															"value": "ColorSet4",
+															"value": "ColorSet2",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "backgroundColorShade",
+															"grouping": "Properties",
+															"value": "ShadeA",
 															"script": "",
 															"translation": []
 														}
 													],
 													"data": [
 														{
-															"fieldNo": "0c6381dd-8c3d-49cf-bd12-47bf46b1952f",
-															"fieldName": "oBlockLayoutCell21",
-															"fieldParent": "b6b283df-861c-46c2-d3ef-9fa95999a2c5",
-															"fieldType": "sap.ui.layout.BlockLayoutCell",
+															"fieldNo": "88d6f753-0714-4076-fcf4-32b3672e3dff",
+															"fieldName": "oText32",
+															"fieldParent": "424fcd1e-ffa2-4857-ae0e-7e90376069a9",
+															"fieldType": "sap.m.Text",
 															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [],
-															"data": [
-																{
-																	"fieldNo": "2c7d9fda-c98b-4386-8b32-67dcc4fe13fe",
-																	"fieldName": "oText21",
-																	"fieldParent": "0c6381dd-8c3d-49cf-bd12-47bf46b1952f",
-																	"fieldType": "sap.m.Text",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "textAlign",
-																			"grouping": "Properties",
-																			"value": "Initial",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "Neptune Software is a leading low-code, rapid app development platform that helps modernize and optimize your business processes and user interfaces, with the full benefits of an award-winning Fiori UX and universal backend integration that unifies your entire business ecosystem on any backed, any cloud and any architecture.",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														},
-														{
-															"fieldNo": "54f7f04f-e93f-409a-e175-548d252f8ba5",
-															"fieldName": "oBlockLayoutCell22",
-															"fieldParent": "b6b283df-861c-46c2-d3ef-9fa95999a2c5",
-															"fieldType": "sap.ui.layout.BlockLayoutCell",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [],
-															"data": [
-																{
-																	"fieldNo": "2a720042-2ee2-4737-b587-b5dad5c924de",
-																	"fieldName": "oText22",
-																	"fieldParent": "54f7f04f-e93f-409a-e175-548d252f8ba5",
-																	"fieldType": "sap.m.Text",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "textAlign",
-																			"grouping": "Properties",
-																			"value": "Initial",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "Neptune DX Platform is a application development platform for mobile and desktop. We support the hybrid development approach based on the Cordova framework. The apps are developed in a low-code approach based on HTML5/jQuery frameworks and then packaged into the native app format for iOS, Android, and Windows 10 with full access to device specific capabilities and interfaces.",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														},
-														{
-															"fieldNo": "4d2de0bb-f052-420f-ad7f-8fabe87e84fc",
-															"fieldName": "oBlockLayoutCell23",
-															"fieldParent": "b6b283df-861c-46c2-d3ef-9fa95999a2c5",
-															"fieldType": "sap.ui.layout.BlockLayoutCell",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [],
-															"data": [
-																{
-																	"fieldNo": "dfeb5b1b-56ba-4ff8-fb48-870d42a1b616",
-																	"fieldName": "oText23",
-																	"fieldParent": "4d2de0bb-f052-420f-ad7f-8fabe87e84fc",
-																	"fieldType": "sap.m.Text",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "textAlign",
-																			"grouping": "Properties",
-																			"value": "Initial",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "Neptune DX Platform has two modules;Planet 8 (a platform specifically developed on ABAP for SAP backend solutions); Planet 9 (a platform which is API driven and provides a Rapid Application Development on any backend system, any Cloud, and any Architecture).",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														},
-														{
-															"fieldNo": "17ab9082-8538-4749-ae8a-f7ccefee47c6",
-															"fieldName": "oBlockLayoutCell24",
-															"fieldParent": "b6b283df-861c-46c2-d3ef-9fa95999a2c5",
-															"fieldType": "sap.ui.layout.BlockLayoutCell",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [],
-															"data": [
-																{
-																	"fieldNo": "4c238c58-1545-4a99-bef6-a7e4d5bcd947",
-																	"fieldName": "oText24",
-																	"fieldParent": "17ab9082-8538-4749-ae8a-f7ccefee47c6",
-																	"fieldType": "sap.m.Text",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "textAlign",
-																			"grouping": "Properties",
-																			"value": "Initial",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "Planet9 is differentiated as it can run on premise and in the Cloud, which is unusual for RADP. It works with any back-end and has the powerful API Management capability as well as a business workflow designer to help build apps.",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"fieldNo": "07ae00cf-c4a4-4ebc-b1ca-bbd61cb51210",
-									"fieldName": "oPanel",
-									"fieldParent": "4",
-									"fieldType": "sap.m.Panel",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "headerText",
-											"grouping": "Properties",
-											"value": "Block Layout Cell - Background color set and color shade",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "aecf9c00-1dbd-4e14-f7ce-7e16f64de47c",
-											"fieldName": "oBlockLayout3",
-											"fieldParent": "07ae00cf-c4a4-4ebc-b1ca-bbd61cb51210",
-											"fieldType": "sap.ui.layout.BlockLayout",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [],
-											"data": [
-												{
-													"fieldNo": "0331e4b1-a533-453f-9c99-57841616d57e",
-													"fieldName": "oBlockLayoutRow3",
-													"fieldParent": "aecf9c00-1dbd-4e14-f7ce-7e16f64de47c",
-													"fieldType": "sap.ui.layout.BlockLayoutRow",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [],
-													"data": [
-														{
-															"fieldNo": "424fcd1e-ffa2-4857-ae0e-7e90376069a9",
-															"fieldName": "oBlockLayoutCell32",
-															"fieldParent": "0331e4b1-a533-453f-9c99-57841616d57e",
-															"fieldType": "sap.ui.layout.BlockLayoutCell",
-															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
-																	"attribute": "title",
+																	"attribute": "textAlign",
 																	"grouping": "Properties",
-																	"value": "background color set: Color Set 2",
+																	"value": "Initial",
 																	"script": "",
 																	"translation": []
 																},
 																{
-																	"attribute": "backgroundColorSet",
+																	"attribute": "text",
 																	"grouping": "Properties",
-																	"value": "ColorSet2",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "backgroundColorShade",
-																	"grouping": "Properties",
-																	"value": "ShadeA",
+																	"value": "Planet9 is differentiated as it can run on premise and in the Cloud, which is unusual for RADP. It works with any back-end and has the powerful API Management capability as well as a business workflow designer to help build apps.",
 																	"script": "",
 																	"translation": []
 																}
 															],
-															"data": [
-																{
-																	"fieldNo": "88d6f753-0714-4076-fcf4-32b3672e3dff",
-																	"fieldName": "oText32",
-																	"fieldParent": "424fcd1e-ffa2-4857-ae0e-7e90376069a9",
-																	"fieldType": "sap.m.Text",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "textAlign",
-																			"grouping": "Properties",
-																			"value": "Initial",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "Planet9 is differentiated as it can run on premise and in the Cloud, which is unusual for RADP. It works with any back-end and has the powerful API Management capability as well as a business workflow designer to help build apps.",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														},
-														{
-															"fieldNo": "d32f9343-518f-4133-9f77-65919d3d00a4",
-															"fieldName": "oBlockLayoutCell31",
-															"fieldParent": "0331e4b1-a533-453f-9c99-57841616d57e",
-															"fieldType": "sap.ui.layout.BlockLayoutCell",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "title",
-																	"grouping": "Properties",
-																	"value": "background color set: Color Set 11",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "backgroundColorSet",
-																	"grouping": "Properties",
-																	"value": "ColorSet11",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "backgroundColorShade",
-																	"grouping": "Properties",
-																	"value": "ShadeA",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": [
-																{
-																	"fieldNo": "5bc77ab9-9b5b-4e6d-f72e-4da5c14a4329",
-																	"fieldName": "oText31",
-																	"fieldParent": "d32f9343-518f-4133-9f77-65919d3d00a4",
-																	"fieldType": "sap.m.Text",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "textAlign",
-																			"grouping": "Properties",
-																			"value": "Initial",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "Neptune DX Platform has two modules;Planet 8 (a platform specifically developed on ABAP for SAP backend solutions); Planet 9 (a platform which is API driven and provides a Rapid Application Development on any backend system, any Cloud, and any Architecture).",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
+															"data": []
 														}
 													]
 												},
 												{
-													"fieldNo": "0856eae7-771b-4694-8573-60b4d5b22eed",
-													"fieldName": "oBlockLayoutRow4",
-													"fieldParent": "aecf9c00-1dbd-4e14-f7ce-7e16f64de47c",
-													"fieldType": "sap.ui.layout.BlockLayoutRow",
+													"fieldNo": "d32f9343-518f-4133-9f77-65919d3d00a4",
+													"fieldName": "oBlockLayoutCell31",
+													"fieldParent": "0331e4b1-a533-453f-9c99-57841616d57e",
+													"fieldType": "sap.ui.layout.BlockLayoutCell",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
-													"attributes": [],
-													"data": [
+													"attributes": [
 														{
-															"fieldNo": "f8d1d67e-d3eb-42d9-c9d1-bf7839cd82a0",
-															"fieldName": "oBlockLayoutCell41",
-															"fieldParent": "0856eae7-771b-4694-8573-60b4d5b22eed",
-															"fieldType": "sap.ui.layout.BlockLayoutCell",
+															"attribute": "title",
+															"grouping": "Properties",
+															"value": "background color set: Color Set 11",
 															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "title",
-																	"grouping": "Properties",
-																	"value": "background color set: Color Set 5",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "backgroundColorSet",
-																	"grouping": "Properties",
-																	"value": "ColorSet5",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "backgroundColorShade",
-																	"grouping": "Properties",
-																	"value": "ShadeC",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": [
-																{
-																	"fieldNo": "19b74a92-cfb7-4d66-b2b8-d98046124cea",
-																	"fieldName": "oText41",
-																	"fieldParent": "f8d1d67e-d3eb-42d9-c9d1-bf7839cd82a0",
-																	"fieldType": "sap.m.Text",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "textAlign",
-																			"grouping": "Properties",
-																			"value": "Initial",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "Planet9 is differentiated as it can run on premise and in the Cloud, which is unusual for RADP. It works with any back-end and has the powerful API Management capability as well as a business workflow designer to help build apps.",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
+															"translation": []
 														},
 														{
-															"fieldNo": "58831f6c-fc4a-4001-8682-93964fa3ae50",
-															"fieldName": "oBlockLayoutCell42",
-															"fieldParent": "0856eae7-771b-4694-8573-60b4d5b22eed",
-															"fieldType": "sap.ui.layout.BlockLayoutCell",
+															"attribute": "backgroundColorSet",
+															"grouping": "Properties",
+															"value": "ColorSet11",
 															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "backgroundColorShade",
+															"grouping": "Properties",
+															"value": "ShadeA",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "5bc77ab9-9b5b-4e6d-f72e-4da5c14a4329",
+															"fieldName": "oText31",
+															"fieldParent": "d32f9343-518f-4133-9f77-65919d3d00a4",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
-																	"attribute": "title",
+																	"attribute": "textAlign",
 																	"grouping": "Properties",
-																	"value": "background color set: Color Set 8",
+																	"value": "Initial",
 																	"script": "",
 																	"translation": []
 																},
 																{
-																	"attribute": "backgroundColorSet",
+																	"attribute": "text",
 																	"grouping": "Properties",
-																	"value": "ColorSet8",
-																	"script": "",
-																	"translation": []
-																},
-																{
-																	"attribute": "backgroundColorShade",
-																	"grouping": "Properties",
-																	"value": "ShadeD",
+																	"value": "Neptune DX Platform has two modules;Planet 8 (a platform specifically developed on ABAP for SAP backend solutions); Planet 9 (a platform which is API driven and provides a Rapid Application Development on any backend system, any Cloud, and any Architecture).",
 																	"script": "",
 																	"translation": []
 																}
 															],
-															"data": [
-																{
-																	"fieldNo": "69c380c2-5f01-41cd-8b29-7d695317eb92",
-																	"fieldName": "oText42",
-																	"fieldParent": "58831f6c-fc4a-4001-8682-93964fa3ae50",
-																	"fieldType": "sap.m.Text",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "textAlign",
-																			"grouping": "Properties",
-																			"value": "Initial",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "Neptune DX Platform has two modules;Planet 8 (a platform specifically developed on ABAP for SAP backend solutions); Planet 9 (a platform which is API driven and provides a Rapid Application Development on any backend system, any Cloud, and any Architecture).",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
+															"data": []
 														}
 													]
 												}
 											]
-										}
-									]
-								},
-								{
-									"fieldNo": "5",
-									"fieldName": "oFooter",
-									"fieldParent": "4",
-									"fieldType": "sap.m.Bar",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [
+										},
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"fieldNo": "0856eae7-771b-4694-8573-60b4d5b22eed",
+											"fieldName": "oBlockLayoutRow4",
+											"fieldParent": "aecf9c00-1dbd-4e14-f7ce-7e16f64de47c",
+											"fieldType": "sap.ui.layout.BlockLayoutRow",
 											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "6",
-											"fieldName": "Left",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
-													"script": "",
-													"translation": []
-												}
-											],
+											"attributes": [],
 											"data": [
 												{
-													"fieldNo": "53ec06f2-2c0c-465c-82f4-77f6c0b8cb4e",
-													"fieldName": "oButton",
-													"fieldParent": "6",
-													"fieldType": "sap.m.Button",
+													"fieldNo": "f8d1d67e-d3eb-42d9-c9d1-bf7839cd82a0",
+													"fieldName": "oBlockLayoutCell41",
+													"fieldParent": "0856eae7-771b-4694-8573-60b4d5b22eed",
+													"fieldType": "sap.ui.layout.BlockLayoutCell",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "type",
+															"attribute": "title",
 															"grouping": "Properties",
-															"value": "Emphasized",
+															"value": "background color set: Color Set 5",
 															"script": "",
 															"translation": []
 														},
 														{
-															"attribute": "text",
+															"attribute": "backgroundColorSet",
 															"grouping": "Properties",
-															"value": "Open In App Designer",
+															"value": "ColorSet5",
 															"script": "",
 															"translation": []
 														},
 														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButton/press.script",
+															"attribute": "backgroundColorShade",
+															"grouping": "Properties",
+															"value": "ShadeC",
+															"script": "",
 															"translation": []
 														}
 													],
-													"data": []
-												}
-											]
-										},
-										{
-											"fieldNo": "7",
-											"fieldName": "Middle",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
+													"data": [
+														{
+															"fieldNo": "19b74a92-cfb7-4d66-b2b8-d98046124cea",
+															"fieldName": "oText41",
+															"fieldParent": "f8d1d67e-d3eb-42d9-c9d1-bf7839cd82a0",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Initial",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Planet9 is differentiated as it can run on premise and in the Cloud, which is unusual for RADP. It works with any back-end and has the powerful API Management capability as well as a business workflow designer to help build apps.",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
 												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentMiddle",
+													"fieldNo": "58831f6c-fc4a-4001-8682-93964fa3ae50",
+													"fieldName": "oBlockLayoutCell42",
+													"fieldParent": "0856eae7-771b-4694-8573-60b4d5b22eed",
+													"fieldType": "sap.ui.layout.BlockLayoutCell",
 													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "8",
-											"fieldName": "Right",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "1a417da7-621a-4a46-adee-11c566df3690",
-													"fieldName": "oToggleButton",
-													"fieldParent": "8",
-													"fieldType": "sap.m.ToggleButton",
-													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "type",
+															"attribute": "title",
 															"grouping": "Properties",
-															"value": "Emphasized",
+															"value": "background color set: Color Set 8",
 															"script": "",
 															"translation": []
 														},
 														{
-															"attribute": "text",
+															"attribute": "backgroundColorSet",
 															"grouping": "Properties",
-															"value": "Compact",
+															"value": "ColorSet8",
 															"script": "",
 															"translation": []
 														},
 														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/oToggleButton/press.script",
+															"attribute": "backgroundColorShade",
+															"grouping": "Properties",
+															"value": "ShadeD",
+															"script": "",
 															"translation": []
 														}
 													],
-													"data": []
+													"data": [
+														{
+															"fieldNo": "69c380c2-5f01-41cd-8b29-7d695317eb92",
+															"fieldName": "oText42",
+															"fieldParent": "58831f6c-fc4a-4001-8682-93964fa3ae50",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "textAlign",
+																	"grouping": "Properties",
+																	"value": "Initial",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Neptune DX Platform has two modules;Planet 8 (a platform specifically developed on ABAP for SAP backend solutions); Planet 9 (a platform which is API driven and provides a Rapid Application Development on any backend system, any Cloud, and any Architecture).",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
 												}
 											]
 										}
@@ -1184,8 +1072,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.1745",
+	"componentInterface": [],
+	"ver": "23.10.26.128",
 	"application": "sample_blocklayout",
 	"title": "Sample sap.ui.layout.BlockLayout",
 	"description": "sap.ui.layout.BlockLayout",
@@ -1204,12 +1092,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -1221,6 +1110,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

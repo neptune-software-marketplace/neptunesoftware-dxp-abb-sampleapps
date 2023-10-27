@@ -4,581 +4,418 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "f3af8236-f899-4a76-abf8-efaad2154675",
-			"fieldName": "oShell",
+			"fieldNo": "570ad760-4903-4a65-f276-c80906fe2c74",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "570ad760-4903-4a65-f276-c80906fe2c74",
-					"fieldName": "oApp",
-					"fieldParent": "f3af8236-f899-4a76-abf8-efaad2154675",
-					"fieldType": "sap.m.App",
+					"fieldNo": "1bffc463-230d-4600-f7d9-e5cf592c2646",
+					"fieldName": "oPage",
+					"fieldParent": "570ad760-4903-4a65-f276-c80906fe2c74",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "ObjectListItem",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "1bffc463-230d-4600-f7d9-e5cf592c2646",
-							"fieldName": "oPage",
-							"fieldParent": "570ad760-4903-4a65-f276-c80906fe2c74",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "2aad54f5-40ef-4bec-87fd-4b4a476502ca",
+							"fieldName": "oList",
+							"fieldParent": "1bffc463-230d-4600-f7d9-e5cf592c2646",
+							"fieldType": "sap.m.List",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
-							"attributes": [
-								{
-									"attribute": "title",
-									"grouping": "Properties",
-									"value": "ObjectListItem",
-									"script": "",
-									"translation": []
-								}
-							],
+							"attributes": [],
 							"data": [
 								{
-									"fieldNo": "2aad54f5-40ef-4bec-87fd-4b4a476502ca",
-									"fieldName": "oList",
-									"fieldParent": "1bffc463-230d-4600-f7d9-e5cf592c2646",
-									"fieldType": "sap.m.List",
+									"fieldNo": "da5ad4e0-6ab8-4fc5-849e-560e761025e9",
+									"fieldName": "oObjectListItem",
+									"fieldParent": "2aad54f5-40ef-4bec-87fd-4b4a476502ca",
+									"fieldType": "sap.m.ObjectListItem",
 									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [],
-									"data": [
-										{
-											"fieldNo": "da5ad4e0-6ab8-4fc5-849e-560e761025e9",
-											"fieldName": "oObjectListItem",
-											"fieldParent": "2aad54f5-40ef-4bec-87fd-4b4a476502ca",
-											"fieldType": "sap.m.ObjectListItem",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "type",
-													"grouping": "Properties",
-													"value": "Active",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "title",
-													"grouping": "Properties",
-													"value": "Number State:Success",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "numberUnit",
-													"grouping": "Properties",
-													"value": "PC",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "numberState",
-													"grouping": "Properties",
-													"value": "Success",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "number",
-													"grouping": "Properties",
-													"value": "10",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "intro",
-													"grouping": "Properties",
-													"value": "Type:Active",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "icon",
-													"grouping": "Properties",
-													"value": "sap-icon://account",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "counter",
-													"grouping": "Properties",
-													"value": "10",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "press",
-													"grouping": "Events",
-													"value": "Anonymous Function",
-													"script": "file://event/sap.m.ObjectListItem/oObjectListItem/press.script",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "07b525d1-a6ab-4069-cbfb-97a7d0a2bdd9",
-											"fieldName": "oObjectListItem1",
-											"fieldParent": "2aad54f5-40ef-4bec-87fd-4b4a476502ca",
-											"fieldType": "sap.m.ObjectListItem",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "type",
-													"grouping": "Properties",
-													"value": "Detail",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "title",
-													"grouping": "Properties",
-													"value": "Number State:Warning",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "numberUnit",
-													"grouping": "Properties",
-													"value": "PC",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "numberState",
-													"grouping": "Properties",
-													"value": "Warning",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "number",
-													"grouping": "Properties",
-													"value": "20",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "intro",
-													"grouping": "Properties",
-													"value": "Type:Detail",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "icon",
-													"grouping": "Properties",
-													"value": "sap-icon://account",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "counter",
-													"grouping": "Properties",
-													"value": "2",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "press",
-													"grouping": "Events",
-													"value": "Anonymous Function",
-													"script": "file://event/sap.m.ObjectListItem/oObjectListItem1/press.script",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "57a0c707-c676-48c5-80a6-fbdedca547ba",
-											"fieldName": "oObjectListItem2",
-											"fieldParent": "2aad54f5-40ef-4bec-87fd-4b4a476502ca",
-											"fieldType": "sap.m.ObjectListItem",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "type",
-													"grouping": "Properties",
-													"value": "DetailAndActive",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "title",
-													"grouping": "Properties",
-													"value": "Number State: None",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "numberUnit",
-													"grouping": "Properties",
-													"value": "PC",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "numberState",
-													"grouping": "Properties",
-													"value": "None",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "number",
-													"grouping": "Properties",
-													"value": "30",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "intro",
-													"grouping": "Properties",
-													"value": "Type:Into And Active",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "icon",
-													"grouping": "Properties",
-													"value": "sap-icon://activities",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "counter",
-													"grouping": "Properties",
-													"value": "4",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "press",
-													"grouping": "Events",
-													"value": "Anonymous Function",
-													"script": "file://event/sap.m.ObjectListItem/oObjectListItem2/press.script",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "8ade14a5-1d95-4a98-d5cd-f82a6e792462",
-											"fieldName": "oObjectListItem3",
-											"fieldParent": "2aad54f5-40ef-4bec-87fd-4b4a476502ca",
-											"fieldType": "sap.m.ObjectListItem",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "type",
-													"grouping": "Properties",
-													"value": "Inactive",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "title",
-													"grouping": "Properties",
-													"value": "Number State:Error",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "numberUnit",
-													"grouping": "Properties",
-													"value": "PC",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "numberState",
-													"grouping": "Properties",
-													"value": "Error",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "number",
-													"grouping": "Properties",
-													"value": "40",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "intro",
-													"grouping": "Properties",
-													"value": "Type: Inactive",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "icon",
-													"grouping": "Properties",
-													"value": "sap-icon://activity-2",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "press",
-													"grouping": "Events",
-													"value": "Anonymous Function",
-													"script": "file://event/sap.m.ObjectListItem/oObjectListItem3/press.script",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "c38c7f27-a891-4a88-ba8f-a94286437627",
-											"fieldName": "oObjectListItem4",
-											"fieldParent": "2aad54f5-40ef-4bec-87fd-4b4a476502ca",
-											"fieldType": "sap.m.ObjectListItem",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "type",
-													"grouping": "Properties",
-													"value": "Navigation",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "title",
-													"grouping": "Properties",
-													"value": "Number State: Success",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "numberUnit",
-													"grouping": "Properties",
-													"value": "PC",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "numberState",
-													"grouping": "Properties",
-													"value": "Success",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "number",
-													"grouping": "Properties",
-													"value": "50",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "intro",
-													"grouping": "Properties",
-													"value": "Type: Navigation",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "icon",
-													"grouping": "Properties",
-													"value": "sap-icon://activity-assigned-to-goal",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "counter",
-													"grouping": "Properties",
-													"value": "8",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "press",
-													"grouping": "Events",
-													"value": "Anonymous Function",
-													"script": "file://event/sap.m.ObjectListItem/oObjectListItem4/press.script",
-													"translation": []
-												}
-											],
-											"data": []
-										}
-									]
-								},
-								{
-									"fieldNo": "28dd31d3-3ea7-47d4-b611-9479e89e7ee4",
-									"fieldName": "oBarFooter",
-									"fieldParent": "1bffc463-230d-4600-f7d9-e5cf592c2646",
-									"fieldType": "sap.m.Bar",
-									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"attribute": "type",
+											"grouping": "Properties",
+											"value": "Active",
 											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "title",
+											"grouping": "Properties",
+											"value": "Number State:Success",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "numberUnit",
+											"grouping": "Properties",
+											"value": "PC",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "numberState",
+											"grouping": "Properties",
+											"value": "Success",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "number",
+											"grouping": "Properties",
+											"value": "10",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "intro",
+											"grouping": "Properties",
+											"value": "Type:Active",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "icon",
+											"grouping": "Properties",
+											"value": "sap-icon://account",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "counter",
+											"grouping": "Properties",
+											"value": "10",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.ObjectListItem/oObjectListItem/press.script",
 											"translation": []
 										}
 									],
-									"data": [
+									"data": []
+								},
+								{
+									"fieldNo": "07b525d1-a6ab-4069-cbfb-97a7d0a2bdd9",
+									"fieldName": "oObjectListItem1",
+									"fieldParent": "2aad54f5-40ef-4bec-87fd-4b4a476502ca",
+									"fieldType": "sap.m.ObjectListItem",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
 										{
-											"fieldNo": "17dd2835-95cc-4981-a56c-bc1882ca2d90",
-											"fieldName": "Left",
-											"fieldParent": "28dd31d3-3ea7-47d4-b611-9479e89e7ee4",
-											"fieldType": "neptune.BarContent",
+											"attribute": "type",
+											"grouping": "Properties",
+											"value": "Detail",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "21a7e475-298e-469d-8505-ac14751c03c3",
-													"fieldName": "oButton",
-													"fieldParent": "17dd2835-95cc-4981-a56c-bc1882ca2d90",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Open In App Designer",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButton/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
+											"translation": []
 										},
 										{
-											"fieldNo": "f82e3ce7-7375-4c67-a22f-a701eb96d174",
-											"fieldName": "Right",
-											"fieldParent": "28dd31d3-3ea7-47d4-b611-9479e89e7ee4",
-											"fieldType": "neptune.BarContent",
+											"attribute": "title",
+											"grouping": "Properties",
+											"value": "Number State:Warning",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "d53cad7a-7512-48ea-cbf9-5277b65b242d",
-													"fieldName": "butInset",
-													"fieldParent": "f82e3ce7-7375-4c67-a22f-a701eb96d174",
-													"fieldType": "sap.m.ToggleButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Inset",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/butInset/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												},
-												{
-													"fieldNo": "a7133f81-e5ac-42bc-f1a7-9fc8a0ca7533",
-													"fieldName": "butCompact",
-													"fieldParent": "f82e3ce7-7375-4c67-a22f-a701eb96d174",
-													"fieldType": "sap.m.ToggleButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Compact",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
+											"translation": []
+										},
+										{
+											"attribute": "numberUnit",
+											"grouping": "Properties",
+											"value": "PC",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "numberState",
+											"grouping": "Properties",
+											"value": "Warning",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "number",
+											"grouping": "Properties",
+											"value": "20",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "intro",
+											"grouping": "Properties",
+											"value": "Type:Detail",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "icon",
+											"grouping": "Properties",
+											"value": "sap-icon://account",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "counter",
+											"grouping": "Properties",
+											"value": "2",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.ObjectListItem/oObjectListItem1/press.script",
+											"translation": []
 										}
-									]
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "57a0c707-c676-48c5-80a6-fbdedca547ba",
+									"fieldName": "oObjectListItem2",
+									"fieldParent": "2aad54f5-40ef-4bec-87fd-4b4a476502ca",
+									"fieldType": "sap.m.ObjectListItem",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "type",
+											"grouping": "Properties",
+											"value": "DetailAndActive",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "title",
+											"grouping": "Properties",
+											"value": "Number State: None",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "numberUnit",
+											"grouping": "Properties",
+											"value": "PC",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "numberState",
+											"grouping": "Properties",
+											"value": "None",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "number",
+											"grouping": "Properties",
+											"value": "30",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "intro",
+											"grouping": "Properties",
+											"value": "Type:Into And Active",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "icon",
+											"grouping": "Properties",
+											"value": "sap-icon://activities",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "counter",
+											"grouping": "Properties",
+											"value": "4",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.ObjectListItem/oObjectListItem2/press.script",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "8ade14a5-1d95-4a98-d5cd-f82a6e792462",
+									"fieldName": "oObjectListItem3",
+									"fieldParent": "2aad54f5-40ef-4bec-87fd-4b4a476502ca",
+									"fieldType": "sap.m.ObjectListItem",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "type",
+											"grouping": "Properties",
+											"value": "Inactive",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "title",
+											"grouping": "Properties",
+											"value": "Number State:Error",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "numberUnit",
+											"grouping": "Properties",
+											"value": "PC",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "numberState",
+											"grouping": "Properties",
+											"value": "Error",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "number",
+											"grouping": "Properties",
+											"value": "40",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "intro",
+											"grouping": "Properties",
+											"value": "Type: Inactive",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "icon",
+											"grouping": "Properties",
+											"value": "sap-icon://activity-2",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.ObjectListItem/oObjectListItem3/press.script",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "c38c7f27-a891-4a88-ba8f-a94286437627",
+									"fieldName": "oObjectListItem4",
+									"fieldParent": "2aad54f5-40ef-4bec-87fd-4b4a476502ca",
+									"fieldType": "sap.m.ObjectListItem",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "type",
+											"grouping": "Properties",
+											"value": "Navigation",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "title",
+											"grouping": "Properties",
+											"value": "Number State: Success",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "numberUnit",
+											"grouping": "Properties",
+											"value": "PC",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "numberState",
+											"grouping": "Properties",
+											"value": "Success",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "number",
+											"grouping": "Properties",
+											"value": "50",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "intro",
+											"grouping": "Properties",
+											"value": "Type: Navigation",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "icon",
+											"grouping": "Properties",
+											"value": "sap-icon://activity-assigned-to-goal",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "counter",
+											"grouping": "Properties",
+											"value": "8",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.ObjectListItem/oObjectListItem4/press.script",
+											"translation": []
+										}
+									],
+									"data": []
 								}
 							]
 						}
@@ -595,8 +432,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.1711",
+	"componentInterface": [],
+	"ver": "23.10.27.1151",
 	"application": "sample_objectlistitem",
 	"title": "sap.m.List - sap.m.ObjectListItem",
 	"description": "sap.m.List - sap.m.ObjectListItem",
@@ -615,12 +452,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -632,6 +470,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

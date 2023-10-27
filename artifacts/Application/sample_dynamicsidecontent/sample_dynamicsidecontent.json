@@ -9,6 +9,7 @@
 			"fieldParent": 0,
 			"fieldType": "sap.m.Shell",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
@@ -19,6 +20,7 @@
 					"fieldParent": "1",
 					"fieldType": "sap.m.App",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [],
@@ -29,6 +31,7 @@
 							"fieldParent": "2",
 							"fieldType": "sap.m.Page",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
@@ -47,6 +50,7 @@
 									"fieldParent": "4",
 									"fieldType": "sap.m.Title",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
@@ -101,6 +105,7 @@
 									"fieldParent": "4",
 									"fieldType": "sap.ui.layout.DynamicSideContent",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [],
@@ -111,6 +116,7 @@
 											"fieldParent": "dd13c440-050f-495a-81ef-1b65bb76fd4b",
 											"fieldType": "neptune.DynamicSideContentArea",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
@@ -129,6 +135,7 @@
 													"fieldParent": "e1a47746-c744-4ec6-98cf-674ba7173203",
 													"fieldType": "sap.m.VBox",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [],
@@ -139,6 +146,7 @@
 															"fieldParent": "7bc6f07e-3f18-4378-ca2b-137dba65b597",
 															"fieldType": "sap.m.Title",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
@@ -165,6 +173,7 @@
 															"fieldParent": "7bc6f07e-3f18-4378-ca2b-137dba65b597",
 															"fieldType": "sap.m.Text",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [],
@@ -180,6 +189,7 @@
 											"fieldParent": "dd13c440-050f-495a-81ef-1b65bb76fd4b",
 											"fieldType": "neptune.DynamicSideContentArea",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
@@ -198,6 +208,7 @@
 													"fieldParent": "a74853d1-834b-4800-b231-d3e665ecc679",
 													"fieldType": "sap.m.VBox",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [],
@@ -208,6 +219,7 @@
 															"fieldParent": "60f6492d-ba26-48bd-a563-3370816c1a60",
 															"fieldType": "sap.m.Title",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
@@ -234,157 +246,13 @@
 															"fieldParent": "60f6492d-ba26-48bd-a563-3370816c1a60",
 															"fieldType": "sap.m.Text",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [],
 															"data": []
 														}
 													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"fieldNo": "5",
-									"fieldName": "oFooter",
-									"fieldParent": "4",
-									"fieldType": "sap.m.Bar",
-									"script": "",
-									"request": [],
-									"response": [],
-									"attributes": [
-										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
-											"script": "",
-											"translation": []
-										}
-									],
-									"data": [
-										{
-											"fieldNo": "6",
-											"fieldName": "Left",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "2ad86820-1906-4b32-95b8-45857f589005",
-													"fieldName": "oButOpenAD",
-													"fieldParent": "6",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Open In App Designer",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButOpenAD/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
-										},
-										{
-											"fieldNo": "7",
-											"fieldName": "Middle",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentMiddle",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "8",
-											"fieldName": "Right",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "cfc74a6f-a450-4b77-ec74-a1af8d1805bb",
-													"fieldName": "butCompact",
-													"fieldParent": "8",
-													"fieldType": "sap.m.ToggleButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Compact",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
-															"translation": []
-														}
-													],
-													"data": []
 												}
 											]
 										}
@@ -404,7 +272,8 @@
 					"fieldName": "onInit",
 					"fieldParent": 99999,
 					"fieldType": "neptune.event.oninit",
-					"script": "file://script/neptune.event.oninit/onInit.script",
+					"script": "file://script/neptune.event.oninit/onInit.js",
+					"customComponent": false,
 					"request": [],
 					"response": [],
 					"attributes": [],
@@ -417,8 +286,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.1736",
+	"componentInterface": [],
+	"ver": "23.10.26.1456",
 	"application": "sample_dynamicsidecontent",
 	"title": "Sample sap.ui.layout.DynamicSideContent",
 	"description": "sap.ui.layout.DynamicSideContent",
@@ -437,12 +306,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -454,6 +324,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

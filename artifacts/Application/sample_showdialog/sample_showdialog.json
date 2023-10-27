@@ -4,516 +4,463 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "f801e730-ce11-41c8-834c-ccfd827b2ecd",
-			"fieldName": "oShell",
+			"fieldNo": "cc8d9f90-86d9-4c75-d0fb-cfc876b9d2ad",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "cc8d9f90-86d9-4c75-d0fb-cfc876b9d2ad",
-					"fieldName": "oApp",
-					"fieldParent": "f801e730-ce11-41c8-834c-ccfd827b2ecd",
-					"fieldType": "sap.m.App",
+					"fieldNo": "709f8cfa-a28b-47cc-d7d7-2f5dc587fe07",
+					"fieldName": "oPage",
+					"fieldParent": "cc8d9f90-86d9-4c75-d0fb-cfc876b9d2ad",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Show Dialog",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "709f8cfa-a28b-47cc-d7d7-2f5dc587fe07",
-							"fieldName": "oPage",
-							"fieldParent": "cc8d9f90-86d9-4c75-d0fb-cfc876b9d2ad",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
+							"fieldName": "oSimpleForm",
+							"fieldParent": "709f8cfa-a28b-47cc-d7d7-2f5dc587fe07",
+							"fieldType": "sap.ui.layout.form.SimpleForm",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
 								{
-									"attribute": "title",
+									"attribute": "editable",
 									"grouping": "Properties",
-									"value": "Show Dialog",
+									"value": "true",
 									"script": "",
 									"translation": []
 								}
 							],
 							"data": [
 								{
-									"fieldNo": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
-									"fieldName": "oSimpleForm",
-									"fieldParent": "709f8cfa-a28b-47cc-d7d7-2f5dc587fe07",
-									"fieldType": "sap.ui.layout.form.SimpleForm",
+									"fieldNo": "71a5219f-adde-4bea-96a8-c78c160a64f5",
+									"fieldName": "LabelSimpleDialog",
+									"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
+									"fieldType": "sap.m.Label",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "editable",
+											"attribute": "text",
 											"grouping": "Properties",
-											"value": "true",
+											"value": "Simple Dialog",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "d1d6062b-bdb9-4388-f1fc-dbae95a50baa",
+									"fieldName": "oButton",
+									"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
+									"fieldType": "sap.m.Button",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100px",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "click here",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "oSimpleDialog.open()",
+											"script": "oSimpleDialog.open()",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "88a5841b-49c6-4ba6-8abd-f6297f8e0205",
+									"fieldName": "LabelTableInsideDialog",
+									"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Table Inside Dialog",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "96a9b1eb-869b-4e40-bde5-691db1d900b1",
+									"fieldName": "oButton1",
+									"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
+									"fieldType": "sap.m.Button",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100px",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "click here",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "oTableDialog1.open();",
+											"script": "oTableDialog1.open();",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "29ad403f-c765-4cc2-e3d9-d99bf5adbdf0",
+									"fieldName": "oLabelMessageBox",
+									"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Message Box",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "896e8ff6-373c-425d-c90d-b40ae5444c55",
+									"fieldName": "oButton2",
+									"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
+									"fieldType": "sap.m.Button",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100px",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "click here",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "OpenoMessageBox();",
+											"script": "OpenoMessageBox();",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "0e4cb3a0-6196-42da-8276-1253c232ad8c",
+									"fieldName": "oLabelConfirmation",
+									"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Confirmation Message Box",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "3adfecbd-f421-4e4c-99a7-79c175bcd221",
+									"fieldName": "oButton3",
+									"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
+									"fieldType": "sap.m.Button",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100px",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "click here",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "OpenoConfirmationMessageBox();",
+											"script": "OpenoConfirmationMessageBox();",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "86967efb-4ff3-41e9-8344-f904b4dedbdc",
+									"fieldName": "oLabelTableSelect",
+									"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "TableSelectDialog",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "30d377f0-3e5d-47da-bb3e-8c9c1cb376a4",
+									"fieldName": "oButton5",
+									"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
+									"fieldType": "sap.m.Button",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100px",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "click here",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "oSimpleDialogTableUI.open();",
+											"script": "oSimpleDialogTableUI.open();",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "6b74b502-7eaa-464d-ba6e-1d18788bae12",
+									"fieldName": "UiTable",
+									"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Ui Table",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "eafe7456-583e-4fed-c647-192fe334b95a",
+									"fieldName": "oButton6",
+									"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
+									"fieldType": "sap.m.Button",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "100px",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Click here",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "oSimpleDialogTableUI.open();",
+											"script": "oSimpleDialogTableUI.open();",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "88299f71-c9ac-4781-c0b5-7ae3c4a25a5d",
+									"fieldName": "oSimpleDialog",
+									"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
+									"fieldType": "sap.m.Dialog",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "title",
+											"grouping": "Properties",
+											"value": "SampleDialog",
 											"script": "",
 											"translation": []
 										}
 									],
 									"data": [
 										{
-											"fieldNo": "71a5219f-adde-4bea-96a8-c78c160a64f5",
-											"fieldName": "LabelSimpleDialog",
-											"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
-											"fieldType": "sap.m.Label",
+											"fieldNo": "366dbe7e-8f23-4953-df10-4ac5b1b9c234",
+											"fieldName": "oIconTabBar",
+											"fieldParent": "88299f71-c9ac-4781-c0b5-7ae3c4a25a5d",
+											"fieldType": "sap.m.IconTabBar",
 											"script": "",
+											"customComponent": false,
 											"request": [],
 											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Simple Dialog",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "d1d6062b-bdb9-4388-f1fc-dbae95a50baa",
-											"fieldName": "oButton",
-											"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
-											"fieldType": "sap.m.Button",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "100px",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "click here",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "press",
-													"grouping": "Events",
-													"value": "oSimpleDialog.open()",
-													"script": "oSimpleDialog.open()",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "88a5841b-49c6-4ba6-8abd-f6297f8e0205",
-											"fieldName": "LabelTableInsideDialog",
-											"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Table Inside Dialog",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "96a9b1eb-869b-4e40-bde5-691db1d900b1",
-											"fieldName": "oButton1",
-											"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
-											"fieldType": "sap.m.Button",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "100px",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "click here",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "press",
-													"grouping": "Events",
-													"value": "oTableDialog1.open();",
-													"script": "oTableDialog1.open();",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "29ad403f-c765-4cc2-e3d9-d99bf5adbdf0",
-											"fieldName": "oLabelMessageBox",
-											"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Message Box",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "896e8ff6-373c-425d-c90d-b40ae5444c55",
-											"fieldName": "oButton2",
-											"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
-											"fieldType": "sap.m.Button",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "100px",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "click here",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "press",
-													"grouping": "Events",
-													"value": "OpenoMessageBox();",
-													"script": "OpenoMessageBox();",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "0e4cb3a0-6196-42da-8276-1253c232ad8c",
-											"fieldName": "oLabelConfirmation",
-											"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Confirmation Message Box",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "3adfecbd-f421-4e4c-99a7-79c175bcd221",
-											"fieldName": "oButton3",
-											"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
-											"fieldType": "sap.m.Button",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "100px",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "click here",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "press",
-													"grouping": "Events",
-													"value": "OpenoConfirmationMessageBox();",
-													"script": "OpenoConfirmationMessageBox();",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "86967efb-4ff3-41e9-8344-f904b4dedbdc",
-											"fieldName": "oLabelTableSelect",
-											"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "TableSelectDialog",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "30d377f0-3e5d-47da-bb3e-8c9c1cb376a4",
-											"fieldName": "oButton5",
-											"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
-											"fieldType": "sap.m.Button",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "100px",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "click here",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "press",
-													"grouping": "Events",
-													"value": "oSimpleDialogTableUI.open();",
-													"script": "oSimpleDialogTableUI.open();",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "6b74b502-7eaa-464d-ba6e-1d18788bae12",
-											"fieldName": "UiTable",
-											"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Ui Table",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "eafe7456-583e-4fed-c647-192fe334b95a",
-											"fieldName": "oButton6",
-											"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
-											"fieldType": "sap.m.Button",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "width",
-													"grouping": "Properties",
-													"value": "100px",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Click here",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "press",
-													"grouping": "Events",
-													"value": "oSimpleDialogTableUI.open();",
-													"script": "oSimpleDialogTableUI.open();",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "88299f71-c9ac-4781-c0b5-7ae3c4a25a5d",
-											"fieldName": "oSimpleDialog",
-											"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
-											"fieldType": "sap.m.Dialog",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "title",
-													"grouping": "Properties",
-													"value": "SampleDialog",
-													"script": "",
-													"translation": []
-												}
-											],
+											"attributes": [],
 											"data": [
 												{
-													"fieldNo": "366dbe7e-8f23-4953-df10-4ac5b1b9c234",
-													"fieldName": "oIconTabBar",
-													"fieldParent": "88299f71-c9ac-4781-c0b5-7ae3c4a25a5d",
-													"fieldType": "sap.m.IconTabBar",
+													"fieldNo": "a96f2541-2ecf-487e-eab7-8ab953d7caa4",
+													"fieldName": "oIconTabFilter",
+													"fieldParent": "366dbe7e-8f23-4953-df10-4ac5b1b9c234",
+													"fieldType": "sap.m.IconTabFilter",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
-													"attributes": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "tab 1",
+															"script": "",
+															"translation": []
+														}
+													],
 													"data": [
 														{
-															"fieldNo": "a96f2541-2ecf-487e-eab7-8ab953d7caa4",
-															"fieldName": "oIconTabFilter",
-															"fieldParent": "366dbe7e-8f23-4953-df10-4ac5b1b9c234",
-															"fieldType": "sap.m.IconTabFilter",
+															"fieldNo": "59359f7f-1f33-42ba-aff4-e0a8c40f00ef",
+															"fieldName": "oSimpleForm1",
+															"fieldParent": "a96f2541-2ecf-487e-eab7-8ab953d7caa4",
+															"fieldType": "sap.ui.layout.form.SimpleForm",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
-															"attributes": [
-																{
-																	"attribute": "text",
-																	"grouping": "Properties",
-																	"value": "tab 1",
-																	"script": "",
-																	"translation": []
-																}
-															],
+															"attributes": [],
 															"data": [
 																{
-																	"fieldNo": "59359f7f-1f33-42ba-aff4-e0a8c40f00ef",
-																	"fieldName": "oSimpleForm1",
-																	"fieldParent": "a96f2541-2ecf-487e-eab7-8ab953d7caa4",
-																	"fieldType": "sap.ui.layout.form.SimpleForm",
+																	"fieldNo": "09a17d93-ce6e-4540-ede2-349cd3f82bdf",
+																	"fieldName": "oVBox",
+																	"fieldParent": "59359f7f-1f33-42ba-aff4-e0a8c40f00ef",
+																	"fieldType": "sap.m.VBox",
 																	"script": "",
+																	"customComponent": false,
 																	"request": [],
 																	"response": [],
 																	"attributes": [],
 																	"data": [
 																		{
-																			"fieldNo": "09a17d93-ce6e-4540-ede2-349cd3f82bdf",
-																			"fieldName": "oVBox",
-																			"fieldParent": "59359f7f-1f33-42ba-aff4-e0a8c40f00ef",
-																			"fieldType": "sap.m.VBox",
-																			"script": "",
-																			"request": [],
-																			"response": [],
-																			"attributes": [],
-																			"data": [
-																				{
-																					"fieldNo": "c6cd2d18-cb08-4e84-d73c-f3ca96f3e4ee",
-																					"fieldName": "oText3",
-																					"fieldParent": "09a17d93-ce6e-4540-ede2-349cd3f82bdf",
-																					"fieldType": "sap.m.Text",
-																					"script": "",
-																					"request": [],
-																					"response": [],
-																					"attributes": [
-																						{
-																							"attribute": "text",
-																							"grouping": "Properties",
-																							"value": "some value",
-																							"script": "",
-																							"translation": []
-																						}
-																					],
-																					"data": []
-																				},
-																				{
-																					"fieldNo": "c4f657f1-42e0-42c1-e467-9126bb5f6263",
-																					"fieldName": "oTextArea",
-																					"fieldParent": "09a17d93-ce6e-4540-ede2-349cd3f82bdf",
-																					"fieldType": "sap.m.TextArea",
-																					"script": "",
-																					"request": [],
-																					"response": [],
-																					"attributes": [],
-																					"data": []
-																				}
-																			]
-																		}
-																	]
-																}
-															]
-														},
-														{
-															"fieldNo": "b4196805-5320-41bc-8cd1-77e51508f7a4",
-															"fieldName": "oIconTabFilter1",
-															"fieldParent": "366dbe7e-8f23-4953-df10-4ac5b1b9c234",
-															"fieldType": "sap.m.IconTabFilter",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [
-																{
-																	"attribute": "text",
-																	"grouping": "Properties",
-																	"value": "tab 2",
-																	"script": "",
-																	"translation": []
-																}
-															],
-															"data": [
-																{
-																	"fieldNo": "a4c9e258-6855-4e78-f3d5-2f58a6438159",
-																	"fieldName": "oSimpleForm2",
-																	"fieldParent": "b4196805-5320-41bc-8cd1-77e51508f7a4",
-																	"fieldType": "sap.ui.layout.form.SimpleForm",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [],
-																	"data": [
-																		{
-																			"fieldNo": "42fad2d9-5ca5-449c-fcf3-bc115dd80e16",
-																			"fieldName": "oText4",
-																			"fieldParent": "a4c9e258-6855-4e78-f3d5-2f58a6438159",
+																			"fieldNo": "c6cd2d18-cb08-4e84-d73c-f3ca96f3e4ee",
+																			"fieldName": "oText3",
+																			"fieldParent": "09a17d93-ce6e-4540-ede2-349cd3f82bdf",
 																			"fieldType": "sap.m.Text",
 																			"script": "",
+																			"customComponent": false,
 																			"request": [],
 																			"response": [],
 																			"attributes": [
 																				{
 																					"attribute": "text",
 																					"grouping": "Properties",
-																					"value": "some more value",
+																					"value": "some value",
 																					"script": "",
 																					"translation": []
 																				}
@@ -521,11 +468,12 @@
 																			"data": []
 																		},
 																		{
-																			"fieldNo": "35d87300-2890-4234-9d4e-4c4eab194e14",
-																			"fieldName": "oTextArea1",
-																			"fieldParent": "a4c9e258-6855-4e78-f3d5-2f58a6438159",
+																			"fieldNo": "c4f657f1-42e0-42c1-e467-9126bb5f6263",
+																			"fieldName": "oTextArea",
+																			"fieldParent": "09a17d93-ce6e-4540-ede2-349cd3f82bdf",
 																			"fieldType": "sap.m.TextArea",
 																			"script": "",
+																			"customComponent": false,
 																			"request": [],
 																			"response": [],
 																			"attributes": [],
@@ -536,155 +484,51 @@
 															]
 														}
 													]
-												}
-											]
-										},
-										{
-											"fieldNo": "de342796-d14e-48e5-e0ec-fad4babcf5d8",
-											"fieldName": "oTableDialog1",
-											"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
-											"fieldType": "sap.m.Dialog",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
+												},
 												{
-													"attribute": "title",
-													"grouping": "Properties",
-													"value": "Table Inside Dialog",
+													"fieldNo": "b4196805-5320-41bc-8cd1-77e51508f7a4",
+													"fieldName": "oIconTabFilter1",
+													"fieldParent": "366dbe7e-8f23-4953-df10-4ac5b1b9c234",
+													"fieldType": "sap.m.IconTabFilter",
 													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "5a5d7b8c-0b05-4a6e-f9c7-ac8398a81cfd",
-													"fieldName": "oTable",
-													"fieldParent": "de342796-d14e-48e5-e0ec-fad4babcf5d8",
-													"fieldType": "sap.m.Table",
-													"script": "",
-													"bindingType": "h",
-													"modelPath": "oMultiModel>/result/IT_CUSTOMER",
+													"customComponent": false,
 													"request": [],
 													"response": [],
-													"attributes": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "tab 2",
+															"script": "",
+															"translation": []
+														}
+													],
 													"data": [
 														{
-															"fieldNo": "f04b9cf6-3311-488e-cfcc-9e9239e39b66",
-															"fieldName": "coloTableNAME1",
-															"fieldParent": "5a5d7b8c-0b05-4a6e-f9c7-ac8398a81cfd",
-															"fieldType": "sap.m.Column",
+															"fieldNo": "a4c9e258-6855-4e78-f3d5-2f58a6438159",
+															"fieldName": "oSimpleForm2",
+															"fieldParent": "b4196805-5320-41bc-8cd1-77e51508f7a4",
+															"fieldType": "sap.ui.layout.form.SimpleForm",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [],
 															"data": [
 																{
-																	"fieldNo": "877a8afa-03e7-4f2b-b7d0-c10543826f8a",
-																	"fieldName": "colHoTableNAME1",
-																	"fieldParent": "f04b9cf6-3311-488e-cfcc-9e9239e39b66",
+																	"fieldNo": "42fad2d9-5ca5-449c-fcf3-bc115dd80e16",
+																	"fieldName": "oText4",
+																	"fieldParent": "a4c9e258-6855-4e78-f3d5-2f58a6438159",
 																	"fieldType": "sap.m.Text",
 																	"script": "",
+																	"customComponent": false,
 																	"request": [],
 																	"response": [],
 																	"attributes": [
 																		{
 																			"attribute": "text",
 																			"grouping": "Properties",
-																			"value": "Name 1",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														},
-														{
-															"fieldNo": "75cd13a2-fe89-4bb3-96e9-8523a4fb0ffd",
-															"fieldName": "coloTableORT01",
-															"fieldParent": "5a5d7b8c-0b05-4a6e-f9c7-ac8398a81cfd",
-															"fieldType": "sap.m.Column",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [],
-															"data": [
-																{
-																	"fieldNo": "136e2ee6-e201-486a-e4f9-07a21d19e3a6",
-																	"fieldName": "colHoTableORT01",
-																	"fieldParent": "75cd13a2-fe89-4bb3-96e9-8523a4fb0ffd",
-																	"fieldType": "sap.m.Text",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "City",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														},
-														{
-															"fieldNo": "bc182f28-a138-43d9-9a39-614a72f848e8",
-															"fieldName": "coloTableLAND1",
-															"fieldParent": "5a5d7b8c-0b05-4a6e-f9c7-ac8398a81cfd",
-															"fieldType": "sap.m.Column",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [],
-															"data": [
-																{
-																	"fieldNo": "22b28ed5-fdee-4055-fe6d-46cadded3361",
-																	"fieldName": "colHoTableLAND1",
-																	"fieldParent": "bc182f28-a138-43d9-9a39-614a72f848e8",
-																	"fieldType": "sap.m.Text",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "Country Key",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														},
-														{
-															"fieldNo": "4b1dc93c-9dfa-41bf-ea9d-5039cbd54998",
-															"fieldName": "colItemoTable",
-															"fieldParent": "5a5d7b8c-0b05-4a6e-f9c7-ac8398a81cfd",
-															"fieldType": "sap.m.ColumnListItem",
-															"script": "",
-															"request": [],
-															"response": [],
-															"attributes": [],
-															"data": [
-																{
-																	"fieldNo": "40446f0a-c08d-487a-ebd0-4d8c3339027a",
-																	"fieldName": "txtoTableNAME1",
-																	"fieldParent": "4b1dc93c-9dfa-41bf-ea9d-5039cbd54998",
-																	"fieldType": "sap.m.Text",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "{oMultiModel>NAME1}",
+																			"value": "some more value",
 																			"script": "",
 																			"translation": []
 																		}
@@ -692,41 +536,15 @@
 																	"data": []
 																},
 																{
-																	"fieldNo": "12f634a5-4670-4bbf-c4dd-47d1ccc6d739",
-																	"fieldName": "txtoTableORT01",
-																	"fieldParent": "4b1dc93c-9dfa-41bf-ea9d-5039cbd54998",
-																	"fieldType": "sap.m.Text",
+																	"fieldNo": "35d87300-2890-4234-9d4e-4c4eab194e14",
+																	"fieldName": "oTextArea1",
+																	"fieldParent": "a4c9e258-6855-4e78-f3d5-2f58a6438159",
+																	"fieldType": "sap.m.TextArea",
 																	"script": "",
+																	"customComponent": false,
 																	"request": [],
 																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "{oMultiModel>ORT01}",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "a9347db2-99df-4702-94a3-cfc1b19a7d0e",
-																	"fieldName": "txtoTableLAND1",
-																	"fieldParent": "4b1dc93c-9dfa-41bf-ea9d-5039cbd54998",
-																	"fieldType": "sap.m.Text",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "{oMultiModel>LAND1}",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
+																	"attributes": [],
 																	"data": []
 																}
 															]
@@ -734,165 +552,66 @@
 													]
 												}
 											]
-										},
+										}
+									]
+								},
+								{
+									"fieldNo": "de342796-d14e-48e5-e0ec-fad4babcf5d8",
+									"fieldName": "oTableDialog1",
+									"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
+									"fieldType": "sap.m.Dialog",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
 										{
-											"fieldNo": "6a9908fb-0b3a-49f7-8b72-e477f4a45410",
-											"fieldName": "oMessageBox",
-											"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
-											"fieldType": "sap.m.MessageBox",
+											"attribute": "title",
+											"grouping": "Properties",
+											"value": "Table Inside Dialog",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "title",
-													"grouping": "Properties",
-													"value": "Message Box",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "This is a simple message box",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "icon",
-													"grouping": "Properties",
-													"value": "SUCCESS",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "Button1",
-													"grouping": "Properties",
-													"value": "OK",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
+											"translation": []
+										}
+									],
+									"data": [
 										{
-											"fieldNo": "d284031b-65af-4405-9e6d-ffe955d7c2f0",
-											"fieldName": "oConfirmationMessageBox",
-											"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
-											"fieldType": "sap.m.MessageBox",
+											"fieldNo": "5a5d7b8c-0b05-4a6e-f9c7-ac8398a81cfd",
+											"fieldName": "oTable",
+											"fieldParent": "de342796-d14e-48e5-e0ec-fad4babcf5d8",
+											"fieldType": "sap.m.Table",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "title",
-													"grouping": "Properties",
-													"value": "Confirmation Message Box",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Do you want to Continue ?",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "icon",
-													"grouping": "Properties",
-													"value": "QUESTION",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "Button3",
-													"grouping": "Properties",
-													"value": "CANCEL",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "Button2",
-													"grouping": "Properties",
-													"value": "NO",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "Button1",
-													"grouping": "Properties",
-													"value": "OK",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "callback",
-													"grouping": "Events",
-													"value": "Anonymous Function",
-													"script": "file://event/sap.m.MessageBox/oConfirmationMessageBox/callback.script",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "b5ad5ece-d59d-4c1c-a475-340cb0ab23f3",
-											"fieldName": "TableSelectDialog",
-											"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
-											"fieldType": "sap.m.TableSelectDialog",
-											"script": "",
+											"customComponent": false,
 											"bindingType": "h",
 											"modelPath": "oMultiModel>/result/IT_CUSTOMER",
 											"request": [],
 											"response": [],
-											"attributes": [
-												{
-													"attribute": "title",
-													"grouping": "Properties",
-													"value": "Table Dialog",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "multiSelect",
-													"grouping": "Properties",
-													"value": "true",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "cancel",
-													"grouping": "Events",
-													"value": "TableSelectDialog.close();",
-													"script": "TableSelectDialog.close();",
-													"translation": []
-												}
-											],
+											"attributes": [],
 											"data": [
 												{
-													"fieldNo": "f21f113c-1cb9-4675-b213-fbd06ed6c5f6",
-													"fieldName": "oColumn",
-													"fieldParent": "b5ad5ece-d59d-4c1c-a475-340cb0ab23f3",
+													"fieldNo": "f04b9cf6-3311-488e-cfcc-9e9239e39b66",
+													"fieldName": "coloTableNAME1",
+													"fieldParent": "5a5d7b8c-0b05-4a6e-f9c7-ac8398a81cfd",
 													"fieldType": "sap.m.Column",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [],
 													"data": [
 														{
-															"fieldNo": "f245c956-6e55-467b-f5d9-ffde7df07f6b",
-															"fieldName": "oText1",
-															"fieldParent": "f21f113c-1cb9-4675-b213-fbd06ed6c5f6",
+															"fieldNo": "877a8afa-03e7-4f2b-b7d0-c10543826f8a",
+															"fieldName": "colHoTableNAME1",
+															"fieldParent": "f04b9cf6-3311-488e-cfcc-9e9239e39b66",
 															"fieldType": "sap.m.Text",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
 																	"attribute": "text",
 																	"grouping": "Properties",
-																	"value": "KUNNR",
+																	"value": "Name 1",
 																	"script": "",
 																	"translation": []
 																}
@@ -902,21 +621,89 @@
 													]
 												},
 												{
-													"fieldNo": "f8984f4e-7b81-41fd-9766-9f18dfb7dd26",
-													"fieldName": "oColumnListItem",
-													"fieldParent": "b5ad5ece-d59d-4c1c-a475-340cb0ab23f3",
-													"fieldType": "sap.m.ColumnListItem",
+													"fieldNo": "75cd13a2-fe89-4bb3-96e9-8523a4fb0ffd",
+													"fieldName": "coloTableORT01",
+													"fieldParent": "5a5d7b8c-0b05-4a6e-f9c7-ac8398a81cfd",
+													"fieldType": "sap.m.Column",
 													"script": "",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [],
 													"data": [
 														{
-															"fieldNo": "949841a7-40a6-4497-9f4c-9b251209e16f",
-															"fieldName": "oText2",
-															"fieldParent": "f8984f4e-7b81-41fd-9766-9f18dfb7dd26",
+															"fieldNo": "136e2ee6-e201-486a-e4f9-07a21d19e3a6",
+															"fieldName": "colHoTableORT01",
+															"fieldParent": "75cd13a2-fe89-4bb3-96e9-8523a4fb0ffd",
 															"fieldType": "sap.m.Text",
 															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "City",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "bc182f28-a138-43d9-9a39-614a72f848e8",
+													"fieldName": "coloTableLAND1",
+													"fieldParent": "5a5d7b8c-0b05-4a6e-f9c7-ac8398a81cfd",
+													"fieldType": "sap.m.Column",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "22b28ed5-fdee-4055-fe6d-46cadded3361",
+															"fieldName": "colHoTableLAND1",
+															"fieldParent": "bc182f28-a138-43d9-9a39-614a72f848e8",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Country Key",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "4b1dc93c-9dfa-41bf-ea9d-5039cbd54998",
+													"fieldName": "colItemoTable",
+													"fieldParent": "5a5d7b8c-0b05-4a6e-f9c7-ac8398a81cfd",
+													"fieldType": "sap.m.ColumnListItem",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "40446f0a-c08d-487a-ebd0-4d8c3339027a",
+															"fieldName": "txtoTableNAME1",
+															"fieldParent": "4b1dc93c-9dfa-41bf-ea9d-5039cbd54998",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
@@ -929,147 +716,399 @@
 																}
 															],
 															"data": []
+														},
+														{
+															"fieldNo": "12f634a5-4670-4bbf-c4dd-47d1ccc6d739",
+															"fieldName": "txtoTableORT01",
+															"fieldParent": "4b1dc93c-9dfa-41bf-ea9d-5039cbd54998",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{oMultiModel>ORT01}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "a9347db2-99df-4702-94a3-cfc1b19a7d0e",
+															"fieldName": "txtoTableLAND1",
+															"fieldParent": "4b1dc93c-9dfa-41bf-ea9d-5039cbd54998",
+															"fieldType": "sap.m.Text",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "{oMultiModel>LAND1}",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
 														}
 													]
 												}
 											]
+										}
+									]
+								},
+								{
+									"fieldNo": "6a9908fb-0b3a-49f7-8b72-e477f4a45410",
+									"fieldName": "oMessageBox",
+									"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
+									"fieldType": "sap.m.MessageBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "title",
+											"grouping": "Properties",
+											"value": "Message Box",
+											"script": "",
+											"translation": []
 										},
 										{
-											"fieldNo": "0df9a562-e608-48d2-8afd-a3b279ad569b",
-											"fieldName": "oSimpleDialogTableUI",
-											"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
-											"fieldType": "sap.m.Dialog",
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "This is a simple message box",
 											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "icon",
+											"grouping": "Properties",
+											"value": "SUCCESS",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "Button1",
+											"grouping": "Properties",
+											"value": "OK",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "d284031b-65af-4405-9e6d-ffe955d7c2f0",
+									"fieldName": "oConfirmationMessageBox",
+									"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
+									"fieldType": "sap.m.MessageBox",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "title",
+											"grouping": "Properties",
+											"value": "Confirmation Message Box",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Do you want to Continue ?",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "icon",
+											"grouping": "Properties",
+											"value": "QUESTION",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "Button3",
+											"grouping": "Properties",
+											"value": "CANCEL",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "Button2",
+											"grouping": "Properties",
+											"value": "NO",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "Button1",
+											"grouping": "Properties",
+											"value": "OK",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "callback",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.MessageBox/oConfirmationMessageBox/callback.script",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "b5ad5ece-d59d-4c1c-a475-340cb0ab23f3",
+									"fieldName": "TableSelectDialog",
+									"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
+									"fieldType": "sap.m.TableSelectDialog",
+									"script": "",
+									"customComponent": false,
+									"bindingType": "h",
+									"modelPath": "oMultiModel>/result/IT_CUSTOMER",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "title",
+											"grouping": "Properties",
+											"value": "Table Dialog",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "multiSelect",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "cancel",
+											"grouping": "Events",
+											"value": "TableSelectDialog.close();",
+											"script": "TableSelectDialog.close();",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "f21f113c-1cb9-4675-b213-fbd06ed6c5f6",
+											"fieldName": "oColumn",
+											"fieldParent": "b5ad5ece-d59d-4c1c-a475-340cb0ab23f3",
+											"fieldType": "sap.m.Column",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "f245c956-6e55-467b-f5d9-ffde7df07f6b",
+													"fieldName": "oText1",
+													"fieldParent": "f21f113c-1cb9-4675-b213-fbd06ed6c5f6",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "KUNNR",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "f8984f4e-7b81-41fd-9766-9f18dfb7dd26",
+											"fieldName": "oColumnListItem",
+											"fieldParent": "b5ad5ece-d59d-4c1c-a475-340cb0ab23f3",
+											"fieldType": "sap.m.ColumnListItem",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "949841a7-40a6-4497-9f4c-9b251209e16f",
+													"fieldName": "oText2",
+													"fieldParent": "f8984f4e-7b81-41fd-9766-9f18dfb7dd26",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{oMultiModel>NAME1}",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "0df9a562-e608-48d2-8afd-a3b279ad569b",
+									"fieldName": "oSimpleDialogTableUI",
+									"fieldParent": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
+									"fieldType": "sap.m.Dialog",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "title",
+											"grouping": "Properties",
+											"value": "Simple Dialog",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "icon",
+											"grouping": "Properties",
+											"value": "sap-icon://activity-items",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "beforeClose",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "c04acb05-639d-4229-fe3a-8168b9d28a76",
+											"fieldName": "oTable1",
+											"fieldParent": "0df9a562-e608-48d2-8afd-a3b279ad569b",
+											"fieldType": "sap.ui.table.Table",
+											"script": "",
+											"customComponent": false,
+											"bindingType": "h",
+											"modelPath": "oMultiModel>/result/IT_CUSTOMER",
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "title",
+													"attribute": "selectionMode",
 													"grouping": "Properties",
-													"value": "Simple Dialog",
+													"value": "Single",
 													"script": "",
 													"translation": []
 												},
 												{
-													"attribute": "icon",
-													"grouping": "Properties",
-													"value": "sap-icon://activity-items",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "beforeClose",
+													"attribute": "cellClick",
 													"grouping": "Events",
 													"value": "Anonymous Function",
-													"script": "",
+													"script": "file://event/sap.ui.table.Table/oTable1/cellClick.script",
 													"translation": []
 												}
 											],
 											"data": [
 												{
-													"fieldNo": "c04acb05-639d-4229-fe3a-8168b9d28a76",
-													"fieldName": "oTable1",
-													"fieldParent": "0df9a562-e608-48d2-8afd-a3b279ad569b",
-													"fieldType": "sap.ui.table.Table",
+													"fieldNo": "745456fb-a574-4941-b193-785ce3458607",
+													"fieldName": "coloTable1KUNNR",
+													"fieldParent": "c04acb05-639d-4229-fe3a-8168b9d28a76",
+													"fieldType": "sap.ui.table.Column",
 													"script": "",
-													"bindingType": "h",
-													"modelPath": "oMultiModel>/result/IT_CUSTOMER",
+													"customComponent": false,
 													"request": [],
 													"response": [],
 													"attributes": [
 														{
-															"attribute": "selectionMode",
+															"attribute": "label",
 															"grouping": "Properties",
-															"value": "Single",
+															"value": "Customer",
 															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "cellClick",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.ui.table.Table/oTable1/cellClick.script",
 															"translation": []
 														}
 													],
 													"data": [
 														{
-															"fieldNo": "745456fb-a574-4941-b193-785ce3458607",
-															"fieldName": "coloTable1KUNNR",
-															"fieldParent": "c04acb05-639d-4229-fe3a-8168b9d28a76",
-															"fieldType": "sap.ui.table.Column",
+															"fieldNo": "6ce95dad-f2cb-46eb-b773-b574310e7633",
+															"fieldName": "inoTable1KUNNR",
+															"fieldParent": "745456fb-a574-4941-b193-785ce3458607",
+															"fieldType": "sap.m.Input",
 															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
-																	"attribute": "label",
+																	"attribute": "value",
 																	"grouping": "Properties",
-																	"value": "Customer",
+																	"value": "{oMultiModel>KUNNR}",
 																	"script": "",
 																	"translation": []
 																}
 															],
-															"data": [
-																{
-																	"fieldNo": "6ce95dad-f2cb-46eb-b773-b574310e7633",
-																	"fieldName": "inoTable1KUNNR",
-																	"fieldParent": "745456fb-a574-4941-b193-785ce3458607",
-																	"fieldType": "sap.m.Input",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "value",
-																			"grouping": "Properties",
-																			"value": "{oMultiModel>KUNNR}",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
-														},
+															"data": []
+														}
+													]
+												},
+												{
+													"fieldNo": "8c646bca-69f0-4c2c-adb2-afe2516eeb97",
+													"fieldName": "coloTable1NAME1",
+													"fieldParent": "c04acb05-639d-4229-fe3a-8168b9d28a76",
+													"fieldType": "sap.ui.table.Column",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
 														{
-															"fieldNo": "8c646bca-69f0-4c2c-adb2-afe2516eeb97",
-															"fieldName": "coloTable1NAME1",
-															"fieldParent": "c04acb05-639d-4229-fe3a-8168b9d28a76",
-															"fieldType": "sap.ui.table.Column",
+															"attribute": "label",
+															"grouping": "Properties",
+															"value": "Name 1",
 															"script": "",
+															"translation": []
+														}
+													],
+													"data": [
+														{
+															"fieldNo": "f5a14192-5cb3-40ab-dee7-dd4fac799242",
+															"fieldName": "inoTable1NAME1",
+															"fieldParent": "8c646bca-69f0-4c2c-adb2-afe2516eeb97",
+															"fieldType": "sap.m.Input",
+															"script": "",
+															"customComponent": false,
 															"request": [],
 															"response": [],
 															"attributes": [
 																{
-																	"attribute": "label",
+																	"attribute": "value",
 																	"grouping": "Properties",
-																	"value": "Name 1",
+																	"value": "{oMultiModel>NAME1}",
 																	"script": "",
 																	"translation": []
 																}
 															],
-															"data": [
-																{
-																	"fieldNo": "f5a14192-5cb3-40ab-dee7-dd4fac799242",
-																	"fieldName": "inoTable1NAME1",
-																	"fieldParent": "8c646bca-69f0-4c2c-adb2-afe2516eeb97",
-																	"fieldType": "sap.m.Input",
-																	"script": "",
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "value",
-																			"grouping": "Properties",
-																			"value": "{oMultiModel>NAME1}",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																}
-															]
+															"data": []
 														}
 													]
 												}
@@ -1092,6 +1131,7 @@
 					"fieldParent": 99999,
 					"fieldType": "neptune.model",
 					"script": "",
+					"customComponent": false,
 					"bindingValue": "SAP Local API (SDK)>getCustomerListResponse",
 					"bindingType": "h",
 					"bindingSource": "API",
@@ -1108,6 +1148,7 @@
 					"fieldParent": 99999,
 					"fieldType": "neptune.restapi",
 					"script": "",
+					"customComponent": false,
 					"restSource": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
 					"restOperation": "d868597a-6840-4122-f87d-3c21a1fd0eb5",
 					"request": [],
@@ -1136,8 +1177,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.5.1422",
+	"componentInterface": [],
+	"ver": "23.10.27.1232",
 	"application": "sample_showdialog",
 	"title": "Dialogs - sap.m.Dialog - sap.m.MessageBox",
 	"description": "Dialogs - sap.m.Dialog - sap.m.MessageBox",
@@ -1156,12 +1197,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -1173,6 +1215,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [
 		{
 			"id": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",

@@ -4,363 +4,215 @@
 	"createdBy": "serviceuser",
 	"objects": [
 		{
-			"fieldNo": "1",
-			"fieldName": "oShell",
+			"fieldNo": "2",
+			"fieldName": "oApp",
 			"fieldParent": 0,
-			"fieldType": "sap.m.Shell",
+			"fieldType": "sap.m.App",
 			"script": "",
+			"customComponent": false,
 			"request": [],
 			"response": [],
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "2",
-					"fieldName": "oApp",
-					"fieldParent": "1",
-					"fieldType": "sap.m.App",
+					"fieldNo": "4",
+					"fieldName": "oPage",
+					"fieldParent": "2",
+					"fieldType": "sap.m.Page",
 					"script": "",
+					"customComponent": false,
 					"request": [],
 					"response": [],
-					"attributes": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "DateTimeInput",
+							"script": "",
+							"translation": []
+						}
+					],
 					"data": [
 						{
-							"fieldNo": "4",
-							"fieldName": "oPage",
-							"fieldParent": "2",
-							"fieldType": "sap.m.Page",
+							"fieldNo": "e4699088-6c4d-4fe4-d457-b89c1e051474",
+							"fieldName": "oVBox",
+							"fieldParent": "4",
+							"fieldType": "sap.m.VBox",
 							"script": "",
+							"customComponent": false,
 							"request": [],
 							"response": [],
 							"attributes": [
 								{
-									"attribute": "title",
+									"attribute": "styleClassMargin",
 									"grouping": "Properties",
-									"value": "DateTimeInput",
+									"value": "sapUiSmallMargin",
 									"script": "",
 									"translation": []
 								}
 							],
 							"data": [
 								{
-									"fieldNo": "e4699088-6c4d-4fe4-d457-b89c1e051474",
-									"fieldName": "oVBox",
-									"fieldParent": "4",
-									"fieldType": "sap.m.VBox",
+									"fieldNo": "f0e07f55-b92d-4fb6-e508-7b0e338059c4",
+									"fieldName": "oLabel",
+									"fieldParent": "e4699088-6c4d-4fe4-d457-b89c1e051474",
+									"fieldType": "sap.m.Label",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Date (type: Date)",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "c9d0919a-7305-455c-ea73-2e1c1284b0bd",
+									"fieldName": "oDateInput",
+									"fieldParent": "e4699088-6c4d-4fe4-d457-b89c1e051474",
+									"fieldType": "sap.m.DateTimeInput",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "type",
+											"grouping": "Properties",
+											"value": "Date",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "placeholder",
+											"grouping": "Properties",
+											"value": "Select Date (dd.MM.yyyy)",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "displayFormat",
+											"grouping": "Properties",
+											"value": "dd.MM.yyyy",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "2901c018-b668-4178-b117-34ab2d3de185",
+									"fieldName": "oLabel1",
+									"fieldParent": "e4699088-6c4d-4fe4-d457-b89c1e051474",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Time (type: time)",
+											"script": "",
+											"translation": []
+										},
 										{
 											"attribute": "styleClassMargin",
 											"grouping": "Properties",
-											"value": "sapUiSmallMargin",
+											"value": "sapUiSmallMarginTop",
 											"script": "",
 											"translation": []
 										}
 									],
-									"data": [
-										{
-											"fieldNo": "f0e07f55-b92d-4fb6-e508-7b0e338059c4",
-											"fieldName": "oLabel",
-											"fieldParent": "e4699088-6c4d-4fe4-d457-b89c1e051474",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Date (type: Date)",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "c9d0919a-7305-455c-ea73-2e1c1284b0bd",
-											"fieldName": "oDateInput",
-											"fieldParent": "e4699088-6c4d-4fe4-d457-b89c1e051474",
-											"fieldType": "sap.m.DateTimeInput",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "type",
-													"grouping": "Properties",
-													"value": "Date",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "placeholder",
-													"grouping": "Properties",
-													"value": "Select Date (dd.MM.yyyy)",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "displayFormat",
-													"grouping": "Properties",
-													"value": "dd.MM.yyyy",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "2901c018-b668-4178-b117-34ab2d3de185",
-											"fieldName": "oLabel1",
-											"fieldParent": "e4699088-6c4d-4fe4-d457-b89c1e051474",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Time (type: time)",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "styleClassMargin",
-													"grouping": "Properties",
-													"value": "sapUiSmallMarginTop",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "7fd4ff52-e053-4cad-d2ea-c32bc017aaac",
-											"fieldName": "oTimeInput",
-											"fieldParent": "e4699088-6c4d-4fe4-d457-b89c1e051474",
-											"fieldType": "sap.m.DateTimeInput",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "type",
-													"grouping": "Properties",
-													"value": "Time",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "placeholder",
-													"grouping": "Properties",
-													"value": "Select Time",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "d0d2cf67-524d-4a89-e346-207099054430",
-											"fieldName": "oLabel2",
-											"fieldParent": "e4699088-6c4d-4fe4-d457-b89c1e051474",
-											"fieldType": "sap.m.Label",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "text",
-													"grouping": "Properties",
-													"value": "Date And Time (type: DateTime)",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "styleClassMargin",
-													"grouping": "Properties",
-													"value": "sapUiSmallMarginTop",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "8e99089f-6b0a-49f1-8dce-7faef085fc05",
-											"fieldName": "oDateTimeInput",
-											"fieldParent": "e4699088-6c4d-4fe4-d457-b89c1e051474",
-											"fieldType": "sap.m.DateTimeInput",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "type",
-													"grouping": "Properties",
-													"value": "DateTime",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "placeholder",
-													"grouping": "Properties",
-													"value": "Select Date & Time",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										}
-									]
+									"data": []
 								},
 								{
-									"fieldNo": "5",
-									"fieldName": "oFooter",
-									"fieldParent": "4",
-									"fieldType": "sap.m.Bar",
+									"fieldNo": "7fd4ff52-e053-4cad-d2ea-c32bc017aaac",
+									"fieldName": "oTimeInput",
+									"fieldParent": "e4699088-6c4d-4fe4-d457-b89c1e051474",
+									"fieldType": "sap.m.DateTimeInput",
 									"script": "",
+									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
 										{
-											"attribute": "position",
-											"grouping": "Parent",
-											"value": "setFooter",
+											"attribute": "type",
+											"grouping": "Properties",
+											"value": "Time",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "placeholder",
+											"grouping": "Properties",
+											"value": "Select Time",
 											"script": "",
 											"translation": []
 										}
 									],
-									"data": [
+									"data": []
+								},
+								{
+									"fieldNo": "d0d2cf67-524d-4a89-e346-207099054430",
+									"fieldName": "oLabel2",
+									"fieldParent": "e4699088-6c4d-4fe4-d457-b89c1e051474",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
 										{
-											"fieldNo": "6",
-											"fieldName": "Left",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Date And Time (type: DateTime)",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentLeft",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "a4fc5750-5c33-4567-c705-9aceb0192461",
-													"fieldName": "oButton",
-													"fieldParent": "6",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Open In App Designer",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/oButton/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
+											"translation": []
 										},
 										{
-											"fieldNo": "7",
-											"fieldName": "Middle",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMarginTop",
 											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentMiddle",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": []
-										},
-										{
-											"fieldNo": "8",
-											"fieldName": "Right",
-											"fieldParent": "5",
-											"fieldType": "neptune.BarContent",
-											"script": "",
-											"request": [],
-											"response": [],
-											"attributes": [
-												{
-													"attribute": "position",
-													"grouping": "Parent",
-													"value": "ContentRight",
-													"script": "",
-													"translation": []
-												}
-											],
-											"data": [
-												{
-													"fieldNo": "f67fe06e-ce3c-4fff-ecfa-fc2263373f3f",
-													"fieldName": "butCompact",
-													"fieldParent": "8",
-													"fieldType": "sap.m.ToggleButton",
-													"script": "",
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "type",
-															"grouping": "Properties",
-															"value": "Emphasized",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "text",
-															"grouping": "Properties",
-															"value": "Compact",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.ToggleButton/butCompact/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
+											"translation": []
 										}
-									]
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "8e99089f-6b0a-49f1-8dce-7faef085fc05",
+									"fieldName": "oDateTimeInput",
+									"fieldParent": "e4699088-6c4d-4fe4-d457-b89c1e051474",
+									"fieldType": "sap.m.DateTimeInput",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "type",
+											"grouping": "Properties",
+											"value": "DateTime",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "placeholder",
+											"grouping": "Properties",
+											"value": "Select Date & Time",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
 								}
 							]
 						}
@@ -377,8 +229,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "20.11.25.1739",
+	"componentInterface": [],
+	"ver": "23.10.26.1418",
 	"application": "sample_datetimeinput",
 	"title": "Sample sap.m.DateTimeInput",
 	"description": "sap.m.DateTimeInput",
@@ -397,12 +249,13 @@
 	"ui5_tnt": false,
 	"ui5_uxap": false,
 	"ui5_chart": false,
-	"ui5_theme": "sap_belize",
+	"ui5_theme": "sap_horizon",
 	"ui5_version": "",
 	"ui5_language": null,
-	"ui5_url": null,
+	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -414,6 +267,8 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

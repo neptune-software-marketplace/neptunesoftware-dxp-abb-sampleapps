@@ -1682,7 +1682,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.26.1543",
 	"application": "sample_headercontainer",
 	"title": "Sample sap.m.HeaderContainer",

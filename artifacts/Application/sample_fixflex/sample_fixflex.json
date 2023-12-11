@@ -459,7 +459,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.26.151",
 	"application": "sample_fixflex",
 	"title": "Sample sap.ui.layout.FixFlex",

@@ -760,7 +760,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.1234",
 	"application": "sample_simpleforms",
 	"title": "Sample sap.ui.layout.form.SimpleForm",

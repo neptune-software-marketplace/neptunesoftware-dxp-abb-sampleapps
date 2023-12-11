@@ -411,7 +411,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.26.1210",
 	"application": "sample_breadcrumbs",
 	"title": "Sample sap.m.Breadcrumbs",

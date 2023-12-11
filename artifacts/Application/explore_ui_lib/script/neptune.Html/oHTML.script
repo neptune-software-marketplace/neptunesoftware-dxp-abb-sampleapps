@@ -1,0 +1,19 @@
+<style>
+	.exploredList>.sapMListItems>.sapMLIB>.sapMLIBContent>.sapMSLIImg,
+	.sapMSLIImgFirst {
+		height: 14px;
+		width: 14px;
+	}
+
+	.sapUiSizeCompact.exploredList .sapMSLI.sapMSLIThumbnail {
+		height: inherit;
+	}
+
+	.sapUiSizeCompact .sapMSLI {
+		height: 2rem !important;
+	}
+
+    .sapMOHTitle{
+        margin-top: 1.2rem !important;
+    }
+</style>

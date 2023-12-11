@@ -342,7 +342,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.1145",
 	"application": "sample_multicombobox",
 	"title": "Sample sap.m.MultiComboBox",

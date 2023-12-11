@@ -1072,7 +1072,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.26.128",
 	"application": "sample_blocklayout",
 	"title": "Sample sap.ui.layout.BlockLayout",

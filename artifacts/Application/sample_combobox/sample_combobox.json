@@ -358,7 +358,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.26.1245",
 	"application": "sample_combobox",
 	"title": "Sample sap.m.ComboBox",

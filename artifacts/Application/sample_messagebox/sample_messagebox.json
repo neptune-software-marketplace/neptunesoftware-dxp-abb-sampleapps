@@ -517,7 +517,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.1058",
 	"application": "sample_messagebox",
 	"title": "Sample sap.m.MessageBox",

@@ -9,7 +9,7 @@
 	},
 	"name": "com.neptune-software.pt.samples.explored",
 	"description": "Explored samples",
-	"ver": "23.2.6.1646",
+	"ver": "23.12.11.1431",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -29,6 +29,12 @@
 			"application": "sample_objectheader",
 			"title": "sap.m.ObjectHeader - sap.m.IconTabBar",
 			"description": "sap.m.ObjectHeader - sap.m.IconTabBar"
+		},
+		{
+			"id": "f754888a-b2aa-47ee-bb3b-5d46980a053f",
+			"application": "explore_ui_lib",
+			"title": "",
+			"description": "Explored UI Library Reference"
 		},
 		{
 			"id": "f54424c7-9a85-4fda-ba9b-c1c1117a13aa",
@@ -71,6 +77,12 @@
 			"application": "sample_columnmultilabel",
 			"title": "Sample neptune.TableMultiLabel",
 			"description": "neptune.TableMultiLabel"
+		},
+		{
+			"id": "ec78ded9-1f3d-4a9e-9517-dcfc072372d3",
+			"application": "sample_odatamockdata",
+			"title": "sap.ui.model.odata.v2.ODataModel with MockData",
+			"description": "sap.ui.model.odata.v2.ODataModel with MockData"
 		},
 		{
 			"id": "eb527ffe-24da-4845-8d78-275065152e9d",
@@ -295,6 +307,12 @@
 			"description": "sap.m.Popover"
 		},
 		{
+			"id": "992bdc01-2fd5-ec11-997e-0003ff7bd14f",
+			"application": "explore_sample_apps",
+			"title": "",
+			"description": ""
+		},
+		{
 			"id": "9815e7e0-db43-493f-bbd4-f463a062952f",
 			"application": "sample_actionsheet",
 			"title": "Sample sap.m.ActionSheet",
@@ -415,6 +433,12 @@
 			"description": "sap.m.GenericTile - sap.m.TileContent - sap.m.CustomTile - sap.m.SlideTile"
 		},
 		{
+			"id": "60e0e287-b7f8-4e35-a97b-48fe36984c7d",
+			"application": "sample_odata_mockdata",
+			"title": "",
+			"description": ""
+		},
+		{
 			"id": "5f18784a-5645-4a47-b256-cb704dbcfed3",
 			"application": "sample_ui_layout_splitter",
 			"title": "sap.ui.layout.Splitter - sap.ui.layout.SplitterLayoutData",
@@ -503,6 +527,12 @@
 			"application": "sample_flexiblecolumnlayout",
 			"title": "Sample sap.f.FlexibleColumnLayout",
 			"description": "sap.f.FlexibleColumnLayout"
+		},
+		{
+			"id": "38caf781-9b0c-433d-beb3-69b9c41c9a1c",
+			"application": "sample_displaylistitem",
+			"title": "Sample sap.m.DisplayListItem",
+			"description": "sap.m.DisplayListItem"
 		},
 		{
 			"id": "3754147f-1ff8-4bf4-b250-697474236d42",
@@ -642,7 +672,7 @@
 			"id": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
 			"name": "SAP Local API (SDK)",
 			"description": "Test SAP API",
-			"apiGroup": null
+			"apiGroup": "38e02bfd-ec29-eb11-b9ed-0003ff5948cd"
 		}
 	],
 	"odataSource": [],
@@ -671,11 +701,11 @@
 	"events": [],
 	"media_library": [
 		{
-			"id": "fcbbce06-d0a0-4454-a32b-5df45dea27ba",
-			"updatedAt": "2023-10-25T11:14:49.000Z",
+			"id": "D22A55AF-1B8D-ED11-9F60-000D3ABA46BE",
+			"updatedAt": "2023-02-06T16:44:49.610Z",
 			"name": "SampleApps",
 			"parent": null,
-			"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+			"package": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 		}
 	],
 	"code_snippets": [],

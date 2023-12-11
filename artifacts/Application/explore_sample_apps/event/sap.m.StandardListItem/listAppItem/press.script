@@ -1,0 +1,25 @@
+var context = oEvent.oSource.getBindingContext();  
+
+// Get Single Field
+currentApp = context.getProperty("application");
+currentTitle = context.getProperty("description");
+
+// Get Entire Model
+var data = context.getObject();
+
+navigateToDetail();
+oLayoutMain.to(localViewID+'--oPageDetail2');
+
+
+
+console.log("currentApp")
+console.log(currentApp)
+//Load App into parent object (example: sap.m.Page)
+AppCache.Load(currentApp, {
+    //parentObject: oPanel
+    parentObject: oPageDetail2
+});
+
+
+
+// popSampleAction.open();

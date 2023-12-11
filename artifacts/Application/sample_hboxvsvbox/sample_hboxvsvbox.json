@@ -524,7 +524,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.26.1542",
 	"application": "sample_hboxvsvbox",
 	"title": "Sample sap.m.HBox, sap.m.VBox",

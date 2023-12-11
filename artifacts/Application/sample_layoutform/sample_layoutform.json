@@ -939,7 +939,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.1018",
 	"application": "sample_layoutform",
 	"title": "Sample sap.ui.layout.form.Form",

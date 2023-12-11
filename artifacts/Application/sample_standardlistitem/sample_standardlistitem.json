@@ -391,7 +391,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.1257",
 	"application": "sample_standardlistitem",
 	"title": "sap.m.List - sap.m.StandardListItem",

@@ -435,7 +435,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.1416",
 	"application": "sample_textarea",
 	"title": "sap.m.TextArea",

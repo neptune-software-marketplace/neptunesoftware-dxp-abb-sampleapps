@@ -380,7 +380,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.1228",
 	"application": "sample_selectdialog",
 	"title": "sap.m.SelectDialog - RestAPI - MultiModel",

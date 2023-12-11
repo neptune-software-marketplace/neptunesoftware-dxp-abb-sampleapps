@@ -256,7 +256,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.1450",
 	"application": "sample_verticallayout",
 	"title": "sap.ui.layout.VerticalLayout",

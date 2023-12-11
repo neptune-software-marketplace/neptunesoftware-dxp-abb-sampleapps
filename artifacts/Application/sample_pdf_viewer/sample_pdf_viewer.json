@@ -46,7 +46,7 @@
 								{
 									"attribute": "source",
 									"grouping": "Properties",
-									"value": "/media/root/SampleApps/developer license uxp.pdf",
+									"value": "/media/root/SampleApps/Security_Process_Overview.pdf",
 									"script": "",
 									"translation": []
 								}
@@ -67,7 +67,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.10.27.124",
+	"ver": "23.12.11.1425",
 	"application": "sample_pdf_viewer",
 	"title": "Sample sap.m.PDFViewer",
 	"description": "sap.m.PDFViewer",

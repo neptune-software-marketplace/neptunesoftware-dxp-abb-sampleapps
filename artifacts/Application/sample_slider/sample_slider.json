@@ -499,7 +499,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.1235",
 	"application": "sample_slider",
 	"title": "sap.m.Slider",

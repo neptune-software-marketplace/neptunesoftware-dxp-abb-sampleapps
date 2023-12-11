@@ -93,7 +93,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.1059",
 	"application": "sample_messagepage",
 	"title": "Sample sap.m.MessagePage",

@@ -484,7 +484,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.1436",
 	"application": "sample_ui_calendar",
 	"title": "sap.ui.unified.Calendar",

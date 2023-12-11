@@ -1,0 +1,3 @@
+oBusyDialog.close();
+oBusyDialog.open();
+apiGetTags({});

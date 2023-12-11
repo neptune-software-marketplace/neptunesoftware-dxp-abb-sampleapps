@@ -898,7 +898,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.1257",
 	"application": "sample_splitcontainer",
 	"title": "sap.ui.unified.SplitContainer",

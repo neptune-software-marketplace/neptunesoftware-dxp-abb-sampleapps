@@ -1252,7 +1252,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.1236",
 	"application": "sample_splitapp",
 	"title": "sap.m.SplitApp",

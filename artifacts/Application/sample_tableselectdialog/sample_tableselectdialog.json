@@ -808,7 +808,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.138",
 	"application": "sample_tableselectdialog",
 	"title": "sap.m.SelectDialog - sap.m.Table - RestAPI - MultiModel",

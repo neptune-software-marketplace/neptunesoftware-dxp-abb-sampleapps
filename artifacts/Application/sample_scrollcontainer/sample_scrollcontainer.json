@@ -1167,7 +1167,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.1219",
 	"application": "sample_scrollcontainer",
 	"title": "sap.m.ScrollContainer - sap.ui.layout.Grid - sap.uxap.ObjectPageLayout",

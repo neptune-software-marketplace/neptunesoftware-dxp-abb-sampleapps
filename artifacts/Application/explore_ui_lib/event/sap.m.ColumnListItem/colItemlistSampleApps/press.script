@@ -1,0 +1,5 @@
+var context = oEvent.oSource.getBindingContext();
+currentApp = context.getProperty("application");
+currentTitle = context.getProperty("description");
+
+popSampleAction.open();

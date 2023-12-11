@@ -770,7 +770,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.26.1522",
 	"application": "sample_flexiblecolumnlayout",
 	"title": "Sample sap.f.FlexibleColumnLayout",

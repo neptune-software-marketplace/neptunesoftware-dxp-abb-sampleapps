@@ -435,7 +435,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.26.1048",
 	"application": "sample_actionsheet",
 	"title": "Sample sap.m.ActionSheet",

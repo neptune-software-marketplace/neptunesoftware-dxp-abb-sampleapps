@@ -1,0 +1,10 @@
+
+// Replace yourField with FieldName
+const context = oEvent.oSource.getBindingContext();  
+
+// Get Single Field
+const value = context.getProperty("yourField");
+
+// Get Entire Model
+const data = context.getObject();
+console.log(data)

@@ -819,7 +819,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.121",
 	"application": "sample_overflowtoolbar",
 	"title": "sap.m.OverflowToolbar",

@@ -447,7 +447,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.1152",
 	"application": "sample_objectnumber",
 	"title": "sap.m.ObjectNumber - sap.m.Table - sap.m.ColumnListItem",

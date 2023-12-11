@@ -283,7 +283,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.1227",
 	"application": "sample_select",
 	"title": "sap.m.Select - sap.ui.layout.form.SimpleForm",

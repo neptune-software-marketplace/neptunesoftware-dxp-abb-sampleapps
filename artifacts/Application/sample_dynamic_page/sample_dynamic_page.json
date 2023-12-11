@@ -1046,7 +1046,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.26.1454",
 	"application": "sample_dynamic_page",
 	"title": "sap.f.DynamicPage",

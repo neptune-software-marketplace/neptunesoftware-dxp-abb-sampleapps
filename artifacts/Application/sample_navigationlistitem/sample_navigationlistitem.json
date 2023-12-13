@@ -262,13 +262,6 @@
 											"translation": []
 										},
 										{
-											"attribute": "showNavButton",
-											"grouping": "Properties",
-											"value": "false",
-											"script": "",
-											"translation": []
-										},
-										{
 											"attribute": "navButtonPress",
 											"grouping": "Events",
 											"value": "oApp.back()",
@@ -783,48 +776,7 @@
 		},
 		{
 			"fieldNo": 99999,
-			"data": [
-				{
-					"fieldNo": "fbddc429-b8f8-461c-81ae-aa04454aba93",
-					"fieldName": "Splitter",
-					"fieldParent": 99999,
-					"fieldType": "sap.ui.layout.Splitter",
-					"script": "",
-					"customComponent": false,
-					"request": [],
-					"response": [],
-					"attributes": [],
-					"data": [
-						{
-							"fieldNo": "353eb41d-2ac1-4f1a-cd33-6b21e9c63194",
-							"fieldName": "oObjectHeader1",
-							"fieldParent": "fbddc429-b8f8-461c-81ae-aa04454aba93",
-							"fieldType": "sap.m.ObjectHeader",
-							"script": "",
-							"customComponent": false,
-							"request": [],
-							"response": [],
-							"attributes": [
-								{
-									"attribute": "title",
-									"grouping": "Properties",
-									"value": "Object Header",
-									"script": "",
-									"translation": []
-								},
-								{
-									"attribute": "icon",
-									"grouping": "Properties",
-									"value": "sap-icon://arrow-down",
-									"script": "",
-									"translation": []
-								}
-							],
-							"data": []
-						}
-					]
-				}
-			]
+			"data": []
 		},
 		{
 			"fieldNo": 99998,
@@ -832,7 +784,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.12.11.1358",
+	"ver": "23.12.12.1134",
 	"application": "sample_navigationlistitem",
 	"title": "sap.tnt.NavigationList - sap.tnt",
 	"description": "sap.tnt.NavigationList - sap.tnt",

@@ -1,4 +1,4 @@
-var context = oEvent.oSource.getBindingContext("oMultiModel");
+var context = oEvent.oSource.getBindingContext();
 var data = context.getObject();
 data = JSON.parse(JSON.stringify(data));
 modeloSimpleForm.setData(data);

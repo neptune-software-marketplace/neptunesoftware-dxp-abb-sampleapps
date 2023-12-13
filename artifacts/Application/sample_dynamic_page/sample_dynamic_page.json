@@ -490,8 +490,11 @@
 							"fieldType": "sap.m.Table",
 							"script": "",
 							"customComponent": false,
+							"bindingValue": "API sap_customer_details>sap_customer_details",
 							"bindingType": "h",
-							"modelPath": "oMultiModel>/result/IT_CUSTOMER",
+							"bindingSource": "API",
+							"bindingParentID": "A91F1BD8-0099-EE11-8925-000D3AB39531",
+							"bindingPathID": "b0f67845-6b60-4d82-959e-e9357e2cf902",
 							"request": [],
 							"response": [],
 							"attributes": [
@@ -733,7 +736,7 @@
 												{
 													"attribute": "text",
 													"grouping": "Properties",
-													"value": "{oMultiModel>KUNNR}",
+													"value": "{KUNNR}",
 													"script": "",
 													"translation": []
 												},
@@ -760,7 +763,7 @@
 												{
 													"attribute": "text",
 													"grouping": "Properties",
-													"value": "{oMultiModel>NAME1}",
+													"value": "{NAME1}",
 													"script": "",
 													"translation": []
 												}
@@ -780,7 +783,7 @@
 												{
 													"attribute": "text",
 													"grouping": "Properties",
-													"value": "{oMultiModel>ORT01}",
+													"value": "{ORT01}",
 													"script": "",
 													"translation": []
 												}
@@ -800,7 +803,7 @@
 												{
 													"attribute": "text",
 													"grouping": "Properties",
-													"value": "{oMultiModel>LAND1}",
+													"value": "{LAND1}",
 													"script": "",
 													"translation": []
 												}
@@ -820,7 +823,7 @@
 												{
 													"attribute": "text",
 													"grouping": "Properties",
-													"value": "{oMultiModel>STRAS}",
+													"value": "{STRAS}",
 													"script": "",
 													"translation": []
 												}
@@ -840,7 +843,7 @@
 												{
 													"attribute": "text",
 													"grouping": "Properties",
-													"value": "{oMultiModel>PSTLZ}",
+													"value": "{PSTLZ}",
 													"script": "",
 													"translation": []
 												}
@@ -995,37 +998,20 @@
 			"fieldNo": 99999,
 			"data": [
 				{
-					"fieldNo": "79529400-1936-46a3-fc2d-2d5c4fce839b",
-					"fieldName": "oMultiModel",
-					"fieldParent": 99999,
-					"fieldType": "neptune.model",
-					"script": "",
-					"customComponent": false,
-					"bindingValue": "SAP Local API (SDK)>getCustomerListResponse",
-					"bindingType": "h",
-					"bindingSource": "API",
-					"bindingParentID": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
-					"bindingPathID": "542e0a50-416e-4111-fff4-789457c22b0c",
-					"request": [],
-					"response": [],
-					"attributes": [],
-					"data": []
-				},
-				{
 					"fieldNo": "a489c902-ca5a-416c-9ba0-41bb9a6a6a7c",
 					"fieldName": "oRestAPI",
 					"fieldParent": 99999,
 					"fieldType": "neptune.restapi",
 					"script": "",
 					"customComponent": false,
-					"restSource": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
-					"restOperation": "d868597a-6840-4122-f87d-3c21a1fd0eb5",
+					"restSource": "a91f1bd8-0099-ee11-8925-000d3ab39531",
+					"restOperation": "c9f2588b-1d2a-4a86-d60c-25ef2d9f5042",
 					"request": [],
 					"response": [
 						{
-							"status": "200",
-							"dataId": "542e0a50-416e-4111-fff4-789457c22b0c",
-							"modelFieldNo": "79529400-1936-46a3-fc2d-2d5c4fce839b"
+							"status": 200,
+							"dataId": "b0f67845-6b60-4d82-959e-e9357e2cf902",
+							"modelFieldNo": "e4261d5a-f0fc-4f08-bc97-2e777c535957"
 						}
 					],
 					"attributes": [
@@ -1046,8 +1032,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "23.10.26.1454",
+	"componentInterface": [],
+	"ver": "23.12.12.1649",
 	"application": "sample_dynamic_page",
 	"title": "sap.f.DynamicPage",
 	"description": "sap.f.DynamicPage",
@@ -1088,9 +1074,9 @@
 	"printWidth": null,
 	"apis": [
 		{
-			"id": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
-			"name": "SAP Local API (SDK)",
-			"ver": "20.11.18.2226"
+			"id": "a91f1bd8-0099-ee11-8925-000d3ab39531",
+			"name": "API sap_customer_details",
+			"ver": "23.12.13.834"
 		}
 	],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"

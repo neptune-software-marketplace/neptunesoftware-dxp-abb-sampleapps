@@ -40,8 +40,11 @@
 							"fieldType": "sap.m.Table",
 							"script": "",
 							"customComponent": false,
+							"bindingValue": "API sap_customer_details>sap_customer_details",
 							"bindingType": "h",
-							"modelPath": "oMultiModel>/result/IT_CUSTOMER",
+							"bindingSource": "API",
+							"bindingParentID": "A91F1BD8-0099-EE11-8925-000D3AB39531",
+							"bindingPathID": "b0f67845-6b60-4d82-959e-e9357e2cf902",
 							"request": [],
 							"response": [],
 							"attributes": [
@@ -163,7 +166,7 @@
 												{
 													"attribute": "text",
 													"grouping": "Properties",
-													"value": "{oMultiModel>NAME1}",
+													"value": "{KUNNR}",
 													"script": "",
 													"translation": []
 												}
@@ -183,7 +186,7 @@
 												{
 													"attribute": "text",
 													"grouping": "Properties",
-													"value": "{oMultiModel>ORT01}",
+													"value": "{ORT01}",
 													"script": "",
 													"translation": []
 												}
@@ -298,37 +301,20 @@
 			"fieldNo": 99999,
 			"data": [
 				{
-					"fieldNo": "8efd5c9a-6234-491b-9c7d-23afa0ebb31a",
-					"fieldName": "oMultiModel",
-					"fieldParent": 99999,
-					"fieldType": "neptune.model",
-					"script": "",
-					"customComponent": false,
-					"bindingValue": "SAP Local API (SDK)>getCustomerListResponse",
-					"bindingType": "h",
-					"bindingSource": "API",
-					"bindingParentID": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
-					"bindingPathID": "542e0a50-416e-4111-fff4-789457c22b0c",
-					"request": [],
-					"response": [],
-					"attributes": [],
-					"data": []
-				},
-				{
 					"fieldNo": "ac89ccea-726c-443e-ac84-734978985b36",
 					"fieldName": "oRestAPI",
 					"fieldParent": 99999,
 					"fieldType": "neptune.restapi",
 					"script": "",
 					"customComponent": false,
-					"restSource": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
-					"restOperation": "d868597a-6840-4122-f87d-3c21a1fd0eb5",
+					"restSource": "a91f1bd8-0099-ee11-8925-000d3ab39531",
+					"restOperation": "c9f2588b-1d2a-4a86-d60c-25ef2d9f5042",
 					"request": [],
 					"response": [
 						{
-							"status": "200",
-							"dataId": "542e0a50-416e-4111-fff4-789457c22b0c",
-							"modelFieldNo": "8efd5c9a-6234-491b-9c7d-23afa0ebb31a"
+							"status": 200,
+							"dataId": "b0f67845-6b60-4d82-959e-e9357e2cf902",
+							"modelFieldNo": "a8a2f5bc-8980-4a00-acd7-0941c5fb547a"
 						}
 					],
 					"attributes": [
@@ -349,11 +335,11 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "23.10.27.1420",
+	"componentInterface": [],
+	"ver": "23.12.13.939",
 	"application": "sample_tablepersonalization",
-	"title": "sap.m.TablePersoDialog - sap.m.TablePersoDialog - MultiModel",
-	"description": "sap.m.TablePersoDialog - sap.m.TablePersoDialog - MultiModel",
+	"title": "sap.m.TablePersoDialog - sap.m.TablePersoDialog ",
+	"description": "sap.m.TablePersoDialog - sap.m.TablePersoDialog",
 	"enableFileStorage": false,
 	"enableManifest": false,
 	"enableStylesheet": false,
@@ -391,9 +377,9 @@
 	"printWidth": null,
 	"apis": [
 		{
-			"id": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
-			"name": "SAP Local API (SDK)",
-			"ver": "20.11.18.2226"
+			"id": "a91f1bd8-0099-ee11-8925-000d3ab39531",
+			"name": "API sap_customer_details",
+			"ver": "23.12.13.834"
 		}
 	],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"

@@ -3089,7 +3089,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.12.11.141",
+	"ver": "23.12.13.930",
 	"application": "explore_sample_apps",
 	"title": "",
 	"description": "",
@@ -3115,7 +3115,7 @@
 	"cus_theme": "",
 	"css": "",
 	"compiledCss": null,
-	"header": "file:///header.html",
+	"header": "",
 	"manifest": "",
 	"globalScript": "",
 	"deleted": false,

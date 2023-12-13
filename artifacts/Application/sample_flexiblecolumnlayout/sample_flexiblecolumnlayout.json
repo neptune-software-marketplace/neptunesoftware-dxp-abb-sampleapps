@@ -89,8 +89,11 @@
 													"fieldType": "sap.m.List",
 													"script": "",
 													"customComponent": false,
+													"bindingValue": "API sap_customer_details>sap_customer_details",
 													"bindingType": "h",
-													"modelPath": "oMultiModel>/result/IT_CUSTOMER",
+													"bindingSource": "API",
+													"bindingParentID": "A91F1BD8-0099-EE11-8925-000D3AB39531",
+													"bindingPathID": "b0f67845-6b60-4d82-959e-e9357e2cf902",
 													"request": [],
 													"response": [],
 													"attributes": [
@@ -130,7 +133,7 @@
 																{
 																	"attribute": "title",
 																	"grouping": "Properties",
-																	"value": "{oMultiModel>KUNNR}",
+																	"value": "{KUNNR}",
 																	"script": "",
 																	"translation": []
 																},
@@ -144,7 +147,7 @@
 																{
 																	"attribute": "intro",
 																	"grouping": "Properties",
-																	"value": "{oMultiModel>NAME1}",
+																	"value": "{NAME1}",
 																	"script": "",
 																	"translation": []
 																}
@@ -274,8 +277,11 @@
 																	"fieldType": "sap.m.Table",
 																	"script": "",
 																	"customComponent": false,
+																	"bindingValue": "API sap_customer_order_details>sap_customer_order_details",
 																	"bindingType": "h",
-																	"modelPath": "orderMultiModel>/result/IT_ORDER",
+																	"bindingSource": "API",
+																	"bindingParentID": "CB3977DB-8F99-EE11-8925-000D3AB39531",
+																	"bindingPathID": "912e26d8-2aa3-4d0c-9e64-3711f1a3aa6c",
 																	"request": [],
 																	"response": [],
 																	"attributes": [],
@@ -403,7 +409,7 @@
 																						{
 																							"attribute": "value",
 																							"grouping": "Properties",
-																							"value": "{orderMultiModel>SD_DOC}",
+																							"value": "{SD_DOC}",
 																							"script": "",
 																							"translation": []
 																						}
@@ -423,7 +429,7 @@
 																						{
 																							"attribute": "value",
 																							"grouping": "Properties",
-																							"value": "{orderMultiModel>ITM_NUMBER}",
+																							"value": "{ITM_NUMBER}",
 																							"script": "",
 																							"translation": []
 																						}
@@ -443,7 +449,7 @@
 																						{
 																							"attribute": "value",
 																							"grouping": "Properties",
-																							"value": "{orderMultiModel>MATERIAL}",
+																							"value": "{MATERIAL}",
 																							"script": "",
 																							"translation": []
 																						}
@@ -531,47 +537,17 @@
 															"fieldType": "sap.m.Table",
 															"script": "",
 															"customComponent": false,
+															"bindingValue": "API sap_customer_order_details>sap_customer_order_details",
 															"bindingType": "h",
-															"modelPath": "orderMultiModel>/result/IT_ORDER",
+															"bindingSource": "API",
+															"bindingParentID": "CB3977DB-8F99-EE11-8925-000D3AB39531",
+															"bindingPathID": "912e26d8-2aa3-4d0c-9e64-3711f1a3aa6c",
 															"request": [],
 															"response": [],
 															"attributes": [],
 															"data": [
 																{
-																	"fieldNo": "892f4ece-7b1e-4102-a211-366ffa33ad6a",
-																	"fieldName": "coloTable1ITM_NUMBER",
-																	"fieldParent": "5c996310-0cf6-4c59-b3e9-4bb26e00e2a3",
-																	"fieldType": "sap.m.Column",
-																	"script": "",
-																	"customComponent": false,
-																	"request": [],
-																	"response": [],
-																	"attributes": [],
-																	"data": [
-																		{
-																			"fieldNo": "05065e71-84a9-43a5-e0ab-07267263c431",
-																			"fieldName": "colHoTable1ITM_NUMBER",
-																			"fieldParent": "892f4ece-7b1e-4102-a211-366ffa33ad6a",
-																			"fieldType": "sap.m.Text",
-																			"script": "",
-																			"customComponent": false,
-																			"request": [],
-																			"response": [],
-																			"attributes": [
-																				{
-																					"attribute": "text",
-																					"grouping": "Properties",
-																					"value": "Item (SD)",
-																					"script": "",
-																					"translation": []
-																				}
-																			],
-																			"data": []
-																		}
-																	]
-																},
-																{
-																	"fieldNo": "c79e4397-8a3e-4ab4-ddf0-a274d66c08b2",
+																	"fieldNo": "40c532ba-34d7-478e-8429-06896b8cd8ab",
 																	"fieldName": "coloTable1MATERIAL",
 																	"fieldParent": "5c996310-0cf6-4c59-b3e9-4bb26e00e2a3",
 																	"fieldType": "sap.m.Column",
@@ -582,9 +558,9 @@
 																	"attributes": [],
 																	"data": [
 																		{
-																			"fieldNo": "6e7d09dd-f3ae-45e9-fbda-5be487cf2331",
+																			"fieldNo": "0af0f90d-6de4-4afb-ea71-8b0ce5473e13",
 																			"fieldName": "colHoTable1MATERIAL",
-																			"fieldParent": "c79e4397-8a3e-4ab4-ddf0-a274d66c08b2",
+																			"fieldParent": "40c532ba-34d7-478e-8429-06896b8cd8ab",
 																			"fieldType": "sap.m.Text",
 																			"script": "",
 																			"customComponent": false,
@@ -604,7 +580,73 @@
 																	]
 																},
 																{
-																	"fieldNo": "c665059e-7246-436a-fef3-599c2732b974",
+																	"fieldNo": "76bce592-aeb4-4cff-f7f5-82585a716f3f",
+																	"fieldName": "coloTable1SHORT_TEXT",
+																	"fieldParent": "5c996310-0cf6-4c59-b3e9-4bb26e00e2a3",
+																	"fieldType": "sap.m.Column",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [],
+																	"data": [
+																		{
+																			"fieldNo": "be08e578-407b-43f1-b43e-9dbedd608962",
+																			"fieldName": "colHoTable1SHORT_TEXT",
+																			"fieldParent": "76bce592-aeb4-4cff-f7f5-82585a716f3f",
+																			"fieldType": "sap.m.Text",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Description",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "035290b5-1bff-481e-940f-75d79f326962",
+																	"fieldName": "coloTable1NET_PRICE",
+																	"fieldParent": "5c996310-0cf6-4c59-b3e9-4bb26e00e2a3",
+																	"fieldType": "sap.m.Column",
+																	"script": "",
+																	"customComponent": false,
+																	"request": [],
+																	"response": [],
+																	"attributes": [],
+																	"data": [
+																		{
+																			"fieldNo": "7c74ac5e-49e3-497d-cf59-86618e58839b",
+																			"fieldName": "colHoTable1NET_PRICE",
+																			"fieldParent": "035290b5-1bff-481e-940f-75d79f326962",
+																			"fieldType": "sap.m.Text",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "Net Price",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		}
+																	]
+																},
+																{
+																	"fieldNo": "185484a2-5731-4afc-8bc4-fb353e45534e",
 																	"fieldName": "colItemoTable1",
 																	"fieldParent": "5c996310-0cf6-4c59-b3e9-4bb26e00e2a3",
 																	"fieldType": "sap.m.ColumnListItem",
@@ -615,19 +657,19 @@
 																	"attributes": [],
 																	"data": [
 																		{
-																			"fieldNo": "ab31aab8-8f5f-40bf-dc6a-fcfcf58f1f21",
-																			"fieldName": "inoTable1ITM_NUMBER",
-																			"fieldParent": "c665059e-7246-436a-fef3-599c2732b974",
-																			"fieldType": "sap.m.Input",
+																			"fieldNo": "b449676f-ca09-4280-a215-a2ff72952aac",
+																			"fieldName": "txtoTable1MATERIAL",
+																			"fieldParent": "185484a2-5731-4afc-8bc4-fb353e45534e",
+																			"fieldType": "sap.m.Text",
 																			"script": "",
 																			"customComponent": false,
 																			"request": [],
 																			"response": [],
 																			"attributes": [
 																				{
-																					"attribute": "value",
+																					"attribute": "text",
 																					"grouping": "Properties",
-																					"value": "{orderMultiModel>ITM_NUMBER}",
+																					"value": "{MATERIAL}",
 																					"script": "",
 																					"translation": []
 																				}
@@ -635,19 +677,39 @@
 																			"data": []
 																		},
 																		{
-																			"fieldNo": "aee4d984-429d-466b-e8bd-751c8b655331",
-																			"fieldName": "inoTable1MATERIAL",
-																			"fieldParent": "c665059e-7246-436a-fef3-599c2732b974",
-																			"fieldType": "sap.m.Input",
+																			"fieldNo": "0ff1dfe8-364b-4629-cd66-528d9aace11e",
+																			"fieldName": "txtoTable1SHORT_TEXT",
+																			"fieldParent": "185484a2-5731-4afc-8bc4-fb353e45534e",
+																			"fieldType": "sap.m.Text",
 																			"script": "",
 																			"customComponent": false,
 																			"request": [],
 																			"response": [],
 																			"attributes": [
 																				{
-																					"attribute": "value",
+																					"attribute": "text",
 																					"grouping": "Properties",
-																					"value": "{orderMultiModel>MATERIAL}",
+																					"value": "{SHORT_TEXT}",
+																					"script": "",
+																					"translation": []
+																				}
+																			],
+																			"data": []
+																		},
+																		{
+																			"fieldNo": "d1c47ba0-1b03-4d44-c394-3cdf923a1b41",
+																			"fieldName": "txtoTable1NET_PRICE",
+																			"fieldParent": "185484a2-5731-4afc-8bc4-fb353e45534e",
+																			"fieldType": "sap.m.Text",
+																			"script": "",
+																			"customComponent": false,
+																			"request": [],
+																			"response": [],
+																			"attributes": [
+																				{
+																					"attribute": "text",
+																					"grouping": "Properties",
+																					"value": "{NET_PRICE}",
 																					"script": "",
 																					"translation": []
 																				}
@@ -674,54 +736,20 @@
 			"fieldNo": 99999,
 			"data": [
 				{
-					"fieldNo": "a7026088-90ae-45c4-98a4-5ed61de745a3",
-					"fieldName": "orderMultiModel",
-					"fieldParent": 99999,
-					"fieldType": "neptune.model",
-					"script": "",
-					"customComponent": false,
-					"bindingValue": "SAP Local API (SDK)>getOrderListResponse",
-					"bindingType": "h",
-					"bindingSource": "API",
-					"bindingParentID": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
-					"bindingPathID": "4e584fb6-c741-4896-c23a-0d28ce858195",
-					"request": [],
-					"response": [],
-					"attributes": [],
-					"data": []
-				},
-				{
-					"fieldNo": "9d5a681a-ec3b-4e10-db86-01654993d838",
-					"fieldName": "oMultiModel",
-					"fieldParent": 99999,
-					"fieldType": "neptune.model",
-					"script": "",
-					"customComponent": false,
-					"bindingValue": "SAP Local API (SDK)>getCustomerListResponse",
-					"bindingType": "h",
-					"bindingSource": "API",
-					"bindingParentID": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
-					"bindingPathID": "542e0a50-416e-4111-fff4-789457c22b0c",
-					"request": [],
-					"response": [],
-					"attributes": [],
-					"data": []
-				},
-				{
 					"fieldNo": "3384a221-434a-48c4-a44c-4df61db0ef13",
 					"fieldName": "oRestAPI",
 					"fieldParent": 99999,
 					"fieldType": "neptune.restapi",
 					"script": "",
 					"customComponent": false,
-					"restSource": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
-					"restOperation": "d868597a-6840-4122-f87d-3c21a1fd0eb5",
+					"restSource": "a91f1bd8-0099-ee11-8925-000d3ab39531",
+					"restOperation": "c9f2588b-1d2a-4a86-d60c-25ef2d9f5042",
 					"request": [],
 					"response": [
 						{
-							"status": "200",
-							"dataId": "542e0a50-416e-4111-fff4-789457c22b0c",
-							"modelFieldNo": "9d5a681a-ec3b-4e10-db86-01654993d838"
+							"status": 200,
+							"dataId": "b0f67845-6b60-4d82-959e-e9357e2cf902",
+							"modelFieldNo": "4fb2edac-82dd-49b0-d7cc-42728d57faaf"
 						}
 					],
 					"attributes": [
@@ -742,22 +770,24 @@
 					"fieldType": "neptune.restapi",
 					"script": "",
 					"customComponent": false,
-					"restSource": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
-					"restOperation": "a04d345f-2b84-44c0-b9b1-59005e79ebf0",
+					"restSource": "cb3977db-8f99-ee11-8925-000d3ab39531",
+					"restOperation": "71ad4b1c-c0c5-4bc3-ca11-2c0b80d276e5",
 					"request": [],
-					"response": [
-						{
-							"status": "200",
-							"dataId": "4e584fb6-c741-4896-c23a-0d28ce858195",
-							"modelFieldNo": "a7026088-90ae-45c4-98a4-5ed61de745a3"
-						}
-					],
+					"response": [],
 					"attributes": [
 						{
 							"attribute": "setInitLoad",
 							"grouping": "Model",
 							"value": "online",
 							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/neptune.restapi/orderAPI/ajaxSuccess.js",
+							"language": "javascript",
 							"translation": []
 						}
 					],
@@ -770,8 +800,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "23.10.26.1522",
+	"componentInterface": [],
+	"ver": "23.12.13.929",
 	"application": "sample_flexiblecolumnlayout",
 	"title": "Sample sap.f.FlexibleColumnLayout",
 	"description": "sap.f.FlexibleColumnLayout",
@@ -812,9 +842,14 @@
 	"printWidth": null,
 	"apis": [
 		{
-			"id": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
-			"name": "SAP Local API (SDK)",
-			"ver": "20.11.18.2226"
+			"id": "cb3977db-8f99-ee11-8925-000d3ab39531",
+			"name": "API sap_customer_order_details",
+			"ver": "23.12.13.833"
+		},
+		{
+			"id": "a91f1bd8-0099-ee11-8925-000d3ab39531",
+			"name": "API sap_customer_details",
+			"ver": "23.12.13.834"
 		}
 	],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"

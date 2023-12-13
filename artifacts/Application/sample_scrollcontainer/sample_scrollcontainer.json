@@ -243,8 +243,11 @@
 													"fieldType": "sap.m.Table",
 													"script": "",
 													"customComponent": false,
+													"bindingValue": "API sap_customer_details>sap_customer_details",
 													"bindingType": "h",
-													"modelPath": "oMultiModel>/result/IT_CUSTOMER",
+													"bindingSource": "API",
+													"bindingParentID": "A91F1BD8-0099-EE11-8925-000D3AB39531",
+													"bindingPathID": "b0f67845-6b60-4d82-959e-e9357e2cf902",
 													"request": [],
 													"response": [],
 													"attributes": [
@@ -439,8 +442,11 @@
 															"fieldType": "sap.m.Table",
 															"script": "",
 															"customComponent": false,
+															"bindingValue": "API sap_customer_details>sap_customer_details",
 															"bindingType": "h",
-															"modelPath": "oMultiModel>/result/IT_CUSTOMER",
+															"bindingSource": "API",
+															"bindingParentID": "A91F1BD8-0099-EE11-8925-000D3AB39531",
+															"bindingPathID": "b0f67845-6b60-4d82-959e-e9357e2cf902",
 															"request": [],
 															"response": [],
 															"attributes": [
@@ -516,7 +522,7 @@
 																				{
 																					"attribute": "value",
 																					"grouping": "Properties",
-																					"value": "{oMultiModel>KUNNR}",
+																					"value": "{KUNNR}",
 																					"script": "",
 																					"translation": []
 																				}
@@ -536,7 +542,7 @@
 																				{
 																					"attribute": "value",
 																					"grouping": "Properties",
-																					"value": "{oMultiModel>NAME1}",
+																					"value": "{KUNNR}",
 																					"script": "",
 																					"translation": []
 																				}
@@ -913,8 +919,11 @@
 															"fieldType": "sap.m.Table",
 															"script": "",
 															"customComponent": false,
+															"bindingValue": "API sap_customer_details>sap_customer_details",
 															"bindingType": "h",
-															"modelPath": "oMultiModel>/result/IT_CUSTOMER",
+															"bindingSource": "API",
+															"bindingParentID": "A91F1BD8-0099-EE11-8925-000D3AB39531",
+															"bindingPathID": "b0f67845-6b60-4d82-959e-e9357e2cf902",
 															"request": [],
 															"response": [],
 															"attributes": [],
@@ -1042,7 +1051,7 @@
 																				{
 																					"attribute": "text",
 																					"grouping": "Properties",
-																					"value": "{oMultiModel>NAME1}",
+																					"value": "{NAME1}",
 																					"script": "",
 																					"translation": []
 																				}
@@ -1062,7 +1071,7 @@
 																				{
 																					"attribute": "text",
 																					"grouping": "Properties",
-																					"value": "{oMultiModel>LAND1}",
+																					"value": "{LAND1}",
 																					"script": "",
 																					"translation": []
 																				}
@@ -1082,7 +1091,7 @@
 																				{
 																					"attribute": "text",
 																					"grouping": "Properties",
-																					"value": "{oMultiModel>TELF1}",
+																					"value": "{TELF1}",
 																					"script": "",
 																					"translation": []
 																				}
@@ -1109,52 +1118,30 @@
 			"fieldNo": 99999,
 			"data": [
 				{
-					"fieldNo": "33829714-5e91-442b-b8bd-e629bc843294",
-					"fieldName": "oMultiModel",
-					"fieldParent": 99999,
-					"fieldType": "neptune.model",
-					"script": "",
-					"customComponent": false,
-					"bindingValue": "SAP Local API (SDK)>getCustomerListResponse",
-					"bindingType": "h",
-					"bindingSource": "API",
-					"bindingParentID": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
-					"bindingPathID": "542e0a50-416e-4111-fff4-789457c22b0c",
-					"request": [],
-					"response": [],
-					"attributes": [],
-					"data": []
-				},
-				{
 					"fieldNo": "651a0333-272b-495d-e6ad-7c2e8e623c6b",
 					"fieldName": "oRestAPI",
 					"fieldParent": 99999,
 					"fieldType": "neptune.restapi",
 					"script": "",
 					"customComponent": false,
-					"restSource": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
-					"restOperation": "d868597a-6840-4122-f87d-3c21a1fd0eb5",
-					"request": [
-						{
-							"name": "SALESORG",
-							"value": "1000",
-							"parent": "RequestParameter",
-							"expression": ""
-						}
-					],
-					"response": [
-						{
-							"status": "200",
-							"dataId": "542e0a50-416e-4111-fff4-789457c22b0c",
-							"modelFieldNo": "33829714-5e91-442b-b8bd-e629bc843294"
-						}
-					],
+					"restSource": "a91f1bd8-0099-ee11-8925-000d3ab39531",
+					"restOperation": "c9f2588b-1d2a-4a86-d60c-25ef2d9f5042",
+					"request": [],
+					"response": [],
 					"attributes": [
 						{
 							"attribute": "setInitLoad",
 							"grouping": "Model",
 							"value": "online",
 							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/neptune.restapi/oRestAPI/ajaxSuccess.js",
+							"language": "javascript",
 							"translation": []
 						}
 					],
@@ -1167,8 +1154,8 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
-	"ver": "23.10.27.1219",
+	"componentInterface": [],
+	"ver": "23.12.12.1716",
 	"application": "sample_scrollcontainer",
 	"title": "sap.m.ScrollContainer - sap.ui.layout.Grid - sap.uxap.ObjectPageLayout",
 	"description": "sap.m.ScrollContainer - sap.ui.layout.Grid - sap.uxap.ObjectPageLayout",
@@ -1209,9 +1196,9 @@
 	"printWidth": null,
 	"apis": [
 		{
-			"id": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
-			"name": "SAP Local API (SDK)",
-			"ver": "20.11.18.2226"
+			"id": "a91f1bd8-0099-ee11-8925-000d3ab39531",
+			"name": "API sap_customer_details",
+			"ver": "23.12.13.834"
 		}
 	],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"

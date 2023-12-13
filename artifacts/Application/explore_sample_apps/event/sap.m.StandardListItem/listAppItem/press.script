@@ -12,8 +12,8 @@ oLayoutMain.to(localViewID+'--oPageDetail2');
 
 
 
-console.log("currentApp")
-console.log(currentApp)
+// console.log("currentApp")
+// console.log(currentApp)
 //Load App into parent object (example: sap.m.Page)
 AppCache.Load(currentApp, {
     //parentObject: oPanel

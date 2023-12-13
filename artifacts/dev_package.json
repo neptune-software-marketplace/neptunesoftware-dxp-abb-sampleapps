@@ -111,8 +111,8 @@
 		{
 			"id": "df995b65-1f77-4269-b215-a2475320bd2c",
 			"application": "sample_selectdialog",
-			"title": "sap.m.SelectDialog - RestAPI - MultiModel",
-			"description": "sap.m.SelectDialog - RestAPI - MultiModel"
+			"title": "sap.m.SelectDialog - RestAPI",
+			"description": "sap.m.SelectDialog - RestAPI"
 		},
 		{
 			"id": "db3bc8a5-c412-46a8-b313-818f0a290472",
@@ -357,8 +357,8 @@
 		{
 			"id": "7ce51924-2fb0-472e-995d-84f4798ae359",
 			"application": "sample_tablepersonalization",
-			"title": "sap.m.TablePersoDialog - sap.m.TablePersoDialog - MultiModel",
-			"description": "sap.m.TablePersoDialog - sap.m.TablePersoDialog - MultiModel"
+			"title": "sap.m.TablePersoDialog - sap.m.TablePersoDialog ",
+			"description": "sap.m.TablePersoDialog - sap.m.TablePersoDialog"
 		},
 		{
 			"id": "7adee5df-6dba-4a9b-984b-8e4558108e7a",
@@ -375,8 +375,8 @@
 		{
 			"id": "773bf6ec-48ee-4598-8200-7a896e845d90",
 			"application": "sample_tableselectdialog",
-			"title": "sap.m.SelectDialog - sap.m.Table - RestAPI - MultiModel",
-			"description": "sap.m.Table - RestAPI - MultiModel - sap.m.SelectDialog"
+			"title": "sap.m.SelectDialog - sap.m.Table - RestAPI ",
+			"description": "sap.m.Table - RestAPI - sap.m.SelectDialog"
 		},
 		{
 			"id": "730b285b-201d-4dce-82c6-003626f1e8ce",
@@ -387,8 +387,8 @@
 		{
 			"id": "7179d013-3606-44c2-ac43-868d4efa7d35",
 			"application": "sample_table",
-			"title": "sap.m.Table - RestAPI - MultiModel - sap.m.SelectDialog",
-			"description": "sap.m.Table - RestAPI - MultiModel - sap.m.SelectDialog"
+			"title": "sap.m.Table - RestAPI - sap.m.SelectDialog",
+			"description": "sap.m.Table - RestAPI - sap.m.SelectDialog"
 		},
 		{
 			"id": "7116f68b-e461-4421-91f3-f5c84f47509d",
@@ -471,8 +471,8 @@
 		{
 			"id": "51679532-deef-46f9-a6d2-d92ea0b22c13",
 			"application": "sample_selectlist",
-			"title": "sap.m.SelectList - RestAPI - Multimodel",
-			"description": "sap.m.SelectList - RestAPI - Multimodel"
+			"title": "sap.m.SelectList - RestAPI ",
+			"description": "sap.m.SelectList - RestAPI"
 		},
 		{
 			"id": "51656514-5028-436a-b707-d8e3d1ddd28d",
@@ -495,8 +495,8 @@
 		{
 			"id": "4839378f-221e-4195-8eb0-f135e0f4e08c",
 			"application": "sample_searchfield",
-			"title": "sap.m.SearchField - sap.m.Table - neptune.model.MultiModel",
-			"description": "sap.m.SearchField - sap.m.Table - neptune.model.MultiModel"
+			"title": "sap.m.SearchField - sap.m.Table",
+			"description": "sap.m.SearchField - sap.m.Table"
 		},
 		{
 			"id": "4092f612-54a9-4709-88a5-e54e1c181b78",
@@ -543,8 +543,8 @@
 		{
 			"id": "362c60a3-e098-4816-abe7-cb31d8e22747",
 			"application": "sample_ui_table",
-			"title": "sap.ui.table.Table - sap.ui.table.Column - MultiModel - RestAPI",
-			"description": "sap.ui.table.Table - sap.ui.table.Column - MultiModel - RestAPI"
+			"title": "sap.ui.table.Table - sap.ui.table.Column - RestAPI",
+			"description": "sap.ui.table.Table - sap.ui.table.Column - RestAPI"
 		},
 		{
 			"id": "31adcffd-8f72-4dda-b5f0-cba465c6d868",
@@ -669,6 +669,18 @@
 	],
 	"api": [
 		{
+			"id": "cb3977db-8f99-ee11-8925-000d3ab39531",
+			"name": "API sap_customer_order_details",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "a91f1bd8-0099-ee11-8925-000d3ab39531",
+			"name": "API sap_customer_details",
+			"description": null,
+			"apiGroup": null
+		},
+		{
 			"id": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
 			"name": "SAP Local API (SDK)",
 			"description": "Test SAP API",
@@ -677,7 +689,18 @@
 	],
 	"odataSource": [],
 	"odataMock": [],
-	"dictionary": [],
+	"dictionary": [
+		{
+			"id": "bad09a40-8f99-ee11-8925-000d3ab39531",
+			"name": "sap_customer_order_details",
+			"description": "Sample order details for a customer"
+		},
+		{
+			"id": "1810d56d-0099-ee11-8925-000d3ab39531",
+			"name": "sap_customer_details",
+			"description": "Sample SAP Customer information"
+		}
+	],
 	"jsclass": [],
 	"jsscript_group": [],
 	"theme": [],

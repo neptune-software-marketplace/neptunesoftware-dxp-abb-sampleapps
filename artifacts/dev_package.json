@@ -9,7 +9,7 @@
 	},
 	"name": "com.neptune-software.pt.samples.explored",
 	"description": "Explored samples",
-	"ver": "23.12.11.1431",
+	"ver": "23.12.13.1435",
 	"enableCICD": true,
 	"apps": [
 		{

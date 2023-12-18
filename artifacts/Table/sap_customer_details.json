@@ -70,9 +70,9 @@
 	"foreignKeys": [],
 	"name": "sap_customer_details",
 	"description": "Sample SAP Customer information",
-	"ver": "23.12.12.169",
+	"ver": "23.12.18.933",
 	"enableAudit": false,
-	"includeDataInPackage": false,
+	"includeDataInPackage": true,
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa",
 	"rolesRead": [],
 	"rolesWrite": []

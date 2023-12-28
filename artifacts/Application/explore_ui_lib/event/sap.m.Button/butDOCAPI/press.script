@@ -1,0 +1,4 @@
+
+var url = 'https://sapui5.netweaver.ondemand.com/sdk/#docs/api/symbols/' + modelPageDetails.oData.UI5_ID + '.html';
+diaAPI = window.open(url, "API", "width=1200, height=850,location=false,left=100,top=50").focus();
+

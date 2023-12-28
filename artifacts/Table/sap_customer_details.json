@@ -1,0 +1,79 @@
+{
+	"id": "1810d56d-0099-ee11-8925-000d3ab39531",
+	"createdAt": "2023-12-12T15:09:23.306Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"fields": [
+		{
+			"id": "cd94ea13-86f1-4848-f3f4-0bf955373428",
+			"fieldName": "KUNNR",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Customer Number"
+		},
+		{
+			"id": "83824dfc-240e-4c89-d6f4-78d165ead898",
+			"fieldName": "NAME1",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Customer Name"
+		},
+		{
+			"id": "bf47c9aa-1a14-4631-ccd8-fce7d9d9d282",
+			"fieldName": "ORT01",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Location",
+			"isNullable": true
+		},
+		{
+			"id": "7c9b4049-0474-4724-8805-18d7ccc359bc",
+			"fieldName": "LAND1",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Country",
+			"isNullable": true
+		},
+		{
+			"id": "8b3628dd-ee78-4a8a-b4f5-cd6235d77204",
+			"fieldName": "SELECTED",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Is Selected",
+			"isNullable": true
+		},
+		{
+			"id": "577cc2c0-7611-41af-e513-81e7fd91e59e",
+			"fieldName": "STRAS",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Street ",
+			"isNullable": true
+		},
+		{
+			"id": "c69f2789-011b-404b-8a0c-180935097431",
+			"fieldName": "PSTLZ",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Zipcode",
+			"isNullable": true
+		},
+		{
+			"id": "7cb1a41e-3b1d-4dd3-d3da-008d60ef32e1",
+			"fieldName": "TELF1",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Phone Number",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "sap_customer_details",
+	"description": "Sample SAP Customer information",
+	"ver": "23.12.18.933",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa",
+	"rolesRead": [],
+	"rolesWrite": []
+}

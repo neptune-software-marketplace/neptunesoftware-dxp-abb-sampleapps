@@ -227,6 +227,13 @@
 											"response": [],
 											"attributes": [
 												{
+													"attribute": "showNoData",
+													"grouping": "Properties",
+													"value": "false",
+													"script": "",
+													"translation": []
+												},
+												{
 													"attribute": "headerText",
 													"grouping": "Properties",
 													"value": "Color List",
@@ -444,6 +451,13 @@
 									"response": [],
 									"attributes": [
 										{
+											"attribute": "showNoData",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
+										},
+										{
 											"attribute": "headerText",
 											"grouping": "Properties",
 											"value": "ShellOverlay List",
@@ -517,7 +531,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.10.27.1438",
+	"ver": "23.12.11.1316",
 	"application": "sample_unifiedshell",
 	"title": "sap.ui.unified.Shell - sap.ui.unified.ShellHeadItem - sap.ui.unified.ShellOverlay - sap.m.NavContainer",
 	"description": "sap.ui.unified.Shell - sap.ui.unified.ShellHeadItem - sap.ui.unified.ShellOverlay - sap.m.NavContainer",

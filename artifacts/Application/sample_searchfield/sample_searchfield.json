@@ -104,13 +104,6 @@
 													"value": "Search Field in Sub header with refresh button",
 													"script": "",
 													"translation": []
-												},
-												{
-													"attribute": "search",
-													"grouping": "Events",
-													"value": "Anonymous Function",
-													"script": "",
-													"translation": []
 												}
 											],
 											"data": []
@@ -221,8 +214,11 @@
 									"fieldType": "sap.m.Table",
 									"script": "",
 									"customComponent": false,
+									"bindingValue": "API sap_customer_details>sap_customer_details",
 									"bindingType": "h",
-									"modelPath": "oMultiModel>/result/IT_CUSTOMER",
+									"bindingSource": "API",
+									"bindingParentID": "A91F1BD8-0099-EE11-8925-000D3AB39531",
+									"bindingPathID": "b0f67845-6b60-4d82-959e-e9357e2cf902",
 									"request": [],
 									"response": [],
 									"attributes": [],
@@ -317,7 +313,7 @@
 														{
 															"attribute": "value",
 															"grouping": "Properties",
-															"value": "{oMultiModel>NAME1}",
+															"value": "{NAME1}",
 															"script": "",
 															"translation": []
 														}
@@ -337,7 +333,7 @@
 														{
 															"attribute": "value",
 															"grouping": "Properties",
-															"value": "{oMultiModel>ORT01}",
+															"value": "{ORT01}",
 															"script": "",
 															"translation": []
 														}
@@ -358,31 +354,14 @@
 			"fieldNo": 99999,
 			"data": [
 				{
-					"fieldNo": "b1ec1e15-b018-4279-eb72-9c4e557380dc",
-					"fieldName": "oMultiModel",
-					"fieldParent": 99999,
-					"fieldType": "neptune.model",
-					"script": "",
-					"customComponent": false,
-					"bindingValue": "SAP Local API 2>getCustomerListResponse",
-					"bindingType": "h",
-					"bindingSource": "API",
-					"bindingParentID": "3ba2d554-bb77-47e8-b9e2-d9d427173934",
-					"bindingPathID": "244dba06-ef5e-4e3d-e859-5348f518d7d4",
-					"request": [],
-					"response": [],
-					"attributes": [],
-					"data": []
-				},
-				{
 					"fieldNo": "5b85619d-5e27-4731-c1e2-0692462d3067",
 					"fieldName": "oRestAPI",
 					"fieldParent": 99999,
 					"fieldType": "neptune.restapi",
 					"script": "",
 					"customComponent": false,
-					"restSource": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
-					"restOperation": "d868597a-6840-4122-f87d-3c21a1fd0eb5",
+					"restSource": "a91f1bd8-0099-ee11-8925-000d3ab39531",
+					"restOperation": "c9f2588b-1d2a-4a86-d60c-25ef2d9f5042",
 					"request": [],
 					"response": [
 						{
@@ -398,6 +377,14 @@
 							"value": "online",
 							"script": "",
 							"translation": []
+						},
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/neptune.restapi/oRestAPI/ajaxSuccess.js",
+							"language": "javascript",
+							"translation": []
 						}
 					],
 					"data": []
@@ -410,10 +397,10 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.10.27.1225",
+	"ver": "23.12.13.941",
 	"application": "sample_searchfield",
-	"title": "sap.m.SearchField - sap.m.Table - neptune.model.MultiModel",
-	"description": "sap.m.SearchField - sap.m.Table - neptune.model.MultiModel",
+	"title": "sap.m.SearchField - sap.m.Table",
+	"description": "sap.m.SearchField - sap.m.Table",
 	"enableFileStorage": false,
 	"enableManifest": false,
 	"enableStylesheet": false,
@@ -451,9 +438,9 @@
 	"printWidth": null,
 	"apis": [
 		{
-			"id": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
-			"name": "SAP Local API (SDK)",
-			"ver": "20.11.18.2226"
+			"id": "a91f1bd8-0099-ee11-8925-000d3ab39531",
+			"name": "API sap_customer_details",
+			"ver": "23.12.13.834"
 		}
 	],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"

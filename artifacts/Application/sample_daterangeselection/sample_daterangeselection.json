@@ -214,7 +214,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.26.1417",
 	"application": "sample_daterangeselection",
 	"title": "Sample sap.m.DateRangeSelection",

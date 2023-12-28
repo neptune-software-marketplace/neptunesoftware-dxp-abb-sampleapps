@@ -703,7 +703,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.1034",
 	"application": "sample_maskinput",
 	"title": "Sample sap.m.MaskInput",

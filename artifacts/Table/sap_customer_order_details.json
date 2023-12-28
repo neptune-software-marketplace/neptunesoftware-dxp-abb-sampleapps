@@ -1,0 +1,353 @@
+{
+	"id": "bad09a40-8f99-ee11-8925-000d3ab39531",
+	"createdAt": "2023-12-13T08:11:44.820Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"fields": [
+		{
+			"id": "77f678f8-bcb5-4eb0-e28b-f52134420d94",
+			"fieldName": "SD_DOC",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "161a96b5-88c9-4b5e-e0c5-74d075a24e73",
+			"fieldName": "ITM_NUMBER",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "45c84db4-cc2f-4f47-b31c-ffbcbb1231b8",
+			"fieldName": "MATERIAL",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ecccb21a-1f01-4260-8fc2-39b52a3c0d83",
+			"fieldName": "SHORT_TEXT",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "831a3a0a-0b02-405a-b8c1-9443b477dedb",
+			"fieldName": "DOC_TYPE",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "c6919b01-635f-466c-908a-ff1d58134369",
+			"fieldName": "DOC_DATE",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "e63aa987-8f67-4892-f464-7bec6a4d8d33",
+			"fieldName": "REQ_QTY",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "5a3e41e1-7b28-469b-a690-d9937ad59c69",
+			"fieldName": "REQ_DATE",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "c3bce0a6-8f02-47fe-d7d5-a402659e2f67",
+			"fieldName": "PURCH_NO",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "c6d7324d-1f73-4502-b912-43e587613a25",
+			"fieldName": "BATCH",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "34c4ca0e-56fd-4af2-e96c-480b0b5d3e46",
+			"fieldName": "VALID_FROM",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ff64c2b5-e3e4-478c-a1ae-8cf06225f599",
+			"fieldName": "VALID_TO",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "0c35d5ca-322a-4824-97eb-82affeab399e",
+			"fieldName": "BILL_BLOCK",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "21abefb2-867c-4cde-95fc-97f7f9b806aa",
+			"fieldName": "DLV_BLOCK",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "6169ee10-aab9-42b7-9b25-9a53b7b320c1",
+			"fieldName": "SOLD_TO",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "7735c39c-4b38-4a17-8782-5b1bf2a45c38",
+			"fieldName": "NAME",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "629b0352-2a26-42fc-d046-72f304ce4011",
+			"fieldName": "EXCHG_RATE",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ed5b5aa1-c015-4e98-d918-59d622889dd9",
+			"fieldName": "DLV_QTY",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "29b3d540-6ac6-419b-89a9-bafbb1c9bbbb",
+			"fieldName": "BASE_UOM",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "c01590fc-cdaa-4176-fb3d-c7fea69e7ce1",
+			"fieldName": "NET_PRICE",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "541bef71-33ef-4404-e4b5-2a15e056f68c",
+			"fieldName": "COND_P_UNT",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "b90d43ed-4c9b-4d54-fe1e-911191074378",
+			"fieldName": "COND_UNIT",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "bdfd3bef-e48e-47c7-d0d3-eebfe0934445",
+			"fieldName": "NET_VAL_HD",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "4896de3a-18a8-4464-fbfd-a274a97ef606",
+			"fieldName": "NET_VALUE",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "e02ad7db-313d-42ba-9805-cc093ad2374b",
+			"fieldName": "DIVISION",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "11069c46-9ed9-47e8-fe10-ab8937bcebe9",
+			"fieldName": "DOC_STATUS",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "bfcdf4c3-f96e-4964-be76-4c58f6b7fcc0",
+			"fieldName": "SALES_GRP",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "654b0c86-3792-4f18-c916-85a5e7502468",
+			"fieldName": "SALES_OFF",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "1251b2d9-0f1e-489d-9d74-293d4e4af10b",
+			"fieldName": "SALES_ORG",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "6126fb09-4599-4bf3-e43e-b79aae9c7f6d",
+			"fieldName": "SALES_UNIT",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "74766912-503a-45ed-b3a6-902541edef7c",
+			"fieldName": "SHIP_POINT",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "9a7276e8-59f7-4cbf-e33f-20a77d1ec4b1",
+			"fieldName": "DISTR_CHAN",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "2ca91d9a-f671-418e-a276-1e7054dc09d3",
+			"fieldName": "GI_DATE",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "2d840dc2-3d53-4766-eb95-17e549c785ba",
+			"fieldName": "CURRENCY",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "1b35d404-452f-45db-c267-34f45ab8ab12",
+			"fieldName": "PLANT",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "95e703ea-4dc8-415d-f49f-1d11288f82fe",
+			"fieldName": "STORE_LOC",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "9e626d55-0431-4024-d97d-e63b0656448c",
+			"fieldName": "ORD_REASON",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "a2522c91-e003-46ed-9128-c7138c49d2bf",
+			"fieldName": "REASON_REJ",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "2a65e3c0-c7d2-49ba-c602-bb50c82efe1e",
+			"fieldName": "B_UOM_ISO",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "47b42638-9976-4ef2-9fa6-9aaf719d699f",
+			"fieldName": "CD_UNT_ISO",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "eff9f562-0295-4c7b-ece6-6b02bb398d9b",
+			"fieldName": "S_UNIT_ISO",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "795380c6-e8fa-44f9-dca6-839d71b01d6c",
+			"fieldName": "PURCH_NO_C",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "4e6034d9-b9ae-4ab9-effb-46d918d97a03",
+			"fieldName": "EXCHG_RATE_V",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "2fed08ff-00fa-41d2-f669-69e7ada60e74",
+			"fieldName": "MAT_EXT",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "3aa9b09c-6de5-499e-8305-db7ba415bc34",
+			"fieldName": "MAT_VERS",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "e1c77ca1-6d13-4290-ed6c-26a89c27b118",
+			"fieldName": "CREATION_DATE",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "2c8855aa-2f54-4e5c-a1e0-5bad6e5ec6a6",
+			"fieldName": "CREATION_TIME",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ac67e612-c18f-44cb-e17d-fad2704c326e",
+			"fieldName": "STATUS_DOC",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "sap_customer_order_details",
+	"description": "Sample order details for a customer",
+	"ver": "23.12.13.932",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa",
+	"rolesRead": [],
+	"rolesWrite": []
+}

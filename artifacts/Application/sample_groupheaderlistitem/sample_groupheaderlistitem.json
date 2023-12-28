@@ -855,7 +855,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.108",
 	"application": "sample_groupheaderlistitem",
 	"title": "Sample sap.m.GroupHeaderListItem",

@@ -114,7 +114,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.26.1231",
 	"application": "sample_busydialog",
 	"title": "Sample sap.m.BusyDialog",

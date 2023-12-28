@@ -1,0 +1,8 @@
+oBusyDialog.setText("Not Authorized");
+                 
+setTimeout(function() {
+
+    oBusyDialog.close();
+    AppCache.Back();
+
+}, 2000);

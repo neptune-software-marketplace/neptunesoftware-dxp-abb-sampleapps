@@ -1,0 +1,606 @@
+{
+	"id": "cb3977db-8f99-ee11-8925-000d3ab39531",
+	"createdAt": "2023-12-13T08:16:04.660Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "71ad4b1c-c0c5-4bc3-ca11-2c0b80d276e5",
+			"path": "/sap_customer_order_details",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1,fieldName2,fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "sap_customer_order_details"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "6997660e-0a19-4cd9-a5ca-89994a71dfa1",
+			"path": "/sap_customer_order_details",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "sap_customer_order_details"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "sap_customer_order_details"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "7fa4e7f9-3efc-4e91-bd65-ebb7be273f0b",
+			"path": "/sap_customer_order_details",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "sap_customer_order_details"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "sap_customer_order_details"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "0da3cb94-7b9d-46a3-f2a4-f6922317d96a",
+			"path": "/sap_customer_order_details",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "sap_customer_order_details"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "9d0b0019-f585-49b9-ba3f-15e9294707a1",
+			"path": "/sap_customer_order_details/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "912e26d8-2aa3-4d0c-9e64-3711f1a3aa6c",
+			"name": "sap_customer_order_details",
+			"properties": [
+				{
+					"id": "0812b53e-772b-43aa-fcba-f4bfe12ba398",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "02b298de-88bc-4279-e8a8-ea95a8ce1dc7",
+					"parent": "",
+					"name": "SD_DOC",
+					"objectType": "string"
+				},
+				{
+					"id": "65aecff3-a7e3-4026-9ffa-bb781bfe9445",
+					"parent": "",
+					"name": "ITM_NUMBER",
+					"objectType": "integer"
+				},
+				{
+					"id": "39d8d93e-fcc4-4774-944b-5e0b7ce33389",
+					"parent": "",
+					"name": "MATERIAL",
+					"objectType": "string"
+				},
+				{
+					"id": "5d39c708-499e-4c72-dcd2-a831ae89ba73",
+					"parent": "",
+					"name": "SHORT_TEXT",
+					"objectType": "string"
+				},
+				{
+					"id": "0a2be4cb-2b82-46b4-cf0b-3884bbe677e2",
+					"parent": "",
+					"name": "DOC_TYPE",
+					"objectType": "string"
+				},
+				{
+					"id": "72f02239-01ca-40f7-cf30-c1775372faff",
+					"parent": "",
+					"name": "DOC_DATE",
+					"objectType": "string"
+				},
+				{
+					"id": "2923eda1-ecf6-40fd-bec7-3e3fda6a0529",
+					"parent": "",
+					"name": "REQ_QTY",
+					"objectType": "integer"
+				},
+				{
+					"id": "fddaf835-04cc-4e5c-daef-b03c69b53643",
+					"parent": "",
+					"name": "REQ_DATE",
+					"objectType": "string"
+				},
+				{
+					"id": "14830dfb-5c1e-4c2c-a0d1-47bf3d552943",
+					"parent": "",
+					"name": "PURCH_NO",
+					"objectType": "string"
+				},
+				{
+					"id": "f4e2cb1b-48b6-46ca-a7aa-1e97fd786e9e",
+					"parent": "",
+					"name": "BATCH",
+					"objectType": "string"
+				},
+				{
+					"id": "f8b8c52f-ff7e-4999-f29d-335937d5fab4",
+					"parent": "",
+					"name": "VALID_FROM",
+					"objectType": "string"
+				},
+				{
+					"id": "79e55d11-83cf-462e-a3b0-bd076fc715b1",
+					"parent": "",
+					"name": "VALID_TO",
+					"objectType": "string"
+				},
+				{
+					"id": "b9cd12ae-5d30-4461-9b10-de18346748bd",
+					"parent": "",
+					"name": "BILL_BLOCK",
+					"objectType": "string"
+				},
+				{
+					"id": "a4dc985a-2540-4727-9cd3-57ee17d73974",
+					"parent": "",
+					"name": "DLV_BLOCK",
+					"objectType": "string"
+				},
+				{
+					"id": "38cf8090-628b-46d9-a352-4e96774b1457",
+					"parent": "",
+					"name": "SOLD_TO",
+					"objectType": "string"
+				},
+				{
+					"id": "31d42eb9-8291-4e35-e55b-3d91aa5158e1",
+					"parent": "",
+					"name": "NAME",
+					"objectType": "string"
+				},
+				{
+					"id": "266a252d-2ffc-42f8-8235-ced430e8facc",
+					"parent": "",
+					"name": "EXCHG_RATE",
+					"objectType": "integer"
+				},
+				{
+					"id": "a3c8fc1f-fc0e-4959-82c5-20071d881314",
+					"parent": "",
+					"name": "DLV_QTY",
+					"objectType": "integer"
+				},
+				{
+					"id": "3e39cd89-eed7-4c04-ae99-9524f478beca",
+					"parent": "",
+					"name": "BASE_UOM",
+					"objectType": "string"
+				},
+				{
+					"id": "ba8bd651-69c4-45c8-d9f9-fcc4afbcb6e9",
+					"parent": "",
+					"name": "NET_PRICE",
+					"objectType": "string"
+				},
+				{
+					"id": "a73595cb-8000-41cc-acf4-56b2b4fb9d38",
+					"parent": "",
+					"name": "COND_P_UNT",
+					"objectType": "string"
+				},
+				{
+					"id": "8de39f43-c5fa-4e65-bed5-0e9f58788e9b",
+					"parent": "",
+					"name": "COND_UNIT",
+					"objectType": "string"
+				},
+				{
+					"id": "26525fd0-9dfb-4c45-b7c8-5d5e13be1fd3",
+					"parent": "",
+					"name": "NET_VAL_HD",
+					"objectType": "string"
+				},
+				{
+					"id": "1000e2fb-ba9a-406a-cf90-7052bce612d1",
+					"parent": "",
+					"name": "NET_VALUE",
+					"objectType": "string"
+				},
+				{
+					"id": "6e5d5ea3-a55e-432c-eb77-9be10916b14e",
+					"parent": "",
+					"name": "DIVISION",
+					"objectType": "string"
+				},
+				{
+					"id": "d4cef2bb-ba3d-4ba8-c717-11d110a5695d",
+					"parent": "",
+					"name": "DOC_STATUS",
+					"objectType": "string"
+				},
+				{
+					"id": "a7ce2f0a-826c-4f73-defe-94700af6de0c",
+					"parent": "",
+					"name": "SALES_GRP",
+					"objectType": "string"
+				},
+				{
+					"id": "aa3fdba7-582a-4bd3-a58d-b14b780dc5ea",
+					"parent": "",
+					"name": "SALES_OFF",
+					"objectType": "string"
+				},
+				{
+					"id": "dfc8f8a1-290b-43c9-9941-33fc12fd050f",
+					"parent": "",
+					"name": "SALES_ORG",
+					"objectType": "string"
+				},
+				{
+					"id": "521dcc49-ceaf-400a-bcdc-3b41a725dc30",
+					"parent": "",
+					"name": "SALES_UNIT",
+					"objectType": "string"
+				},
+				{
+					"id": "2f2e9a3d-d4a9-418a-f17a-f94b271e7ce8",
+					"parent": "",
+					"name": "SHIP_POINT",
+					"objectType": "string"
+				},
+				{
+					"id": "b0bb1249-e61c-4fc1-ae96-529f71ab5ec7",
+					"parent": "",
+					"name": "DISTR_CHAN",
+					"objectType": "string"
+				},
+				{
+					"id": "2351b26e-b3ff-4b40-e67f-16fc9ebdb7e1",
+					"parent": "",
+					"name": "GI_DATE",
+					"objectType": "string"
+				},
+				{
+					"id": "a3bf88e1-354f-4d6f-bc50-e99686294015",
+					"parent": "",
+					"name": "CURRENCY",
+					"objectType": "string"
+				},
+				{
+					"id": "d6079a5d-2d10-48eb-92f7-843e427b14c4",
+					"parent": "",
+					"name": "PLANT",
+					"objectType": "string"
+				},
+				{
+					"id": "1a61dc14-4075-44dd-d720-16ce63945c77",
+					"parent": "",
+					"name": "STORE_LOC",
+					"objectType": "string"
+				},
+				{
+					"id": "5d42e022-4b06-48fa-f333-5bdddc4daa8f",
+					"parent": "",
+					"name": "ORD_REASON",
+					"objectType": "string"
+				},
+				{
+					"id": "bd546ff6-fa54-49a4-91c2-b000ddad1a17",
+					"parent": "",
+					"name": "REASON_REJ",
+					"objectType": "string"
+				},
+				{
+					"id": "0d261746-ea58-4768-ccbc-71f0ea497c86",
+					"parent": "",
+					"name": "B_UOM_ISO",
+					"objectType": "string"
+				},
+				{
+					"id": "a537282d-2da4-4d93-d3f4-68b7efb0a7bd",
+					"parent": "",
+					"name": "CD_UNT_ISO",
+					"objectType": "string"
+				},
+				{
+					"id": "eda971d1-f408-4403-a4ba-4b6482bb9472",
+					"parent": "",
+					"name": "S_UNIT_ISO",
+					"objectType": "string"
+				},
+				{
+					"id": "82bb1dc1-656a-461e-c686-fb8d512191e9",
+					"parent": "",
+					"name": "PURCH_NO_C",
+					"objectType": "string"
+				},
+				{
+					"id": "15f23793-3830-4c2e-b178-b2d05d60882b",
+					"parent": "",
+					"name": "EXCHG_RATE_V",
+					"objectType": "string"
+				},
+				{
+					"id": "d2b6e868-74c4-452e-b32f-c453061bc05e",
+					"parent": "",
+					"name": "MAT_EXT",
+					"objectType": "string"
+				},
+				{
+					"id": "83161450-761c-414f-dbe2-2524c880758b",
+					"parent": "",
+					"name": "MAT_VERS",
+					"objectType": "string"
+				},
+				{
+					"id": "ffda68fc-f4c8-49f6-ea25-1eb2eb4fdf4b",
+					"parent": "",
+					"name": "CREATION_DATE",
+					"objectType": "string"
+				},
+				{
+					"id": "3629458c-ceb3-4bb5-9b93-3eab98565214",
+					"parent": "",
+					"name": "CREATION_TIME",
+					"objectType": "string"
+				},
+				{
+					"id": "185aca94-7190-40ea-faa3-a19996f7f3fe",
+					"parent": "",
+					"name": "STATUS_DOC",
+					"objectType": "string"
+				},
+				{
+					"id": "4198ab41-ad25-428f-89c4-629ba4e6b91a",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "98a67d39-eb5b-4f1a-8d81-2fdea3d85680",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created By",
+					"objectType": "string"
+				},
+				{
+					"id": "d25a6be7-2b1d-4b16-ae6c-bf7e38390be7",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "5dc57859-0873-4e6a-ef2a-110f4b0a85cd",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated By",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "d64b5310-1a55-444b-80ba-3349babec623",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "36a4fff0-f335-46dc-b356-15bea7be70d9",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "730e429d-5f9d-4ee6-9c7a-5f9ed117ed72",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "ad3727c0-52fc-4256-e20c-1e75f293aa75",
+			"name": "count",
+			"properties": [
+				{
+					"id": "53460b38-9ad4-4138-f9ac-7786241c6d48",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "API sap_customer_order_details",
+	"endpoint": "/api/entity",
+	"ver": "23.12.13.833",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

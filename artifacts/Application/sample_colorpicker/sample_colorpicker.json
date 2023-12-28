@@ -193,7 +193,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.26.1243",
 	"application": "sample_colorpicker",
 	"title": "Sample sap.ui.unified.ColorPicker",

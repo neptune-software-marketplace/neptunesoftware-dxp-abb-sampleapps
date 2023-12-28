@@ -1,38 +1,5 @@
 
-// Multimodel needs name of Multimodel 
-var selectedItem = oList.getSelectedItem();
-var context = selectedItem.getBindingContext("oMultiModel");
-var data = context.getObject();
-
-
-var options = {
-    parameters: {
-        "SALESORG": "1000", // Required 
-        "CUSTOMERID":data.KUNNR, // Required 
-        "$select": "", // Optional 
-        "sap-user": "", // Optional 
-        "sap-password": "", // Optional 
-        "sap-client": "800" // Required 
-    }
-};
-apiorderAPI(options);
-oPage3.setModel(options);
-
-
-
-var Orderoptions = {
-    parameters: {
-        "SALESORG": "1000", // Required 
-        "CUSTOMERID":data.KUNNR, // Required 
-        "$select": "", // Optional 
-        "sap-user": "", // Optional 
-        "sap-password": "", // Optional 
-        "sap-client": "800" // Required 
-    }
-};
-apiorderAPI(Orderoptions);
-oPage3.setModel(Orderoptions);
-
+apiorderAPI();
 
 // Adding data Flexible Column Layout - Mid Column Page
 

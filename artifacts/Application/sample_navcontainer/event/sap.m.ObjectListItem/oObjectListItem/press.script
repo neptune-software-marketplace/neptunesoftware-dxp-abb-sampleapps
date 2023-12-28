@@ -1,5 +1,5 @@
 // Multimodel needs name of Multimodel 
-var context =oEvent.oSource.getBindingContext("oMultiModel");
+var context =oEvent.oSource.getBindingContext();
 
 var data = context.getObject();
 

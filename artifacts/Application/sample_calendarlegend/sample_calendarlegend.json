@@ -146,7 +146,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.26.1234",
 	"application": "sample_calendarlegend",
 	"title": "Sample sap.ui.unified.CalendarLegend",

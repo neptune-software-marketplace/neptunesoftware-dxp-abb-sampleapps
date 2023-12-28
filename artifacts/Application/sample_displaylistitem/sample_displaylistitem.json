@@ -1,0 +1,292 @@
+{
+	"id": "38caf781-9b0c-433d-beb3-69b9c41c9a1c",
+	"createdAt": "2022-05-31T16:46:23.146Z",
+	"createdBy": "serviceuser",
+	"objects": [
+		{
+			"fieldNo": "1ecc91cc-0df3-43be-aa48-94c19cc67d09",
+			"fieldName": "App",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "671d6f18-f362-4f13-b0e2-16d8cbbecdd8",
+					"fieldName": "Page",
+					"fieldParent": "1ecc91cc-0df3-43be-aa48-94c19cc67d09",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": " List Item using DisplayLisItem",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "titleAlignment",
+							"grouping": "Properties",
+							"value": "Center",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "988dedef-b9db-4e04-83eb-65f3af6f5012",
+							"fieldName": "List",
+							"fieldParent": "671d6f18-f362-4f13-b0e2-16d8cbbecdd8",
+							"fieldType": "sap.m.List",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "Generic Array",
+							"bindingType": "h",
+							"bindingSource": "P9",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "headerText",
+									"grouping": "Properties",
+									"value": "Team List",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "fa819314-0d11-4ed6-cfa3-f396af265411",
+									"fieldName": "DisplayListItemtt",
+									"fieldParent": "988dedef-b9db-4e04-83eb-65f3af6f5012",
+									"fieldType": "sap.m.DisplayListItem",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "value",
+											"grouping": "Properties",
+											"value": "{name}",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "type",
+											"grouping": "Properties",
+											"value": "Active",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "label",
+											"grouping": "Properties",
+											"value": "{role}",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "press",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.DisplayListItem/DisplayListItemtt/press.script",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "1109cd09-9441-4156-8518-1cb579010298",
+							"fieldName": "ListDetail",
+							"fieldParent": "671d6f18-f362-4f13-b0e2-16d8cbbecdd8",
+							"fieldType": "sap.m.List",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiSmallMarginTop",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "headerText",
+									"grouping": "Properties",
+									"value": "Detail",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "footerText",
+									"grouping": "Properties",
+									"value": "More...",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "b44b1c38-40f5-41d0-eedb-74bf9fc5c950",
+									"fieldName": "DisplayListItem",
+									"fieldParent": "1109cd09-9441-4156-8518-1cb579010298",
+									"fieldType": "sap.m.DisplayListItem",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "value",
+											"grouping": "Properties",
+											"value": "Jamie Maxwel",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "label",
+											"grouping": "Properties",
+											"value": "Name",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "3f6e801a-5acb-41ec-8b28-3b535a349ded",
+									"fieldName": "DisplayListItem1",
+									"fieldParent": "1109cd09-9441-4156-8518-1cb579010298",
+									"fieldType": "sap.m.DisplayListItem",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "value",
+											"grouping": "Properties",
+											"value": "Marketing Manager",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "label",
+											"grouping": "Properties",
+											"value": "Role",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "1ef97d70-0c6b-4761-bd25-0262a8255ee0",
+									"fieldName": "DisplayListItem2",
+									"fieldParent": "1109cd09-9441-4156-8518-1cb579010298",
+									"fieldType": "sap.m.DisplayListItem",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "value",
+											"grouping": "Properties",
+											"value": "Sales EMEA",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "label",
+											"grouping": "Properties",
+											"value": "Business Unit",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "e01bc50d-9af5-4d97-dad7-438cfa6f0127",
+					"fieldName": "oJavascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/oJavascript.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "23.12.11.121",
+	"application": "sample_displaylistitem",
+	"title": "Sample sap.m.DisplayListItem",
+	"description": "sap.m.DisplayListItem",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "customCDN",
+	"ui5_language": null,
+	"ui5_url": "https://openui5.hana.ondemand.com/resources/sap-ui-core.js",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"apis": [],
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

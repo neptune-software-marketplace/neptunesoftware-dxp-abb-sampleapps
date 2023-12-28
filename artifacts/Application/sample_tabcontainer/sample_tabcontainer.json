@@ -455,7 +455,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.10.27.131",
+	"ver": "23.12.11.123",
 	"application": "sample_tabcontainer",
 	"title": "sap.m.TabContainer - sap.m.TabContainerItem",
 	"description": "sap.m.TabContainer - sap.m.TabContainerItem",

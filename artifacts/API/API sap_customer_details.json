@@ -1,0 +1,374 @@
+{
+	"id": "a91f1bd8-0099-ee11-8925-000d3ab39531",
+	"createdAt": "2023-12-12T15:12:20.993Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "c9f2588b-1d2a-4a86-d60c-25ef2d9f5042",
+			"path": "/sap_customer_details",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1,fieldName2,fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "sap_customer_details"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "04faf4be-36d5-4b4c-ad2b-ff20d8b3c4c0",
+			"path": "/sap_customer_details",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "sap_customer_details"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "sap_customer_details"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "2fa4196a-3b56-4f52-f765-f9496533e8bf",
+			"path": "/sap_customer_details",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "sap_customer_details"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "sap_customer_details"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "016c288b-6c5d-4dbb-fc1b-908a92167797",
+			"path": "/sap_customer_details",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "sap_customer_details"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "91b0ab54-fe69-439c-9a2c-8c2414dec8a6",
+			"path": "/sap_customer_details/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "b0f67845-6b60-4d82-959e-e9357e2cf902",
+			"name": "sap_customer_details",
+			"properties": [
+				{
+					"id": "58b92578-b99f-4811-8688-ce9dfaaeb41b",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "4d95f721-78cf-4a39-954d-95c2e537862b",
+					"parent": "",
+					"name": "KUNNR",
+					"description": "Customer Number",
+					"objectType": "string"
+				},
+				{
+					"id": "6af74c40-cd08-4be0-fff1-e8ca560efab6",
+					"parent": "",
+					"name": "NAME1",
+					"description": "Customer Name",
+					"objectType": "string"
+				},
+				{
+					"id": "b737f253-5e8f-484e-e6a1-f4d5b5b95aba",
+					"parent": "",
+					"name": "ORT01",
+					"description": "Location",
+					"objectType": "string"
+				},
+				{
+					"id": "06ab4344-f718-4b3e-a73f-d64240f65662",
+					"parent": "",
+					"name": "LAND1",
+					"description": "Country",
+					"objectType": "string"
+				},
+				{
+					"id": "07daf8c8-4891-402c-eb4d-5d24c9706625",
+					"parent": "",
+					"name": "SELECTED",
+					"description": "Is Selected",
+					"objectType": "string"
+				},
+				{
+					"id": "c61282ff-2a56-4370-a54d-a85c83bb0d13",
+					"parent": "",
+					"name": "STRAS",
+					"description": "Street ",
+					"objectType": "string"
+				},
+				{
+					"id": "5ffacf07-3c6f-43ca-a80e-63c385e4733f",
+					"parent": "",
+					"name": "PSTLZ",
+					"description": "Zipcode",
+					"objectType": "string"
+				},
+				{
+					"id": "6dc80bd7-5da5-46a8-bf1e-027d2540445a",
+					"parent": "",
+					"name": "TELF1",
+					"description": "Phone Number",
+					"objectType": "string"
+				},
+				{
+					"id": "5a799ef8-d638-4e95-b811-5dadecaa9d5d",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "40f7ff56-b1b8-473f-e84c-a0a638fa17ac",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created By",
+					"objectType": "string"
+				},
+				{
+					"id": "6ffab86b-4d14-4780-c6d6-ae7fe938c1fe",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "e5ff86c6-6f33-48c2-f1c3-f0a4c298de40",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated By",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "342e84d1-2e01-4a5b-cd72-70b1e285628c",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "48840c88-c5d7-401a-95a7-d14249273cc9",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "a0a826ba-311d-4533-9e34-54b0aac3eadb",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "a1e56fff-8c00-460b-f5e6-2d865a9f83f9",
+			"name": "count",
+			"properties": [
+				{
+					"id": "e4831b42-d3ff-463b-eea0-fbb42fbe09b8",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "API sap_customer_details",
+	"endpoint": "/api/entity",
+	"ver": "23.12.13.834",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

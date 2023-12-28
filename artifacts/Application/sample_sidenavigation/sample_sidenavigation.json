@@ -232,6 +232,14 @@
 																	"value": "German Cars",
 																	"script": "",
 																	"translation": []
+																},
+																{
+																	"attribute": "select",
+																	"grouping": "Events",
+																	"value": "modelList.setData(germanCars);",
+																	"script": "modelList.setData(germanCars);",
+																	"language": "javascript",
+																	"translation": []
 																}
 															],
 															"data": []
@@ -252,6 +260,13 @@
 																	"value": "Italian Cars",
 																	"script": "",
 																	"translation": []
+																},
+																{
+																	"attribute": "select",
+																	"grouping": "Events",
+																	"value": "modelList.setData(italianCars);",
+																	"script": "modelList.setData(italianCars);",
+																	"translation": []
 																}
 															],
 															"data": []
@@ -271,6 +286,13 @@
 																	"grouping": "Properties",
 																	"value": "Indian Cars",
 																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "select",
+																	"grouping": "Events",
+																	"value": " modelList.setData(indianCars);",
+																	"script": " modelList.setData(indianCars);",
 																	"translation": []
 																}
 															],
@@ -399,22 +421,15 @@
 									]
 								},
 								{
-									"fieldNo": "b4a25723-a192-493d-b58a-b2b01a403f8e",
-									"fieldName": "oText",
+									"fieldNo": "a5dffd8a-1fde-4d23-ddfd-aa32e8b9ee0a",
+									"fieldName": "VBox",
 									"fieldParent": "f913538f-109a-41a8-93ff-99b0b407cbd9",
-									"fieldType": "sap.m.Text",
+									"fieldType": "sap.m.VBox",
 									"script": "",
 									"customComponent": false,
 									"request": [],
 									"response": [],
 									"attributes": [
-										{
-											"attribute": "text",
-											"grouping": "Properties",
-											"value": "Side Navigation with multiple Navigation Lists",
-											"script": "",
-											"translation": []
-										},
 										{
 											"attribute": "styleClassMargin",
 											"grouping": "Properties",
@@ -423,17 +438,115 @@
 											"translation": []
 										}
 									],
-									"data": []
+									"data": [
+										{
+											"fieldNo": "b4a25723-a192-493d-b58a-b2b01a403f8e",
+											"fieldName": "oText",
+											"fieldParent": "a5dffd8a-1fde-4d23-ddfd-aa32e8b9ee0a",
+											"fieldType": "sap.m.Text",
+											"script": "",
+											"customComponent": false,
+											"disabled": true,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Side Navigation with multiple Navigation Lists",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "styleClassMargin",
+													"grouping": "Properties",
+													"value": "sapUiMediumMargin",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "da5d693f-8a9f-4158-e742-be5dbd5504eb",
+											"fieldName": "List",
+											"fieldParent": "a5dffd8a-1fde-4d23-ddfd-aa32e8b9ee0a",
+											"fieldType": "sap.m.List",
+											"script": "",
+											"customComponent": false,
+											"bindingValue": "Generic Array",
+											"bindingType": "h",
+											"bindingSource": "P9",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "noDataText",
+													"grouping": "Properties",
+													"value": "Side Navigation with multiple Navigation Lists",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "f04f3ec1-f7eb-42ed-cbb8-0c26769de19c",
+													"fieldName": "StandardListItem",
+													"fieldParent": "da5d693f-8a9f-4158-e742-be5dbd5504eb",
+													"fieldType": "sap.m.StandardListItem",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "title",
+															"grouping": "Properties",
+															"value": "{name}",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
 								}
 							]
 						}
 					]
+				},
+				{
+					"fieldNo": "4ccb193c-cbe1-4239-fd0b-6e944b011ab5",
+					"fieldName": "PageNavDetails",
+					"fieldParent": "2",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
 				}
 			]
 		},
 		{
 			"fieldNo": 99999,
-			"data": []
+			"data": [
+				{
+					"fieldNo": "e0384a5d-cc9e-4064-d272-b6b56c6a381c",
+					"fieldName": "Javascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Javascript.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
 		},
 		{
 			"fieldNo": 99998,
@@ -441,7 +554,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.10.27.1233",
+	"ver": "23.12.11.1259",
 	"application": "sample_sidenavigation",
 	"title": "Sample sap.tnt.SideNavigation",
 	"description": "sap.tnt.SideNavigation",

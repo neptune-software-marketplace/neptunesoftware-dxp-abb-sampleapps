@@ -1,0 +1,2 @@
+popSampleAction.close();
+AppCache.Load(currentApp, {dialogShow: true, dialogTitle: currentTitle});

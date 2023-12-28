@@ -2801,7 +2801,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.26.154",
 	"application": "sample_flexbox",
 	"title": "Flexbox - Generic Tile - MenuButton",

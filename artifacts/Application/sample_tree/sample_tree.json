@@ -317,7 +317,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.1432",
 	"application": "sample_tree",
 	"title": "sap.tnt.ToolPage - sap.m.Tree - sap.tnt.SideNavigation",

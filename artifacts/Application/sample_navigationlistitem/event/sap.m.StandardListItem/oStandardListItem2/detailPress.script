@@ -1,0 +1,2 @@
+// Use MessageToast
+sap.m.MessageToast.show("Some Message");

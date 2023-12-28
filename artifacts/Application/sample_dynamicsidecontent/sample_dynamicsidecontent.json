@@ -286,7 +286,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.26.1456",
 	"application": "sample_dynamicsidecontent",
 	"title": "Sample sap.ui.layout.DynamicSideContent",

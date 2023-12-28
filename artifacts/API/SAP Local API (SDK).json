@@ -1,6 +1,6 @@
 {
 	"id": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
-	"createdAt": "2022-06-10T12:49:13.043Z",
+	"createdAt": "2022-05-31T16:46:09.800Z",
 	"createdBy": "serviceuser",
 	"auth": [
 		{
@@ -1149,7 +1149,7 @@
 	"tlsAllowUntrusted": false,
 	"useOwnProcess": false,
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa",
-	"apiGroup": null,
+	"apiGroup": "38e02bfd-ec29-eb11-b9ed-0003ff5948cd",
 	"apiFormat": 0,
 	"roles": []
 }

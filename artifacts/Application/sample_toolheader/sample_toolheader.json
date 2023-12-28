@@ -314,7 +314,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": [],
+	"componentInterface": null,
 	"ver": "23.10.27.1432",
 	"application": "sample_toolheader",
 	"title": "sap.tnt.ToolHeader - sap.m.MenuButton",

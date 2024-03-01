@@ -3721,22 +3721,8 @@
 	"compilerTarget": 3,
 	"tabWidth": null,
 	"printWidth": null,
-	"apis": [
-		{
-			"id": "bcf50457-082f-eb11-b9ed-0003ff5948cd",
-			"name": "APITagTable",
-			"ver": "22.5.13.1858"
-		},
-		{
-			"id": "a9137406-4c89-ea11-86e9-000d3ab217c6",
-			"name": "portal",
-			"ver": "23.11.13.1455"
-		},
-		{
-			"id": "6e396436-8b2a-eb11-b9ed-0003ff5948cd",
-			"name": "API_appDesigner",
-			"ver": "23.1.5.1618"
-		}
-	],
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

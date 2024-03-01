@@ -1,0 +1,2 @@
+oImageZoom.setSrc(this.getSrc());
+oDialogImageZoom.open();

@@ -432,7 +432,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
+	"componentInterface": [],
 	"ver": "23.10.27.1151",
 	"application": "sample_objectlistitem",
 	"title": "sap.m.List - sap.m.ObjectListItem",
@@ -472,6 +472,8 @@
 	"compilerTarget": 3,
 	"tabWidth": null,
 	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

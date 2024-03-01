@@ -447,7 +447,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
+	"componentInterface": [],
 	"ver": "23.10.27.1152",
 	"application": "sample_objectnumber",
 	"title": "sap.m.ObjectNumber - sap.m.Table - sap.m.ColumnListItem",
@@ -487,6 +487,8 @@
 	"compilerTarget": 3,
 	"tabWidth": null,
 	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
 	"apis": [],
 	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
 }

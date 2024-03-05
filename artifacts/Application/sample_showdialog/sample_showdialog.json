@@ -34,6 +34,89 @@
 					],
 					"data": [
 						{
+							"fieldNo": "472b2523-cc9e-4b27-b1d1-a68e7fa5731a",
+							"fieldName": "ButtonSubmit",
+							"fieldParent": "709f8cfa-a28b-47cc-d7d7-2f5dc587fe07",
+							"fieldType": "sap.m.Button",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "type",
+									"grouping": "Properties",
+									"value": "Accept",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Submit",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "icon",
+									"grouping": "Properties",
+									"value": "sap-icon://accept",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "press",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/sap.m.Button/ButtonSubmit/press.js",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "79ff41a4-ad4a-425f-caf3-148da5e3de45",
+							"fieldName": "ButtonCloseSimpleDialog",
+							"fieldParent": "709f8cfa-a28b-47cc-d7d7-2f5dc587fe07",
+							"fieldType": "sap.m.Button",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "type",
+									"grouping": "Properties",
+									"value": "Negative",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Close Dialog",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "icon",
+									"grouping": "Properties",
+									"value": "sap-icon://sys-cancel",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "press",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/sap.m.Button/ButtonCloseSimpleDialog/press.script",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
 							"fieldNo": "77b4a434-5ec5-4822-dcf3-24a9d15a97a3",
 							"fieldName": "oSimpleForm",
 							"fieldParent": "709f8cfa-a28b-47cc-d7d7-2f5dc587fe07",
@@ -1005,6 +1088,20 @@
 											"value": "Anonymous Function",
 											"script": "",
 											"translation": []
+										},
+										{
+											"attribute": "endButton",
+											"grouping": "Associations",
+											"value": "ButtonCloseSimpleDialog",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "beginButton",
+											"grouping": "Associations",
+											"value": "ButtonSubmit",
+											"script": "",
+											"translation": []
 										}
 									],
 									"data": [
@@ -1178,7 +1275,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.12.12.1734",
+	"ver": "24.03.05.1143",
 	"application": "sample_showdialog",
 	"title": "Dialogs - sap.m.Dialog - sap.m.MessageBox",
 	"description": "Dialogs - sap.m.Dialog - sap.m.MessageBox",

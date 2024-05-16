@@ -1,0 +1,32 @@
+{
+	"id": "272b77c3-f2f4-44aa-8a20-c258228522bf",
+	"createdAt": "2024-05-16T12:36:32.000Z",
+	"createdBy": "admin",
+	"headers": [
+		{
+			"id": "c10f031e-02e3-44ce-bc1b-050b2cc6c451",
+			"name": "sap-client",
+			"value": "100"
+		}
+	],
+	"details": {
+		"subject": {},
+		"headers": [],
+		"username": "GTM",
+		"password": "b21ac151194485645ff433de",
+		"secret": ""
+	},
+	"azureRelayDetails": {
+		"ns": "",
+		"hcName": "",
+		"apName": "",
+		"apKey": ""
+	},
+	"name": "N4I Basic",
+	"description": null,
+	"type": "basic",
+	"useCloudConnector": false,
+	"cloudConnectorType": null,
+	"ver": "24.05.16.1346",
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

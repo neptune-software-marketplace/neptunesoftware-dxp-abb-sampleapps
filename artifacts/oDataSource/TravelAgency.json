@@ -1,0 +1,26 @@
+{
+	"id": "ee9c49ba-7341-4605-9e01-c63ea2d3432d",
+	"createdAt": "2024-05-16T12:40:39.000Z",
+	"createdBy": "admin",
+	"auth": [
+		{
+			"id": "44cc95a6-ecdb-44b2-e4de-e3c76ca0adb2",
+			"role": "DEF",
+			"apiAuth": "4e136380-9b4f-419d-90fd-66cfddd15daa",
+			"authName": "TEMPLATE Basic",
+			"authDesc": ""
+		}
+	],
+	"endpoints": [],
+	"name": "TravelAgency",
+	"ver": "24.05.16.1340",
+	"description": null,
+	"version": null,
+	"endpoint": "https://template.neptune-software.com/sap/opu/odata/sap/Z_TRAVELAGENCY_SRV",
+	"enableProxy": true,
+	"enableIDE": true,
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa",
+	"apiGroup": null,
+	"tlsAllowUntrusted": true,
+	"odataVersion": "v2"
+}

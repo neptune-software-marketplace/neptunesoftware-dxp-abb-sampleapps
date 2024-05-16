@@ -1,0 +1,31 @@
+{
+	"id": "16eef74a-5e31-47bb-8e97-6ec033f4bd95",
+	"createdAt": "2024-05-16T12:35:56.000Z",
+	"createdBy": "admin",
+	"auth": [
+		{
+			"role": "DEF",
+			"apiAuth": "272b77c3-f2f4-44aa-8a20-c258228522bf",
+			"authName": "N4I Basic",
+			"authDesc": "",
+			"id": "1e55eedc-47b8-4c64-a1a7-ae9e0bfd3672"
+		}
+	],
+	"endpoints": [],
+	"url": "https://s4ides.neptune-software.com",
+	"name": "N4I",
+	"ver": "24.05.16.1337",
+	"description": null,
+	"role": null,
+	"username": null,
+	"password": "",
+	"type": "SAP",
+	"sapClient": null,
+	"useClientDeploy": false,
+	"token": "",
+	"monitoringName": null,
+	"monitoringEnabled": false,
+	"tlsAllowUntrusted": true,
+	"preRequestHookId": null,
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+}

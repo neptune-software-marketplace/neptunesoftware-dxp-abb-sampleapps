@@ -51,7 +51,7 @@
 									"fieldType": "sap.m.Table",
 									"script": "",
 									"customComponent": false,
-									"bindingValue": "oODataSource>ProductCollection",
+									"bindingValue": "oODataSource>Products",
 									"bindingType": "h",
 									"bindingSource": "oData",
 									"request": [],
@@ -346,7 +346,7 @@
 														{
 															"attribute": "text",
 															"grouping": "Properties",
-															"value": "{ProductId}",
+															"value": "{Id}",
 															"script": "",
 															"translation": []
 														}
@@ -366,7 +366,7 @@
 														{
 															"attribute": "text",
 															"grouping": "Properties",
-															"value": "{Category}",
+															"value": "{MainCategoryName}",
 															"script": "",
 															"translation": []
 														}
@@ -409,6 +409,13 @@
 															"value": "{Description}",
 															"script": "",
 															"translation": []
+														},
+														{
+															"attribute": "maxLines",
+															"grouping": "Properties",
+															"value": "4",
+															"script": "",
+															"translation": []
 														}
 													],
 													"data": []
@@ -446,7 +453,7 @@
 														{
 															"attribute": "text",
 															"grouping": "Properties",
-															"value": "{Quantity}",
+															"value": "{StockQuantity}",
 															"script": "",
 															"translation": []
 														}
@@ -606,6 +613,7 @@
 					"fieldType": "sap.ui.model.odata.v2.ODataModel",
 					"script": "",
 					"customComponent": false,
+					"odataSource": "459ccb12-580b-4204-96ff-628547b43e04",
 					"request": [],
 					"response": [],
 					"attributes": [
@@ -627,7 +635,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.12.11.1043",
+	"ver": "24.05.16.1343",
 	"application": "sample_odata_mockdata",
 	"title": "",
 	"description": "",

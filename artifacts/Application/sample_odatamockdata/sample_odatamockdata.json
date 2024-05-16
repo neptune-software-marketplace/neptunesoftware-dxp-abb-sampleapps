@@ -112,7 +112,7 @@
 									"fieldType": "sap.m.List",
 									"script": "",
 									"customComponent": false,
-									"bindingValue": "oODataSource>ProductCollection",
+									"bindingValue": "oODataSource>Products",
 									"bindingType": "h",
 									"bindingSource": "oData",
 									"request": [],
@@ -175,7 +175,7 @@
 												{
 													"attribute": "intro",
 													"grouping": "Properties",
-													"value": "{Category}",
+													"value": "{MainCategoryName}",
 													"script": "",
 													"translation": []
 												},
@@ -365,7 +365,15 @@
 									"bindingSource": "oData",
 									"request": [],
 									"response": [],
-									"attributes": [],
+									"attributes": [
+										{
+											"attribute": "editable",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
 									"data": [
 										{
 											"fieldNo": "58d1022a-e38e-4d66-c60e-c5cfdd47415e",
@@ -394,13 +402,21 @@
 											"fieldType": "sap.m.Input",
 											"script": "",
 											"customComponent": false,
+											"bindingType": "h",
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
 													"attribute": "value",
 													"grouping": "Properties",
-													"value": "{/ProductId}",
+													"value": "{/Id}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "editable",
+													"grouping": "Properties",
+													"value": "false",
 													"script": "",
 													"translation": []
 												}
@@ -434,13 +450,21 @@
 											"fieldType": "sap.m.Input",
 											"script": "",
 											"customComponent": false,
+											"bindingType": "h",
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
 													"attribute": "value",
 													"grouping": "Properties",
-													"value": "{/Category}",
+													"value": "{/MainCategoryName}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "editable",
+													"grouping": "Properties",
+													"value": "false",
 													"script": "",
 													"translation": []
 												}
@@ -483,6 +507,13 @@
 													"value": "{/Name}",
 													"script": "",
 													"translation": []
+												},
+												{
+													"attribute": "editable",
+													"grouping": "Properties",
+													"value": "false",
+													"script": "",
+													"translation": []
 												}
 											],
 											"data": []
@@ -521,6 +552,13 @@
 													"attribute": "value",
 													"grouping": "Properties",
 													"value": "{/Description}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "editable",
+													"grouping": "Properties",
+													"value": "false",
 													"script": "",
 													"translation": []
 												}
@@ -563,6 +601,13 @@
 													"value": "{/SupplierName}",
 													"script": "",
 													"translation": []
+												},
+												{
+													"attribute": "editable",
+													"grouping": "Properties",
+													"value": "false",
+													"script": "",
+													"translation": []
 												}
 											],
 											"data": []
@@ -594,13 +639,21 @@
 											"fieldType": "sap.m.Input",
 											"script": "",
 											"customComponent": false,
+											"bindingType": "h",
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
 													"attribute": "value",
 													"grouping": "Properties",
-													"value": "{/Quantity}",
+													"value": "{/StockQuantity}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "editable",
+													"grouping": "Properties",
+													"value": "false",
 													"script": "",
 													"translation": []
 												}
@@ -643,6 +696,13 @@
 													"value": "{/Price}",
 													"script": "",
 													"translation": []
+												},
+												{
+													"attribute": "editable",
+													"grouping": "Properties",
+													"value": "false",
+													"script": "",
+													"translation": []
 												}
 											],
 											"data": []
@@ -681,6 +741,13 @@
 													"attribute": "value",
 													"grouping": "Properties",
 													"value": "{/CurrencyCode}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "editable",
+													"grouping": "Properties",
+													"value": "false",
 													"script": "",
 													"translation": []
 												}
@@ -793,6 +860,7 @@
 					"fieldType": "sap.ui.model.odata.v2.ODataModel",
 					"script": "",
 					"customComponent": false,
+					"odataSource": "459ccb12-580b-4204-96ff-628547b43e04",
 					"request": [],
 					"response": [],
 					"attributes": [
@@ -814,7 +882,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.12.11.1044",
+	"ver": "24.05.16.1345",
 	"application": "sample_odatamockdata",
 	"title": "sap.ui.model.odata.v2.ODataModel with MockData",
 	"description": "sap.ui.model.odata.v2.ODataModel with MockData",

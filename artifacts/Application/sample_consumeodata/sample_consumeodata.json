@@ -359,7 +359,15 @@
 							"bindingSource": "oData",
 							"request": [],
 							"response": [],
-							"attributes": [],
+							"attributes": [
+								{
+									"attribute": "editable",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
 							"data": [
 								{
 									"fieldNo": "32377e16-294c-410f-b06d-05ea8454b552",
@@ -395,6 +403,13 @@
 											"attribute": "value",
 											"grouping": "Properties",
 											"value": "{/Agencynum}",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "editable",
+											"grouping": "Properties",
+											"value": "false",
 											"script": "",
 											"translation": []
 										}
@@ -437,6 +452,13 @@
 											"value": "{/Name}",
 											"script": "",
 											"translation": []
+										},
+										{
+											"attribute": "editable",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
 										}
 									],
 									"data": []
@@ -475,6 +497,13 @@
 											"attribute": "value",
 											"grouping": "Properties",
 											"value": "{/Street}",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "editable",
+											"grouping": "Properties",
+											"value": "false",
 											"script": "",
 											"translation": []
 										}
@@ -517,6 +546,13 @@
 											"value": "{/Postbox}",
 											"script": "",
 											"translation": []
+										},
+										{
+											"attribute": "editable",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
 										}
 									],
 									"data": []
@@ -555,6 +591,13 @@
 											"attribute": "value",
 											"grouping": "Properties",
 											"value": "{/Postcode}",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "editable",
+											"grouping": "Properties",
+											"value": "false",
 											"script": "",
 											"translation": []
 										}
@@ -597,6 +640,13 @@
 											"value": "{/City}",
 											"script": "",
 											"translation": []
+										},
+										{
+											"attribute": "editable",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
 										}
 									],
 									"data": []
@@ -635,6 +685,13 @@
 											"attribute": "value",
 											"grouping": "Properties",
 											"value": "{/Country}",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "editable",
+											"grouping": "Properties",
+											"value": "false",
 											"script": "",
 											"translation": []
 										}
@@ -677,6 +734,13 @@
 											"value": "{/Region}",
 											"script": "",
 											"translation": []
+										},
+										{
+											"attribute": "editable",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
 										}
 									],
 									"data": []
@@ -715,6 +779,13 @@
 											"attribute": "value",
 											"grouping": "Properties",
 											"value": "{/Telephone}",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "editable",
+											"grouping": "Properties",
+											"value": "false",
 											"script": "",
 											"translation": []
 										}
@@ -757,6 +828,13 @@
 											"value": "{/Url}",
 											"script": "",
 											"translation": []
+										},
+										{
+											"attribute": "editable",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
 										}
 									],
 									"data": []
@@ -797,6 +875,13 @@
 											"value": "{/Langu}",
 											"script": "",
 											"translation": []
+										},
+										{
+											"attribute": "editable",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
 										}
 									],
 									"data": []
@@ -835,6 +920,13 @@
 											"attribute": "value",
 											"grouping": "Properties",
 											"value": "{/Currency}",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "editable",
+											"grouping": "Properties",
+											"value": "false",
 											"script": "",
 											"translation": []
 										}
@@ -945,6 +1037,7 @@
 					"fieldType": "sap.ui.model.odata.v2.ODataModel",
 					"script": "",
 					"customComponent": false,
+					"odataSource": "ee9c49ba-7341-4605-9e01-c63ea2d3432d",
 					"request": [],
 					"response": [],
 					"attributes": [
@@ -966,7 +1059,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.10.26.141",
+	"ver": "24.05.16.1342",
 	"application": "sample_consumeodata",
 	"title": "Sample sap.ui.model.odata.v2.ODataModel",
 	"description": "sap.ui.model.odata.v2.ODataModel",

@@ -1008,7 +1008,20 @@
 			"apiGroup": null
 		}
 	],
-	"odataSource": [],
+	"odataSource": [
+		{
+			"id": "ee9c49ba-7341-4605-9e01-c63ea2d3432d",
+			"name": "TravelAgency",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "459ccb12-580b-4204-96ff-628547b43e04",
+			"name": "Products",
+			"description": null,
+			"apiGroup": null
+		}
+	],
 	"odataMock": [],
 	"dictionary": [
 		{
@@ -1028,14 +1041,36 @@
 	"pdf": [],
 	"rulesengine": [],
 	"reports": [],
-	"api_authentication": [],
+	"api_authentication": [
+		{
+			"id": "4e136380-9b4f-419d-90fd-66cfddd15daa",
+			"name": "TEMPLATE Basic",
+			"description": null
+		},
+		{
+			"id": "272b77c3-f2f4-44aa-8a20-c258228522bf",
+			"name": "N4I Basic",
+			"description": null
+		}
+	],
 	"api_group": [],
 	"tile": [],
 	"category": [],
 	"launchpad": [],
 	"certificates": [],
 	"role": [],
-	"systems": [],
+	"systems": [
+		{
+			"id": "bcfc2b33-d49f-4c1c-8c2e-0cb0e18911c4",
+			"name": "Template",
+			"description": null
+		},
+		{
+			"id": "16eef74a-5e31-47bb-8e97-6ec033f4bd95",
+			"name": "N4I",
+			"description": null
+		}
+	],
 	"doc": [],
 	"wf_notifications": [],
 	"department": [],

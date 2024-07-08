@@ -241,9 +241,8 @@
 										{
 											"attribute": "press",
 											"grouping": "Events",
-											"value": "Anonymous Function",
-											"script": "file://event/sap.m.Button/oButConfirm/press.js",
-											"language": "javascript",
+											"value": "OpenoMsgConfirm();",
+											"script": "OpenoMsgConfirm();",
 											"translation": []
 										}
 									],
@@ -258,18 +257,6 @@
 		{
 			"fieldNo": 99999,
 			"data": [
-				{
-					"fieldNo": "784578b2-2016-4c40-b567-8eb12065647a",
-					"fieldName": "Javascript",
-					"fieldParent": 99999,
-					"fieldType": "neptune.Script",
-					"script": "file://script/neptune.Script/Javascript.js",
-					"customComponent": false,
-					"request": [],
-					"response": [],
-					"attributes": [],
-					"data": []
-				},
 				{
 					"fieldNo": "871b36a7-38b7-4978-c733-99682720836a",
 					"fieldName": "oMsgSuccess",
@@ -290,7 +277,7 @@
 						{
 							"attribute": "text",
 							"grouping": "Properties",
-							"value": "Settings have been reset",
+							"value": "Settings has been reset",
 							"script": "",
 							"translation": []
 						},
@@ -331,7 +318,7 @@
 						{
 							"attribute": "text",
 							"grouping": "Properties",
-							"value": "The settings are about to change",
+							"value": "Warning Message text",
 							"script": "",
 							"translation": []
 						},
@@ -372,7 +359,7 @@
 						{
 							"attribute": "text",
 							"grouping": "Properties",
-							"value": "Due to inactivity, you have been logged out",
+							"value": "Info message text",
 							"script": "",
 							"translation": []
 						},
@@ -413,7 +400,7 @@
 						{
 							"attribute": "text",
 							"grouping": "Properties",
-							"value": "An error occurred!",
+							"value": "Error message text",
 							"script": "",
 							"translation": []
 						},
@@ -427,7 +414,7 @@
 						{
 							"attribute": "Button1",
 							"grouping": "Properties",
-							"value": "RETRY",
+							"value": "NO",
 							"script": "",
 							"translation": []
 						}
@@ -454,7 +441,7 @@
 						{
 							"attribute": "text",
 							"grouping": "Properties",
-							"value": "File not found",
+							"value": "Alert Message text",
 							"script": "",
 							"translation": []
 						},
@@ -470,14 +457,6 @@
 							"grouping": "Properties",
 							"value": "RETRY",
 							"script": "",
-							"translation": []
-						},
-						{
-							"attribute": "callback",
-							"grouping": "Events",
-							"value": "Anonymous Function",
-							"script": "file://event/sap.m.MessageBox/oMsgAlert/callback.js",
-							"language": "javascript",
 							"translation": []
 						}
 					],
@@ -503,7 +482,7 @@
 						{
 							"attribute": "text",
 							"grouping": "Properties",
-							"value": "Do you want to continue?",
+							"value": "Confirm Message Text",
 							"script": "",
 							"translation": []
 						},
@@ -527,14 +506,6 @@
 							"value": "YES",
 							"script": "",
 							"translation": []
-						},
-						{
-							"attribute": "callback",
-							"grouping": "Events",
-							"value": "Anonymous Function",
-							"script": "file://event/sap.m.MessageBox/oMsgConfirm/callback.js",
-							"language": "javascript",
-							"translation": []
 						}
 					],
 					"data": []
@@ -547,7 +518,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.03.05.1135",
+	"ver": "23.10.27.1058",
 	"application": "sample_messagebox",
 	"title": "Sample sap.m.MessageBox",
 	"description": "sap.m.MessageBox",

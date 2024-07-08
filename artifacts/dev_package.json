@@ -9,7 +9,7 @@
 	},
 	"name": "com.neptune-software.pt.samples.explored",
 	"description": "Explored samples",
-	"ver": "24.03.01.1630",
+	"ver": "23.12.13.1435",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -18,7 +18,7 @@
 			"title": "Sample sap.m.FeedListItem",
 			"description": "sap.m.FeedListItem",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -27,7 +27,7 @@
 			"title": "Sample sap.m.Bar",
 			"description": "sap.m.Bar",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -36,16 +36,7 @@
 			"title": "sap.m.ObjectHeader - sap.m.IconTabBar",
 			"description": "sap.m.ObjectHeader - sap.m.IconTabBar",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
-			}
-		},
-		{
-			"id": "f754888a-b2aa-47ee-bb3b-5d46980a053f",
-			"application": "explore_ui_lib",
-			"title": "",
-			"description": "Explored UI Library Reference",
-			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -54,7 +45,7 @@
 			"title": "sap.m.Switch",
 			"description": "sap.m.Switch",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -63,7 +54,7 @@
 			"title": "sap.f.DynamicPage",
 			"description": "sap.f.DynamicPage",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -72,7 +63,7 @@
 			"title": "Sample sap.m.MenuButton",
 			"description": "sap.m.MenuButton",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -81,7 +72,7 @@
 			"title": "Sample sap.ui.layout.FixFlex",
 			"description": "sap.ui.layout.FixFlex",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -90,7 +81,7 @@
 			"title": "Sample sap.m.GroupHeaderListItem",
 			"description": "sap.m.GroupHeaderListItem",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -99,7 +90,7 @@
 			"title": "Sample sap.m.PDFViewer",
 			"description": "sap.m.PDFViewer",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -108,7 +99,16 @@
 			"title": "Sample neptune.TableMultiLabel",
 			"description": "neptune.TableMultiLabel",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
+			}
+		},
+		{
+			"id": "ec78ded9-1f3d-4a9e-9517-dcfc072372d3",
+			"application": "sample_odatamockdata",
+			"title": "sap.ui.model.odata.v2.ODataModel with MockData",
+			"description": "sap.ui.model.odata.v2.ODataModel with MockData",
+			"package": {
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -117,7 +117,7 @@
 			"title": "Sample sap.m.NavContainer",
 			"description": "sap.m.NavContainer",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -126,7 +126,7 @@
 			"title": "sap.ui.layout.VerticalLayout",
 			"description": "sap.ui.layout.VerticalLayout",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -135,7 +135,7 @@
 			"title": "Sample sap.m.HeaderContainer",
 			"description": "sap.m.HeaderContainer",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -144,7 +144,7 @@
 			"title": "sap.m.Link - sap.m.Table",
 			"description": "sap.m.Link - sap.m.Table",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -153,7 +153,7 @@
 			"title": "sap.m.SelectDialog - RestAPI",
 			"description": "sap.m.SelectDialog - RestAPI",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -162,7 +162,7 @@
 			"title": "sap.tnt.ToolPage - sap.m.Tree - sap.tnt.SideNavigation",
 			"description": "sap.tnt.ToolPage - sap.m.Tree - sap.tnt.SideNavigation",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -171,7 +171,7 @@
 			"title": "Sample sap.ui.layout.form.Form",
 			"description": "sap.ui.layout.form.Form",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -180,7 +180,7 @@
 			"title": "Sample sap.m.Breadcrumbs",
 			"description": "sap.m.Breadcrumbs",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -189,7 +189,7 @@
 			"title": "sap.m.IconTabBar - sap.m.IconTabFilter",
 			"description": "sap.m.IconTabBar - sap.m.IconTabFilter ",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -198,7 +198,7 @@
 			"title": "sap.m.Wizard",
 			"description": "sap.m.Wizard",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -207,7 +207,7 @@
 			"title": "sap.m.ObjectStatus - sap.m.Table - sap.m.ColumnListItem",
 			"description": "sap.m.ObjectStatus - sap.m.Table - sap.m.ColumnListItem",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -216,7 +216,7 @@
 			"title": "sap.ui.table.TreeTable",
 			"description": "sap.ui.table.TreeTable",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -225,7 +225,7 @@
 			"title": "sap.m.Select - sap.ui.layout.form.SimpleForm",
 			"description": "sap.m.Select - sap.ui.layout.form.SimpleForm",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -234,7 +234,16 @@
 			"title": "Sample sap.f.Avatar",
 			"description": "sap.f.Avatar",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
+			}
+		},
+		{
+			"id": "ca0e1877-d402-4d70-a6db-ebe83751b6da",
+			"application": "sample_consumeodata",
+			"title": "Sample sap.ui.model.odata.v2.ODataModel",
+			"description": "sap.ui.model.odata.v2.ODataModel",
+			"package": {
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -243,7 +252,7 @@
 			"title": "Sample sap.m.DatePicker",
 			"description": "sap.m.DatePicker",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -252,7 +261,7 @@
 			"title": "Sample sap.ui.unified.CalendarLegend",
 			"description": "sap.ui.unified.CalendarLegend",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -261,7 +270,7 @@
 			"title": "sap.ui.core.Title",
 			"description": "sap.ui.core.Title",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -270,7 +279,7 @@
 			"title": "sap.tnt.ToolHeader - sap.m.MenuButton",
 			"description": "sap.tnt.ToolHeader - sap.m.MenuButton",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -279,7 +288,7 @@
 			"title": "Sample sap.m.BusyDialog",
 			"description": "sap.m.BusyDialog",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -288,7 +297,7 @@
 			"title": "sap.m.ObjectNumber - sap.m.Table - sap.m.ColumnListItem",
 			"description": "sap.m.ObjectNumber - sap.m.Table - sap.m.ColumnListItem",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -297,7 +306,7 @@
 			"title": "sap.m.InputListItem - sap.m.List",
 			"description": "sap.m.InputListItem - sap.m.List",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -306,7 +315,7 @@
 			"title": "Sample sap.ui.core.Icon",
 			"description": "sap.ui.core.Icon",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -315,7 +324,7 @@
 			"title": "sap.m.OverflowToolbar",
 			"description": "sap.m.OverflowToolbar",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -324,7 +333,7 @@
 			"title": "sap.m.List - sap.m.StandardListItem",
 			"description": "sap.m.List - sap.m.StandardListItem",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -333,7 +342,7 @@
 			"title": "Sample sap.m.MaskInput",
 			"description": "sap.m.MaskInput",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -342,7 +351,7 @@
 			"title": "sap.m.RatingIndicator",
 			"description": "sap.m.RatingIndicator",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -351,7 +360,7 @@
 			"title": "Sample sap.ui.layout.form.SimpleForm",
 			"description": "sap.ui.layout.form.SimpleForm",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -360,7 +369,7 @@
 			"title": "sap.m.Toolbar - sap.m.ToolbarSpacer - sap.m.ToolbarSeparator",
 			"description": "sap.m.Toolbar - sap.m.ToolbarSpacer - sap.m.ToolbarSeparator",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -369,7 +378,7 @@
 			"title": "Sample sap.ui.unified.FileUploader",
 			"description": "sap.ui.unified.FileUploader",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -378,7 +387,7 @@
 			"title": "Sample sap.ui.layout.DynamicSideContent",
 			"description": "sap.ui.layout.DynamicSideContent",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -387,7 +396,7 @@
 			"title": "sap.m.SplitApp",
 			"description": "sap.m.SplitApp",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -396,7 +405,7 @@
 			"title": "Sample sap.m.Carousel",
 			"description": "sap.m.Carousel",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -405,7 +414,7 @@
 			"title": "Sample sap.m.ProgressIndicator",
 			"description": "sap.m.ProgressIndicator",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -414,7 +423,7 @@
 			"title": "Sample sap.ui.core.HTML",
 			"description": "sap.ui.core.HTML",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -423,7 +432,7 @@
 			"title": "Sample sap.m.CustomListItem",
 			"description": "sap.m.CustomListItem",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -432,16 +441,7 @@
 			"title": "Sample sap.m.Popover",
 			"description": "sap.m.Popover",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
-			}
-		},
-		{
-			"id": "992bdc01-2fd5-ec11-997e-0003ff7bd14f",
-			"application": "explore_sample_apps",
-			"title": "",
-			"description": "",
-			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -450,7 +450,7 @@
 			"title": "Sample sap.m.ActionSheet",
 			"description": "sap.m.ActionSheet",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -459,7 +459,7 @@
 			"title": "SignaturePad",
 			"description": "SignaturePad",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -468,7 +468,7 @@
 			"title": "Sample sap.m.MessagePage",
 			"description": "sap.m.MessagePage",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -477,7 +477,7 @@
 			"title": "Sample sap.m.MessageBox",
 			"description": "sap.m.MessageBox",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -486,7 +486,7 @@
 			"title": "Sample sap.m.QuickView",
 			"description": "sap.m.QuickView - sap.ui.layout.form.SimpleForm",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -495,7 +495,7 @@
 			"title": "Sample sap.m.DateTimeInput",
 			"description": "sap.m.DateTimeInput",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -504,7 +504,7 @@
 			"title": "Sample sap.ui.layout.Grid",
 			"description": "sap.ui.layout.Grid",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -513,7 +513,7 @@
 			"title": "sap.m.TablePersoDialog - sap.m.TablePersoDialog ",
 			"description": "sap.m.TablePersoDialog - sap.m.TablePersoDialog",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -522,7 +522,7 @@
 			"title": "sap.m.TimePicker",
 			"description": "sap.m.TimePicker",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -531,7 +531,7 @@
 			"title": "sap.m.IconTabBar - sap.m.IconTabFilter - sap.m.IconTabSeparator",
 			"description": "sap.m.IconTabBar - sap.m.IconTabFilter - sap.m.IconTabSeparator",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -540,7 +540,7 @@
 			"title": "sap.m.SelectDialog - sap.m.Table - RestAPI ",
 			"description": "sap.m.Table - RestAPI - sap.m.SelectDialog",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -549,7 +549,7 @@
 			"title": "Sample sap.m.FeedInput",
 			"description": "sap.m.FeedInput",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -558,7 +558,7 @@
 			"title": "sap.m.Table - RestAPI - sap.m.SelectDialog",
 			"description": "sap.m.Table - RestAPI - sap.m.SelectDialog",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -567,7 +567,7 @@
 			"title": "Sample sap.m.FeedInput",
 			"description": "sap.m.FeedInput",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -576,7 +576,7 @@
 			"title": "sap.m.RangeSlider",
 			"description": "sap.m.RangeSlider",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -585,7 +585,7 @@
 			"title": "Sample sap.m.LightBox",
 			"description": "sap.m.LightBox",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -594,7 +594,7 @@
 			"title": "sap.m.MessagePopover - sap.m.MessageStrip",
 			"description": "sap.m.MessagePopover - sap.m.MessageStrip",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -603,7 +603,7 @@
 			"title": "Flexbox - Generic Tile - MenuButton",
 			"description": "Flexbox - Generic Tile - MenuButton",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -612,7 +612,7 @@
 			"title": "Sample sap.m.MessageStrip",
 			"description": "sap.m.MessageStrip",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -621,7 +621,16 @@
 			"title": "sap.m.GenericTile - sap.m.TileContent - sap.m.CustomTile - sap.m.SlideTile",
 			"description": "sap.m.GenericTile - sap.m.TileContent - sap.m.CustomTile - sap.m.SlideTile",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
+			}
+		},
+		{
+			"id": "60e0e287-b7f8-4e35-a97b-48fe36984c7d",
+			"application": "sample_odata_mockdata",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -630,7 +639,7 @@
 			"title": "sap.ui.layout.Splitter - sap.ui.layout.SplitterLayoutData",
 			"description": "sap.ui.layout.Splitter - sap.ui.layout.SplitterLayoutData",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -639,7 +648,7 @@
 			"title": "sap.m.ViewSettingsDialog - sap.m.Table",
 			"description": "sap.m.ViewSettingsDialog - sap.m.Table",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -648,7 +657,7 @@
 			"title": "sap.m.Slider",
 			"description": "sap.m.Slider",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -657,7 +666,7 @@
 			"title": "Sample sap.m.HBox, sap.m.VBox",
 			"description": "sap.m.HBox - sap.m.VBox",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -666,7 +675,7 @@
 			"title": "Sample sap.m.Panel",
 			"description": "sap.m.Panel",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -675,7 +684,7 @@
 			"title": "sap.m.SelectList - RestAPI ",
 			"description": "sap.m.SelectList - RestAPI",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -684,7 +693,7 @@
 			"title": "sap.m.TextArea",
 			"description": "sap.m.TextArea",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -693,7 +702,7 @@
 			"title": "sap.m.StepInput",
 			"description": "sap.m.StepInput",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -702,7 +711,7 @@
 			"title": "sap.m.ObjectAttribute - sap.m.Popover",
 			"description": "sap.m.ObjectAttribute - sap.m.Popover",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -711,7 +720,7 @@
 			"title": "sap.m.SearchField - sap.m.Table",
 			"description": "sap.m.SearchField - sap.m.Table",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -720,7 +729,7 @@
 			"title": "",
 			"description": "sap.m_SimpleControls",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -729,7 +738,7 @@
 			"title": "sap.ui.unified.Shell - sap.ui.unified.ShellHeadItem - sap.ui.unified.ShellOverlay - sap.m.NavContainer",
 			"description": "sap.ui.unified.Shell - sap.ui.unified.ShellHeadItem - sap.ui.unified.ShellOverlay - sap.m.NavContainer",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -738,7 +747,7 @@
 			"title": "sap.m.List - sap.m.ObjectListItem",
 			"description": "sap.m.List - sap.m.ObjectListItem",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -747,7 +756,7 @@
 			"title": "sap.m.ObjectMarker - sap.m.Table - sap.m.ColumnListItem",
 			"description": "sap.m.ObjectMarker - sap.m.Table - sap.m.ColumnListItem",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -756,7 +765,7 @@
 			"title": "Sample sap.f.FlexibleColumnLayout",
 			"description": "sap.f.FlexibleColumnLayout",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -765,7 +774,7 @@
 			"title": "Sample sap.m.DisplayListItem",
 			"description": "sap.m.DisplayListItem",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -774,7 +783,7 @@
 			"title": "Sample sap.tnt.SideNavigation",
 			"description": "sap.tnt.SideNavigation",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -783,7 +792,7 @@
 			"title": "sap.ui.table.Table - sap.ui.table.Column - RestAPI",
 			"description": "sap.ui.table.Table - sap.ui.table.Column - RestAPI",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -792,7 +801,7 @@
 			"title": "Sample sap.m.BusyIndicator",
 			"description": "sap.m.BusyIndicator",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -801,7 +810,7 @@
 			"title": "Sample sap.m.NotificationListGroup",
 			"description": "sap.m.NotificationListGroup",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -810,7 +819,7 @@
 			"title": "sap.m.SegmentedButton",
 			"description": "sap.m.SegmentedButton",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -819,7 +828,7 @@
 			"title": "sap.m.RadioButtonGroup - sap.m.RadioButton",
 			"description": "sap.m.RadioButtonGroup - sap.m.RadioButton",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -828,7 +837,7 @@
 			"title": "Sample sap.ui.layout.BlockLayout",
 			"description": "sap.ui.layout.BlockLayout",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -837,7 +846,7 @@
 			"title": "Sample sap.m.DateRangeSelection",
 			"description": "sap.m.DateRangeSelection",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -846,7 +855,7 @@
 			"title": "Sample sap.m.Image",
 			"description": "sap.m.Image",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -855,7 +864,7 @@
 			"title": "Sample sap.m.ComboBox",
 			"description": "sap.m.ComboBox",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -864,7 +873,7 @@
 			"title": "sap.m.ScrollContainer - sap.ui.layout.Grid - sap.uxap.ObjectPageLayout",
 			"description": "sap.m.ScrollContainer - sap.ui.layout.Grid - sap.uxap.ObjectPageLayout",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -873,7 +882,7 @@
 			"title": "sap.tnt.NavigationList - sap.tnt",
 			"description": "sap.tnt.NavigationList - sap.tnt",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -882,7 +891,7 @@
 			"title": "sap.m.ObjectIdentifier",
 			"description": "sap.m.ObjectIdentifier",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -891,7 +900,7 @@
 			"title": "Sample sap.ui.unified.ColorPicker",
 			"description": "sap.ui.unified.ColorPicker",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -900,7 +909,7 @@
 			"title": "sap.ui.unified.SplitContainer",
 			"description": "sap.ui.unified.SplitContainer",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -909,7 +918,7 @@
 			"title": "Sample sap.m.DraftIndicator",
 			"description": "sap.m.DraftIndicator",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -918,7 +927,7 @@
 			"title": "sap.m.IconTabBar - sap.m.IconTabFilter - sap.ui.layout.form.SimpleForm",
 			"description": "sap.m.IconTabBar - sap.m.IconTabFilter - sap.ui.layout.form.SimpleForm",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -927,7 +936,7 @@
 			"title": "Dialogs - sap.m.Dialog - sap.m.MessageBox",
 			"description": "Dialogs - sap.m.Dialog - sap.m.MessageBox",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -936,7 +945,7 @@
 			"title": "Sample sap.m.CheckBox",
 			"description": "sap.m.CheckBox",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -945,7 +954,7 @@
 			"title": "sap.m.TabContainer - sap.m.TabContainerItem",
 			"description": "sap.m.TabContainer - sap.m.TabContainerItem",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -954,7 +963,7 @@
 			"title": "Sample sap.m.MultiComboBox",
 			"description": "sap.m.MultiComboBox",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		},
 		{
@@ -963,7 +972,7 @@
 			"title": "sap.ui.unified.Calendar",
 			"description": "sap.ui.unified.Calendar",
 			"package": {
-				"id": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
 		}
 	],

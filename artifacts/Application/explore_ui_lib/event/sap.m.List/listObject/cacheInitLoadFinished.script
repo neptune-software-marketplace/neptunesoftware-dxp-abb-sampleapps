@@ -1,5 +1,0 @@
-
-sortListObjects();
-if(typeof (modellistObject.getData().length) === "undefined" || modellistObject.getData().length < 1){
-    btnSync.firePress();
-}

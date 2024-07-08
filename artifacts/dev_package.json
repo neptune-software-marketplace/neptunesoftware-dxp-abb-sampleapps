@@ -9,7 +9,7 @@
 	},
 	"name": "com.neptune-software.pt.samples.explored",
 	"description": "Explored samples",
-	"ver": "23.12.13.1435",
+	"ver": "24.07.08.1141",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -98,15 +98,6 @@
 			"application": "sample_columnmultilabel",
 			"title": "Sample neptune.TableMultiLabel",
 			"description": "neptune.TableMultiLabel",
-			"package": {
-				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
-			}
-		},
-		{
-			"id": "ec78ded9-1f3d-4a9e-9517-dcfc072372d3",
-			"application": "sample_odatamockdata",
-			"title": "sap.ui.model.odata.v2.ODataModel with MockData",
-			"description": "sap.ui.model.odata.v2.ODataModel with MockData",
 			"package": {
 				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
@@ -238,15 +229,6 @@
 			}
 		},
 		{
-			"id": "ca0e1877-d402-4d70-a6db-ebe83751b6da",
-			"application": "sample_consumeodata",
-			"title": "Sample sap.ui.model.odata.v2.ODataModel",
-			"description": "sap.ui.model.odata.v2.ODataModel",
-			"package": {
-				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
-			}
-		},
-		{
 			"id": "c85044e0-c576-4d3e-bda3-faf36ffa0cc7",
 			"application": "sample_datepicker",
 			"title": "Sample sap.m.DatePicker",
@@ -260,6 +242,15 @@
 			"application": "sample_calendarlegend",
 			"title": "Sample sap.ui.unified.CalendarLegend",
 			"description": "sap.ui.unified.CalendarLegend",
+			"package": {
+				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
+			}
+		},
+		{
+			"id": "c63510e9-3044-eb11-9889-0003ff5949fe",
+			"application": "sample_table_drag_drop",
+			"title": "Sample sap.m.Table with Drag and Drop",
+			"description": "Sample sap.m.Table with Drag and Drop",
 			"package": {
 				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}
@@ -620,15 +611,6 @@
 			"application": "sample_tiles",
 			"title": "sap.m.GenericTile - sap.m.TileContent - sap.m.CustomTile - sap.m.SlideTile",
 			"description": "sap.m.GenericTile - sap.m.TileContent - sap.m.CustomTile - sap.m.SlideTile",
-			"package": {
-				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
-			}
-		},
-		{
-			"id": "60e0e287-b7f8-4e35-a97b-48fe36984c7d",
-			"application": "sample_odata_mockdata",
-			"title": "",
-			"description": "",
 			"package": {
 				"id": "0435ED28-BE61-4041-AAC7-1619FE4D3EFA"
 			}

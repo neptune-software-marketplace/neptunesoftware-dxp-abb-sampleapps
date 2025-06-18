@@ -1,0 +1,361 @@
+{
+	"id": "6f1771b8-406d-4fb7-8113-92f3cb5b8b6b",
+	"createdAt": "2025-06-18T15:15:55.000Z",
+	"createdBy": "john@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "281ccedc-6642-43cf-f784-c9884fa5b393",
+			"fieldName": "App",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "89d67b19-0232-41a5-acbf-1a88798e2a4c",
+					"fieldName": "Page",
+					"fieldParent": "281ccedc-6642-43cf-f784-c9884fa5b393",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "db7de293-1097-42ca-b63b-30842924af59",
+							"fieldName": "FlexBox",
+							"fieldParent": "89d67b19-0232-41a5-acbf-1a88798e2a4c",
+							"fieldType": "sap.m.FlexBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "height",
+									"grouping": "Properties",
+									"value": "100%",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "width",
+									"grouping": "Properties",
+									"value": "100%",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "direction",
+									"grouping": "Properties",
+									"value": "Row",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "renderType",
+									"grouping": "Properties",
+									"value": "Bare",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "1ccd068a-726b-461a-9332-743a13d15009",
+									"fieldName": "Table",
+									"fieldParent": "db7de293-1097-42ca-b63b-30842924af59",
+									"fieldType": "sap.m.Table",
+									"script": "",
+									"customComponent": false,
+									"bindingType": "h",
+									"bindingSource": "DataModel",
+									"bindingParentID": "6e577913-42a5-4e69-b872-1b7c7512eaea",
+									"modelPath": "TableData>/",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "50%",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "6eb9f1b0-669c-490f-e0be-27fbb0746527",
+											"fieldName": "Column",
+											"fieldParent": "1ccd068a-726b-461a-9332-743a13d15009",
+											"fieldType": "sap.m.Column",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "738e9bff-07f7-428c-c5a6-bf54500d5d8b",
+													"fieldName": "Text",
+													"fieldParent": "6eb9f1b0-669c-490f-e0be-27fbb0746527",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "name",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "6b9c0fbe-261b-4dce-9f1b-5e94be98fa4f",
+											"fieldName": "ColumnListItem",
+											"fieldParent": "1ccd068a-726b-461a-9332-743a13d15009",
+											"fieldType": "sap.m.ColumnListItem",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "70ab5413-8520-4adf-9a58-27148ef31905",
+													"fieldName": "DragDropInfo",
+													"fieldParent": "6b9c0fbe-261b-4dce-9f1b-5e94be98fa4f",
+													"fieldType": "sap.ui.core.dnd.DragDropInfo",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "drop",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.ui.core.dnd.DragDropInfo/DragDropInfo/drop.js",
+															"language": "javascript",
+															"translation": []
+														},
+														{
+															"attribute": "targetAggregation",
+															"grouping": "Properties",
+															"value": "rows",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "dropPosition",
+															"grouping": "Properties",
+															"value": "OnOrBetween",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "targetElement",
+															"grouping": "Associations",
+															"value": "TreeTable",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "df0cc54e-bca1-4aad-b63e-75ca854ed5ee",
+													"fieldName": "Text1",
+													"fieldParent": "6b9c0fbe-261b-4dce-9f1b-5e94be98fa4f",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{TableData>name}",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "a4ac7e2f-cf22-4cfd-98a0-06010c5d3068",
+									"fieldName": "TreeTable",
+									"fieldParent": "db7de293-1097-42ca-b63b-30842924af59",
+									"fieldType": "sap.ui.table.TreeTable",
+									"script": "",
+									"customComponent": false,
+									"bindingType": "h",
+									"bindingSource": "DataModel",
+									"bindingParentID": "2dbf797c-6a9a-4094-90e2-1a073e3c3f46",
+									"modelPath": "TreeData>/",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "50%",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "984ed4c7-a2a1-4b71-a340-20f1f634d06f",
+											"fieldName": "colTreeTablename",
+											"fieldParent": "a4ac7e2f-cf22-4cfd-98a0-06010c5d3068",
+											"fieldType": "sap.ui.table.Column",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "3df41a16-d5fb-4b47-a367-069e328b2f9b",
+													"fieldName": "txtTreeTablename",
+													"fieldParent": "984ed4c7-a2a1-4b71-a340-20f1f634d06f",
+													"fieldType": "sap.m.Text",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{TreeData>name}",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "6e577913-42a5-4e69-b872-1b7c7512eaea",
+					"fieldName": "TableData",
+					"fieldParent": 99999,
+					"fieldType": "neptune.model",
+					"script": "",
+					"customComponent": false,
+					"bindingValue": "Generic Array",
+					"bindingType": "h",
+					"bindingSource": "P9",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "2dbf797c-6a9a-4094-90e2-1a073e3c3f46",
+					"fieldName": "TreeData",
+					"fieldParent": 99999,
+					"fieldType": "neptune.model",
+					"script": "",
+					"customComponent": false,
+					"bindingValue": "Generic Array",
+					"bindingType": "h",
+					"bindingSource": "P9",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "9c3a636a-bf39-4dc8-aac1-6fde7bb58518",
+					"fieldName": "Javascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Javascript.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "25.06.18.1615",
+	"application": "sample_dragtree",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": true,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa",
+	"apis": []
+}

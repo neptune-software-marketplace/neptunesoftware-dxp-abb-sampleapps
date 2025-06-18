@@ -397,12 +397,12 @@
 	"printWidth": null,
 	"generateVersionOnActivation": false,
 	"activationHistoryCount": 0,
+	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa",
 	"apis": [
 		{
 			"id": "a91f1bd8-0099-ee11-8925-000d3ab39531",
 			"name": "API sap_customer_details",
 			"ver": "23.12.13.834"
 		}
-	],
-	"package": "0435ed28-be61-4041-aac7-1619fe4d3efa"
+	]
 }

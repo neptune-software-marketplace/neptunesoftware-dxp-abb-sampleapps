@@ -112,9 +112,9 @@ function createTreeTable(){
 		"DrillState": "leaf"
     }];
     
-     modeloTreeTable.setData({
-         "children": _convertFlatToNested(treeData, "NodeID", "ParentNodeID")
-     });
+	modeloTreeTable.setData({
+	  "children": neptune.Utils.convertFlatToNested(treeData, "NodeID", "ParentNodeID")
+	});
 
 
 }

@@ -373,7 +373,7 @@ function buildTree() {
 
 
     modeloTreeMenu.setData({
-        "children": _convertFlatToNested(treeData, "Index", "ParentIndex")
+      "children": neptune.Utils.convertFlatToNested(treeData, "Index", "ParentIndex")
     });
 
 
